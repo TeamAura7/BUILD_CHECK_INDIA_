@@ -1,0 +1,95 @@
+{
+  "plan_id": "PLAN6",
+  "schema_version": 1,
+  "annotation": {
+    "annotator": "migrated from expected.json and GROUND_TRUTH_2.xlsx (NOT re-verified)",
+    "annotated_on": "2026-09-21",
+    "human_verified": false,
+    "notes": "Development set: these plans were used to develop and tune the extractor; do not report results on them as generalisation."
+  },
+  "road_side": null,
+  "fields": {
+    "plot.width": {
+      "value": 10.0,
+      "verification": "inspected",
+      "evidence": "Printed only in road-widening note \"10.00x2.35\"; consistent with 10.00x13.10=131.00 | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 10.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "plot.depth": {
+      "value": 13.1,
+      "verification": "printed",
+      "evidence": "Site plan \"13.10m\" (vector, visual) | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 13.1,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "plot.area": {
+      "value": 131.0,
+      "verification": "printed",
+      "evidence": "Area table 131.00 | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 131.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.width": {
+      "value": 9.3,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "building.depth": {
+      "value": 9.15,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "building.footprint_area": {
+      "value": 85.09,
+      "verification": "printed",
+      "evidence": "Area table 85.09 | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 85.09,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.floor_count": {
+      "value": 3.0,
+      "verification": "inspected",
+      "evidence": "Stilt + G/1/2 plans (stilt not counted) | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 3.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "road.width": {
+      "value": 7.3,
+      "verification": "printed",
+      "evidence": "Text \"7.30m Wide Road\" | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 7.3,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.front": {
+      "value": 0.9,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "setbacks.rear": {
+      "value": 0.7,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "setbacks.left": {
+      "value": 0.7,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "coverage": {
+      "value": 79.15,
+      "verification": "printed",
+      "evidence": "Area table 79.15% | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 79.15,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "far": {
+      "value": 1.74,
+      "verification": "printed",
+      "evidence": "Area table FAR 1.74 | originally from data/test_plans/PLAN6.expected.json",
+      "legacy_value": 1.74,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    }
+  },
+  "discrepancies": []
+}

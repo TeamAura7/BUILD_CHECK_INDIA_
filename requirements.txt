@@ -1,0 +1,32 @@
+pydantic>=2.6
+pydantic-settings>=2.2
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9         # required for FastAPI UploadFile/Form (PDF upload endpoint)
+pytest>=8.0
+httpx>=0.27              # required by fastapi.testclient.TestClient (API tests)
+python-dotenv>=1.0
+
+# --- Phase 2: PDF / vector / text / OCR / OpenCV extraction ---
+pymupdf>=1.24          # PDF-native vector + text extraction (fitz)
+pytesseract>=0.3.10     # OCR fallback (requires the tesseract binary on PATH)
+Pillow>=10.0            # raster image handling
+opencv-python-headless>=4.9  # line/contour/geometry evidence
+numpy>=1.26
+reportlab>=4.1          # test-only: synthesizing fixture PDFs
+
+# --- DXF vector ingestion (backend/cv_extraction/dxf_extractor.py) ---
+ezdxf>=1.3               # DXF read/parse (LWPOLYLINE/TEXT/MTEXT/DIMENSION/INSERT, header vars)
+shapely>=2.0             # polygon buffer/union for wall-network building reconstruction (dxf_wall_union.py)
+
+# --- Optional multimodal vision extraction (install only when VISION_ENABLED=true) ---
+# torch>=2.4
+# torchvision>=0.19
+# transformers>=4.49
+# qwen-vl-utils>=0.0.10
+
+# --- Phase 3: RAG over regulations (backend/rag, backend/rase) ---
+sentence-transformers>=3.0   # MiniLM embeddings (backend/rag/ingestion/embedder.py)
+faiss-cpu>=1.8                # dense vector index (backend/rag/ingestion/indexer.py)
+rank-bm25>=0.2.2              # BM25 keyword retrieval (backend/rag/retrieval/bm25_retriever.py)
+groq>=0.9                     # LLM-assisted rule drafting (backend/rase/extractor.py)

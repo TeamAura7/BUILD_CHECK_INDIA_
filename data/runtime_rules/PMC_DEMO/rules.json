@@ -1,0 +1,231 @@
+[
+  {
+    "rule_id": "pmcdemo-residential-front-upto12",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum front setback for plot depth up to 12 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.depth", "op": "<=", "value": 12, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.front", "op": ">=", "value": 1.5, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.front"
+  },
+  {
+    "rule_id": "pmcdemo-residential-front-over12",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum front setback for plot depth over 12 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.depth", "op": ">", "value": 12, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.front", "op": ">=", "value": 3.0, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.front"
+  },
+  {
+    "rule_id": "pmcdemo-residential-rear-upto12",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum rear setback for plot depth up to 12 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.depth", "op": "<=", "value": 12, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.rear", "op": ">=", "value": 1.5, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.rear"
+  },
+  {
+    "rule_id": "pmcdemo-residential-rear-over12",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum rear setback for plot depth over 12 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.depth", "op": ">", "value": 12, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.rear", "op": ">=", "value": 2.5, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.rear"
+  },
+  {
+    "rule_id": "pmcdemo-residential-left-upto9",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum left setback for plot width up to 9 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.width", "op": "<=", "value": 9, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.left", "op": ">=", "value": 1.0, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.left"
+  },
+  {
+    "rule_id": "pmcdemo-residential-left-over9",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum left setback for plot width over 9 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.width", "op": ">", "value": 9, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.left", "op": ">=", "value": 1.8, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.left"
+  },
+  {
+    "rule_id": "pmcdemo-residential-right-upto9",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum right setback for plot width up to 9 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.width", "op": "<=", "value": 9, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.right", "op": ">=", "value": 1.0, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.right"
+  },
+  {
+    "rule_id": "pmcdemo-residential-right-over9",
+    "municipality": "PMC_DEMO",
+    "description": "Residential minimum right setback for plot width over 9 m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.width", "op": ">", "value": 9, "unit": "m"}
+      ]
+    },
+    "threshold": {"field": "setbacks.right", "op": ">=", "value": 1.8, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 20,
+    "target": "setbacks.right"
+  },
+  {
+    "rule_id": "pmcdemo-residential-coverage-upto300",
+    "municipality": "PMC_DEMO",
+    "description": "Residential maximum ground coverage for plots up to 300 sq m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.area", "op": "<=", "value": 300, "unit": "sqm"}
+      ]
+    },
+    "threshold": {"field": "coverage", "op": "<=", "value": 65, "unit": "%"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 10,
+    "target": "coverage"
+  },
+  {
+    "rule_id": "pmcdemo-residential-coverage-over300",
+    "municipality": "PMC_DEMO",
+    "description": "Residential maximum ground coverage for plots over 300 sq m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.area", "op": ">", "value": 300, "unit": "sqm"}
+      ]
+    },
+    "threshold": {"field": "coverage", "op": "<=", "value": 55, "unit": "%"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 10,
+    "target": "coverage"
+  },
+  {
+    "rule_id": "pmcdemo-residential-far-upto300",
+    "municipality": "PMC_DEMO",
+    "description": "Residential maximum FAR for plots up to 300 sq m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.area", "op": "<=", "value": 300, "unit": "sqm"}
+      ]
+    },
+    "threshold": {"field": "far", "op": "<=", "value": 1.5, "unit": "ratio"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 10,
+    "target": "far"
+  },
+  {
+    "rule_id": "pmcdemo-residential-far-over300",
+    "municipality": "PMC_DEMO",
+    "description": "Residential maximum FAR for plots over 300 sq m.",
+    "applies_when": {
+      "all": [
+        {"field": "building_use", "op": "==", "value": "residential"},
+        {"field": "plot.area", "op": ">", "value": 300, "unit": "sqm"}
+      ]
+    },
+    "threshold": {"field": "far", "op": "<=", "value": 1.2, "unit": "ratio"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 10,
+    "target": "far"
+  },
+  {
+    "rule_id": "pmcdemo-highrise-road-12m",
+    "municipality": "PMC_DEMO",
+    "description": "High-rise buildings require minimum road width facing the building of 12 m.",
+    "applies_when": {"field": "building.floor_count", "op": ">=", "value": 5},
+    "threshold": {"field": "road.width", "op": ">=", "value": 12, "unit": "m"},
+    "version": "demo.1.0.0",
+    "citation": "Illustrative example rule -- not a verified PMC clause (see README.md)",
+    "source_document": "demo_ruleset.md",
+    "status": "ACTIVE",
+    "priority": 5,
+    "target": "road.width"
+  }
+]

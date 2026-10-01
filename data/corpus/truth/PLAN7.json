@@ -1,0 +1,85 @@
+{
+  "plan_id": "PLAN7",
+  "schema_version": 1,
+  "annotation": {
+    "annotator": "migrated from expected.json and GROUND_TRUTH_2.xlsx (NOT re-verified)",
+    "annotated_on": "2026-09-21",
+    "human_verified": false,
+    "notes": "Development set: these plans were used to develop and tune the extractor; do not report results on them as generalisation."
+  },
+  "road_side": null,
+  "fields": {
+    "plot.width": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "plot.depth": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "plot.area": {
+      "value": 111.41,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "building.width": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "building.depth": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "building.footprint_area": {
+      "value": 69.1,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "building.floor_count": {
+      "value": 3.0,
+      "verification": "inspected",
+      "evidence": "Plans labelled GROUND, FIRST, SECOND (+terrace) | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 3.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "road.width": {
+      "value": 9.14,
+      "verification": "printed",
+      "evidence": "Text \"9.14M WIDE ROAD\" | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 9.14,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.front": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "setbacks.rear": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "setbacks.left": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "setbacks.right": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "expected.json: field must stay unresolved"
+    },
+    "building_use": {
+      "value": "residential",
+      "verification": "inspected",
+      "evidence": "No use label; inferred from BED ROOM spaces on all floors | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": "residential",
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    }
+  },
+  "discrepancies": []
+}

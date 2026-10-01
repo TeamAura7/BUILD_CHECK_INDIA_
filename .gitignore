@@ -1,0 +1,186 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.env/
+.python-version
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+pytestdebug.log
+
+# =========================
+# Type checking / linters
+# =========================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.pylint.d/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# =========================
+# Generated RAG indexes
+# =========================
+data/vector_store/
+data/**/vector_store/
+
+# =========================
+# Generated runtime RASE drafts
+# =========================
+data/runtime_rules/**/drafts.json
+
+# Keep final runtime rules
+!data/runtime_rules/
+!data/runtime_rules/**/
+!data/runtime_rules/**/rules.json
+
+# =========================
+# Generated Vision renders
+# =========================
+data/uploads/vision_rendered/
+
+# =========================
+# Generated uploads / outputs
+# =========================
+data/uploads/*
+!data/uploads/.gitkeep
+
+# =========================
+# Generated result files
+# =========================
+*_result.json
+*_results.json
+*_output.json
+*_res*.json
+ff_res*.json
+vv_res*.json
+validation*.json
+
+# =========================
+# Model / ML caches
+# =========================
+.cache/
+.huggingface/
+transformers_cache/
+torch_cache/
+
+# =========================
+# Local model files
+# =========================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+Desktop.ini
+# --- Secrets & credentials (never commit) ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+*credentials*.json
+*secret*.json
+*secrets*
+service-account*.json
+.netrc
+.npmrc
+.pypirc
+
+# --- Local tool/agent state and databases ---
+.claude/
+.kilo/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Privacy: never publish permit drawings or drawing-derived identifiers
+# =========================
+data/test_plans/*.pdf
+data/test_plans/*.dxf
+data/test_plans/*.dwg
+data/corpus/corrections/
+data/corpus/.cache/
+GROUND_TRUTH*.xlsx
+*.xlsx
+eval_evidence/
+gnn/
+data/stress/
+results/
+IJCM_submission/
+*.vision_rendered*

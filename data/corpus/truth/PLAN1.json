@@ -1,0 +1,93 @@
+{
+  "plan_id": "PLAN1",
+  "schema_version": 1,
+  "annotation": {
+    "annotator": "Claude, from the rendered sheet (NOT yet human-verified)",
+    "annotated_on": "2026-09-21",
+    "human_verified": false,
+    "notes": "Development set: these plans were used to develop and tune the extractor; do not report results on them as generalisation."
+  },
+  "road_side": "right",
+  "fields": {
+    "plot.width": {
+      "value": 12.19,
+      "verification": "printed",
+      "evidence": "top/bottom edge label 12.19"
+    },
+    "plot.depth": {
+      "value": 9.14,
+      "verification": "printed",
+      "evidence": "left/right edge label 9.14"
+    },
+    "plot.area": {
+      "value": 111.4166,
+      "verification": "derived",
+      "evidence": "12.19 x 9.14"
+    },
+    "building.width": {
+      "value": 11.72,
+      "verification": "printed",
+      "evidence": "red footprint horizontal label 11.72"
+    },
+    "building.depth": {
+      "value": 8.22,
+      "verification": "printed",
+      "evidence": "red footprint vertical label 8.22"
+    },
+    "building.footprint_area": {
+      "value": 96.34,
+      "verification": "printed",
+      "evidence": "'PROP. PLINTH AREA IN G.F 96.34'"
+    },
+    "building.floor_count": {
+      "value": 4,
+      "verification": "printed",
+      "evidence": "title lists ground, first, second and third floor; four floor-plan captions; four plinth-area rows"
+    },
+    "road.width": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "a ROAD is drawn and labelled but no width is printed"
+    },
+    "setbacks.front": {
+      "value": 0.47,
+      "verification": "printed",
+      "evidence": "callout .47 on the road-facing (right) edge"
+    },
+    "setbacks.rear": {
+      "value": 0.0,
+      "verification": "inspected",
+      "evidence": "building's left edge coincides with the plot boundary"
+    },
+    "setbacks.left": {
+      "value": 0.46,
+      "verification": "printed",
+      "evidence": "callout .46 (bottom edge, seen from the road)"
+    },
+    "setbacks.right": {
+      "value": 0.46,
+      "verification": "printed",
+      "evidence": "callout .46 (top edge, seen from the road)"
+    },
+    "coverage": {
+      "value": 86.47,
+      "verification": "derived",
+      "evidence": "96.34 / 111.4166 x 100"
+    },
+    "far": {
+      "value": 3.459,
+      "verification": "derived",
+      "evidence": "'TOTAL PLINTH AREA 385.36' / plot area (diagnostic; regulatory exclusions not applied)"
+    },
+    "building_use": {
+      "value": "residential",
+      "verification": "printed",
+      "evidence": "title: '...RCC ROOF RESIDENTIAL BUILDING'"
+    }
+  },
+  "discrepancies": [
+    "GROUND_TRUTH_2 lists coverage 96.33: that is the footprint AREA in m2; coverage is 86.47 %.",
+    "GROUND_TRUTH_2 lists setbacks front 0.46 / rear 0.46 / right 0.47 / left null (INSUFFICIENT_EVIDENCE); the sheet's callouts are 0.47 on the road-facing edge and 0.46 on the two side edges, rear is 0 (building abuts the boundary).",
+    "GROUND_TRUTH_2 lists road_width null; kept as must_abstain (no width printed)."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "plan_id": "PLAN8",
+  "schema_version": 1,
+  "annotation": {
+    "annotator": "migrated from expected.json and GROUND_TRUTH_2.xlsx (NOT re-verified)",
+    "annotated_on": "2026-09-21",
+    "human_verified": false,
+    "notes": "Development set: these plans were used to develop and tune the extractor; do not report results on them as generalisation. PLAN8/PLAN9 geometry re-annotated 2026-09-21 from the rendered site plans (printed callouts); NOT yet human-verified."
+  },
+  "road_side": null,
+  "fields": {
+    "plot.width": {
+      "value": 13.71,
+      "verification": "printed",
+      "evidence": "13.71 m along the slanted top edge and the east side; west side 13.10 m: non-rectangular corner plot, longer of the pair"
+    },
+    "plot.depth": {
+      "value": 13.71,
+      "verification": "printed",
+      "evidence": "east side 13.71 m (west 13.10 m): longer of the pair"
+    },
+    "plot.area": {
+      "value": 183.69,
+      "verification": "printed",
+      "evidence": "Area table 183.69 | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 183.69,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.width": {
+      "value": 10.95,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "building.depth": {
+      "value": 10.7,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "building.footprint_area": {
+      "value": 115.42,
+      "verification": "printed",
+      "evidence": "Area table 115.42 | originally from GROUND_TRUTH_2 coverage 115.42 (DOCUMENT_VERIFIED): 'Ground Floor' area in the sheet's floor table",
+      "legacy_value": 115.42,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.floor_count": {
+      "value": 3.0,
+      "verification": "printed",
+      "evidence": "Text \"STILT, GF+2UF\" | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 3.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "road.width": {
+      "value": 7.6,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "setbacks.front": {
+      "value": 1.65,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "setbacks.rear": {
+      "value": 1.36,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "setbacks.left": {
+      "value": 1.66,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    },
+    "setbacks.right": {
+      "value": 1.1,
+      "verification": "unverified",
+      "evidence": "GROUND_TRUTH_2.xlsx GT_MASTER (INSUFFICIENT_EVIDENCE)"
+    }
+  },
+  "discrepancies": [
+    "PLAN8's printed dimensions disagree with its own drawn geometry by 4-8% (e.g. west side labelled 13.10 m, drawn about 14.1 m at the printed 1:200), its boundary is dashed, its building outline has a step, and it is a two-road corner plot: geometry-derived values cannot be trusted at high confidence on this sheet.",
+    "building.width/depth and setbacks remain unverified: no building dimensions are printed and the front side is not determinable (roads on the west and south)."
+  ]
+}

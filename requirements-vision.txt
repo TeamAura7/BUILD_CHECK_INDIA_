@@ -1,0 +1,10 @@
+# Optional local vision-language extraction stack for architectural plans.
+# Install these only on the machine that runs the vision model.
+# Default backend: SmolVLM2-2.2B-Instruct (VISION_BACKEND=smolvlm, the default).
+# For the heavier Qwen2.5-VL-7B-Instruct backend instead, also install
+# requirements-vision-qwen.txt and set VISION_BACKEND=qwen.
+torch>=2.4
+torchvision>=0.19
+transformers>=5.0
+accelerate>=1.0
+num2words>=0.5.13

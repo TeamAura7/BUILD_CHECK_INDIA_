@@ -1,0 +1,117 @@
+{
+  "plan_id": "PLAN5",
+  "schema_version": 1,
+  "annotation": {
+    "annotator": "migrated from expected.json and GROUND_TRUTH_2.xlsx (NOT re-verified)",
+    "annotated_on": "2026-09-21",
+    "human_verified": false,
+    "notes": "Development set: these plans were used to develop and tune the extractor; do not report results on them as generalisation."
+  },
+  "road_side": "left",
+  "fields": {
+    "plot.width": {
+      "value": 17.59,
+      "verification": "printed",
+      "evidence": "Site plan and GF plan 17.59 (raster, visual) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 17.59,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "plot.depth": {
+      "value": 9.14,
+      "verification": "printed",
+      "evidence": "Site plan 9.14 (raster, visual) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 9.14,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "plot.area": {
+      "value": 160.77,
+      "verification": "printed",
+      "evidence": "\"SITE AREA : 160.77 Sq.m\" (raster, visual) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 160.77,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.width": {
+      "value": 13.09,
+      "verification": "printed",
+      "evidence": "Site plan 13.09 (raster, visual) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 13.09,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.depth": {
+      "value": 7.14,
+      "verification": "printed",
+      "evidence": "Site plan 7.14 (raster, visual) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 7.14,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.footprint_area": {
+      "value": 93.46,
+      "verification": "printed",
+      "evidence": "Area statement GROUND COVERAGE AREA 93.46; legacy file had 93.43 (corrected) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 93.43,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.floor_count": {
+      "value": 3.0,
+      "verification": "printed",
+      "evidence": "Site plan note \"GROUND+2 FLOORS\"; statement rows G/1/2 (terrace 0.00) | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 3.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "road.width": {
+      "value": 10.0,
+      "verification": "printed",
+      "evidence": "\"10m WIDE ROAD\" (raster, visual) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 10.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.front": {
+      "value": 3.0,
+      "verification": "printed",
+      "evidence": "Statement FRONT 3.00 m, site plan 3.00 | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 3.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.rear": {
+      "value": 1.5,
+      "verification": "printed",
+      "evidence": "Statement REAR 1.50 m | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 1.5,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.left": {
+      "value": 1.0,
+      "verification": "printed",
+      "evidence": "Statement LEFT 1.00 m | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 1.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.right": {
+      "value": 1.0,
+      "verification": "printed",
+      "evidence": "Statement RIGHT 1.00 m | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 1.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "coverage": {
+      "value": 58.13,
+      "verification": "printed",
+      "evidence": "Statement Coverage 58.13 %; legacy file had 58.11 (corrected) | originally from data/test_plans/PLAN5.expected.json",
+      "legacy_value": 58.11,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building_use": {
+      "value": "residential",
+      "verification": "printed",
+      "evidence": "Title block \"PROPOSED RESIDENTIAL BUILDING PLAN\" | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": "residential",
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    }
+  },
+  "discrepancies": [
+    "plot.width: expected.json 17.59 vs GROUND_TRUTH_2 9.14 (INSUFFICIENT_EVIDENCE); kept expected.json",
+    "plot.depth: expected.json 9.14 vs GROUND_TRUTH_2 17.59 (INSUFFICIENT_EVIDENCE); kept expected.json",
+    "building.width: expected.json 13.09 vs GROUND_TRUTH_2 7.14 (INSUFFICIENT_EVIDENCE); kept expected.json",
+    "building.depth: expected.json 7.14 vs GROUND_TRUTH_2 13.09 (INSUFFICIENT_EVIDENCE); kept expected.json"
+  ]
+}

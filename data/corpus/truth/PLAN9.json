@@ -1,0 +1,93 @@
+{
+  "plan_id": "PLAN9",
+  "schema_version": 1,
+  "annotation": {
+    "annotator": "migrated from expected.json and GROUND_TRUTH_2.xlsx (NOT re-verified)",
+    "annotated_on": "2026-09-21",
+    "human_verified": false,
+    "notes": "Development set: these plans were used to develop and tune the extractor; do not report results on them as generalisation. PLAN8/PLAN9 geometry re-annotated 2026-09-21 from the rendered site plans (printed callouts); NOT yet human-verified."
+  },
+  "road_side": null,
+  "fields": {
+    "plot.width": {
+      "value": 10.65,
+      "verification": "printed",
+      "evidence": "top edge 10.65 M (bottom/road frontage 8.92 M): non-rectangular plot, longer of the pair"
+    },
+    "plot.depth": {
+      "value": 15.25,
+      "verification": "printed",
+      "evidence": "left edge 15.25 M, slanted (right edge 15.00 M): longer of the pair"
+    },
+    "plot.area": {
+      "value": 147.99,
+      "verification": "printed",
+      "evidence": "Area table 147.99 | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 147.99,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "building.width": {
+      "value": 7.14,
+      "verification": "printed",
+      "evidence": "dimension 7.14 M above the hatched building"
+    },
+    "building.depth": {
+      "value": 12.11,
+      "verification": "printed",
+      "evidence": "dimension 12.11 M beside the hatched building"
+    },
+    "building.footprint_area": {
+      "value": 94.42,
+      "verification": "printed",
+      "evidence": "area statement: Ground Floor 94.42 Sqmts (the 7.14 x 12.11 rectangle is 86.47; the statement includes projections)"
+    },
+    "building.floor_count": {
+      "value": 3.0,
+      "verification": "inspected",
+      "evidence": "Stilt + G/1/2 plans (stilt not counted) | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": 3.0,
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "road.width": {
+      "value": null,
+      "verification": "must_abstain",
+      "evidence": "a road is drawn and labelled (R O A D) but no width is printed"
+    },
+    "setbacks.front": {
+      "value": 1.5,
+      "verification": "printed",
+      "evidence": "1.50 M between the building and the road boundary (bottom)"
+    },
+    "setbacks.left": {
+      "value": 1.0,
+      "verification": "printed",
+      "evidence": "1.00 M at the narrow (bottom) end; 2.52 M at the top because the left edge leans 6.6 deg. The minimum is what applies"
+    },
+    "setbacks.right": {
+      "value": 1.0,
+      "verification": "printed",
+      "evidence": "1.00 M callouts beside the building's right edge"
+    },
+    "building_use": {
+      "value": "residential",
+      "verification": "printed",
+      "evidence": "Title \"PROPOSED RESIDENTIAL BUILDING\" | originally from GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)",
+      "legacy_value": "residential",
+      "verified_by": "AI-assisted trace against sheet, 2026-09-28; pending second human check"
+    },
+    "setbacks.rear": {
+      "value": 1.5,
+      "verification": "printed",
+      "evidence": "1.50 M at the wider end of the top gap; the top edge leans 0.7 deg so the true minimum is about 1.34 M"
+    },
+    "coverage": {
+      "value": 63.8,
+      "verification": "derived",
+      "evidence": "94.42 / 147.99 x 100"
+    }
+  },
+  "discrepancies": [
+    "GROUND_TRUTH_2 lists plot 10.65 x 15.0 and building 7.14 x 12.11 (INSUFFICIENT_EVIDENCE); the sheet prints these values and the old geometry rows were excluded from scoring, which is why an earlier baseline missed that PLAN9's setbacks were wrong at HIGH confidence.",
+    "Non-rectangular plot: width/depth use the longer side of each opposite pair (convention, needs domain confirmation)."
+  ]
+}

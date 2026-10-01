@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BUILDCheck India — BBMP Compliance Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 40 40" width="34" height="34">
+        <rect x="3" y="3" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M3 14 H37 M3 26 H37 M14 3 V37 M26 3 V37" stroke="currentColor" stroke-width="0.7" opacity="0.55"/>
+        <circle cx="20" cy="20" r="4.5" fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <h1>BUILD<span class="accent">Check</span> India</h1>
+    </div>
+  </div>
+  <div class="header-right">
+    <span class="status-pill" id="apiStatus" data-state="checking">
+      <span class="dot"></span> <span class="label">checking backend…</span>
+    </span>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="hero-kicker">Sheet No. 01 / Automated Plan Review</p>
+    <h2>Feed it a building plan. Get a clause-grounded verdict.</h2>
+    <p class="hero-sub">
+      Every dimension is extracted from the drawing (native PDF + OpenCV + optional VLM),
+      resolved against BBMP regulation text via hybrid RAG (FAISS + BM25 + RRF), and
+      checked by a deterministic rule engine — never an LLM guess.
+    </p>
+  </section>
+
+  <section class="panel regulations-panel" id="regulationsPanel">
+    <div class="panel-head">
+      <span class="tag">00</span>
+      <h3>Regulation library</h3>
+    </div>
+    <p class="hero-sub" style="margin-bottom:18px;">
+      Upload byelaw / NBC PDFs for a municipality. Each file is parsed, split into
+      clause-aware chunks, embedded, and written into that municipality's FAISS + BM25
+      index — the same index the compliance check retrieves from live. Nothing here
+      touches <code>rules.json</code>; verdicts are always drafted from whatever is
+      indexed at query time.
+    </p>
+
+    <div class="field-row">
+      <div class="field">
+        <label class="field-label" for="regMunicipalityInput">Municipality</label>
+        <input type="text" id="regMunicipalityInput" class="text-input" placeholder="e.g. BBMP, MCGM" list="regMunicipalityList" />
+        <datalist id="regMunicipalityList"></datalist>
+      </div>
+      <div class="field checkbox-field">
+        <label class="checkbox-label">
+          <input type="checkbox" id="regForceInput" />
+          Force re-index (rebuild even already-indexed files)
+        </label>
+      </div>
+    </div>
+
+    <label class="dropzone" id="regDropzone" for="regFileInput" style="margin-top:16px;">
+      <input type="file" id="regFileInput" accept="application/pdf,.txt" multiple hidden />
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 3l5 5h-3.5v6h-3V8H7l5-5zM5 19h14v2H5v-2z"/></svg>
+      <span class="dz-title" id="regDzTitle">Drop rule PDFs here, or click to browse</span>
+      <span class="dz-sub">One or more byelaw / NBC / DCR PDFs (or .txt), any number of files</span>
+    </label>
+
+    <button type="button" class="run-btn" id="regIngestBtn" disabled>
+      <span class="run-btn-label">Ingest into RAG index</span>
+      <span class="run-btn-icon" aria-hidden="true">→</span>
+    </button>
+    <p class="run-hint" id="regRunHint">Choose a municipality and at least one file to begin.</p>
+
+    <div class="log-console" id="regLogConsole" hidden></div>
+
+    <h4 class="subhead">Currently indexed <span class="subhead-note" id="regLibHint">select a municipality above to view</span></h4>
+    <div class="doc-table" id="regDocTable"></div>
+  </section>
+
+  <section class="panel config-panel" id="configPanel">
+    <div class="panel-head">
+      <span class="tag">01</span>
+      <h3>Submit a plan</h3>
+    </div>
+
+    <div class="source-toggle" role="tablist">
+      <button type="button" class="source-btn is-active" data-source="upload" role="tab">Upload PDF</button>
+      <button type="button" class="source-btn" data-source="sample" role="tab">Use sample plan</button>
+    </div>
+
+    <div class="source-body" id="uploadSource">
+      <label class="dropzone" id="dropzone" for="fileInput">
+        <input type="file" id="fileInput" accept="application/pdf,.dxf" hidden />
+        <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 3l5 5h-3.5v6h-3V8H7l5-5zM5 19h14v2H5v-2z"/></svg>
+        <span class="dz-title" id="dzTitle">Drop plan PDF here, or click to browse</span>
+        <span class="dz-sub">CAD-exported or scanned architectural plan, .pdf or .dxf</span>
+      </label>
+      <label class="dropzone dropzone-secondary" id="dropzoneSecondary" for="secondFileInput" hidden>
+        <input type="file" id="secondFileInput" accept="application/pdf,.dxf" hidden />
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 3l5 5h-3.5v6h-3V8H7l5-5zM5 19h14v2H5v-2z"/></svg>
+        <span class="dz-title" id="dzSecondaryTitle">Optional: add the matching PDF/DXF to cross-check</span>
+        <span class="dz-sub">Same plan, opposite format — PDF's reading is used to catch a wrong DXF value</span>
+      </label>
+    </div>
+
+    <div class="source-body" id="sampleSource" hidden>
+      <label class="field-label" for="sampleSelect">Bundled test plans</label>
+      <select id="sampleSelect" class="select"></select>
+      <label class="field-label" for="samplePairSelect" style="margin-top:10px;">Optional: cross-check against</label>
+      <select id="samplePairSelect" class="select"><option value="">None</option></select>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label class="field-label" for="municipalitySelect">Municipality</label>
+        <select id="municipalitySelect" class="select"></select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="field-label">Extraction mode</label>
+      <div class="source-toggle" role="radiogroup" aria-label="Extraction mode" id="modeToggle">
+        <button type="button" class="source-btn is-active" data-mode="cv" role="radio" aria-checked="true">Native + OpenCV</button>
+        <button type="button" class="source-btn" data-mode="vision" role="radio" aria-checked="false">Vision</button>
+        <button type="button" class="source-btn" data-mode="fusion" role="radio" aria-checked="false">Fusion</button>
+      </div>
+      <p class="run-hint" id="modeHint" style="margin-top:6px;">Native + OpenCV: native/OpenCV geometry only, no Vision call. Vision runs only the selected backend below, independent of CV. Fusion runs both independently and reconciles them through the same evidence/agreement logic used by the CLI's <code>run_validation</code>.</p>
+    </div>
+
+    <div class="field-row" id="backendRow" hidden>
+      <div class="field">
+        <label class="field-label" for="backendSelect">Vision backend</label>
+        <select id="backendSelect" class="select">
+          <option value="api">api (hosted VLM, e.g. Groq)</option>
+          <option value="smolvlm">smolvlm (local, ~4.4GB)</option>
+          <option value="qwen">qwen (local, ~16GB)</option>
+        </select>
+      </div>
+    </div>
+
+    <details class="advanced">
+      <summary>Advanced options</summary>
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="topKInput">RAG chunks per field (top-k)</label>
+          <input type="number" id="topKInput" class="text-input" placeholder="default" min="1" max="30" />
+        </div>
+        <div class="field checkbox-field">
+          <label class="checkbox-label">
+            <input type="checkbox" id="allFieldsInput" />
+            Attempt every field, including ones missing from the plan
+          </label>
+        </div>
+      </div>
+    </details>
+
+    <button type="button" class="run-btn" id="runBtn" disabled>
+      <span class="run-btn-label">Run compliance check</span>
+      <span class="run-btn-icon" aria-hidden="true">→</span>
+    </button>
+    <p class="run-hint" id="runHint">Select a plan to begin.</p>
+  </section>
+
+  <section class="panel progress-panel" id="progressPanel" hidden>
+    <div class="panel-head">
+      <span class="tag">02</span>
+      <h3>Pipeline progress</h3>
+      <span class="job-status" id="jobStatusChip">pending</span>
+    </div>
+    <ol class="stage-list" id="stageList">
+      <li data-stage="1"><span class="stage-num">1</span><span class="stage-name">Extraction</span><span class="stage-sub">native / OpenCV / OCR / vision</span></li>
+      <li data-stage="2"><span class="stage-num">2</span><span class="stage-name">Rule loading</span><span class="stage-sub">authoritative BBMP rules.json</span></li>
+      <li data-stage="3"><span class="stage-num">3</span><span class="stage-name">Deterministic evaluation</span><span class="stage-sub">applicability + thresholds</span></li>
+      <li data-stage="4"><span class="stage-num">4</span><span class="stage-name">Verdict</span><span class="stage-sub">deterministic engine</span></li>
+    </ol>
+    <div class="log-console" id="logConsole"></div>
+  </section>
+
+  <section class="panel results-panel" id="resultsPanel" hidden>
+    <div class="panel-head">
+      <span class="tag">03</span>
+      <h3>Result</h3>
+      <div class="result-actions"><button class="download-btn" id="downloadBtn">↓ JSON</button><button class="download-btn" id="downloadPdfBtn">↓ PDF report</button></div>
+    </div>
+
+    <div class="verdict-row">
+      <div class="stamp" id="verdictStamp" data-verdict="">
+        <span id="verdictText">—</span>
+      </div>
+      <div class="verdict-meta">
+        <div class="meta-line"><span>Plan</span><strong id="metaPlan">—</strong></div>
+        <div class="meta-line"><span>Municipality</span><strong id="metaMunicipality">—</strong></div>
+        <div class="meta-line"><span>Checks run</span><strong id="metaChecks">—</strong></div>
+        <div class="meta-line"><span>Rules drafted</span><strong id="metaDrafts">—</strong></div>
+      </div>
+    </div>
+
+    <h4 class="subhead">Plan metadata</h4>
+    <div class="metadata-grid" id="metadataGrid"></div>
+
+    <h4 class="subhead">Resolved measurements <span class="subhead-note">click a value to edit and re-run the rule checks</span></h4>
+    <div class="dimension-grid editable-grid" id="dimensionGrid"></div>
+    <button type="button" class="save-edits-btn" id="saveEditsBtn">Rerun Compliance</button>
+    <span class="edit-status" id="editStatus"></span>
+
+    <h4 class="subhead">Failed rules &amp; suggestions</h4>
+    <div class="suggestions-list" id="suggestionsList"></div>
+
+    <h4 class="subhead">Per-field compliance <span class="subhead-note" id="resultsFilterNote"></span></h4>
+    <label class="show-all-toggle" style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--paper-faint);margin-bottom:8px;">
+      <input type="checkbox" id="showNotApplicableToggle"> Also show rules that don't apply to this plan (NOT_APPLICABLE)
+    </label>
+    <div class="results-table" id="resultsTable"></div>
+
+    <details class="evidence-panel" id="pdfDxfPanelWrap" hidden><summary>PDF ⟷ DXF cross-check</summary><pre id="pdfDxfPanel"></pre></details>
+
+    <details class="evidence-panel"><summary>Fusion / evidence audit</summary><pre id="fusionAudit"></pre></details>
+  </section>
+
+
+  <section class="panel error-panel" id="errorPanel" hidden>
+    <div class="panel-head"><span class="tag warn">!</span><h3>Run failed</h3></div>
+    <p id="errorMessage"></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span class="footer-note">Compliance verdicts are decided by a deterministic rule engine, never by the LLM.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

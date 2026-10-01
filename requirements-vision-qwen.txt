@@ -1,0 +1,3 @@
+# Additional dependency needed ONLY for the 'qwen' vision backend
+# (VISION_BACKEND=qwen). Install this on top of requirements-vision.txt.
+qwen-vl-utils==0.0.14

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "plans": [
+    {
+      "id": "PLAN1",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN1.pdf",
+      "dxf": "data/test_plans/PLAN1.dxf",
+      "sha256": {
+        "pdf": "25decdc74f0d7b4c8ce2c21465cb43592381604d016a892b0e3d406465b89e21",
+        "dxf": "3d651bfc0558bd69be2f63aa01232ae998df66ec17b6f28e26531100028ed8d0"
+      },
+      "truth": "data/corpus/truth/PLAN1.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "multi_view_sheet",
+        "road_on_side",
+        "vector_pdf",
+        "dxf_exploded_glyphs"
+      ]
+    },
+    {
+      "id": "PLAN2",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN2.pdf",
+      "dxf": "data/test_plans/PLAN2.dxf",
+      "sha256": {
+        "pdf": "38d207be7d1db9a5ff9e16ef48d9560b40a141ed0a659abd565519418f0f901a",
+        "dxf": "dda509db220d1c4d876b51f6ecc031d4f34d0a1dfcf5d3c23b2c85915ba3b177"
+      },
+      "truth": "data/corpus/truth/PLAN2.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "bbmp_standard_sheet",
+        "feet_inches_labels"
+      ]
+    },
+    {
+      "id": "PLAN4",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN4.pdf",
+      "dxf": "data/test_plans/PLAN4.dxf",
+      "sha256": {
+        "pdf": "32ee230aa1be16fede75a59ca5fc93c912e5b61a28cdc4c7b3c17fc814bb25c7",
+        "dxf": "9ac88b1ef5d18f88f5544aa70dee6681d9f1939c918ce49f8f4af76a2c887829"
+      },
+      "truth": "data/corpus/truth/PLAN4.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "rotated_sheet",
+        "feet_inches_labels",
+        "road_on_side",
+        "multi_view_sheet"
+      ]
+    },
+    {
+      "id": "PLAN5",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN5.pdf",
+      "dxf": "data/test_plans/PLAN5.dxf",
+      "sha256": {
+        "pdf": "b02831ce24f8f027c5b7c7035bb5611353416a13e96ad667ff3c95537d5a9e63",
+        "dxf": "87adaf9e04b2cfb2141df45dde234bb7ee315d1c8df806e76066c67b337df135"
+      },
+      "truth": "data/corpus/truth/PLAN5.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "rotated_sheet",
+        "rasterised_text",
+        "dashed_boundary",
+        "road_on_side"
+      ]
+    },
+    {
+      "id": "PLAN6",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN6.pdf",
+      "dxf": "data/test_plans/PLAN6.dxf",
+      "sha256": {
+        "pdf": "03acbead5df25256366ad7e758186850f2f8794c130f87edc51b81d64977237c",
+        "dxf": "e90d745868dfa757cf43e702f958b8743d65c04a622b93a7d101380b46cd4d9c"
+      },
+      "truth": "data/corpus/truth/PLAN6.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "bbmp_standard_sheet",
+        "no_edge_labels",
+        "stilt_floor"
+      ]
+    },
+    {
+      "id": "PLAN7",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN7.pdf",
+      "dxf": "data/test_plans/PLAN7.dxf",
+      "sha256": {
+        "pdf": "4bb4a78420f279a55efc4ca91b861e932deab8ba3901fac4eaf2fe46eb3ae500",
+        "dxf": "cc9ee00af8b6f4bfd9683e64dac683130a6a68c492c11170592948176fbd5c2a"
+      },
+      "truth": "data/corpus/truth/PLAN7.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "photograph_of_blueprint"
+      ]
+    },
+    {
+      "id": "PLAN8",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN8.pdf",
+      "dxf": "data/test_plans/PLAN8.dxf",
+      "sha256": {
+        "pdf": "a29d2087112d886e53a35600bf88ac64587d5288eecad59a5d791d042d4d4223",
+        "dxf": "1b96413e5b28fa4786643c53c24161aeca32517751f96908a2091fbf77a94469"
+      },
+      "truth": "data/corpus/truth/PLAN8.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "bbmp_standard_sheet"
+      ]
+    },
+    {
+      "id": "PLAN9",
+      "split": "dev",
+      "pdf": "data/test_plans/PLAN9.pdf",
+      "dxf": "data/test_plans/PLAN9.dxf",
+      "sha256": {
+        "pdf": "843ee073924c9e5d09aa5874255b64b3b22e128af8c8b43d026bd9fbebe4f312",
+        "dxf": "4d76e0712a908d9ed9886a30879e2a172691f0c871c4aa3c9480529564ebf6a9"
+      },
+      "truth": "data/corpus/truth/PLAN9.json",
+      "provenance": {
+        "source": "bundled test plan (data/test_plans)",
+        "licence": "unknown - obtain permission before sharing outside the project",
+        "redacted": false
+      },
+      "tags": [
+        "bbmp_standard_sheet"
+      ]
+    }
+  ]
+}
