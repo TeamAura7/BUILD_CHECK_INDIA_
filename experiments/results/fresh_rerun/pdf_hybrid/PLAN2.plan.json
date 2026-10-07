@@ -1,0 +1,373 @@
+{
+ "plan_id": "PLAN2-pdf",
+ "source_document_id": "PLAN2",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 86.34218644744129,
+      "y": 16.790641045803437
+     },
+     {
+      "x": 86.34218644744129,
+      "y": 74.60059790582496
+     },
+     {
+      "x": 137.39183475319885,
+      "y": 74.61754103503364
+     },
+     {
+      "x": 137.39183475319885,
+      "y": 16.790641045803437
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 86.34218644744129,
+    "min_y": 16.790641045803437,
+    "max_x": 137.39183475319885,
+    "max_y": 74.61754103503364
+   },
+   "points_per_metre": 14.165033922837893,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 12.192,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 12.192,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 18.288,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 18.288,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 222.83,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 222.83,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99) (cross-checked against final width x depth = 222.967 m2, within 0.1%)."
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 4.676303661596114,
+      "y": 49.490880418558866
+     },
+     {
+      "x": 4.659360532387432,
+      "y": 78.90415272483008
+     },
+     {
+      "x": 13.961138467953614,
+      "y": 78.92109585403875
+     },
+     {
+      "x": 13.995024726370977,
+      "y": 82.49609611707056
+     },
+     {
+      "x": 25.889101430865438,
+      "y": 82.49609611707056
+     },
+     {
+      "x": 25.889101430865438,
+      "y": 66.43400962724044
+     },
+     {
+      "x": 27.566471222524914,
+      "y": 66.6542703069533
+     },
+     {
+      "x": 27.312324284394695,
+      "y": 64.04502840881634
+     },
+     {
+      "x": 25.906044560074122,
+      "y": 66.38318023961439
+     },
+     {
+      "x": 25.889101430865438,
+      "y": 61.21552583096652
+     },
+     {
+      "x": 27.29538115518601,
+      "y": 63.553677661764574
+     },
+     {
+      "x": 27.566471222524914,
+      "y": 61.43578651067938
+     },
+     {
+      "x": 25.889101430865438,
+      "y": 61.14775331413179
+     },
+     {
+      "x": 25.889101430865438,
+      "y": 49.490880418558866
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 4.659360532387432,
+    "min_y": 49.490880418558866,
+    "max_x": 27.566471222524914,
+    "max_y": 82.49609611707056
+   },
+   "points_per_metre": 14.165033922837893,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 10.5904,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 10.5904,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.97)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 16.4747,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 16.4747,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.97)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": 174.52,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 174.52,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99) (cross-checked against final width x depth = 174.474 m2, within 0.0%)."
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": {
+   "value": 4,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Floor count parsed from 'G+3' label."
+   },
+   "source": "text label",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": 9.2,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 9.2,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": 1.0,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 1.0,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": 0.8,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.8,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": 0.8,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.8,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": 0.8,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.8,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": 78.32,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 78.32,
+   "unit": "%"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+  },
+  "source": "FINAL:CV_ONLY",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": 1.73,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 1.73,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+  },
+  "source": "FINAL:CV_ONLY",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [],
+ "overall_confidence_note": "Plot: Selected from 14 candidate(s) across 1 page(s). (2 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Winner (score 0.85) beats the runner-up by 0.12. | Scale: [local region-scoped] 4 consistent scale samples (relative spread 1.9%). 2 sample(s) rejected as outliers (robust MAD filter). | Front-side: Front edge resolved from ROAD candidate. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 7, rejected: 9. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": {
+  "value": "residential",
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Building-use label printed on the plan: 'PLAN SHOWING THE PROPOSED RESIDENTIAL BUILDING AT SITE'."
+  },
+  "source": "plan text (title block / property table)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ }
+}

@@ -1,0 +1,59 @@
+plan,field,legacy_value,verified_value,changed,new_tier,evidence_on_sheet,legacy_source
+PLAN2,plot.width,12.19,12.19,False,printed,"Site plan dimension 12.19 (40'0"")",data/test_plans/PLAN2.expected.json
+PLAN2,plot.depth,18.28,18.28,False,printed,"Site plan dimension 18.28 (60'0"")",data/test_plans/PLAN2.expected.json
+PLAN2,plot.area,222.83,222.83,False,printed,Area table: plot area 222.83,data/test_plans/PLAN2.expected.json
+PLAN2,building.width,10.59,10.59,False,printed,Ground-floor plan dimension 10.59,data/test_plans/PLAN2.expected.json
+PLAN2,building.depth,16.48,16.48,False,printed,Ground-floor plan dimension 16.48,data/test_plans/PLAN2.expected.json
+PLAN2,building.footprint_area,174.52,174.52,False,printed,Area table: 174.52,data/test_plans/PLAN2.expected.json
+PLAN2,building.floor_count,4.0,4.0,False,inspected,"Floor plans labelled G,1,2,3",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN2,road.width,9.2,9.2,False,printed,"Text ""9.20m WIDE ROAD""",data/test_plans/PLAN2.expected.json
+PLAN2,setbacks.front,1.0,1.0,False,printed,Site plan setback 1.00 on road side,data/test_plans/PLAN2.expected.json
+PLAN2,setbacks.rear,0.8,0.8,False,printed,Site plan setback 0.80,data/test_plans/PLAN2.expected.json
+PLAN2,setbacks.left,0.8,0.8,False,printed,Site plan setback 0.80,data/test_plans/PLAN2.expected.json
+PLAN2,setbacks.right,0.8,0.8,False,printed,Site plan setback 0.80,data/test_plans/PLAN2.expected.json
+PLAN2,coverage,78.32,78.32,False,printed,Area table: 78.32%,data/test_plans/PLAN2.expected.json
+PLAN2,far,1.73,1.73,False,printed,Area table: FAR 1.73,data/test_plans/PLAN2.expected.json
+PLAN4,plot.width,18.288,18.288,False,printed,"Site plan 60'-0"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,plot.depth,16.6116,16.6116,False,printed,"Site plan 54'-6"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,plot.area,303.79,303.79,False,printed,Area table: SITE AREA 303.79 sqm,data/test_plans/PLAN4.expected.json
+PLAN4,building.width,16.459,16.459,False,printed,"Site plan 54'-0"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,building.depth,11.2776,11.2776,False,printed,"Site plan 37'-0"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,building.footprint_area,185.62,185.62,False,printed,Area table: G.F AREA 185.62 sqm,data/test_plans/PLAN4.expected.json
+PLAN4,building.floor_count,5.0,5.0,False,inspected,"Plans labelled GROUND, 1ST/2ND/3RD, FOURTH; area table G/F/S/T/F rows",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN4,road.width,7.62,7.62,False,printed,"Text ""25 FEET ROAD"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,setbacks.front,0.9144,0.9144,False,printed,"Site plan 3'-0"" on road-facing axis (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,setbacks.rear,0.9144,0.9144,False,printed,"Site plan 3'-0"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,setbacks.left,2.667,2.667,False,printed,"Site plan 8'-9"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,setbacks.right,2.667,2.667,False,printed,"Site plan 8'-9"" (ft->m)",data/test_plans/PLAN4.expected.json
+PLAN4,coverage,61.1,61.1,False,derived,185.62/303.79 = 61.10% (not printed),data/test_plans/PLAN4.expected.json
+PLAN5,plot.width,17.59,17.59,False,printed,"Site plan and GF plan 17.59 (raster, visual)",data/test_plans/PLAN5.expected.json
+PLAN5,plot.depth,9.14,9.14,False,printed,"Site plan 9.14 (raster, visual)",data/test_plans/PLAN5.expected.json
+PLAN5,plot.area,160.77,160.77,False,printed,"""SITE AREA : 160.77 Sq.m"" (raster, visual)",data/test_plans/PLAN5.expected.json
+PLAN5,building.width,13.09,13.09,False,printed,"Site plan 13.09 (raster, visual)",data/test_plans/PLAN5.expected.json
+PLAN5,building.depth,7.14,7.14,False,printed,"Site plan 7.14 (raster, visual)",data/test_plans/PLAN5.expected.json
+PLAN5,building.footprint_area,93.43,93.46,True,printed,Area statement GROUND COVERAGE AREA 93.46; legacy file had 93.43 (corrected),data/test_plans/PLAN5.expected.json
+PLAN5,building.floor_count,3.0,3.0,False,printed,"Site plan note ""GROUND+2 FLOORS""; statement rows G/1/2 (terrace 0.00)",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN5,road.width,10.0,10.0,False,printed,"""10m WIDE ROAD"" (raster, visual)",data/test_plans/PLAN5.expected.json
+PLAN5,setbacks.front,3.0,3.0,False,printed,"Statement FRONT 3.00 m, site plan 3.00",data/test_plans/PLAN5.expected.json
+PLAN5,setbacks.rear,1.5,1.5,False,printed,Statement REAR 1.50 m,data/test_plans/PLAN5.expected.json
+PLAN5,setbacks.left,1.0,1.0,False,printed,Statement LEFT 1.00 m,data/test_plans/PLAN5.expected.json
+PLAN5,setbacks.right,1.0,1.0,False,printed,Statement RIGHT 1.00 m,data/test_plans/PLAN5.expected.json
+PLAN5,coverage,58.11,58.13,True,printed,Statement Coverage 58.13 %; legacy file had 58.11 (corrected),data/test_plans/PLAN5.expected.json
+PLAN5,building_use,residential,residential,False,printed,"Title block ""PROPOSED RESIDENTIAL BUILDING PLAN""",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN6,plot.width,10.0,10.0,False,inspected,"Printed only in road-widening note ""10.00x2.35""; consistent with 10.00x13.10=131.00",data/test_plans/PLAN6.expected.json
+PLAN6,plot.depth,13.1,13.1,False,printed,"Site plan ""13.10m"" (vector, visual)",data/test_plans/PLAN6.expected.json
+PLAN6,plot.area,131.0,131.0,False,printed,Area table 131.00,data/test_plans/PLAN6.expected.json
+PLAN6,building.footprint_area,85.09,85.09,False,printed,Area table 85.09,data/test_plans/PLAN6.expected.json
+PLAN6,building.floor_count,3.0,3.0,False,inspected,Stilt + G/1/2 plans (stilt not counted),GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN6,road.width,7.3,7.3,False,printed,"Text ""7.30m Wide Road""",data/test_plans/PLAN6.expected.json
+PLAN6,coverage,79.15,79.15,False,printed,Area table 79.15%,data/test_plans/PLAN6.expected.json
+PLAN6,far,1.74,1.74,False,printed,Area table FAR 1.74,data/test_plans/PLAN6.expected.json
+PLAN7,building.floor_count,3.0,3.0,False,inspected,"Plans labelled GROUND, FIRST, SECOND (+terrace)",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN7,road.width,9.14,9.14,False,printed,"Text ""9.14M WIDE ROAD""",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN7,building_use,residential,residential,False,inspected,No use label; inferred from BED ROOM spaces on all floors,GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN8,plot.area,183.69,183.69,False,printed,Area table 183.69,GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN8,building.footprint_area,115.42,115.42,False,printed,Area table 115.42,GROUND_TRUTH_2 coverage 115.42 (DOCUMENT_VERIFIED): 'Ground Floor' area in the sheet's floor table
+PLAN8,building.floor_count,3.0,3.0,False,printed,"Text ""STILT, GF+2UF""",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN9,plot.area,147.99,147.99,False,printed,Area table 147.99,GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN9,building.floor_count,3.0,3.0,False,inspected,Stilt + G/1/2 plans (stilt not counted),GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)
+PLAN9,building_use,residential,residential,False,printed,"Title ""PROPOSED RESIDENTIAL BUILDING""",GROUND_TRUTH_2.xlsx GT_MASTER (DOCUMENT_VERIFIED)

@@ -1,0 +1,24 @@
+{
+ "variant": "pdf_native_ocr",
+ "plan": "PLAN7",
+ "kind": "pdf",
+ "extract_seconds": 0.3,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 0,
+  "scale_points_per_metre": null,
+  "scale_confidence": null,
+  "site_plan_page": null,
+  "measurements": [],
+  "warnings": [
+   "page 1: no 'SITE PLAN' anchor text found; cannot locate the site-plan sub-region at all.",
+   "No site-plan geometry with sufficient independent CV/native-text evidence was resolved."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 0.3,
+ "reconcile_calls": []
+}

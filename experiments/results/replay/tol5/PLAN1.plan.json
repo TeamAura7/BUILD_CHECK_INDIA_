@@ -1,0 +1,482 @@
+{
+ "plan_id": "PLAN1-pdf",
+ "source_document_id": "PLAN1",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 0.9089438848911893,
+      "y": 1.10800575539459
+     },
+     {
+      "x": 0.9405410071933163,
+      "y": 4.320379856110844
+     },
+     {
+      "x": 0.7688633093517592,
+      "y": 4.373041726614389
+     },
+     {
+      "x": 2.9669697841697333,
+      "y": 4.37409496402446
+     },
+     {
+      "x": 2.796345323738247,
+      "y": 4.320379856110844
+     },
+     {
+      "x": 2.8300489208605164,
+      "y": 1.1101122302147317
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 0.7688633093517592,
+    "min_y": 1.10800575539459,
+    "max_x": 2.9669697841697333,
+    "max_y": 4.37409496402446
+   },
+   "points_per_metre": 227.86885245924128,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "CV=9.1400 and Vision=11.7200 disagree for plot.depth; difference 2.5800 exceeds tolerance 0.5860."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "CV=9.1400 and Vision=11.7200 disagree for plot.depth; difference 2.5800 exceeds tolerance 0.5860.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 9.14,
+      "unit": "m"
+     },
+     {
+      "magnitude": 11.72,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "independent_cv",
+     "vision"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 11.114814388478239,
+      "y": 5.477887769778767
+     },
+     {
+      "x": 13.013801438836078,
+      "y": 5.476834532368695
+     },
+     {
+      "x": 13.014854676246147,
+      "y": 6.663833093518603
+     },
+     {
+      "x": 11.11692086329838,
+      "y": 6.664886330928674
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 11.114814388478239,
+    "min_y": 5.476834532368695,
+    "max_x": 13.014854676246147,
+    "max_y": 6.664886330928674
+   },
+   "points_per_metre": 227.86885245924128,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "Computed building.footprint_area (96.340 m2) exceeds the final resolved plot.area (6.172 m2), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "Computed building.footprint_area (96.340 m2) exceeds the final resolved plot.area (6.172 m2), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 96.34,
+      "unit": "sq_m"
+     },
+     {
+      "magnitude": 6.1722,
+      "unit": "sq_m"
+     }
+    ],
+    "conflicting_sources": [
+     "building.footprint_area (computed)",
+     "plot.area"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "floor_count": {
+   "value": 4,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "4 floor level(s) named on the sheet (ground through level 3; stilt/terrace not counted), agreed by: area-table rows, floor-plan captions, title/notes enumeration."
+   },
+   "source": "named floor levels",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No explicitly dimensioned road width found."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Coverage requires both building.footprint_area and plot.area to be resolved."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "FAR requires both building.footprint_area and plot.area to be resolved."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [
+  {
+   "description": "Computed building.footprint_area (96.340 m²) exceeds the resolved plot.area (6.172 m²), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 96.34,
+     "unit": "sq_m"
+    },
+    {
+     "magnitude": 6.1722,
+     "unit": "sq_m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.footprint_area (computed)",
+    "plot.area"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Impossible geometry: building.depth (8.220 m) >= plot.depth (1.878 m).",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 1.87765,
+     "unit": "m"
+    },
+    {
+     "magnitude": 8.22,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "plot.depth",
+    "building.depth"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "CV=9.1400 and Vision=11.7200 disagree for plot.depth; difference 2.5800 exceeds tolerance 0.5860.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 9.14,
+     "unit": "m"
+    },
+    {
+     "magnitude": 11.72,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Computed building.footprint_area (96.340 m2) exceeds the final resolved plot.area (6.172 m2), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 96.34,
+     "unit": "sq_m"
+    },
+    {
+     "magnitude": 6.1722,
+     "unit": "sq_m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.footprint_area (computed)",
+    "plot.area"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 9 candidate(s) across 1 page(s). (2 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Winner only narrowly (0.04) beats the runner-up (0.69); ambiguous. | Scale: [local region-scoped] 73 scale samples but high spread (219.5%); treat with caution. 14 sample(s) rejected as outliers (robust MAD filter). | Front-side: Front edge resolved from ROAD candidate. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 1, rejected: 10. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer. Physical-bounds gate withdrew: building.depth; building.width; plot.area; plot.width; setbacks.front; setbacks.left; setbacks.rear; setbacks.right.",
+ "floor_areas": {},
+ "metadata": {
+  "physical_bounds": [
+   {
+    "field": "plot.area",
+    "value": 6.1722,
+    "was": "LOW",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "plot.width",
+    "value": 12.19,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "building.width",
+    "value": 11.7087,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "building.depth",
+    "value": 8.2108,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "setbacks.front",
+    "value": 0.47,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "setbacks.rear",
+    "value": 0.0,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "setbacks.left",
+    "value": 0.46,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   },
+   {
+    "field": "setbacks.right",
+    "value": 0.46,
+    "was": "HIGH",
+    "reason": "plot area 6.1722 m2 is outside 12-500000 m2, so the drawing's units or plot polygon are wrong and everything measured from it is suspect"
+   }
+  ]
+ },
+ "building_height_estimated": {
+  "value": 14.25,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 14.25,
+   "unit": "m"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Vision height dimension evidence (explicit building_height)."
+  },
+  "source": "vision semantic height",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": {
+  "value": "residential",
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Building-use label printed on the plan: 'PLAN  SHOWING  THE  PROPOSED  CONSTRUCTION  OF  GROUND FLOOR , FIRST FLOOR , SECOND FLOOR AND THIRD FLOOR  RCC  ROOF  RESIDENTIAL  BUILDING , IN S.NO : 26 / 2A ,'."
+  },
+  "source": "plan text (title block / property table)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ }
+}

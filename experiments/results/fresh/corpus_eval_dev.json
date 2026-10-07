@@ -1,0 +1,5700 @@
+{
+  "split": "dev",
+  "verifications": [
+    "printed",
+    "derived",
+    "inspected",
+    "legacy"
+  ],
+  "modalities": {
+    "pdf": {
+      "overall": {
+        "n_truth_valued": 84,
+        "correct": 78,
+        "wrong": 2,
+        "missing": 4,
+        "spurious": 4,
+        "abstained_ok": 6,
+        "answer_rate": 0.9523809523809523,
+        "accuracy_when_answered": 0.975,
+        "confident_answers": 77,
+        "confident_wrong": 0,
+        "confident_wrong_rate": 0.0,
+        "wrong_answers_caught": 1.0,
+        "axis_swapped": 0,
+        "risk_coverage": [
+          {
+            "confidence_at_least": "HIGH",
+            "coverage": 0.8095238095238095,
+            "risk": 0.0,
+            "answers": 68
+          },
+          {
+            "confidence_at_least": "HIGH+MEDIUM",
+            "coverage": 0.9166666666666666,
+            "risk": 0.0,
+            "answers": 77
+          },
+          {
+            "confidence_at_least": "ALL",
+            "coverage": 0.9523809523809523,
+            "risk": 0.07142857142857142,
+            "answers": 84
+          }
+        ]
+      },
+      "by_field": {
+        "plot.width": {
+          "n_truth_valued": 7,
+          "correct": 6,
+          "wrong": 1,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.8571428571428571,
+          "confident_answers": 6,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.25,
+              "answers": 8
+            }
+          ]
+        },
+        "plot.depth": {
+          "n_truth_valued": 7,
+          "correct": 6,
+          "wrong": 1,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.8571428571428571,
+          "confident_answers": 6,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.25,
+              "answers": 8
+            }
+          ]
+        },
+        "plot.area": {
+          "n_truth_valued": 7,
+          "correct": 7,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 7,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            }
+          ]
+        },
+        "building.width": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.16666666666666666,
+              "answers": 6
+            }
+          ]
+        },
+        "building.depth": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.16666666666666666,
+              "answers": 6
+            }
+          ]
+        },
+        "building.footprint_area": {
+          "n_truth_valued": 7,
+          "correct": 7,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 7,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            }
+          ]
+        },
+        "building.floor_count": {
+          "n_truth_valued": 8,
+          "correct": 6,
+          "wrong": 0,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.75,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.625,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 6
+            }
+          ]
+        },
+        "road.width": {
+          "n_truth_valued": 5,
+          "correct": 4,
+          "wrong": 0,
+          "missing": 1,
+          "spurious": 0,
+          "abstained_ok": 2,
+          "answer_rate": 0.8,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 4,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8,
+              "risk": 0.0,
+              "answers": 4
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.8,
+              "risk": 0.0,
+              "answers": 4
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.8,
+              "risk": 0.0,
+              "answers": 4
+            }
+          ]
+        },
+        "setbacks.front": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "setbacks.rear": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "setbacks.left": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "setbacks.right": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "coverage": {
+          "n_truth_valued": 6,
+          "correct": 6,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 6,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8333333333333334,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 6
+            }
+          ]
+        },
+        "far": {
+          "n_truth_valued": 3,
+          "correct": 3,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 3,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.6666666666666666,
+              "risk": 0.0,
+              "answers": 2
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 3
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 3
+            }
+          ]
+        },
+        "building_use": {
+          "n_truth_valued": 4,
+          "correct": 3,
+          "wrong": 0,
+          "missing": 1,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.75,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 3,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 3
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 3
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 3
+            }
+          ]
+        }
+      },
+      "per_plan": {
+        "PLAN1": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 14,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 1,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 14,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.8571428571428571,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 12.19,
+              "predicted": 12.19,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 9.14,
+              "predicted": 9.14,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 11.72,
+              "predicted": 11.6973,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 8.22,
+              "predicted": 8.2015,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 111.4166,
+              "predicted": 111.4166,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 96.34,
+              "predicted": 96.34,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 4,
+              "predicted": 4,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 0.47,
+              "predicted": 0.47,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 0.0,
+              "predicted": 0.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 0.46,
+              "predicted": 0.46,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 0.46,
+              "predicted": 0.46,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 86.47,
+              "predicted": 86.46826415453353,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "CORRECT",
+              "truth": 3.459,
+              "predicted": 3.458730566181341,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "CORRECT",
+              "truth": "residential",
+              "predicted": "residential",
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN2": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 14,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 14,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.9285714285714286,
+                "risk": 0.0,
+                "answers": 13
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 12.19,
+              "predicted": 12.192,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 18.28,
+              "predicted": 18.288,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 10.59,
+              "predicted": 10.5904,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 16.48,
+              "predicted": 16.4747,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 222.83,
+              "predicted": 222.83,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 174.52,
+              "predicted": 174.52,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 4.0,
+              "predicted": 4,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 9.2,
+              "predicted": 9.2,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 0.8,
+              "predicted": 0.8,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 0.8,
+              "predicted": 0.8,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 0.8,
+              "predicted": 0.8,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 78.32,
+              "predicted": 78.32,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "CORRECT",
+              "truth": 1.73,
+              "predicted": 1.73,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN4": {
+          "aggregate": {
+            "n_truth_valued": 13,
+            "correct": 13,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 12,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 13
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 18.288,
+              "predicted": 18.288,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 16.6116,
+              "predicted": 16.6116,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 16.459,
+              "predicted": 16.4592,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 11.2776,
+              "predicted": 11.2776,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 303.79,
+              "predicted": 303.79,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 185.62,
+              "predicted": 185.62,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 5.0,
+              "predicted": 5,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 7.62,
+              "predicted": 7.62,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 0.9144,
+              "predicted": 0.9144,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 0.9144,
+              "predicted": 0.9144,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 2.667,
+              "predicted": 2.6637,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 2.667,
+              "predicted": 2.6703,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 61.1,
+              "predicted": 61.101418743210765,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN5": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 14,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 14,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.9285714285714286,
+                "risk": 0.0,
+                "answers": 13
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 17.59,
+              "predicted": 17.5895,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 9.14,
+              "predicted": 9.2075,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 13.09,
+              "predicted": 13.0895,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 7.14,
+              "predicted": 7.1374,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 160.77,
+              "predicted": 160.77,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 93.43,
+              "predicted": 93.46,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 10.0,
+              "predicted": 10.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 1.5,
+              "predicted": 1.5,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0724,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 0.9977,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 58.11,
+              "predicted": 58.13273620700379,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "CORRECT",
+              "truth": "residential",
+              "predicted": "residential",
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN6": {
+          "aggregate": {
+            "n_truth_valued": 8,
+            "correct": 8,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 8,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.875,
+                "risk": 0.0,
+                "answers": 7
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 8
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 8
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 10.0,
+              "predicted": 9.9977,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 13.1,
+              "predicted": 13.1022,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 131.0,
+              "predicted": 131.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 85.09,
+              "predicted": 85.09,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 7.3,
+              "predicted": 7.3,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 79.15,
+              "predicted": 79.15,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "CORRECT",
+              "truth": 1.74,
+              "predicted": 1.74,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN7": {
+          "aggregate": {
+            "n_truth_valued": 3,
+            "correct": 0,
+            "wrong": 0,
+            "missing": 3,
+            "spurious": 4,
+            "abstained_ok": 4,
+            "answer_rate": 0.0,
+            "accuracy_when_answered": null,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.0,
+                "risk": 1.0,
+                "answers": 4
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "MISSING",
+              "truth": 9.14,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "MISSING",
+              "truth": "residential",
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 13.8265,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 5.8217,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 4.40355,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.width",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 19.368499999999997,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN8": {
+          "aggregate": {
+            "n_truth_valued": 5,
+            "correct": 3,
+            "wrong": 2,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 0.6,
+            "confident_answers": 3,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.4,
+                "risk": 0.0,
+                "answers": 2
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.6,
+                "risk": 0.0,
+                "answers": 3
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.4,
+                "answers": 5
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 13.71,
+              "predicted": 11.2818,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 13.71,
+              "predicted": 16.5029,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 183.69,
+              "predicted": 183.69,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 115.42,
+              "predicted": 115.42,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN9": {
+          "aggregate": {
+            "n_truth_valued": 13,
+            "correct": 12,
+            "wrong": 0,
+            "missing": 1,
+            "spurious": 0,
+            "abstained_ok": 1,
+            "answer_rate": 0.9230769230769231,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 12,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.6923076923076923,
+                "risk": 0.0,
+                "answers": 9
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 10.65,
+              "predicted": 10.65,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 15.25,
+              "predicted": 15.2083,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 7.14,
+              "predicted": 7.14,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 12.11,
+              "predicted": 12.1017,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 147.99,
+              "predicted": 147.99,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 94.42,
+              "predicted": 94.42,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 1.5,
+              "predicted": 1.5047,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "CORRECT",
+              "truth": "residential",
+              "predicted": "residential",
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 1.5,
+              "predicted": 1.3779,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 63.8,
+              "predicted": 63.8016082167714,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        }
+      }
+    },
+    "dxf": {
+      "overall": {
+        "n_truth_valued": 84,
+        "correct": 5,
+        "wrong": 47,
+        "missing": 32,
+        "spurious": 0,
+        "abstained_ok": 10,
+        "answer_rate": 0.6190476190476191,
+        "accuracy_when_answered": 0.09615384615384616,
+        "confident_answers": 2,
+        "confident_wrong": 0,
+        "confident_wrong_rate": 0.0,
+        "wrong_answers_caught": 1.0,
+        "axis_swapped": 0,
+        "risk_coverage": [
+          {
+            "confidence_at_least": "HIGH",
+            "coverage": 0.023809523809523808,
+            "risk": 0.0,
+            "answers": 2
+          },
+          {
+            "confidence_at_least": "HIGH+MEDIUM",
+            "coverage": 0.023809523809523808,
+            "risk": 0.0,
+            "answers": 2
+          },
+          {
+            "confidence_at_least": "ALL",
+            "coverage": 0.6190476190476191,
+            "risk": 0.9038461538461539,
+            "answers": 52
+          }
+        ]
+      },
+      "by_field": {
+        "plot.width": {
+          "n_truth_valued": 7,
+          "correct": 1,
+          "wrong": 6,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.14285714285714285,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.8571428571428571,
+              "answers": 7
+            }
+          ]
+        },
+        "plot.depth": {
+          "n_truth_valued": 7,
+          "correct": 1,
+          "wrong": 6,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.14285714285714285,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.8571428571428571,
+              "answers": 7
+            }
+          ]
+        },
+        "plot.area": {
+          "n_truth_valued": 7,
+          "correct": 1,
+          "wrong": 6,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.14285714285714285,
+          "confident_answers": 1,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.14285714285714285,
+              "risk": 0.0,
+              "answers": 1
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.14285714285714285,
+              "risk": 0.0,
+              "answers": 1
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.8571428571428571,
+              "answers": 7
+            }
+          ]
+        },
+        "building.width": {
+          "n_truth_valued": 5,
+          "correct": 1,
+          "wrong": 2,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 0.6,
+          "accuracy_when_answered": 0.3333333333333333,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6,
+              "risk": 0.6666666666666666,
+              "answers": 3
+            }
+          ]
+        },
+        "building.depth": {
+          "n_truth_valued": 5,
+          "correct": 0,
+          "wrong": 3,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 0.6,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6,
+              "risk": 1.0,
+              "answers": 3
+            }
+          ]
+        },
+        "building.footprint_area": {
+          "n_truth_valued": 7,
+          "correct": 0,
+          "wrong": 5,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.7142857142857143,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.7142857142857143,
+              "risk": 1.0,
+              "answers": 5
+            }
+          ]
+        },
+        "building.floor_count": {
+          "n_truth_valued": 8,
+          "correct": 0,
+          "wrong": 0,
+          "missing": 8,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.0,
+          "accuracy_when_answered": null,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            }
+          ]
+        },
+        "road.width": {
+          "n_truth_valued": 5,
+          "correct": 1,
+          "wrong": 0,
+          "missing": 4,
+          "spurious": 0,
+          "abstained_ok": 2,
+          "answer_rate": 0.2,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 1,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.2,
+              "risk": 0.0,
+              "answers": 1
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.2,
+              "risk": 0.0,
+              "answers": 1
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.2,
+              "risk": 0.0,
+              "answers": 1
+            }
+          ]
+        },
+        "setbacks.front": {
+          "n_truth_valued": 5,
+          "correct": 0,
+          "wrong": 3,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 0.6,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6,
+              "risk": 1.0,
+              "answers": 3
+            }
+          ]
+        },
+        "setbacks.rear": {
+          "n_truth_valued": 5,
+          "correct": 0,
+          "wrong": 3,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 0.6,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6,
+              "risk": 1.0,
+              "answers": 3
+            }
+          ]
+        },
+        "setbacks.left": {
+          "n_truth_valued": 5,
+          "correct": 0,
+          "wrong": 3,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 0.6,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6,
+              "risk": 1.0,
+              "answers": 3
+            }
+          ]
+        },
+        "setbacks.right": {
+          "n_truth_valued": 5,
+          "correct": 0,
+          "wrong": 3,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 0.6,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6,
+              "risk": 1.0,
+              "answers": 3
+            }
+          ]
+        },
+        "coverage": {
+          "n_truth_valued": 6,
+          "correct": 0,
+          "wrong": 4,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.6666666666666666,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.6666666666666666,
+              "risk": 1.0,
+              "answers": 4
+            }
+          ]
+        },
+        "far": {
+          "n_truth_valued": 3,
+          "correct": 0,
+          "wrong": 3,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 1.0,
+              "answers": 3
+            }
+          ]
+        },
+        "building_use": {
+          "n_truth_valued": 4,
+          "correct": 0,
+          "wrong": 0,
+          "missing": 4,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.0,
+          "accuracy_when_answered": null,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            }
+          ]
+        }
+      },
+      "per_plan": {
+        "PLAN1": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 1,
+            "wrong": 11,
+            "missing": 2,
+            "spurious": 0,
+            "abstained_ok": 1,
+            "answer_rate": 0.8571428571428571,
+            "accuracy_when_answered": 0.08333333333333333,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.8571428571428571,
+                "risk": 0.9166666666666666,
+                "answers": 12
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 12.19,
+              "predicted": 12.74,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 9.14,
+              "predicted": 7.7344,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "WRONG",
+              "truth": 11.72,
+              "predicted": 10.1683,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "WRONG",
+              "truth": 8.22,
+              "predicted": 6.395,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "WRONG",
+              "truth": 111.4166,
+              "predicted": 98.5363,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "WRONG",
+              "truth": 96.34,
+              "predicted": 65.0263,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 4,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "WRONG",
+              "truth": 0.47,
+              "predicted": 0.0,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "WRONG",
+              "truth": 0.0,
+              "predicted": 1.3394,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "WRONG",
+              "truth": 0.46,
+              "predicted": 2.5717,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "WRONG",
+              "truth": 0.46,
+              "predicted": 0.0,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "WRONG",
+              "truth": 86.47,
+              "predicted": 65.99222824481943,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "WRONG",
+              "truth": 3.459,
+              "predicted": 0.6599222824481943,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "MISSING",
+              "truth": "residential",
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN2": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 1,
+            "wrong": 11,
+            "missing": 2,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 0.8571428571428571,
+            "accuracy_when_answered": 0.08333333333333333,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.8571428571428571,
+                "risk": 0.9166666666666666,
+                "answers": 12
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 12.19,
+              "predicted": 11.0442,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 18.28,
+              "predicted": 15.5969,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 10.59,
+              "predicted": 10.1672,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "WRONG",
+              "truth": 16.48,
+              "predicted": 14.4858,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "WRONG",
+              "truth": 222.83,
+              "predicted": 172.2544,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "WRONG",
+              "truth": 174.52,
+              "predicted": 122.4094,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 4.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "MISSING",
+              "truth": 9.2,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "WRONG",
+              "truth": 1.0,
+              "predicted": 0.2065,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "WRONG",
+              "truth": 0.8,
+              "predicted": 0.4072,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "WRONG",
+              "truth": 0.8,
+              "predicted": 0.4427,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "WRONG",
+              "truth": 0.8,
+              "predicted": 0.5967,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "WRONG",
+              "truth": 78.32,
+              "predicted": 71.06314845948782,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "WRONG",
+              "truth": 1.73,
+              "predicted": 0.7106314845948782,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN4": {
+          "aggregate": {
+            "n_truth_valued": 13,
+            "correct": 2,
+            "wrong": 2,
+            "missing": 9,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 0.3076923076923077,
+            "accuracy_when_answered": 0.5,
+            "confident_answers": 2,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.15384615384615385,
+                "risk": 0.0,
+                "answers": 2
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.15384615384615385,
+                "risk": 0.0,
+                "answers": 2
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.3076923076923077,
+                "risk": 0.5,
+                "answers": 4
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 18.288,
+              "predicted": 4.111,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 16.6116,
+              "predicted": 7.5448,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "MISSING",
+              "truth": 16.459,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "MISSING",
+              "truth": 11.2776,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 303.79,
+              "predicted": 303.79,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "MISSING",
+              "truth": 185.62,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 5.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 7.62,
+              "predicted": 7.62,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "MISSING",
+              "truth": 0.9144,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "MISSING",
+              "truth": 0.9144,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "MISSING",
+              "truth": 2.667,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "MISSING",
+              "truth": 2.667,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "MISSING",
+              "truth": 61.1,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN5": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 0,
+            "wrong": 3,
+            "missing": 11,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 0.21428571428571427,
+            "accuracy_when_answered": 0.0,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.21428571428571427,
+                "risk": 1.0,
+                "answers": 3
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 17.59,
+              "predicted": 4.7367,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 9.14,
+              "predicted": 3.5017,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "MISSING",
+              "truth": 13.09,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "MISSING",
+              "truth": 7.14,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "WRONG",
+              "truth": 160.77,
+              "predicted": 16.5864,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "MISSING",
+              "truth": 93.43,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "MISSING",
+              "truth": 10.0,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "MISSING",
+              "truth": 1.5,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "MISSING",
+              "truth": 1.0,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "MISSING",
+              "truth": 1.0,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "MISSING",
+              "truth": 58.11,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "MISSING",
+              "truth": "residential",
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN6": {
+          "aggregate": {
+            "n_truth_valued": 8,
+            "correct": 0,
+            "wrong": 6,
+            "missing": 2,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 0.75,
+            "accuracy_when_answered": 0.0,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.75,
+                "risk": 1.0,
+                "answers": 6
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 10.0,
+              "predicted": 16.9594,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 13.1,
+              "predicted": 4.6021,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "WRONG",
+              "truth": 131.0,
+              "predicted": 78.0489,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "WRONG",
+              "truth": 85.09,
+              "predicted": 13.1822,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "MISSING",
+              "truth": 7.3,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "WRONG",
+              "truth": 79.15,
+              "predicted": 16.889667887696046,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "WRONG",
+              "truth": 1.74,
+              "predicted": 0.16889667887696047,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN7": {
+          "aggregate": {
+            "n_truth_valued": 3,
+            "correct": 0,
+            "wrong": 0,
+            "missing": 3,
+            "spurious": 0,
+            "abstained_ok": 8,
+            "answer_rate": 0.0,
+            "accuracy_when_answered": null,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "MISSING",
+              "truth": 9.14,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "MISSING",
+              "truth": "residential",
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN8": {
+          "aggregate": {
+            "n_truth_valued": 5,
+            "correct": 0,
+            "wrong": 4,
+            "missing": 1,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 0.8,
+            "accuracy_when_answered": 0.0,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.8,
+                "risk": 1.0,
+                "answers": 4
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 13.71,
+              "predicted": 7.1111,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 13.71,
+              "predicted": 11.8892,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "WRONG",
+              "truth": 183.69,
+              "predicted": 84.5458,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "WRONG",
+              "truth": 115.42,
+              "predicted": 17.8837,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN9": {
+          "aggregate": {
+            "n_truth_valued": 13,
+            "correct": 1,
+            "wrong": 10,
+            "missing": 2,
+            "spurious": 0,
+            "abstained_ok": 1,
+            "answer_rate": 0.8461538461538461,
+            "accuracy_when_answered": 0.09090909090909091,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.8461538461538461,
+                "risk": 0.9090909090909091,
+                "answers": 11
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 10.65,
+              "predicted": 6.5907,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 15.25,
+              "predicted": 15.5107,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "WRONG",
+              "truth": 7.14,
+              "predicted": 6.3756,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "WRONG",
+              "truth": 12.11,
+              "predicted": 4.9403,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "WRONG",
+              "truth": 147.99,
+              "predicted": 81.9487,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "WRONG",
+              "truth": 94.42,
+              "predicted": 31.4976,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "WRONG",
+              "truth": 1.5,
+              "predicted": 3.7999,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "WRONG",
+              "truth": 1.0,
+              "predicted": 0.239,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "WRONG",
+              "truth": 1.0,
+              "predicted": 0.0,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "MISSING",
+              "truth": "residential",
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "WRONG",
+              "truth": 1.5,
+              "predicted": 5.7596,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "WRONG",
+              "truth": 63.8,
+              "predicted": 38.43575309919498,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        }
+      }
+    },
+    "reconciled": {
+      "overall": {
+        "n_truth_valued": 84,
+        "correct": 78,
+        "wrong": 2,
+        "missing": 4,
+        "spurious": 4,
+        "abstained_ok": 6,
+        "answer_rate": 0.9523809523809523,
+        "accuracy_when_answered": 0.975,
+        "confident_answers": 32,
+        "confident_wrong": 0,
+        "confident_wrong_rate": 0.0,
+        "wrong_answers_caught": 1.0,
+        "axis_swapped": 0,
+        "risk_coverage": [
+          {
+            "confidence_at_least": "HIGH",
+            "coverage": 0.8095238095238095,
+            "risk": 0.0,
+            "answers": 68
+          },
+          {
+            "confidence_at_least": "HIGH+MEDIUM",
+            "coverage": 0.9166666666666666,
+            "risk": 0.0,
+            "answers": 77
+          },
+          {
+            "confidence_at_least": "ALL",
+            "coverage": 0.9523809523809523,
+            "risk": 0.07142857142857142,
+            "answers": 84
+          }
+        ]
+      },
+      "by_field": {
+        "plot.width": {
+          "n_truth_valued": 7,
+          "correct": 6,
+          "wrong": 1,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.8571428571428571,
+          "confident_answers": 1,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.25,
+              "answers": 8
+            }
+          ]
+        },
+        "plot.depth": {
+          "n_truth_valued": 7,
+          "correct": 6,
+          "wrong": 1,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 0.8571428571428571,
+          "confident_answers": 1,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.25,
+              "answers": 8
+            }
+          ]
+        },
+        "plot.area": {
+          "n_truth_valued": 7,
+          "correct": 7,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 1,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            }
+          ]
+        },
+        "building.width": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 3,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.16666666666666666,
+              "answers": 6
+            }
+          ]
+        },
+        "building.depth": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 1,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": 1.0,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.16666666666666666,
+              "answers": 6
+            }
+          ]
+        },
+        "building.footprint_area": {
+          "n_truth_valued": 7,
+          "correct": 7,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8571428571428571,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 7
+            }
+          ]
+        },
+        "building.floor_count": {
+          "n_truth_valued": 8,
+          "correct": 6,
+          "wrong": 0,
+          "missing": 2,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.75,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 5,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.0,
+              "risk": null,
+              "answers": 0
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.625,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 6
+            }
+          ]
+        },
+        "road.width": {
+          "n_truth_valued": 5,
+          "correct": 4,
+          "wrong": 0,
+          "missing": 1,
+          "spurious": 0,
+          "abstained_ok": 2,
+          "answer_rate": 0.8,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 4,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8,
+              "risk": 0.0,
+              "answers": 4
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.8,
+              "risk": 0.0,
+              "answers": 4
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.8,
+              "risk": 0.0,
+              "answers": 4
+            }
+          ]
+        },
+        "setbacks.front": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "setbacks.rear": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "setbacks.left": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "setbacks.right": {
+          "n_truth_valued": 5,
+          "correct": 5,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 1,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 5
+            }
+          ]
+        },
+        "coverage": {
+          "n_truth_valued": 6,
+          "correct": 6,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 2,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.8333333333333334,
+              "risk": 0.0,
+              "answers": 5
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 6
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 6
+            }
+          ]
+        },
+        "far": {
+          "n_truth_valued": 3,
+          "correct": 3,
+          "wrong": 0,
+          "missing": 0,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 1.0,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 0,
+          "confident_wrong": 0,
+          "confident_wrong_rate": null,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.6666666666666666,
+              "risk": 0.0,
+              "answers": 2
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 3
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 1.0,
+              "risk": 0.0,
+              "answers": 3
+            }
+          ]
+        },
+        "building_use": {
+          "n_truth_valued": 4,
+          "correct": 3,
+          "wrong": 0,
+          "missing": 1,
+          "spurious": 0,
+          "abstained_ok": 0,
+          "answer_rate": 0.75,
+          "accuracy_when_answered": 1.0,
+          "confident_answers": 3,
+          "confident_wrong": 0,
+          "confident_wrong_rate": 0.0,
+          "wrong_answers_caught": null,
+          "axis_swapped": 0,
+          "risk_coverage": [
+            {
+              "confidence_at_least": "HIGH",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 3
+            },
+            {
+              "confidence_at_least": "HIGH+MEDIUM",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 3
+            },
+            {
+              "confidence_at_least": "ALL",
+              "coverage": 0.75,
+              "risk": 0.0,
+              "answers": 3
+            }
+          ]
+        }
+      },
+      "per_plan": {
+        "PLAN1": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 14,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 1,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 3,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.8571428571428571,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 12.19,
+              "predicted": 12.19,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 9.14,
+              "predicted": 9.14,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 11.72,
+              "predicted": 11.6973,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 8.22,
+              "predicted": 8.2015,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 111.4166,
+              "predicted": 111.4166,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 96.34,
+              "predicted": 96.34,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 4,
+              "predicted": 4,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 0.47,
+              "predicted": 0.47,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 0.0,
+              "predicted": 0.0,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 0.46,
+              "predicted": 0.46,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 0.46,
+              "predicted": 0.46,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 86.47,
+              "predicted": 86.46826415453353,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "CORRECT",
+              "truth": 3.459,
+              "predicted": 3.458730566181341,
+              "confidence": "MEDIUM",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "CORRECT",
+              "truth": "residential",
+              "predicted": "residential",
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN2": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 14,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 3,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.9285714285714286,
+                "risk": 0.0,
+                "answers": 13
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 12.19,
+              "predicted": 12.192,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 18.28,
+              "predicted": 18.288,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 10.59,
+              "predicted": 10.5904,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 16.48,
+              "predicted": 16.4747,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 222.83,
+              "predicted": 222.83,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 174.52,
+              "predicted": 174.52,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 4.0,
+              "predicted": 4,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 9.2,
+              "predicted": 9.2,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 0.8,
+              "predicted": 0.8,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 0.8,
+              "predicted": 0.8,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 0.8,
+              "predicted": 0.8,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 78.32,
+              "predicted": 78.32,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "CORRECT",
+              "truth": 1.73,
+              "predicted": 1.73,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN4": {
+          "aggregate": {
+            "n_truth_valued": 13,
+            "correct": 13,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 10,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 13
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 18.288,
+              "predicted": 18.288,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 16.6116,
+              "predicted": 16.6116,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 16.459,
+              "predicted": 16.4592,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 11.2776,
+              "predicted": 11.2776,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 303.79,
+              "predicted": 303.79,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 185.62,
+              "predicted": 185.62,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 5.0,
+              "predicted": 5,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 7.62,
+              "predicted": 7.62,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 0.9144,
+              "predicted": 0.9144,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 0.9144,
+              "predicted": 0.9144,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 2.667,
+              "predicted": 2.6637,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 2.667,
+              "predicted": 2.6703,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 61.1,
+              "predicted": 61.101418743210765,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN5": {
+          "aggregate": {
+            "n_truth_valued": 14,
+            "correct": 14,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 11,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.9285714285714286,
+                "risk": 0.0,
+                "answers": 13
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 14
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 17.59,
+              "predicted": 17.5895,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 9.14,
+              "predicted": 9.2075,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 13.09,
+              "predicted": 13.0895,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 7.14,
+              "predicted": 7.1374,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 160.77,
+              "predicted": 160.77,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 93.43,
+              "predicted": 93.46,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 10.0,
+              "predicted": 10.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3.0,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 1.5,
+              "predicted": 1.5,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0724,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 0.9977,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 58.11,
+              "predicted": 58.13273620700379,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "CORRECT",
+              "truth": "residential",
+              "predicted": "residential",
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN6": {
+          "aggregate": {
+            "n_truth_valued": 8,
+            "correct": 8,
+            "wrong": 0,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 2,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.875,
+                "risk": 0.0,
+                "answers": 7
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 8
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.0,
+                "answers": 8
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 10.0,
+              "predicted": 9.9977,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 13.1,
+              "predicted": 13.1022,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 131.0,
+              "predicted": 131.0,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 85.09,
+              "predicted": 85.09,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "CORRECT",
+              "truth": 7.3,
+              "predicted": 7.3,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 79.15,
+              "predicted": 79.15,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "far",
+              "status": "CORRECT",
+              "truth": 1.74,
+              "predicted": 1.74,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN7": {
+          "aggregate": {
+            "n_truth_valued": 3,
+            "correct": 0,
+            "wrong": 0,
+            "missing": 3,
+            "spurious": 4,
+            "abstained_ok": 4,
+            "answer_rate": 0.0,
+            "accuracy_when_answered": null,
+            "confident_answers": 0,
+            "confident_wrong": 0,
+            "confident_wrong_rate": null,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.0,
+                "risk": null,
+                "answers": 0
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.0,
+                "risk": 1.0,
+                "answers": 4
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "MISSING",
+              "truth": 9.14,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "MISSING",
+              "truth": "residential",
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 13.8265,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 5.8217,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 4.40355,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.width",
+              "status": "SPURIOUS",
+              "truth": null,
+              "predicted": 19.368499999999997,
+              "confidence": "LOW",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN8": {
+          "aggregate": {
+            "n_truth_valued": 5,
+            "correct": 3,
+            "wrong": 2,
+            "missing": 0,
+            "spurious": 0,
+            "abstained_ok": 0,
+            "answer_rate": 1.0,
+            "accuracy_when_answered": 0.6,
+            "confident_answers": 1,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": 1.0,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.4,
+                "risk": 0.0,
+                "answers": 2
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.6,
+                "risk": 0.0,
+                "answers": 3
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 1.0,
+                "risk": 0.4,
+                "answers": 5
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "WRONG",
+              "truth": 13.71,
+              "predicted": 11.2818,
+              "confidence": "LOW",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "WRONG",
+              "truth": 13.71,
+              "predicted": 16.5029,
+              "confidence": "LOW",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 183.69,
+              "predicted": 183.69,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 115.42,
+              "predicted": 115.42,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "CORRECT",
+              "truth": 3.0,
+              "predicted": 3,
+              "confidence": "MEDIUM",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        },
+        "PLAN9": {
+          "aggregate": {
+            "n_truth_valued": 13,
+            "correct": 12,
+            "wrong": 0,
+            "missing": 1,
+            "spurious": 0,
+            "abstained_ok": 1,
+            "answer_rate": 0.9230769230769231,
+            "accuracy_when_answered": 1.0,
+            "confident_answers": 2,
+            "confident_wrong": 0,
+            "confident_wrong_rate": 0.0,
+            "wrong_answers_caught": null,
+            "axis_swapped": 0,
+            "risk_coverage": [
+              {
+                "confidence_at_least": "HIGH",
+                "coverage": 0.6923076923076923,
+                "risk": 0.0,
+                "answers": 9
+              },
+              {
+                "confidence_at_least": "HIGH+MEDIUM",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              },
+              {
+                "confidence_at_least": "ALL",
+                "coverage": 0.9230769230769231,
+                "risk": 0.0,
+                "answers": 12
+              }
+            ]
+          },
+          "scores": [
+            {
+              "field": "plot.width",
+              "status": "CORRECT",
+              "truth": 10.65,
+              "predicted": 10.65,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.depth",
+              "status": "CORRECT",
+              "truth": 15.25,
+              "predicted": 15.2083,
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.width",
+              "status": "CORRECT",
+              "truth": 7.14,
+              "predicted": 7.14,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.depth",
+              "status": "CORRECT",
+              "truth": 12.11,
+              "predicted": 12.1017,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "plot.area",
+              "status": "CORRECT",
+              "truth": 147.99,
+              "predicted": 147.99,
+              "confidence": "MEDIUM",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.footprint_area",
+              "status": "CORRECT",
+              "truth": 94.42,
+              "predicted": 94.42,
+              "confidence": "MEDIUM",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building.floor_count",
+              "status": "MISSING",
+              "truth": 3.0,
+              "predicted": null,
+              "confidence": null,
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.front",
+              "status": "CORRECT",
+              "truth": 1.5,
+              "predicted": 1.5047,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.left",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.right",
+              "status": "CORRECT",
+              "truth": 1.0,
+              "predicted": 1.0,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "building_use",
+              "status": "CORRECT",
+              "truth": "residential",
+              "predicted": "residential",
+              "confidence": "HIGH",
+              "flagged": false,
+              "axis_swapped": false
+            },
+            {
+              "field": "setbacks.rear",
+              "status": "CORRECT",
+              "truth": 1.5,
+              "predicted": 1.3779,
+              "confidence": "HIGH",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "coverage",
+              "status": "CORRECT",
+              "truth": 63.8,
+              "predicted": 63.8016082167714,
+              "confidence": "MEDIUM",
+              "flagged": true,
+              "axis_swapped": false
+            },
+            {
+              "field": "road.width",
+              "status": "ABSTAINED_OK",
+              "truth": null,
+              "predicted": null,
+              "confidence": "MISSING",
+              "flagged": false,
+              "axis_swapped": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "notes": {
+    "PLAN1/pdf": "extracted in 14s",
+    "PLAN1/dxf": "extracted in 65s",
+    "PLAN1/reconciled": "reconciled",
+    "PLAN2/pdf": "extracted in 9s",
+    "PLAN2/dxf": "extracted in 71s",
+    "PLAN2/reconciled": "reconciled",
+    "PLAN4/pdf": "extracted in 4s",
+    "PLAN4/dxf": "extracted in 10s",
+    "PLAN4/reconciled": "reconciled",
+    "PLAN5/pdf": "extracted in 116s",
+    "PLAN5/dxf": "extracted in 91s",
+    "PLAN5/reconciled": "reconciled",
+    "PLAN6/pdf": "extracted in 18s",
+    "PLAN6/dxf": "extracted in 73s",
+    "PLAN6/reconciled": "reconciled",
+    "PLAN7/pdf": "extracted in 1s",
+    "PLAN7/dxf": "extracted in 0s",
+    "PLAN7/reconciled": "reconciled",
+    "PLAN8/pdf": "extracted in 12s",
+    "PLAN8/dxf": "extracted in 24s",
+    "PLAN8/reconciled": "reconciled",
+    "PLAN9/pdf": "extracted in 7s",
+    "PLAN9/dxf": "extracted in 60s",
+    "PLAN9/reconciled": "reconciled"
+  },
+  "disagreement": {
+    "pairs": 52,
+    "detects_dxf_wrong": {
+      "flagged_and_wrong": 47,
+      "flagged_but_right": 0,
+      "missed_wrong": 0,
+      "quiet_and_right": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0
+    },
+    "detects_any_wrong": {
+      "flagged_and_wrong": 47,
+      "flagged_but_right": 0,
+      "missed_wrong": 0,
+      "quiet_and_right": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0
+    },
+    "rows": [
+      {
+        "plan": "PLAN1",
+        "field": "plot.width",
+        "relative_difference": 0.04317111459968608,
+        "disagree": false,
+        "pdf_wrong": false,
+        "dxf_wrong": false,
+        "any_wrong": false
+      },
+      {
+        "plan": "PLAN1",
+        "field": "plot.depth",
+        "relative_difference": 0.15378555798687096,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "building.width",
+        "relative_difference": 0.1307139254357843,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "building.depth",
+        "relative_difference": 0.22026458574650978,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "plot.area",
+        "relative_difference": 0.1156048560088892,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "building.footprint_area",
+        "relative_difference": 0.32503321569441557,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "setbacks.front",
+        "relative_difference": 1.0,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "setbacks.rear",
+        "relative_difference": 1.0,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "setbacks.left",
+        "relative_difference": 0.8211299918341953,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "setbacks.right",
+        "relative_difference": 1.0,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "coverage",
+        "relative_difference": 0.23680405880612954,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN1",
+        "field": "far",
+        "relative_difference": 0.8092010147015323,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "plot.width",
+        "relative_difference": 0.09414370078740159,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "plot.depth",
+        "relative_difference": 0.1471511373578303,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "building.width",
+        "relative_difference": 0.039960719141864456,
+        "disagree": false,
+        "pdf_wrong": false,
+        "dxf_wrong": false,
+        "any_wrong": false
+      },
+      {
+        "plan": "PLAN2",
+        "field": "building.depth",
+        "relative_difference": 0.1207245048468257,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "plot.area",
+        "relative_difference": 0.22696943858546878,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "building.footprint_area",
+        "relative_difference": 0.29859385743754296,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "setbacks.front",
+        "relative_difference": 0.7935,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "setbacks.rear",
+        "relative_difference": 0.49100000000000005,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "setbacks.left",
+        "relative_difference": 0.44662500000000005,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "setbacks.right",
+        "relative_difference": 0.25412500000000005,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "coverage",
+        "relative_difference": 0.09265642927109517,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN2",
+        "field": "far",
+        "relative_difference": 0.5892303557255039,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN4",
+        "field": "plot.width",
+        "relative_difference": 0.7752077865266841,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN4",
+        "field": "plot.depth",
+        "relative_difference": 0.5458113607358712,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN4",
+        "field": "plot.area",
+        "relative_difference": 0.0,
+        "disagree": false,
+        "pdf_wrong": false,
+        "dxf_wrong": false,
+        "any_wrong": false
+      },
+      {
+        "plan": "PLAN4",
+        "field": "road.width",
+        "relative_difference": 0.0,
+        "disagree": false,
+        "pdf_wrong": false,
+        "dxf_wrong": false,
+        "any_wrong": false
+      },
+      {
+        "plan": "PLAN5",
+        "field": "plot.width",
+        "relative_difference": 0.7307086614173229,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN5",
+        "field": "plot.depth",
+        "relative_difference": 0.619690469725767,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN5",
+        "field": "plot.area",
+        "relative_difference": 0.8968314984138832,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN6",
+        "field": "plot.width",
+        "relative_difference": 0.4104921164663844,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN6",
+        "field": "plot.depth",
+        "relative_difference": 0.6487536444261269,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN6",
+        "field": "plot.area",
+        "relative_difference": 0.4042068702290076,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN6",
+        "field": "building.footprint_area",
+        "relative_difference": 0.8450793277705959,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN6",
+        "field": "coverage",
+        "relative_difference": 0.7866119028718124,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN6",
+        "field": "far",
+        "relative_difference": 0.9029329431741607,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN8",
+        "field": "plot.width",
+        "relative_difference": 0.36968391568721304,
+        "disagree": true,
+        "pdf_wrong": true,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN8",
+        "field": "plot.depth",
+        "relative_difference": 0.2795690454404983,
+        "disagree": true,
+        "pdf_wrong": true,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN8",
+        "field": "plot.area",
+        "relative_difference": 0.5397365126027547,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN8",
+        "field": "building.footprint_area",
+        "relative_difference": 0.8450554496621036,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "plot.width",
+        "relative_difference": 0.38115492957746483,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "plot.depth",
+        "relative_difference": 0.019496218739321915,
+        "disagree": false,
+        "pdf_wrong": false,
+        "dxf_wrong": false,
+        "any_wrong": false
+      },
+      {
+        "plan": "PLAN9",
+        "field": "building.width",
+        "relative_difference": 0.10705882352941168,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "building.depth",
+        "relative_difference": 0.5917680986968773,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "plot.area",
+        "relative_difference": 0.4462551523751605,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "building.footprint_area",
+        "relative_difference": 0.6664096589705572,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "setbacks.front",
+        "relative_difference": 0.6040158951551358,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "setbacks.left",
+        "relative_difference": 0.761,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "setbacks.right",
+        "relative_difference": 1.0,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "setbacks.rear",
+        "relative_difference": 0.7607646364330857,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      },
+      {
+        "plan": "PLAN9",
+        "field": "coverage",
+        "relative_difference": 0.39757391430312794,
+        "disagree": true,
+        "pdf_wrong": false,
+        "dxf_wrong": true,
+        "any_wrong": true
+      }
+    ]
+  }
+}

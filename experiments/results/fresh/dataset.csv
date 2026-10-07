@@ -1,0 +1,9 @@
+plan,split,tags,pdf,pdf_kb,dxf,dxf_kb,gt_file,human_verified,n_scored_fields,n_must_abstain,n_unverified_excluded,n_absent,tiers,supplementary_legacy_fields,n_discrepancies_recorded
+PLAN1,dev,multi_view_sheet;road_on_side;vector_pdf;dxf_exploded_glyphs,True,264,True,10263,True,False,14,1,0,0,"{""derived"": 3, ""inspected"": 1, ""must_abstain"": 1, ""printed"": 10}",,3
+PLAN2,dev,bbmp_standard_sheet;feet_inches_labels,True,767,True,39139,True,False,14,0,0,1,"{""absent"": 1, ""inspected"": 1, ""printed"": 13}",building.gross_built_up_area;far.area,2
+PLAN4,dev,rotated_sheet;feet_inches_labels;road_on_side;multi_view_sheet,True,478,True,1907,True,False,13,0,1,1,"{""absent"": 1, ""derived"": 1, ""inspected"": 1, ""printed"": 11, ""unverified"": 1}",,5
+PLAN5,dev,rotated_sheet;rasterised_text;dashed_boundary;road_on_side,True,585,True,13262,True,False,14,0,0,1,"{""absent"": 1, ""printed"": 14}",,4
+PLAN6,dev,bbmp_standard_sheet;no_edge_labels;stilt_floor,True,404,True,44684,True,False,8,0,5,2,"{""absent"": 2, ""inspected"": 2, ""printed"": 6, ""unverified"": 5}",plot.net_area;building.gross_built_up_area;far.area,0
+PLAN7,dev,photograph_of_blueprint,True,367,True,0,True,False,3,8,2,2,"{""absent"": 2, ""inspected"": 2, ""must_abstain"": 8, ""printed"": 1, ""unverified"": 2}",,0
+PLAN8,dev,bbmp_standard_sheet,True,3387,True,2747,True,False,5,0,7,3,"{""absent"": 3, ""printed"": 5, ""unverified"": 7}",,2
+PLAN9,dev,bbmp_standard_sheet,True,220,True,11508,True,False,13,1,0,1,"{""absent"": 1, ""derived"": 1, ""inspected"": 1, ""must_abstain"": 1, ""printed"": 11}",,2

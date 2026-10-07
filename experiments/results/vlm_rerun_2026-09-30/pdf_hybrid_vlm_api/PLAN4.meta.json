@@ -1,0 +1,40 @@
+{
+ "variant": "pdf_hybrid_vlm_api",
+ "plan": "PLAN4",
+ "kind": "pdf",
+ "vision_backend": "api",
+ "vision_model": "qwen/qwen3.8-27b",
+ "vision_render_dpi": 200.0,
+ "decontamination": {
+  "ARCHITECTURAL_PLAN_PROMPT:9.14": 2,
+  "ARCHITECTURAL_PLAN_PROMPT:8.22": 1,
+  "ARCHITECTURAL_PLAN_PROMPT:222.83": 1,
+  "SITE_PLAN_FOCUS_PROMPT:9.14": 0,
+  "SITE_PLAN_FOCUS_PROMPT:8.22": 0,
+  "SITE_PLAN_FOCUS_PROMPT:222.83": 1,
+  "AREA_STATEMENT_FOCUS_PROMPT:9.14": 0,
+  "AREA_STATEMENT_FOCUS_PROMPT:8.22": 0,
+  "AREA_STATEMENT_FOCUS_PROMPT:222.83": 0,
+  "HEIGHT_FOCUS_PROMPT:9.14": 0,
+  "HEIGHT_FOCUS_PROMPT:8.22": 0,
+  "HEIGHT_FOCUS_PROMPT:222.83": 0,
+  "DXF_VISION_FALLBACK_PROMPT:9.14": 0,
+  "DXF_VISION_FALLBACK_PROMPT:8.22": 0,
+  "DXF_VISION_FALLBACK_PROMPT:222.83": 0
+ },
+ "warnings": [],
+ "vision_failed": false,
+ "dropped_ungrounded": 0,
+ "vision_page_failures": 0,
+ "grounding": {
+  "pages": 1,
+  "dimensions": 3,
+  "areas": 3,
+  "grounded_true": 4,
+  "grounded_false": 0,
+  "grounded_none": 2
+ },
+ "vlm_valid": true,
+ "status": "ok",
+ "total_seconds": 42.4
+}

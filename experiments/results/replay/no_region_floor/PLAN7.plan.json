@@ -1,0 +1,416 @@
+{
+ "plan_id": "PLAN7-pdf",
+ "source_document_id": "PLAN7",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 73.73044993899704,
+      "y": 41.678047071842194
+     },
+     {
+      "x": 58.845433127624815,
+      "y": 41.84343614752411
+     },
+     {
+      "x": 59.17621127898864,
+      "y": 61.12780237203522
+     },
+     {
+      "x": 73.73044993899704,
+      "y": 61.12780237203522
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 58.845433127624815,
+    "min_y": 41.678047071842194,
+    "max_x": 73.73044993899704,
+    "max_y": 61.12780237203522
+   },
+   "points_per_metre": 7.255618274981561,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 19.368499999999997,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 19.3685,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "geometry (front edge) and geometry (rear edge) agree within tolerance (0.163 <= 0.968). (confidence capped: plot-candidate selection scored low: the winning candidate scored 0.59, below the 0.65 usability floor -- low absolute plot-likeness, regardless of its margin over any runner-up.)"
+   },
+   "source": "plot.width: agreed across 2 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "front plot boundary edge length, scaled to metres."
+    },
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "rear plot boundary edge length, scaled to metres."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 4.40355,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 4.4036,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "4/6 sources agree ([\"dimension label ('2 ')\", \"dimension label ('40X3 ')\", \"dimension label ('45 ')\", \"dimension label ('-270 ')\"]); 2 rejected as outlier(s) (['geometry (left edge)', 'geometry (right edge)']). (confidence capped: plot-candidate selection scored low: the winning candidate scored 0.59, below the 0.65 usability floor -- low absolute plot-likeness, regardless of its margin over any runner-up.)"
+   },
+   "source": "plot.depth: outlier_detected across 6 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "left plot boundary edge length, scaled to metres."
+    },
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "right plot boundary edge length, scaled to metres."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 85.2902,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 85.2902,
+    "unit": "sq_m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "plot.area = width x depth using the final, independently-agreed 19.3685 x 4.4036. (confidence capped to LOW: derived from a LOW-confidence width/depth pair)"
+   },
+   "source": "plot.area = width x depth (final agreed dimensions)",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 24.080649419286605,
+      "y": 46.044318669844714
+     },
+     {
+      "x": 24.14680504955937,
+      "y": 51.83293631871168
+     },
+     {
+      "x": 10.584900843642462,
+      "y": 51.86601413384807
+     },
+     {
+      "x": 10.3202783225514,
+      "y": 46.20970774552662
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 10.3202783225514,
+    "min_y": 46.044318669844714,
+    "max_x": 24.14680504955937,
+    "max_y": 51.86601413384807
+   },
+   "points_per_metre": 7.255618274981561,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 9.14,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 9.14,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "Vision-only; CV did not resolve this field. (Vision confidence: 0.90)"
+   },
+   "source": "FINAL:VISION_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 13.8265,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 13.8265,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "Single source of evidence (geometry (building bounding box, depth-aligned side)); nothing to cross-check against. (confidence capped: plot-candidate selection scored low: the winning candidate scored 0.59, below the 0.65 usability floor -- low absolute plot-likeness, regardless of its margin over any runner-up.)"
+   },
+   "source": "building.depth: uncorroborated across 1 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Building footprint extent aligned with the plot depth axis."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "Computed building.footprint_area (126.374 m2) exceeds the final resolved plot.area (85.290 m2), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "Computed building.footprint_area (126.374 m2) exceeds the final resolved plot.area (85.290 m2), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 126.3742,
+      "unit": "sq_m"
+     },
+     {
+      "magnitude": 85.2902,
+      "unit": "sq_m"
+     }
+    ],
+    "conflicting_sources": [
+     "building.footprint_area (computed)",
+     "plot.area"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "floor_count": null
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": 9.14,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 9.14,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "Vision-only; CV did not resolve this field. (Vision confidence: 0.95)"
+   },
+   "source": "FINAL:VISION_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No geometry-derived distance or classified dimension found for the front setback. Rejected candidate(s): geometry distance 34.832 m exceeds the depth-axis budget (-9.373 m) — discarded as implausible"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No geometry-derived distance or classified dimension found for the rear setback. Rejected candidate(s): geometry distance 49.584 m exceeds the depth-axis budget (-9.373 m) — discarded as implausible"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No geometry-derived distance or classified dimension found for the left setback. Rejected candidate(s): geometry distance 35.018 m exceeds the width-axis budget (10.278 m) — discarded as implausible"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No geometry-derived distance or classified dimension found for the right setback. Rejected candidate(s): geometry distance 36.242 m exceeds the width-axis budget (10.278 m) — discarded as implausible"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Coverage requires both building.footprint_area and plot.area to be resolved."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "FAR requires both building.footprint_area and plot.area to be resolved."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [
+  {
+   "description": "Computed building.footprint_area (126.374 m²) exceeds the resolved plot.area (85.290 m²), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 126.3742,
+     "unit": "sq_m"
+    },
+    {
+     "magnitude": 85.2902,
+     "unit": "sq_m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.footprint_area (computed)",
+    "plot.area"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Impossible geometry: building.depth (13.826 m) >= plot.depth (4.404 m).",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 4.40355,
+     "unit": "m"
+    },
+    {
+     "magnitude": 13.8265,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "plot.depth",
+    "building.depth"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Computed building.footprint_area (126.374 m2) exceeds the final resolved plot.area (85.290 m2), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 126.3742,
+     "unit": "sq_m"
+    },
+    {
+     "magnitude": 85.2902,
+     "unit": "sq_m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.footprint_area (computed)",
+    "plot.area"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 3 candidate(s) across 1 page(s). the winning candidate scored 0.59, below the 0.65 usability floor -- low absolute plot-likeness, regardless of its margin over any runner-up. | Scale: [no local samples found; fell back to whole-document scale samples] Only a single scale sample available. | Front-side: Front edge resolved from FRONT label. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 2, rejected: 1. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": {
+  "value": 9.45,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 9.45,
+   "unit": "m"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Vision height dimension evidence (explicit building_height)."
+  },
+  "source": "vision semantic height",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

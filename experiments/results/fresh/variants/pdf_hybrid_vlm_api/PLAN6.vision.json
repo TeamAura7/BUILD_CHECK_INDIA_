@@ -1,0 +1,250 @@
+{
+ "pages": [
+  {
+   "page_number": 1,
+   "units": "m",
+   "scale": "1:100",
+   "regions": [
+    {
+     "id": "region_1",
+     "type": "SITE_PLAN",
+     "bbox": [
+      530.0,
+      780.0,
+      720.0,
+      920.0
+     ],
+     "confidence": 0.95,
+     "label": "PROPOSED RESIDENCE",
+     "evidence": "PROPOSED RESIDENCE"
+    },
+    {
+     "id": "region_2",
+     "type": "GROUND_FLOOR_PLAN",
+     "bbox": [
+      530.0,
+      400.0,
+      720.0,
+      600.0
+     ],
+     "confidence": 0.95,
+     "label": "PROPOSED GROUND FLOOR PLAN",
+     "evidence": "PROPOSED GROUND FLOOR PLAN"
+    },
+    {
+     "id": "region_3",
+     "type": "FIRST_FLOOR_PLAN",
+     "bbox": [
+      530.0,
+      200.0,
+      720.0,
+      380.0
+     ],
+     "confidence": 0.95,
+     "label": "PROPOSED FIRST FLOOR PLAN",
+     "evidence": "PROPOSED FIRST FLOOR PLAN"
+    },
+    {
+     "id": "region_4",
+     "type": "SECOND_FLOOR_PLAN",
+     "bbox": [
+      330.0,
+      200.0,
+      520.0,
+      380.0
+     ],
+     "confidence": 0.95,
+     "label": "PROPOSED SECOND FLOOR PLAN",
+     "evidence": "PROPOSED SECOND FLOOR PLAN"
+    },
+    {
+     "id": "region_5",
+     "type": "STILT_FLOOR_PLAN",
+     "bbox": [
+      130.0,
+      400.0,
+      320.0,
+      600.0
+     ],
+     "confidence": 0.95,
+     "label": "PROPOSED STILT FLOOR PLAN",
+     "evidence": "PROPOSED STILT FLOOR PLAN"
+    },
+    {
+     "id": "region_6",
+     "type": "TERRACE_FLOOR_PLAN",
+     "bbox": [
+      130.0,
+      780.0,
+      320.0,
+      920.0
+     ],
+     "confidence": 0.95,
+     "label": "TERRACE FLOOR PLAN",
+     "evidence": "TERRACE FLOOR PLAN"
+    },
+    {
+     "id": "region_7",
+     "type": "ELEVATION",
+     "bbox": [
+      130.0,
+      580.0,
+      320.0,
+      760.0
+     ],
+     "confidence": 0.95,
+     "label": "FRONT ELEVATION",
+     "evidence": "FRONT ELEVATION"
+    },
+    {
+     "id": "region_8",
+     "type": "SECTION",
+     "bbox": [
+      330.0,
+      580.0,
+      520.0,
+      760.0
+     ],
+     "confidence": 0.95,
+     "label": "SECTION ON A-A",
+     "evidence": "SECTION ON A-A"
+    },
+    {
+     "id": "region_9",
+     "type": "AREA_STATEMENT",
+     "bbox": [
+      530.0,
+      920.0,
+      720.0,
+      1000.0
+     ],
+     "confidence": 0.95,
+     "label": "AREA STATEMENT",
+     "evidence": "AREA STATEMENT"
+    },
+    {
+     "id": "height_focus",
+     "type": "SECTION",
+     "bbox": [
+      82.49999999999999,
+      534.9999999999999,
+      367.50000000000006,
+      804.9999999999999
+     ],
+     "confidence": 0.95,
+     "label": "SECTION ON A-A",
+     "evidence": "SECTION ON A-A"
+    }
+   ],
+   "dimensions": [
+    {
+     "value": 10.0,
+     "unit": "m",
+     "type": "PLOT_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      580.0,
+      785.0,
+      680.0,
+      795.0
+     ],
+     "evidence": "10.00m; [CROSS-REGION DUPLICATE] PLOT_WIDTH=10.0 in region SITE_PLAN (region_1) is byte-identical to BUILDING_WIDTH=10.0 in unrelated region STILT_FLOOR_PLAN (region_5) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.475,
+     "grounded": true
+    },
+    {
+     "value": 7.3,
+     "unit": "m",
+     "type": "ROAD_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      580.0,
+      905.0,
+      680.0,
+      915.0
+     ],
+     "evidence": "7.30m Wide Road",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 10.0,
+     "unit": "m",
+     "type": "BUILDING_WIDTH",
+     "region_id": "region_5",
+     "bbox": [
+      180.0,
+      405.0,
+      280.0,
+      415.0
+     ],
+     "evidence": "10.00m; [CROSS-REGION DUPLICATE] PLOT_WIDTH=10.0 in region SITE_PLAN (region_1) is byte-identical to BUILDING_WIDTH=10.0 in unrelated region STILT_FLOOR_PLAN (region_5) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.475,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      139.5,
+      534.9999999999999,
+      168.00000000000003,
+      642.9999999999999
+     ],
+     "evidence": "3.00m",
+     "confidence": 0.98,
+     "grounded": null
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "STILT_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      139.5,
+      642.9999999999999,
+      168.00000000000003,
+      724.0
+     ],
+     "evidence": "2.40m",
+     "confidence": 0.98,
+     "grounded": null
+    }
+   ],
+   "areas": [
+    {
+     "value": 355.59,
+     "unit": "m2",
+     "type": "TOTAL_BUILT_UP_AREA",
+     "region_id": "region_9",
+     "evidence": "355.59",
+     "confidence": 0.95,
+     "grounded": true
+    }
+   ],
+   "warnings": [
+    "Dropped ungrounded dimension PLOT_DEPTH=13.1: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension FRONT_SETBACK=0.7: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension LEFT_SETBACK=0.7: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=9.3: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_DEPTH=13.0: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=9.3: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=9.3: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_DEPTH=13.0: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded area PLOT_AREA=131.3: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded area BUILDING_FOOTPRINT_AREA=114.0: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "[ELEVATION_FOCUS] Vision's ELEVATION bbox agrees with the caption-anchored location (IoU=0.14).",
+    "[CROSS_REGION_CONSISTENCY] PLOT_WIDTH=10.0 in region SITE_PLAN (region_1) is byte-identical to BUILDING_WIDTH=10.0 in unrelated region STILT_FLOOR_PLAN (region_5) -- likely cross-region pattern completion rather than an independent per-region read."
+   ],
+   "raw_response": "{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": \"1:100\",\n  \"regions\": [\n    {\n      \"id\": \"region_1\",\n      \"type\": \"SITE_PLAN\",\n      \"bbox\": [\n        530,\n        780,\n        720,\n        920\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"PROPOSED RESIDENCE\",\n      \"evidence\": \"PROPOSED RESIDENCE\"\n    },\n    {\n      \"id\": \"region_2\",\n      \"type\": \"GROUND_FLOOR_PLAN\",\n      \"bbox\": [\n        530,\n        400,\n        720,\n        600\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"PROPOSED GROUND FLOOR PLAN\",\n      \"evidence\": \"PROPOSED GROUND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_3\",\n      \"type\": \"FIRST_FLOOR_PLAN\",\n      \"bbox\": [\n        530,\n        200,\n        720,\n        380\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"PROPOSED FIRST FLOOR PLAN\",\n      \"evidence\": \"PROPOSED FIRST FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_4\",\n      \"type\": \"SECOND_FLOOR_PLAN\",\n      \"bbox\": [\n        330,\n        200,\n        520,\n        380\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"PROPOSED SECOND FLOOR PLAN\",\n      \"evidence\": \"PROPOSED SECOND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_5\",\n      \"type\": \"STILT_FLOOR_PLAN\",\n      \"bbox\": [\n        130,\n        400,\n        320,\n        600\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"PROPOSED STILT FLOOR PLAN\",\n      \"evidence\": \"PROPOSED STILT FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_6\",\n      \"type\": \"TERRACE_FLOOR_PLAN\",\n      \"bbox\": [\n        130,\n        780,\n        320,\n        920\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"TERRACE FLOOR PLAN\",\n      \"evidence\": \"TERRACE FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_7\",\n      \"type\": \"ELEVATION\",\n      \"bbox\": [\n        130,\n        580,\n        320,\n        760\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"FRONT ELEVATION\",\n      \"evidence\": \"FRONT ELEVATION\"\n    },\n    {\n      \"id\": \"region_8\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        330,\n        580,\n        520,\n        760\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION ON A-A\",\n      \"evidence\": \"SECTION ON A-A\"\n    },\n    {\n      \"id\": \"region_9\",\n      \"type\": \"AREA_STATEMENT\",\n      \"bbox\": [\n        530,\n        920,\n        720,\n        1000\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"AREA STATEMENT\",\n      \"evidence\": \"AREA STATEMENT\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 10.0,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        580,\n        785,\n        680,\n        795\n      ],\n      \"evidence\": \"10.00m\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.1,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        535,\n        830,\n        545,\n        880\n      ],\n      \"evidence\": \"13.10m\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 7.3,\n      \"unit\": \"m\",\n      \"type\": \"ROAD_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        580,\n        905,\n        680,\n        915\n      ],\n      \"evidence\": \"7.30m Wide Road\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.7,\n      \"unit\": \"m\",\n      \"type\": \"FRONT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        685,\n        895,\n        700,\n        905\n      ],\n      \"evidence\": \".70\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.7,\n      \"unit\": \"m\",\n      \"type\": \"LEFT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        535,\n        895,\n        550,\n        905\n      ],\n      \"evidence\": \".70\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 9.3,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        580,\n        405,\n        680,\n        415\n      ],\n      \"evidence\": \"9.30m\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.0,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        135,\n        450,\n        145,\n        550\n      ],\n      \"evidence\": \"13.00m\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 9.3,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        580,\n        205,\n        680,\n        215\n      ],\n      \"evidence\": \"9.30\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 9.3,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_4\",\n      \"bbox\": [\n        380,\n        205,\n        480,\n        215\n      ],\n      \"evidence\": \"9.30\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 10.0,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        180,\n        405,\n        280,\n        415\n      ],\n      \"evidence\": \"10.00m\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.0,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        135,\n        450,\n        145,\n        550\n      ],\n      \"evidence\": \"13.00m\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"areas\": [\n    {\n      \"value\": 131.3,\n      \"unit\": \"m2\",\n      \"type\": \"PLOT_AREA\",\n      \"region_id\": \"region_9\",\n      \"evidence\": \"131.30\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 114.0,\n      \"unit\": \"m2\",\n      \"type\": \"BUILDING_FOOTPRINT_AREA\",\n      \"region_id\": \"region_9\",\n      \"evidence\": \"114.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 355.59,\n      \"unit\": \"m2\",\n      \"type\": \"TOTAL_BUILT_UP_AREA\",\n      \"region_id\": \"region_9\",\n      \"evidence\": \"355.59\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"warnings\": []\n}\n\n[ELEVATION_FOCUS_PASS]\n{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": null,\n  \"regions\": [\n    {\n      \"id\": \"height_focus\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION ON A-A\",\n      \"evidence\": \"SECTION ON A-A\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        200,\n        0,\n        300,\n        400\n      ],\n      \"evidence\": \"3.00m\",\n      \"confidence\": 0.98\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"STILT_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        200,\n        400,\n        300,\n        700\n      ],\n      \"evidence\": \"2.40m\",\n      \"confidence\": 0.98\n    }\n  ],\n  \"areas\": [],\n  \"warnings\": []\n}",
+   "page_width_pts": 2384.28,
+   "page_height_pts": 1684.08,
+   "metadata": {}
+  }
+ ],
+ "model_name": "qwen/qwen3.8-27b",
+ "enabled": true,
+ "warnings": []
+}

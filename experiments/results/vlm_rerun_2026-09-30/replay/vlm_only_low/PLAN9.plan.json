@@ -1,0 +1,349 @@
+{
+ "plan_id": "PLAN9-pdf",
+ "source_document_id": "PLAN9",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 5.291892902995582,
+      "y": 3.5359375700133984
+     },
+     {
+      "x": 17.885859057559635,
+      "y": 3.5359375700133984
+     },
+     {
+      "x": 17.885859057559635,
+      "y": 15.797957070627405
+     },
+     {
+      "x": 5.291892902995582,
+      "y": 15.797957070627405
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 5.291892902995582,
+    "min_y": 3.5359375700133984,
+    "max_x": 17.885859057559635,
+    "max_y": 15.797957070627405
+   },
+   "points_per_metre": 74.39602288617775,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 10.65,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 10.65,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Independent CV and Vision agree within 0.107 m."
+   },
+   "source": "FINAL:CV+VISION_AGREED",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 15.2083,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 15.2083,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.92) [replay:vlm_only_low] VLM value 15.0000 disagreed and was not used."
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 161.9684,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 161.9684,
+    "unit": "sq_m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "plot.area = width x depth using the final, independently-agreed 10.6500 x 15.2083. Overrides a conflicting direct plot.area reading of 147.990 m2 (relative difference 8.6%), which disagreed too strongly with the final independently-agreed width/depth to be trusted."
+   },
+   "source": "plot.area = width x depth (final agreed dimensions)",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 26.917567933218933,
+      "y": 14.765305420702667
+     },
+     {
+      "x": 31.262961510165944,
+      "y": 14.768531399601663
+     },
+     {
+      "x": 31.25973553126695,
+      "y": 19.22038228021553
+     },
+     {
+      "x": 26.914341954319937,
+      "y": 19.217156301316535
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 26.914341954319937,
+    "min_y": 14.765305420702667,
+    "max_x": 31.262961510165944,
+    "max_y": 19.22038228021553
+   },
+   "points_per_metre": 74.39602288617775,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 7.14,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 7.14,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.97)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 12.1017,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 12.1017,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.90)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": 94.42,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 94.42,
+    "unit": "sq_m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Printed Area Statement 'ground floor' area (94.420 m²). CV/geometry-derived footprint was 19.393 m² (relative diff 79.5%) -- likely picked up a rectangle from an unrelated drawing on the same sheet; the printed figure is preferred. (confidence capped: plot-candidate selection scored medium: Winner (score 0.81) beats the runner-up by 0.08.) Final width x depth gives 86.406 m2 (relative difference 9.3%) -- likely picked up geometry from an unrelated drawing on the same sheet rather than this printed figure being wrong; the printed value is kept."
+   },
+   "source": "building.footprint_area = printed Area Statement 'ground floor'",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": {
+   "value": 1,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Distinct floor-plan regions identified by the vision semantic layer (no explicit floor-count text found on the sheet; this may include non-floor regions such as a terrace)."
+   },
+   "source": "vision floor-plan region count",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": 8.92,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 8.92,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "Vision-only; CV did not resolve this field. (Vision confidence: 0.95)"
+   },
+   "source": "FINAL:VISION_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": 1.5047,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 1.5047,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.88)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": 1.3779,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 1.3779,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.88)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": 1.0,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 1.0,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": 1.0,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 1.0,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": 58.29532180351229,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 58.29532180351229,
+   "unit": "%"
+  },
+  "confidence": {
+   "level": "MEDIUM",
+   "score": null,
+   "reason": "coverage = footprint_area(94.420) / plot_area(161.968) * 100"
+  },
+  "source": "coverage = building.footprint_area / plot.area * 100",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": 0.5829532180351229,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 0.5829532180351229,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "MEDIUM",
+   "score": null,
+   "reason": "Diagnostic gross FAR = gross_built_up_area(94.420, footprint x 1 floors) / plot_area(161.968). NOT a regulatory/sanctioned FAR — that comparison belongs to the RuleEngine."
+  },
+  "source": "far = gross_built_up_area / plot.area (diagnostic gross FAR)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [],
+ "overall_confidence_note": "Plot: Selected from 8 candidate(s) across 1 page(s). (3 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Winner (score 0.81) beats the runner-up by 0.08. | Scale: Semantic plot frame scale: 87.976 pt/m horizontally and 60.816 pt/m vertically; unrelated sheet dimensions excluded. | Front-side: No FRONT label, ROAD candidate, STREET/ACCESS/MAIN-ENTRY/GATE text was found on this page. Front edge defaulted deterministically to the polygon's first boundary edge — this is a fallback, not an assumption that any particular page direction is the front. Treat front/rear/left/right with LOW confidence until orientation evidence is available. | Building blocks kept: 3, rejected: 8. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": {
+  "value": 5.9,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 5.9,
+   "unit": "m"
+  },
+  "confidence": {
+   "level": "MEDIUM",
+   "score": null,
+   "reason": "Derived building height (no explicit overall height annotation found): 1 floor(s) x 3.050 m floor-to-floor height + 2.400 m stilt height + 0.450 m plinth height. All components read directly from the plan's own vision-extracted dimensions/floor count -- no generic/assumed floor height was used."
+  },
+  "source": "derived: floor_count x floor_to_floor_height (+ plinth/parapet if present)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": {
+  "value": "residential",
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Building-use label printed on the plan: 'PROPOSED RESIDENTIAL BUILDING PLAN IN SITE No.XX'."
+  },
+  "source": "plan text (title block / property table)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ }
+}

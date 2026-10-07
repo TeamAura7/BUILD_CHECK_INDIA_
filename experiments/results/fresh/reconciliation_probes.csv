@@ -1,0 +1,22 @@
+layer,scenario,a,b,conf_a,conf_b,status,value,confidence,flagged,note
+"evidence_reconciliation (legacy, within-PDF)",agreement,10.59,10.59,0.9,0.9,AGREED,10.59,HIGH,False,pdf_text and cv_geometry agree within tolerance (0.000 <= 0.529).
+"final_fusion (CV vs Vision, shipping)",agreement,10.59,10.59,0.9,0.9,AGREED,10.59,HIGH,False,Independent CV and Vision agree within 0.106 m.
+pdf_dxf_reconciliation (dual upload),agreement,10.59,10.59,0.9,0.9,AGREED,10.59,HIGH,False,PDF and DXF independently agree within tolerance (0.0000 <= 0.5295 m).
+"evidence_reconciliation (legacy, within-PDF)",small_disagreement,10.59,10.62,0.9,0.9,AGREED,10.605,HIGH,False,pdf_text and cv_geometry agree within tolerance (0.030 <= 0.530).
+"final_fusion (CV vs Vision, shipping)",small_disagreement,10.59,10.62,0.9,0.9,AGREED,10.605,HIGH,False,Independent CV and Vision agree within 0.106 m.
+pdf_dxf_reconciliation (dual upload),small_disagreement,10.59,10.62,0.9,0.9,AGREED,10.59,HIGH,False,PDF and DXF independently agree within tolerance (0.0300 <= 0.5295 m).
+"evidence_reconciliation (legacy, within-PDF)",moderate_disagreement_0.40m,10.59,10.99,0.9,0.9,AGREED,10.79,HIGH,False,pdf_text and cv_geometry agree within tolerance (0.400 <= 0.539).
+"final_fusion (CV vs Vision, shipping)",moderate_disagreement_0.40m,10.59,10.99,0.9,0.9,CONFLICT,,CONFLICTING,True,CV=10.5900 and Vision=10.9900 disagree for building.width; difference 0.4000 exceeds tolerance 0.1099.
+pdf_dxf_reconciliation (dual upload),moderate_disagreement_0.40m,10.59,10.99,0.9,0.9,AGREED,10.59,HIGH,False,PDF and DXF independently agree within tolerance (0.4000 <= 0.5295 m).
+"evidence_reconciliation (legacy, within-PDF)",major_conflict,10.59,7.25,0.9,0.9,CONFLICTING_EVIDENCE,,CONFLICTING,True,"pdf_text reports 10.590 m but cv_geometry reports 7.250 m — a difference of 3.340 m, beyond tolerance (0.446 m). Not silently resolved."
+"final_fusion (CV vs Vision, shipping)",major_conflict,10.59,7.25,0.9,0.9,CONFLICT,,CONFLICTING,True,CV=10.5900 and Vision=7.2500 disagree for building.width; difference 3.3400 exceeds tolerance 0.1059.
+pdf_dxf_reconciliation (dual upload),major_conflict,10.59,7.25,0.9,0.9,CONFLICT,10.59,HIGH,True,"PDF (10.5900 m) and DXF (7.2500 m) disagree beyond tolerance (3.3400 > 0.5295). Shipping PDF's value as authoritative (documented-reliable pipeline) -- flagged via this field's own `.conflict`, never silently."
+"evidence_reconciliation (legacy, within-PDF)",missing_evidence_single_source,10.59,,0.9,,UNCORROBORATED,10.59,MEDIUM,False,Single source of evidence (pdf_text); nothing to cross-check against.
+"final_fusion (CV vs Vision, shipping)",missing_evidence_single_source,10.59,,0.9,,CV_ONLY,10.59,HIGH,False,CV-only; Vision did not emit this field. (CV confidence: 0.90)
+pdf_dxf_reconciliation (dual upload),missing_evidence_single_source,10.59,,0.9,,PDF_ONLY,10.59,HIGH,False,Only PDF resolved this field; DXF found nothing to cross-check against. Shipped unchanged.
+"evidence_reconciliation (legacy, within-PDF)",uncertain_single_source_low_conf,10.59,,0.3,,UNCORROBORATED,10.59,MEDIUM,False,Single source of evidence (pdf_text); nothing to cross-check against.
+"final_fusion (CV vs Vision, shipping)",uncertain_single_source_low_conf,10.59,,0.3,,CV_ONLY,10.59,LOW,False,CV-only; Vision did not emit this field. (CV confidence: 0.30)
+pdf_dxf_reconciliation (dual upload),uncertain_single_source_low_conf,10.59,,0.3,,PDF_ONLY,10.59,LOW,False,Only PDF resolved this field; DXF found nothing to cross-check against. Shipped unchanged.
+"evidence_reconciliation (legacy, within-PDF)",uncertain_second_source_low_conf_conflicting,10.59,7.25,0.9,0.3,CONFLICTING_EVIDENCE,,CONFLICTING,True,"pdf_text reports 10.590 m but cv_geometry reports 7.250 m — a difference of 3.340 m, beyond tolerance (0.446 m). Not silently resolved."
+"final_fusion (CV vs Vision, shipping)",uncertain_second_source_low_conf_conflicting,10.59,7.25,0.9,0.3,CONFLICT,,CONFLICTING,True,CV=10.5900 and Vision=7.2500 disagree for building.width; difference 3.3400 exceeds tolerance 0.1059.
+pdf_dxf_reconciliation (dual upload),uncertain_second_source_low_conf_conflicting,10.59,7.25,0.9,0.3,CONFLICT,10.59,HIGH,True,"PDF (10.5900 m) and DXF (7.2500 m) disagree beyond tolerance (3.3400 > 0.5295). Shipping PDF's value as authoritative (documented-reliable pipeline) -- flagged via this field's own `.conflict`, never silently."

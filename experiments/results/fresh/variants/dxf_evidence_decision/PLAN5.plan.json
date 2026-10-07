@@ -1,0 +1,272 @@
+{
+ "plan_id": "PLAN5-dxf",
+ "source_document_id": "PLAN5",
+ "plot": {
+  "geometry": null,
+  "width": {
+   "value": 4.7367,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 4.7367,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 3.5017,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 3.5017,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 16.5864,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 16.5864,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": null
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No non-conflicting independent evidence for road.width."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Withdrawn: building footprint 3.6203 m2 is outside 4-200000 m2"
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [],
+ "overall_confidence_note": "Legacy global plot resolver had no winner; final values came from independent CV + Vision agreement layer. Physical-bounds gate withdrew: building.depth; building.footprint_area; building.width; coverage; far; setbacks.front; setbacks.left; setbacks.rear; setbacks.right.",
+ "floor_areas": {},
+ "metadata": {
+  "physical_bounds": [
+   {
+    "field": "building.width",
+    "value": 2.5767,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "building.depth",
+    "value": 1.405,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 3.6203,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "setbacks.front",
+    "value": 0.715,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "setbacks.rear",
+    "value": 1.445,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "setbacks.left",
+    "value": 0.605,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "setbacks.right",
+    "value": 1.4916,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "coverage",
+    "value": 21.8269184392032,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   },
+   {
+    "field": "far",
+    "value": 0.218269184392032,
+    "was": "LOW",
+    "reason": "building footprint 3.6203 m2 is outside 4-200000 m2"
+   }
+  ]
+ },
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

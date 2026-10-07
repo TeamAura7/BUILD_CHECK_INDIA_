@@ -1,0 +1,11 @@
+plan,field,variant,truth_legacy_expected_json,independent_cv_value,status,reaches_normalized_plan
+PLAN2,far.area,pdf_hybrid,386.55,386.55,CORRECT,False
+PLAN2,far.area,dxf_hybrid,386.55,,MISSING,False
+PLAN2,building.gross_built_up_area,pdf_hybrid,579.9,579.9,CORRECT,False
+PLAN2,building.gross_built_up_area,dxf_hybrid,579.9,,MISSING,False
+PLAN6,plot.net_area,pdf_hybrid,107.5,107.5,CORRECT,False
+PLAN6,plot.net_area,dxf_hybrid,107.5,,MISSING,False
+PLAN6,far.area,pdf_hybrid,187.05,187.05,CORRECT,False
+PLAN6,far.area,dxf_hybrid,187.05,,MISSING,False
+PLAN6,building.gross_built_up_area,pdf_hybrid,355.59,355.59,CORRECT,False
+PLAN6,building.gross_built_up_area,dxf_hybrid,355.59,,MISSING,False

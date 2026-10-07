@@ -1,0 +1,10 @@
+{
+ "variant": "no_region_floor",
+ "replay_variant": "no_region_floor",
+ "plan": "PLAN6",
+ "kind": "pdf",
+ "warnings": [],
+ "timed_out_internally": false,
+ "status": "ok",
+ "total_seconds": 21.4
+}

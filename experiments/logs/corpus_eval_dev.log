@@ -1,0 +1,267 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+2026-09-24 13:42:10,601 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=111.4166/HIGH new=111.4166/MEDIUM (independent_cv and vision produced no candidate for this field (neither CV nor Vision produced a candidate for this field); used the OLD path's own already-resolved value as a lower-priority fallback (legacy confidence: HIGH, capped to MEDIUM).)
+2026-09-24 13:42:10,601 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:42:10,601 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=86.46826415453353/HIGH new=86.46826415453353/MEDIUM (No direct coverage evidence from independent_cv/vision; derived via areas.coverage_field from this engine's own resolved building.footprint_area/plot.area.)
+  PLAN1   pdf        extracted in 14s
+2026-09-24 13:43:15,993 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:43:16,038 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:43:16,038 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.3394/LOW new=1.3394/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:43:16,038 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=2.5717/LOW new=2.5717/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:43:16,038 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN1   dxf        extracted in 65s
+2026-09-24 13:43:29,309 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=111.4166/HIGH new=111.4166/MEDIUM (independent_cv and vision produced no candidate for this field (neither CV nor Vision produced a candidate for this field); used the OLD path's own already-resolved value as a lower-priority fallback (legacy confidence: HIGH, capped to MEDIUM).)
+2026-09-24 13:43:29,309 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:43:29,309 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=86.46826415453353/HIGH new=86.46826415453353/MEDIUM (No direct coverage evidence from independent_cv/vision; derived via areas.coverage_field from this engine's own resolved building.footprint_area/plot.area.)
+2026-09-24 13:44:27,768 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:44:27,816 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:44:27,816 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.3394/LOW new=1.3394/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:44:27,816 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=2.5717/LOW new=2.5717/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:44:27,817 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN1   reconciled reconciled
+  PLAN2   pdf        extracted in 9s
+2026-09-24 13:45:48,382 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- Best hypothesis (dxf-r8-road) scored -5.492, below the 2.000 usability floor -- no hypothesis for ROAD is trustworthy enough to accept, regardless of margin.
+2026-09-24 13:45:48,580 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.2065/LOW new=0.2065/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:45:48,580 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.4072/LOW new=0.4072/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:45:48,580 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.4427/LOW new=0.4427/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:45:48,580 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.5967/LOW new=0.5967/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN2   dxf        extracted in 71s
+2026-09-24 13:47:11,311 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- Best hypothesis (dxf-r8-road) scored -5.492, below the 2.000 usability floor -- no hypothesis for ROAD is trustworthy enough to accept, regardless of margin.
+2026-09-24 13:47:11,537 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.2065/LOW new=0.2065/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:11,538 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.4072/LOW new=0.4072/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:11,538 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.4427/LOW new=0.4427/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:11,538 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.5967/LOW new=0.5967/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN2   reconciled reconciled
+2026-09-24 13:47:15,434 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.9144/HIGH new=0.9144/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:15,435 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.9144/HIGH new=0.9144/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:15,435 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=2.6637/HIGH new=2.6637/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:15,435 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=2.6703/HIGH new=2.6703/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+  PLAN4   pdf        extracted in 4s
+2026-09-24 13:47:25,002 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision PLOT_BOUNDARY: CONFLICT (max-score region 16 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r16-plot_boundary (score 3.062) and dxf-r2-plot_boundary (score 3.059) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:47:25,002 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision BUILDING: CONFLICT (max-score region 16 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r16-building (score 3.062) and dxf-r2-building (score 3.059) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:47:25,002 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 16 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:47:25,020 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:25,020 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:25,020 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:25,020 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN4   dxf        extracted in 10s
+2026-09-24 13:47:30,003 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.9144/HIGH new=0.9144/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:30,003 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.9144/HIGH new=0.9144/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:30,003 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=2.6637/HIGH new=2.6637/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:30,003 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=2.6703/HIGH new=2.6703/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:47:39,810 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision PLOT_BOUNDARY: CONFLICT (max-score region 16 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r16-plot_boundary (score 3.062) and dxf-r2-plot_boundary (score 3.059) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:47:39,810 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision BUILDING: CONFLICT (max-score region 16 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r16-building (score 3.062) and dxf-r2-building (score 3.059) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:47:39,810 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 16 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:47:39,820 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:39,820 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:39,820 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:47:39,820 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN4   reconciled reconciled
+2026-09-24 13:49:35,331 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.0/HIGH new=3.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:49:35,331 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.5/HIGH new=1.5/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:49:35,331 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=1.0724/HIGH new=1.0724/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:49:35,331 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.9977/HIGH new=0.9977/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+  PLAN5   pdf        extracted in 116s
+2026-09-24 13:51:06,530 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=2.5767/LOW new=2.5767/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=1.405/LOW new=1.405/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=3.6203/LOW new=3.6203/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.715/LOW new=0.715/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.445/LOW new=1.445/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.605/LOW new=0.605/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:51:06,592 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=1.4916/LOW new=1.4916/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN5   dxf        extracted in 91s
+2026-09-24 13:53:01,826 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.0/HIGH new=3.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:53:01,826 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.5/HIGH new=1.5/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:53:01,826 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=1.0724/HIGH new=1.0724/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:53:01,826 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.9977/HIGH new=0.9977/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:54:31,831 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=2.5767/LOW new=2.5767/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=1.405/LOW new=1.405/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=3.6203/LOW new=3.6203/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.715/LOW new=0.715/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.445/LOW new=1.445/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.605/LOW new=0.605/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:54:31,891 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=1.4916/LOW new=1.4916/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN5   reconciled reconciled
+2026-09-24 13:54:50,125 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.2456/HIGH new=3.2456/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:54:50,125 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.6985/HIGH new=0.6985/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:54:50,125 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:54:50,125 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.6914/HIGH new=0.6914/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+  PLAN6   pdf        extracted in 18s
+2026-09-24 13:56:03,249 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision PLOT_BOUNDARY: CONFLICT (max-score region 15 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r15-plot_boundary (score 4.156) and dxf-r14-plot_boundary (score 4.118) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:56:03,249 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision BUILDING: CONFLICT (max-score region 15 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r15-building (score 4.156) and dxf-r14-building (score 4.118) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:56:03,249 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 15 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:56:03,482 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.3728/LOW new=0.3728/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:56:03,482 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=8.465/LOW new=8.465/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:56:03,482 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.6109/LOW new=0.6109/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN6   dxf        extracted in 73s
+2026-09-24 13:56:20,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.2456/HIGH new=3.2456/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:56:20,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.6985/HIGH new=0.6985/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:56:20,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:56:20,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.6914/HIGH new=0.6914/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:57:34,619 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision PLOT_BOUNDARY: CONFLICT (max-score region 15 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r15-plot_boundary (score 4.156) and dxf-r14-plot_boundary (score 4.118) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:57:34,619 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision BUILDING: CONFLICT (max-score region 15 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r15-building (score 4.156) and dxf-r14-building (score 4.118) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:57:34,619 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 15 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 13:57:34,827 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.3728/LOW new=0.3728/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:57:34,827 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=8.465/LOW new=8.465/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:57:34,827 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.6109/LOW new=0.6109/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN6   reconciled reconciled
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=19.368499999999997/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=4.40355/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=85.2902/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=5.8217/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=13.8265/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=80.4937/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=94.37625893713464/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:35,471 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for far: old=0.9437625893713464/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+  PLAN7   pdf        extracted in 1s
+  PLAN7   dxf        extracted in 0s
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=19.368499999999997/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=4.40355/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=85.2902/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=5.8217/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=13.8265/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=80.4937/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=94.37625893713464/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-24 13:57:36,097 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for far: old=0.9437625893713464/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+  PLAN7   reconciled reconciled
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+2026-09-24 13:57:48,051 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=11.2818/LOW new=11.2818/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:57:48,051 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=16.5029/LOW new=16.5029/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:57:48,051 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=9.5462/LOW new=9.5462/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:57:48,051 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=11.9944/LOW new=11.9944/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN8   pdf        extracted in 12s
+2026-09-24 13:58:11,747 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 17 still ships by default unless use_dxf_evidence_decision_engine is set) -- Best hypothesis (dxf-r3-road) scored -4.491, below the 2.000 usability floor -- no hypothesis for ROAD is trustworthy enough to accept, regardless of margin.
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=4.3083/LOW new=4.3083/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=4.1933/LOW new=4.1933/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=17.8837/LOW new=17.8837/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=1.1645/LOW new=1.1645/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=6.3874/LOW new=6.3874/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.2448/LOW new=0.2448/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:11,775 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=2.421/LOW new=2.421/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN8   dxf        extracted in 24s
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+2026-09-24 13:58:24,061 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=11.2818/LOW new=11.2818/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:24,061 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=16.5029/LOW new=16.5029/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:24,061 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=9.5462/LOW new=9.5462/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:24,061 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=11.9944/LOW new=11.9944/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,100 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 17 still ships by default unless use_dxf_evidence_decision_engine is set) -- Best hypothesis (dxf-r3-road) scored -4.491, below the 2.000 usability floor -- no hypothesis for ROAD is trustworthy enough to accept, regardless of margin.
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=4.3083/LOW new=4.3083/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=4.1933/LOW new=4.1933/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=17.8837/LOW new=17.8837/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=1.1645/LOW new=1.1645/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=6.3874/LOW new=6.3874/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.2448/LOW new=0.2448/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:58:45,119 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=2.421/LOW new=2.421/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN8   reconciled reconciled
+2026-09-24 13:58:52,436 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=1.5047/HIGH new=1.5047/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:58:52,436 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.3779/HIGH new=1.3779/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+  PLAN9   pdf        extracted in 7s
+2026-09-24 13:59:52,188 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision PLOT_BOUNDARY: CONFLICT (max-score region 13 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r13-plot_boundary (score 5.164) and dxf-r11-plot_boundary (score 5.128) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:59:52,188 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision BUILDING: CONFLICT (max-score region 13 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r13-building (score 5.164) and dxf-r11-building (score 5.128) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 13:59:52,188 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: new engine would accept region 3 (LOW) instead of the max-score winner region 13 -- dxf-r3-road accepted with score 4.545 (margin 6.000 over runner-up dxf-r6-road). 'drawing_identity_confirmed' failed for the accepted hypothesis -- no positive signal anywhere confirms this is actually the right drawing, regardless of its structural margin.
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=6.3756/LOW new=6.3756/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=4.9403/LOW new=4.9403/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=31.4976/LOW new=31.4976/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.7999/LOW new=3.7999/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=5.7596/LOW new=5.7596/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.239/LOW new=0.239/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 13:59:52,229 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN9   dxf        extracted in 60s
+2026-09-24 13:59:59,561 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=1.5047/HIGH new=1.5047/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 13:59:59,563 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.3779/HIGH new=1.3779/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:00:59,694 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision PLOT_BOUNDARY: CONFLICT (max-score region 13 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r13-plot_boundary (score 5.164) and dxf-r11-plot_boundary (score 5.128) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 14:00:59,694 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision BUILDING: CONFLICT (max-score region 13 still ships by default unless use_dxf_evidence_decision_engine is set) -- dxf-r13-building (score 5.164) and dxf-r11-building (score 5.128) are both above the usability floor and within 2.000 of each other -- refusing to arbitrarily pick one.
+2026-09-24 14:00:59,694 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: new engine would accept region 3 (LOW) instead of the max-score winner region 13 -- dxf-r3-road accepted with score 4.545 (margin 6.000 over runner-up dxf-r6-road). 'drawing_identity_confirmed' failed for the accepted hypothesis -- no positive signal anywhere confirms this is actually the right drawing, regardless of its structural margin.
+2026-09-24 14:00:59,736 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=6.3756/LOW new=6.3756/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:00:59,736 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=4.9403/LOW new=4.9403/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:00:59,737 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=31.4976/LOW new=31.4976/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:00:59,737 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.7999/LOW new=3.7999/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:00:59,737 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=5.7596/LOW new=5.7596/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:00:59,737 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.239/LOW new=0.239/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:00:59,737 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+  PLAN9   reconciled reconciled
+CORPUS EVALUATION -- split=dev  truth tiers=printed, derived, inspected, legacy
+
+[pdf]  scored fields=84  correct=78  wrong=2  missing=4  spurious=4  abstained_ok=6
+    answer rate  95.2% | accuracy when answered  97.5% | CONFIDENT-WRONG 0/77 =   0.0% | wrong answers caught (flagged/LOW) 100.0% | axis-swapped 0
+    risk-coverage: HIGH: cov  81.0% risk   0.0% (n=68); HIGH+MEDIUM: cov  91.7% risk   0.0% (n=77); ALL: cov  95.2% risk   7.1% (n=84)
+    per field (correct/wrong/missing/spurious):
+      plot.width                6/ 1/ 0/ 1   confident-wrong 0/6
+      plot.depth                6/ 1/ 0/ 1   confident-wrong 0/6
+      plot.area                 7/ 0/ 0/ 0   confident-wrong 0/7
+      building.width            5/ 0/ 0/ 1   confident-wrong 0/5
+      building.depth            5/ 0/ 0/ 1   confident-wrong 0/5
+      building.footprint_area   7/ 0/ 0/ 0   confident-wrong 0/7
+      building.floor_count      6/ 0/ 2/ 0   confident-wrong 0/5
+      road.width                4/ 0/ 1/ 0   confident-wrong 0/4
+      setbacks.front            5/ 0/ 0/ 0   confident-wrong 0/5
+      setbacks.rear             5/ 0/ 0/ 0   confident-wrong 0/5
+      setbacks.left             5/ 0/ 0/ 0   confident-wrong 0/5
+      setbacks.right            5/ 0/ 0/ 0   confident-wrong 0/5
+      coverage                  6/ 0/ 0/ 0   confident-wrong 0/6
+      far                       3/ 0/ 0/ 0   confident-wrong 0/3
+      building_use              3/ 0/ 1/ 0   confident-wrong 0/3
+
+[dxf]  scored fields=84  correct=5  wrong=47  missing=32  spurious=0  abstained_ok=10
+    answer rate  61.9% | accuracy when answered   9.6% | CONFIDENT-WRONG 0/2 =   0.0% | wrong answers caught (flagged/LOW) 100.0% | axis-swapped 0
+    risk-coverage: HIGH: cov   2.4% risk   0.0% (n=2); HIGH+MEDIUM: cov   2.4% risk   0.0% (n=2); ALL: cov  61.9% risk  90.4% (n=52)
+    per field (correct/wrong/missing/spurious):
+      plot.width                1/ 6/ 0/ 0   confident-wrong 0/0
+      plot.depth                1/ 6/ 0/ 0   confident-wrong 0/0
+      plot.area                 1/ 6/ 0/ 0   confident-wrong 0/1
+      building.width            1/ 2/ 2/ 0   confident-wrong 0/0
+      building.depth            0/ 3/ 2/ 0   confident-wrong 0/0
+      building.footprint_area   0/ 5/ 2/ 0   confident-wrong 0/0
+      building.floor_count      0/ 0/ 8/ 0   confident-wrong 0/0
+      road.width                1/ 0/ 4/ 0   confident-wrong 0/1
+      setbacks.front            0/ 3/ 2/ 0   confident-wrong 0/0
+      setbacks.rear             0/ 3/ 2/ 0   confident-wrong 0/0
+      setbacks.left             0/ 3/ 2/ 0   confident-wrong 0/0
+      setbacks.right            0/ 3/ 2/ 0   confident-wrong 0/0
+      coverage                  0/ 4/ 2/ 0   confident-wrong 0/0
+      far                       0/ 3/ 0/ 0   confident-wrong 0/0
+      building_use              0/ 0/ 4/ 0   confident-wrong 0/0
+
+[reconciled]  scored fields=84  correct=78  wrong=2  missing=4  spurious=4  abstained_ok=6
+    answer rate  95.2% | accuracy when answered  97.5% | CONFIDENT-WRONG 0/32 =   0.0% | wrong answers caught (flagged/LOW) 100.0% | axis-swapped 0
+    risk-coverage: HIGH: cov  81.0% risk   0.0% (n=68); HIGH+MEDIUM: cov  91.7% risk   0.0% (n=77); ALL: cov  95.2% risk   7.1% (n=84)
+    per field (correct/wrong/missing/spurious):
+      plot.width                6/ 1/ 0/ 1   confident-wrong 0/1
+      plot.depth                6/ 1/ 0/ 1   confident-wrong 0/1
+      plot.area                 7/ 0/ 0/ 0   confident-wrong 0/1
+      building.width            5/ 0/ 0/ 1   confident-wrong 0/3
+      building.depth            5/ 0/ 0/ 1   confident-wrong 0/2
+      building.footprint_area   7/ 0/ 0/ 0   confident-wrong 0/2
+      building.floor_count      6/ 0/ 2/ 0   confident-wrong 0/5
+      road.width                4/ 0/ 1/ 0   confident-wrong 0/4
+      setbacks.front            5/ 0/ 0/ 0   confident-wrong 0/2
+      setbacks.rear             5/ 0/ 0/ 0   confident-wrong 0/2
+      setbacks.left             5/ 0/ 0/ 0   confident-wrong 0/2
+      setbacks.right            5/ 0/ 0/ 0   confident-wrong 0/2
+      coverage                  6/ 0/ 0/ 0   confident-wrong 0/2
+      far                       3/ 0/ 0/ 0   confident-wrong 0/0
+      building_use              3/ 0/ 1/ 0   confident-wrong 0/3
+
+[pdf-vs-dxf disagreement as an error detector]  fields both produced: 52
+    detecting DXF wrong   : flagged&wrong 47, flagged&right 0, missed 0, quiet&right 5 | precision 100.0% recall 100.0% AUROC 1.00
+    detecting either wrong: flagged&wrong 47, flagged&right 0, missed 0, quiet&right 5 | precision 100.0% recall 100.0% AUROC 1.00
+EXIT=0 WALL=1144s

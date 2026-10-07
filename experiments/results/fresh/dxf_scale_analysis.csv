@@ -1,0 +1,9 @@
+plan,length_ratios,area_ratios,length_ratio_median,length_ratio_spread(max/min),sqrt_area_ratio_median,consistent_single_scale,unit_resolution,n_answered,n_low
+PLAN1,"[1.045, 0.846, 0.868, 0.778]","[0.884, 0.675]",0.857,1.34,0.883,False,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,12,12
+PLAN2,"[0.906, 0.853, 0.96, 0.879]","[0.773, 0.701]",0.892,1.13,0.859,True,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,12,12
+PLAN4,"[0.225, 0.454]",[1.0],0.339,2.02,1.0,False,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,4,2
+PLAN5,"[0.269, 0.383]",[0.103],0.326,1.42,0.321,False,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,3,3
+PLAN6,"[1.696, 0.351]","[0.596, 0.155]",1.024,4.83,0.613,False,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,11,11
+PLAN7,[],[],,,,False,Unit resolution: No $INSUNITS header and no closed polygon to calibrate against; defaulting to 1 drawing unit = 1 metre. VERIFY MANUALLY.,0,0
+PLAN8,"[0.519, 0.867]","[0.46, 0.155]",0.693,1.67,0.555,False,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,12,10
+PLAN9,"[0.619, 1.017, 0.893, 0.408]","[0.554, 0.334]",0.756,2.49,0.666,False,Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) ,12,12

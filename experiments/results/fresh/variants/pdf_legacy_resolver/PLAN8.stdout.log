@@ -1,0 +1,24 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=18.04495/MEDIUM new=11.2818/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=17.5282/HIGH new=16.5029/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=316.2955/HIGH new=183.69/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=7.040366666666666/MEDIUM new=9.5462/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=6.5402000000000005/MEDIUM new=11.9944/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=46.0454/HIGH new=115.42/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=None/MISSING new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=3.4611/MEDIUM new=1.7357/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=3.6416/MEDIUM new=4.5085/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=None/MISSING new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=14.557715806895766/HIGH new=62.83/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:15:08,402 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for far: old=0.436731474206873/MEDIUM new=1.64/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+pdf_legacy_resolver PLAN8 ok 11.7s

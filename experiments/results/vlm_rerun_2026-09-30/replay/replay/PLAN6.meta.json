@@ -1,0 +1,10 @@
+{
+ "variant": "replay",
+ "replay_variant": "replay",
+ "plan": "PLAN6",
+ "kind": "pdf",
+ "warnings": [],
+ "timed_out_internally": false,
+ "status": "ok",
+ "total_seconds": 23.0
+}

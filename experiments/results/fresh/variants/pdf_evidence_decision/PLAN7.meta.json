@@ -1,0 +1,116 @@
+{
+ "variant": "pdf_evidence_decision",
+ "plan": "PLAN7",
+ "kind": "pdf",
+ "extract_seconds": 0.9,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 0,
+  "scale_points_per_metre": null,
+  "scale_confidence": null,
+  "site_plan_page": null,
+  "measurements": [],
+  "warnings": [
+   "page 1: no 'SITE PLAN' anchor text found; cannot locate the site-plan sub-region at all.",
+   "No site-plan geometry with sufficient independent CV/native-text evidence was resolved."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 0.9,
+ "reconcile_calls": [
+  {
+   "n_candidates": 2,
+   "values": [
+    19.2872,
+    19.4498
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)"
+   ],
+   "status": "AGREED",
+   "value": 19.368499999999997
+  },
+  {
+   "n_candidates": 6,
+   "values": [
+    14.8859,
+    14.5542,
+    4.5896,
+    4.5896,
+    4.5896,
+    3.8454
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)",
+    "dimension label ('2 ')",
+    "dimension label ('40X3 ')",
+    "dimension label ('45 ')",
+    "dimension label ('-270 ')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 4.40355
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    5.8217
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 5.8217
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    13.8265
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 13.8265
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  }
+ ]
+}

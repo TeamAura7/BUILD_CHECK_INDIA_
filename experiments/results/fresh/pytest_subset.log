@@ -1,0 +1,15 @@
+........................................................................ [ 58%]
+...................................................                      [100%]
+============================= slowest 10 durations =============================
+87.27s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN5[dxf]]
+73.72s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN6[dxf]]
+68.44s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN2[dxf]]
+64.45s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN5[pdf]]
+61.79s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN2[pdf]]
+59.64s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN6[pdf]]
+9.21s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN4[pdf]]
+8.94s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN4[dxf]]
+2.26s call     tests/test_eval_harness_regression.py::test_never_confidently_wrong_against_ground_truth[PLAN7[pdf]]
+0.12s call     tests/test_corpus_store.py::test_the_real_corpus_is_valid_and_is_all_development_data
+123 passed in 436.64s (0:07:16)
+EXIT=0 WALL=438s

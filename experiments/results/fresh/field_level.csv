@@ -1,0 +1,1081 @@
+variant,plan,field,run_status,truth,truth_tier,predicted,confidence,flagged,source,status,axis_swapped,abs_error,pct_error,confident
+pdf_native_only,PLAN1,plot.width,ok,12.19,printed,12.19,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN1,plot.depth,ok,9.14,printed,9.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN1,plot.area,ok,111.4166,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN1,building.width,ok,11.72,printed,11.6973,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0227,0.194,True
+pdf_native_only,PLAN1,building.depth,ok,8.22,printed,8.2015,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0185,0.225,True
+pdf_native_only,PLAN1,building.footprint_area,ok,96.34,printed,96.34,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN1,building.floor_count,ok,4,printed,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN1,setbacks.front,ok,0.47,printed,0.47,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN1,setbacks.rear,ok,0.0,inspected,0.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,,True
+pdf_native_only,PLAN1,setbacks.left,ok,0.46,printed,0.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN1,setbacks.right,ok,0.46,printed,0.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN1,coverage,ok,86.47,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN1,far,ok,3.459,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN1,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN2,plot.width,ok,12.19,printed,12.192,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.002,0.016,True
+pdf_native_only,PLAN2,plot.depth,ok,18.28,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.008,0.044,True
+pdf_native_only,PLAN2,plot.area,ok,222.83,printed,222.83,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,building.width,ok,10.59,printed,10.5904,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0004,0.004,True
+pdf_native_only,PLAN2,building.depth,ok,16.48,printed,16.4747,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0053,0.032,True
+pdf_native_only,PLAN2,building.footprint_area,ok,174.52,printed,174.52,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,building.floor_count,ok,4.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN2,road.width,ok,9.2,printed,9.2,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,setbacks.front,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,setbacks.rear,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,setbacks.left,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,setbacks.right,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,coverage,ok,78.32,printed,78.32,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,far,ok,1.73,printed,1.73,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN2,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN4,plot.width,ok,18.288,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,plot.depth,ok,16.6116,printed,16.6116,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,building.width,ok,16.459,printed,16.4592,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0002,0.001,True
+pdf_native_only,PLAN4,building.depth,ok,11.2776,printed,11.2776,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,building.footprint_area,ok,185.62,printed,185.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,building.floor_count,ok,5.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,setbacks.front,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,setbacks.rear,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN4,setbacks.left,ok,2.667,printed,2.6637,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_native_only,PLAN4,setbacks.right,ok,2.667,printed,2.6703,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_native_only,PLAN4,coverage,ok,61.1,derived,61.101418743210765,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0014,0.002,True
+pdf_native_only,PLAN4,far,ok,0.611,unverified,0.6110141874321077,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN5,plot.width,ok,17.59,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,plot.depth,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,plot.area,ok,160.77,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,building.width,ok,13.09,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,building.depth,ok,7.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,building.footprint_area,ok,93.46,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,road.width,ok,10.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,setbacks.front,ok,3.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,setbacks.rear,ok,1.5,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,setbacks.left,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,setbacks.right,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,coverage,ok,58.13,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN5,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN5,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN6,plot.width,ok,10.0,inspected,9.9977,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0023,0.023,True
+pdf_native_only,PLAN6,plot.depth,ok,13.1,printed,13.1022,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0022,0.017,True
+pdf_native_only,PLAN6,plot.area,ok,131.0,printed,131.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN6,building.width,ok,9.3,unverified,9.3063,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN6,building.depth,ok,9.15,unverified,9.1581,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN6,building.footprint_area,ok,85.09,printed,85.09,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN6,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN6,setbacks.front,ok,0.9,unverified,3.2456,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN6,setbacks.rear,ok,0.7,unverified,0.6985,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN6,setbacks.left,ok,0.7,unverified,0.0,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN6,setbacks.right,ok,,absent,0.6914,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN6,coverage,ok,79.15,printed,79.15,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN6,far,ok,1.74,printed,1.74,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN6,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN7,plot.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,plot.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,plot.area,ok,111.41,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN7,building.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,building.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,building.footprint_area,ok,69.1,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN7,coverage,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN7,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN8,plot.width,ok,13.71,printed,11.2818,LOW,False,FINAL:CV_ONLY,WRONG,False,2.4282,17.711,False
+pdf_native_only,PLAN8,plot.depth,ok,13.71,printed,16.5029,LOW,False,FINAL:CV_ONLY,WRONG,False,2.7929,20.371,False
+pdf_native_only,PLAN8,plot.area,ok,183.69,printed,183.69,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN8,building.width,ok,10.95,unverified,9.5462,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,building.depth,ok,10.7,unverified,11.9944,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,building.footprint_area,ok,115.42,printed,115.42,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN8,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,setbacks.front,ok,1.65,unverified,0.0,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,setbacks.rear,ok,1.36,unverified,1.7357,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,setbacks.left,ok,1.66,unverified,4.5085,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,setbacks.right,ok,1.1,unverified,0.0,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_only,PLAN8,coverage,ok,,absent,62.83,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN8,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN9,plot.width,ok,10.65,printed,10.65,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN9,plot.depth,ok,15.25,printed,15.2083,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0417,0.273,True
+pdf_native_only,PLAN9,plot.area,ok,147.99,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN9,building.width,ok,7.14,printed,7.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN9,building.depth,ok,12.11,printed,12.1017,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0083,0.069,True
+pdf_native_only,PLAN9,building.footprint_area,ok,94.42,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_only,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_only,PLAN9,setbacks.front,ok,1.5,printed,1.5047,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0047,0.313,True
+pdf_native_only,PLAN9,setbacks.rear,ok,1.5,printed,1.3779,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.1221,8.14,True
+pdf_native_only,PLAN9,setbacks.left,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN9,setbacks.right,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_only,PLAN9,coverage,ok,63.8,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_only,PLAN9,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_only,PLAN9,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN1,plot.width,ok,12.19,printed,12.19,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN1,plot.depth,ok,9.14,printed,9.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN1,plot.area,ok,111.4166,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN1,building.width,ok,11.72,printed,11.6973,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0227,0.194,True
+pdf_native_ocr,PLAN1,building.depth,ok,8.22,printed,8.2015,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0185,0.225,True
+pdf_native_ocr,PLAN1,building.footprint_area,ok,96.34,printed,96.34,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN1,building.floor_count,ok,4,printed,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN1,setbacks.front,ok,0.47,printed,0.47,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN1,setbacks.rear,ok,0.0,inspected,0.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,,True
+pdf_native_ocr,PLAN1,setbacks.left,ok,0.46,printed,0.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN1,setbacks.right,ok,0.46,printed,0.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN1,coverage,ok,86.47,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN1,far,ok,3.459,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN1,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN2,plot.width,ok,12.19,printed,12.192,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.002,0.016,True
+pdf_native_ocr,PLAN2,plot.depth,ok,18.28,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.008,0.044,True
+pdf_native_ocr,PLAN2,plot.area,ok,222.83,printed,222.83,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,building.width,ok,10.59,printed,10.5904,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0004,0.004,True
+pdf_native_ocr,PLAN2,building.depth,ok,16.48,printed,16.4747,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0053,0.032,True
+pdf_native_ocr,PLAN2,building.footprint_area,ok,174.52,printed,174.52,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,building.floor_count,ok,4.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN2,road.width,ok,9.2,printed,9.2,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,setbacks.front,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,setbacks.rear,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,setbacks.left,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,setbacks.right,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,coverage,ok,78.32,printed,78.32,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,far,ok,1.73,printed,1.73,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN2,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN4,plot.width,ok,18.288,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,plot.depth,ok,16.6116,printed,16.6116,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,building.width,ok,16.459,printed,16.4592,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0002,0.001,True
+pdf_native_ocr,PLAN4,building.depth,ok,11.2776,printed,11.2776,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,building.footprint_area,ok,185.62,printed,185.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,building.floor_count,ok,5.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,setbacks.front,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,setbacks.rear,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN4,setbacks.left,ok,2.667,printed,2.6637,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_native_ocr,PLAN4,setbacks.right,ok,2.667,printed,2.6703,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_native_ocr,PLAN4,coverage,ok,61.1,derived,61.101418743210765,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0014,0.002,True
+pdf_native_ocr,PLAN4,far,ok,0.611,unverified,0.6110141874321077,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN5,plot.width,ok,17.59,printed,17.5895,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0005,0.003,True
+pdf_native_ocr,PLAN5,plot.depth,ok,9.14,printed,9.2075,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0675,0.739,True
+pdf_native_ocr,PLAN5,plot.area,ok,160.77,printed,160.77,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN5,building.width,ok,13.09,printed,13.0895,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0005,0.004,True
+pdf_native_ocr,PLAN5,building.depth,ok,7.14,printed,7.1374,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0026,0.036,True
+pdf_native_ocr,PLAN5,building.footprint_area,ok,93.46,printed,93.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN5,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN5,road.width,ok,10.0,printed,10.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN5,setbacks.front,ok,3.0,printed,3.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN5,setbacks.rear,ok,1.5,printed,1.5,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN5,setbacks.left,ok,1.0,printed,1.0724,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0724,7.24,True
+pdf_native_ocr,PLAN5,setbacks.right,ok,1.0,printed,0.9977,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0023,0.23,True
+pdf_native_ocr,PLAN5,coverage,ok,58.13,printed,58.13273620700379,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0027,0.005,True
+pdf_native_ocr,PLAN5,far,ok,,absent,0.5813273620700379,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN5,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN6,plot.width,ok,10.0,inspected,9.9977,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0023,0.023,True
+pdf_native_ocr,PLAN6,plot.depth,ok,13.1,printed,13.1022,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0022,0.017,True
+pdf_native_ocr,PLAN6,plot.area,ok,131.0,printed,131.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN6,building.width,ok,9.3,unverified,9.3063,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN6,building.depth,ok,9.15,unverified,9.1581,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN6,building.footprint_area,ok,85.09,printed,85.09,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN6,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN6,setbacks.front,ok,0.9,unverified,3.2456,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN6,setbacks.rear,ok,0.7,unverified,0.6985,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN6,setbacks.left,ok,0.7,unverified,0.0,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN6,setbacks.right,ok,,absent,0.6914,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN6,coverage,ok,79.15,printed,79.15,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN6,far,ok,1.74,printed,1.74,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN6,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN7,plot.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,plot.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,plot.area,ok,111.41,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN7,building.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,building.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,building.footprint_area,ok,69.1,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN7,coverage,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN7,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN8,plot.width,ok,13.71,printed,11.2818,LOW,False,FINAL:CV_ONLY,WRONG,False,2.4282,17.711,False
+pdf_native_ocr,PLAN8,plot.depth,ok,13.71,printed,16.5029,LOW,False,FINAL:CV_ONLY,WRONG,False,2.7929,20.371,False
+pdf_native_ocr,PLAN8,plot.area,ok,183.69,printed,183.69,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN8,building.width,ok,10.95,unverified,9.5462,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,building.depth,ok,10.7,unverified,11.9944,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,building.footprint_area,ok,115.42,printed,115.42,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN8,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,setbacks.front,ok,1.65,unverified,0.0,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,setbacks.rear,ok,1.36,unverified,1.7357,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,setbacks.left,ok,1.66,unverified,4.5085,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,setbacks.right,ok,1.1,unverified,0.0,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_native_ocr,PLAN8,coverage,ok,,absent,62.83,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN8,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN9,plot.width,ok,10.65,printed,10.65,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN9,plot.depth,ok,15.25,printed,15.2083,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0417,0.273,True
+pdf_native_ocr,PLAN9,plot.area,ok,147.99,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN9,building.width,ok,7.14,printed,7.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN9,building.depth,ok,12.11,printed,12.1017,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0083,0.069,True
+pdf_native_ocr,PLAN9,building.footprint_area,ok,94.42,printed,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_native_ocr,PLAN9,setbacks.front,ok,1.5,printed,1.5047,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0047,0.313,True
+pdf_native_ocr,PLAN9,setbacks.rear,ok,1.5,printed,1.3779,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.1221,8.14,True
+pdf_native_ocr,PLAN9,setbacks.left,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN9,setbacks.right,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_native_ocr,PLAN9,coverage,ok,63.8,derived,,MISSING,False,,MISSING,False,,,False
+pdf_native_ocr,PLAN9,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_native_ocr,PLAN9,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_hybrid,PLAN1,plot.width,ok,12.19,printed,12.19,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,plot.depth,ok,9.14,printed,9.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,plot.area,ok,111.4166,derived,111.4166,HIGH,False,plot.area = width x depth (final agreed dimensions),CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,building.width,ok,11.72,printed,11.6973,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0227,0.194,True
+pdf_hybrid,PLAN1,building.depth,ok,8.22,printed,8.2015,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0185,0.225,True
+pdf_hybrid,PLAN1,building.footprint_area,ok,96.34,printed,96.34,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,building.floor_count,ok,4,printed,4,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid,PLAN1,setbacks.front,ok,0.47,printed,0.47,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,setbacks.rear,ok,0.0,inspected,0.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,,True
+pdf_hybrid,PLAN1,setbacks.left,ok,0.46,printed,0.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,setbacks.right,ok,0.46,printed,0.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN1,coverage,ok,86.47,derived,86.46826415453353,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0017,0.002,True
+pdf_hybrid,PLAN1,far,ok,3.459,derived,3.458730566181341,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),CORRECT,False,0.0003,0.008,True
+pdf_hybrid,PLAN1,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_hybrid,PLAN2,plot.width,ok,12.19,printed,12.192,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.002,0.016,True
+pdf_hybrid,PLAN2,plot.depth,ok,18.28,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.008,0.044,True
+pdf_hybrid,PLAN2,plot.area,ok,222.83,printed,222.83,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,building.width,ok,10.59,printed,10.5904,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0004,0.004,True
+pdf_hybrid,PLAN2,building.depth,ok,16.48,printed,16.4747,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0053,0.032,True
+pdf_hybrid,PLAN2,building.footprint_area,ok,174.52,printed,174.52,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,building.floor_count,ok,4.0,inspected,4,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,road.width,ok,9.2,printed,9.2,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,setbacks.front,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,setbacks.rear,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,setbacks.left,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,setbacks.right,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,coverage,ok,78.32,printed,78.32,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,far,ok,1.73,printed,1.73,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN2,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN4,plot.width,ok,18.288,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,plot.depth,ok,16.6116,printed,16.6116,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,building.width,ok,16.459,printed,16.4592,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0002,0.001,True
+pdf_hybrid,PLAN4,building.depth,ok,11.2776,printed,11.2776,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,building.footprint_area,ok,185.62,printed,185.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,building.floor_count,ok,5.0,inspected,5,LOW,False,named floor levels,CORRECT,False,0.0,0.0,False
+pdf_hybrid,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,setbacks.front,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,setbacks.rear,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN4,setbacks.left,ok,2.667,printed,2.6637,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_hybrid,PLAN4,setbacks.right,ok,2.667,printed,2.6703,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_hybrid,PLAN4,coverage,ok,61.1,derived,61.101418743210765,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0014,0.002,True
+pdf_hybrid,PLAN4,far,ok,0.611,unverified,3.0550709371605382,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN5,plot.width,ok,17.59,printed,17.5895,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0005,0.003,True
+pdf_hybrid,PLAN5,plot.depth,ok,9.14,printed,9.2075,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0675,0.739,True
+pdf_hybrid,PLAN5,plot.area,ok,160.77,printed,160.77,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN5,building.width,ok,13.09,printed,13.0895,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0005,0.004,True
+pdf_hybrid,PLAN5,building.depth,ok,7.14,printed,7.1374,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0026,0.036,True
+pdf_hybrid,PLAN5,building.footprint_area,ok,93.46,printed,93.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN5,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN5,road.width,ok,10.0,printed,10.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN5,setbacks.front,ok,3.0,printed,3.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN5,setbacks.rear,ok,1.5,printed,1.5,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN5,setbacks.left,ok,1.0,printed,1.0724,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0724,7.24,True
+pdf_hybrid,PLAN5,setbacks.right,ok,1.0,printed,0.9977,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0023,0.23,True
+pdf_hybrid,PLAN5,coverage,ok,58.13,printed,58.13273620700379,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0027,0.005,True
+pdf_hybrid,PLAN5,far,ok,,absent,1.7439820862101136,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN5,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_hybrid,PLAN6,plot.width,ok,10.0,inspected,9.9977,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0023,0.023,True
+pdf_hybrid,PLAN6,plot.depth,ok,13.1,printed,13.1022,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0022,0.017,True
+pdf_hybrid,PLAN6,plot.area,ok,131.0,printed,131.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN6,building.width,ok,9.3,unverified,9.3063,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN6,building.depth,ok,9.15,unverified,9.1581,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN6,building.footprint_area,ok,85.09,printed,85.09,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN6,building.floor_count,ok,3.0,inspected,3,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN6,setbacks.front,ok,0.9,unverified,3.2456,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN6,setbacks.rear,ok,0.7,unverified,0.6985,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN6,setbacks.left,ok,0.7,unverified,0.0,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN6,setbacks.right,ok,,absent,0.6914,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN6,coverage,ok,79.15,printed,79.15,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN6,far,ok,1.74,printed,1.74,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN6,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN7,plot.width,ok,,must_abstain,19.368499999999997,LOW,False,plot.width: agreed across 2 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid,PLAN7,plot.depth,ok,,must_abstain,4.40355,LOW,False,plot.depth: outlier_detected across 6 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid,PLAN7,plot.area,ok,111.41,unverified,85.2902,LOW,False,plot.area = width x depth (final agreed dimensions),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN7,building.width,ok,,must_abstain,5.8217,LOW,False,building.width: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid,PLAN7,building.depth,ok,,must_abstain,13.8265,LOW,False,building.depth: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid,PLAN7,building.footprint_area,ok,69.1,unverified,80.4937,LOW,False,building.footprint_area = width x depth (final agreed dimensions),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_hybrid,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid,PLAN7,coverage,ok,,absent,94.37625893713464,LOW,False,coverage = building.footprint_area / plot.area * 100,N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN7,far,ok,,absent,0.9437625893713464,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_hybrid,PLAN8,plot.width,ok,13.71,printed,11.2818,LOW,False,FINAL:CV_ONLY,WRONG,False,2.4282,17.711,False
+pdf_hybrid,PLAN8,plot.depth,ok,13.71,printed,16.5029,LOW,False,FINAL:CV_ONLY,WRONG,False,2.7929,20.371,False
+pdf_hybrid,PLAN8,plot.area,ok,183.69,printed,183.69,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN8,building.width,ok,10.95,unverified,9.5462,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,building.depth,ok,10.7,unverified,11.9944,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,building.footprint_area,ok,115.42,printed,115.42,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN8,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,setbacks.front,ok,1.65,unverified,0.0,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,setbacks.rear,ok,1.36,unverified,1.7357,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,setbacks.left,ok,1.66,unverified,4.5085,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,setbacks.right,ok,1.1,unverified,0.0,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid,PLAN8,coverage,ok,,absent,62.83,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN8,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN9,plot.width,ok,10.65,printed,10.65,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN9,plot.depth,ok,15.25,printed,15.2083,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0417,0.273,True
+pdf_hybrid,PLAN9,plot.area,ok,147.99,printed,147.99,MEDIUM,False,plot.area = printed Area Statement 'Site Area',CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN9,building.width,ok,7.14,printed,7.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN9,building.depth,ok,12.11,printed,12.1017,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0083,0.069,True
+pdf_hybrid,PLAN9,building.footprint_area,ok,94.42,printed,94.42,MEDIUM,False,building.footprint_area = printed Area Statement 'ground floor',CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_hybrid,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid,PLAN9,setbacks.front,ok,1.5,printed,1.5047,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0047,0.313,True
+pdf_hybrid,PLAN9,setbacks.rear,ok,1.5,printed,1.3779,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.1221,8.14,True
+pdf_hybrid,PLAN9,setbacks.left,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN9,setbacks.right,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid,PLAN9,coverage,ok,63.8,derived,63.8016082167714,MEDIUM,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0016,0.003,True
+pdf_hybrid,PLAN9,far,ok,,absent,0.638016082167714,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_hybrid,PLAN9,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_legacy_resolver,PLAN1,plot.width,ok,12.19,printed,,CONFLICTING,True,plot.width: conflicting evidence,ABSTAINED_CONFLICT,False,,,False
+pdf_legacy_resolver,PLAN1,plot.depth,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,plot.area,ok,111.4166,derived,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,building.width,ok,11.72,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,building.depth,ok,8.22,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,building.footprint_area,ok,96.34,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,building.floor_count,ok,4,printed,4,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_legacy_resolver,PLAN1,setbacks.front,ok,0.47,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,setbacks.rear,ok,0.0,inspected,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,setbacks.left,ok,0.46,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,setbacks.right,ok,0.46,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,coverage,ok,86.47,derived,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,far,ok,3.459,derived,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN1,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_legacy_resolver,PLAN2,plot.width,ok,12.19,printed,57.81845,MEDIUM,False,plot.width: outlier_detected across 3 source(s),WRONG,False,45.6285,374.311,True
+pdf_legacy_resolver,PLAN2,plot.depth,ok,18.28,printed,51.04965,MEDIUM,False,plot.depth: agreed across 2 source(s),WRONG,False,32.7696,179.265,True
+pdf_legacy_resolver,PLAN2,plot.area,ok,222.83,printed,2951.6116,MEDIUM,False,plot.area (width x depth),WRONG,False,2728.7816,1224.602,True
+pdf_legacy_resolver,PLAN2,building.width,ok,10.59,printed,18.4769,MEDIUM,False,building.width: outlier_detected across 6 source(s),WRONG,False,7.8869,74.475,True
+pdf_legacy_resolver,PLAN2,building.depth,ok,16.48,printed,27.44665714285714,MEDIUM,False,building.depth: outlier_detected across 40 source(s),WRONG,False,10.9667,66.545,True
+pdf_legacy_resolver,PLAN2,building.footprint_area,ok,174.52,printed,507.1291,MEDIUM,False,building.footprint_area = building.width x building.depth,WRONG,False,332.6091,190.585,True
+pdf_legacy_resolver,PLAN2,building.floor_count,ok,4.0,inspected,4,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN2,road.width,ok,9.2,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN2,setbacks.front,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN2,setbacks.rear,ok,0.8,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN2,setbacks.left,ok,0.8,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN2,setbacks.right,ok,0.8,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN2,coverage,ok,78.32,printed,17.181430646227298,HIGH,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,61.1386,78.063,True
+pdf_legacy_resolver,PLAN2,far,ok,1.73,printed,0.687257225849092,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),WRONG,False,1.0427,60.274,True
+pdf_legacy_resolver,PLAN2,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN4,plot.width,ok,18.288,printed,84.2382,HIGH,False,plot.width: agreed across 2 source(s),WRONG,False,65.9502,360.62,True
+pdf_legacy_resolver,PLAN4,plot.depth,ok,16.6116,printed,47.5348,MEDIUM,False,plot.depth: minor_variance across 3 source(s),WRONG,False,30.9232,186.154,True
+pdf_legacy_resolver,PLAN4,plot.area,ok,303.79,printed,4004.246,HIGH,False,plot.area (width x depth),WRONG,False,3700.456,1218.097,True
+pdf_legacy_resolver,PLAN4,building.width,ok,16.459,printed,12.93108,MEDIUM,False,building.width: minor_variance across 5 source(s),WRONG,False,3.5279,21.435,True
+pdf_legacy_resolver,PLAN4,building.depth,ok,11.2776,printed,,CONFLICTING,True,building.depth: conflicting evidence,ABSTAINED_CONFLICT,False,,,False
+pdf_legacy_resolver,PLAN4,building.footprint_area,ok,185.62,printed,2018.3019,MEDIUM,False,building.footprint_area (sum of validated building block polygons),WRONG,False,1832.6819,987.33,True
+pdf_legacy_resolver,PLAN4,building.floor_count,ok,5.0,inspected,5,LOW,False,named floor levels,CORRECT,False,0.0,0.0,False
+pdf_legacy_resolver,PLAN4,road.width,ok,7.62,printed,,CONFLICTING,True,road.width: conflicting evidence,ABSTAINED_CONFLICT,False,,,False
+pdf_legacy_resolver,PLAN4,setbacks.front,ok,0.9144,printed,15.0682,MEDIUM,False,setbacks.front: uncorroborated across 1 source(s),WRONG,False,14.1538,1547.878,True
+pdf_legacy_resolver,PLAN4,setbacks.rear,ok,0.9144,printed,27.3404,MEDIUM,False,setbacks.rear: uncorroborated across 1 source(s),WRONG,False,26.426,2889.983,True
+pdf_legacy_resolver,PLAN4,setbacks.left,ok,2.667,printed,3.9978,MEDIUM,False,setbacks.left: uncorroborated across 1 source(s),WRONG,False,1.3308,49.899,True
+pdf_legacy_resolver,PLAN4,setbacks.right,ok,2.667,printed,52.1668,MEDIUM,False,setbacks.right: uncorroborated across 1 source(s),WRONG,False,49.4998,1856.01,True
+pdf_legacy_resolver,PLAN4,coverage,ok,61.1,derived,50.40404360771041,MEDIUM,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,10.696,17.506,True
+pdf_legacy_resolver,PLAN4,far,ok,0.611,unverified,2.5202021803855206,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN5,plot.width,ok,17.59,printed,5.0734,MEDIUM,False,plot.width: agreed across 2 source(s),WRONG,False,12.5166,71.157,True
+pdf_legacy_resolver,PLAN5,plot.depth,ok,9.14,printed,4.7022,MEDIUM,False,plot.depth: agreed across 2 source(s),WRONG,False,4.4378,48.554,True
+pdf_legacy_resolver,PLAN5,plot.area,ok,160.77,printed,160.77,MEDIUM,False,plot.area = printed Area Statement 'Site Area',CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN5,building.width,ok,13.09,printed,2.9663333333333335,MEDIUM,False,building.width: outlier_detected across 5 source(s),WRONG,False,10.1237,77.339,True
+pdf_legacy_resolver,PLAN5,building.depth,ok,7.14,printed,3.9389,MEDIUM,False,building.depth: uncorroborated across 1 source(s),WRONG,False,3.2011,44.833,True
+pdf_legacy_resolver,PLAN5,building.footprint_area,ok,93.46,printed,11.6841,MEDIUM,False,building.footprint_area = building.width x building.depth,WRONG,False,81.7759,87.498,True
+pdf_legacy_resolver,PLAN5,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN5,road.width,ok,10.0,printed,10.0,HIGH,False,road.width: agreed across 2 source(s),CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN5,setbacks.front,ok,3.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN5,setbacks.rear,ok,1.5,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN5,setbacks.left,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN5,setbacks.right,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN5,coverage,ok,58.13,printed,7.267587236424706,HIGH,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,50.8624,87.498,True
+pdf_legacy_resolver,PLAN5,far,ok,,absent,0.21802761709274118,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN5,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_legacy_resolver,PLAN6,plot.width,ok,10.0,inspected,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN6,plot.depth,ok,13.1,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN6,plot.area,ok,131.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN6,building.width,ok,9.3,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN6,building.depth,ok,9.15,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN6,building.footprint_area,ok,85.09,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN6,building.floor_count,ok,3.0,inspected,3,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,road.width: agreed across 2 source(s),CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN6,setbacks.front,ok,0.9,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN6,setbacks.rear,ok,0.7,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN6,setbacks.left,ok,0.7,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN6,setbacks.right,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN6,coverage,ok,79.15,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN6,far,ok,1.74,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN6,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN7,plot.width,ok,,must_abstain,19.368499999999997,LOW,False,plot.width: agreed across 2 source(s),FALSE_POSITIVE,False,,,False
+pdf_legacy_resolver,PLAN7,plot.depth,ok,,must_abstain,4.40355,LOW,False,plot.depth: outlier_detected across 6 source(s),FALSE_POSITIVE,False,,,False
+pdf_legacy_resolver,PLAN7,plot.area,ok,111.41,unverified,85.2902,LOW,False,plot.area (width x depth),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN7,building.width,ok,,must_abstain,5.8217,LOW,False,building.width: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_legacy_resolver,PLAN7,building.depth,ok,,must_abstain,13.8265,LOW,False,building.depth: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_legacy_resolver,PLAN7,building.footprint_area,ok,69.1,unverified,80.4937,LOW,False,building.footprint_area = building.width x building.depth,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_legacy_resolver,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_legacy_resolver,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_legacy_resolver,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_legacy_resolver,PLAN7,coverage,ok,,absent,94.37625893713464,HIGH,False,coverage = building.footprint_area / plot.area * 100,N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN7,far,ok,,absent,0.9437625893713464,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN8,plot.width,ok,13.71,printed,18.04495,MEDIUM,False,plot.width: outlier_detected across 3 source(s),WRONG,False,4.3349,31.619,True
+pdf_legacy_resolver,PLAN8,plot.depth,ok,13.71,printed,17.5282,HIGH,False,plot.depth: agreed across 2 source(s),WRONG,False,3.8182,27.85,True
+pdf_legacy_resolver,PLAN8,plot.area,ok,183.69,printed,316.2955,HIGH,False,plot.area (width x depth),WRONG,False,132.6055,72.19,True
+pdf_legacy_resolver,PLAN8,building.width,ok,10.95,unverified,7.040366666666666,MEDIUM,False,building.width: minor_variance across 6 source(s),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,building.depth,ok,10.7,unverified,6.5402000000000005,MEDIUM,False,building.depth: outlier_detected across 23 source(s),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,building.footprint_area,ok,115.42,printed,46.0454,HIGH,False,building.footprint_area = building.width x building.depth,WRONG,False,69.3746,60.106,True
+pdf_legacy_resolver,PLAN8,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,setbacks.front,ok,1.65,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,setbacks.rear,ok,1.36,unverified,3.4611,MEDIUM,False,setbacks.rear: uncorroborated across 1 source(s),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,setbacks.left,ok,1.66,unverified,3.6416,MEDIUM,False,setbacks.left: uncorroborated across 1 source(s),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,setbacks.right,ok,1.1,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,coverage,ok,,absent,14.557715806895766,HIGH,False,coverage = building.footprint_area / plot.area * 100,N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,far,ok,,absent,0.436731474206873,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN8,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN9,plot.width,ok,10.65,printed,1.9034,MEDIUM,False,plot.width: agreed across 2 source(s),WRONG,False,8.7466,82.128,True
+pdf_legacy_resolver,PLAN9,plot.depth,ok,15.25,printed,2.4585,MEDIUM,False,plot.depth: agreed across 2 source(s),WRONG,False,12.7915,83.879,True
+pdf_legacy_resolver,PLAN9,plot.area,ok,147.99,printed,147.99,MEDIUM,False,plot.area = printed Area Statement 'Site Area',CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN9,building.width,ok,7.14,printed,1.736,MEDIUM,False,building.width: uncorroborated across 1 source(s),WRONG,False,5.404,75.686,True
+pdf_legacy_resolver,PLAN9,building.depth,ok,12.11,printed,1.7785,MEDIUM,False,building.depth: uncorroborated across 1 source(s),WRONG,False,10.3315,85.314,True
+pdf_legacy_resolver,PLAN9,building.footprint_area,ok,94.42,printed,94.42,MEDIUM,False,building.footprint_area = printed Area Statement 'ground floor',CORRECT,False,0.0,0.0,True
+pdf_legacy_resolver,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_legacy_resolver,PLAN9,setbacks.front,ok,1.5,printed,0.443,MEDIUM,False,setbacks.front: uncorroborated across 1 source(s),WRONG,False,1.057,70.467,True
+pdf_legacy_resolver,PLAN9,setbacks.rear,ok,1.5,printed,0.2383,MEDIUM,False,setbacks.rear: uncorroborated across 1 source(s),WRONG,False,1.2617,84.113,True
+pdf_legacy_resolver,PLAN9,setbacks.left,ok,1.0,printed,0.005,MEDIUM,False,setbacks.left: uncorroborated across 1 source(s),WRONG,False,0.995,99.5,True
+pdf_legacy_resolver,PLAN9,setbacks.right,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+pdf_legacy_resolver,PLAN9,coverage,ok,63.8,derived,63.8016082167714,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0016,0.003,True
+pdf_legacy_resolver,PLAN9,far,ok,,absent,0.638016082167714,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_legacy_resolver,PLAN9,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_evidence_decision,PLAN1,plot.width,ok,12.19,printed,12.19,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,plot.depth,ok,9.14,printed,9.14,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,plot.area,ok,111.4166,derived,111.4166,MEDIUM,False,legacy_fallback:plot.area = width x depth (final agreed dimensions),CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,building.width,ok,11.72,printed,11.6973,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0227,0.194,True
+pdf_evidence_decision,PLAN1,building.depth,ok,8.22,printed,8.2015,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0185,0.225,True
+pdf_evidence_decision,PLAN1,building.footprint_area,ok,96.34,printed,96.34,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,building.floor_count,ok,4,printed,4,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN1,setbacks.front,ok,0.47,printed,0.47,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,setbacks.rear,ok,0.0,inspected,0.0,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0,,False
+pdf_evidence_decision,PLAN1,setbacks.left,ok,0.46,printed,0.46,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,setbacks.right,ok,0.46,printed,0.46,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN1,coverage,ok,86.47,derived,86.46826415453353,MEDIUM,False,derived:coverage_field(evidence_decision),CORRECT,False,0.0017,0.002,True
+pdf_evidence_decision,PLAN1,far,ok,3.459,derived,3.458730566181341,MEDIUM,False,derived:far_field(evidence_decision),CORRECT,False,0.0003,0.008,True
+pdf_evidence_decision,PLAN1,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_evidence_decision,PLAN2,plot.width,ok,12.19,printed,12.192,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.002,0.016,True
+pdf_evidence_decision,PLAN2,plot.depth,ok,18.28,printed,18.288,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.008,0.044,True
+pdf_evidence_decision,PLAN2,plot.area,ok,222.83,printed,222.83,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,building.width,ok,10.59,printed,10.5904,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0004,0.004,True
+pdf_evidence_decision,PLAN2,building.depth,ok,16.48,printed,16.4747,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0053,0.032,True
+pdf_evidence_decision,PLAN2,building.footprint_area,ok,174.52,printed,174.52,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,building.floor_count,ok,4.0,inspected,4,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,road.width,ok,9.2,printed,9.2,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,setbacks.front,ok,1.0,printed,1.0,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,setbacks.rear,ok,0.8,printed,0.8,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,setbacks.left,ok,0.8,printed,0.8,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,setbacks.right,ok,0.8,printed,0.8,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,coverage,ok,78.32,printed,78.32,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,far,ok,1.73,printed,1.73,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN2,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN4,plot.width,ok,18.288,printed,18.288,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN4,plot.depth,ok,16.6116,printed,16.6116,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN4,building.width,ok,16.459,printed,16.4592,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0002,0.001,True
+pdf_evidence_decision,PLAN4,building.depth,ok,11.2776,printed,11.2776,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN4,building.footprint_area,ok,185.62,printed,185.62,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN4,building.floor_count,ok,5.0,inspected,5,LOW,False,named floor levels,CORRECT,False,0.0,0.0,False
+pdf_evidence_decision,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN4,setbacks.front,ok,0.9144,printed,0.9144,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0,0.0,False
+pdf_evidence_decision,PLAN4,setbacks.rear,ok,0.9144,printed,0.9144,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0,0.0,False
+pdf_evidence_decision,PLAN4,setbacks.left,ok,2.667,printed,2.6637,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0033,0.124,False
+pdf_evidence_decision,PLAN4,setbacks.right,ok,2.667,printed,2.6703,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0033,0.124,False
+pdf_evidence_decision,PLAN4,coverage,ok,61.1,derived,61.101418743210765,HIGH,False,derived:coverage_field(evidence_decision),CORRECT,False,0.0014,0.002,True
+pdf_evidence_decision,PLAN4,far,ok,0.611,unverified,3.0550709371605382,LOW,False,derived:far_field(evidence_decision),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN5,plot.width,ok,17.59,printed,17.5895,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0005,0.003,True
+pdf_evidence_decision,PLAN5,plot.depth,ok,9.14,printed,9.2075,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0675,0.739,True
+pdf_evidence_decision,PLAN5,plot.area,ok,160.77,printed,160.77,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN5,building.width,ok,13.09,printed,13.0895,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0005,0.004,True
+pdf_evidence_decision,PLAN5,building.depth,ok,7.14,printed,7.1374,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0026,0.036,True
+pdf_evidence_decision,PLAN5,building.footprint_area,ok,93.46,printed,93.46,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN5,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN5,road.width,ok,10.0,printed,10.0,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN5,setbacks.front,ok,3.0,printed,3.0,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0,0.0,False
+pdf_evidence_decision,PLAN5,setbacks.rear,ok,1.5,printed,1.5,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0,0.0,False
+pdf_evidence_decision,PLAN5,setbacks.left,ok,1.0,printed,1.0724,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0724,7.24,False
+pdf_evidence_decision,PLAN5,setbacks.right,ok,1.0,printed,0.9977,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0023,0.23,False
+pdf_evidence_decision,PLAN5,coverage,ok,58.13,printed,58.13273620700379,HIGH,False,derived:coverage_field(evidence_decision),CORRECT,False,0.0027,0.005,True
+pdf_evidence_decision,PLAN5,far,ok,,absent,1.7439820862101136,MEDIUM,False,derived:far_field(evidence_decision),N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN5,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_evidence_decision,PLAN6,plot.width,ok,10.0,inspected,9.9977,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0023,0.023,True
+pdf_evidence_decision,PLAN6,plot.depth,ok,13.1,printed,13.1022,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0022,0.017,True
+pdf_evidence_decision,PLAN6,plot.area,ok,131.0,printed,131.0,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN6,building.width,ok,9.3,unverified,9.3063,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN6,building.depth,ok,9.15,unverified,9.1581,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN6,building.footprint_area,ok,85.09,printed,85.09,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN6,building.floor_count,ok,3.0,inspected,3,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN6,setbacks.front,ok,0.9,unverified,3.2456,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN6,setbacks.rear,ok,0.7,unverified,0.6985,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN6,setbacks.left,ok,0.7,unverified,0.0,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN6,setbacks.right,ok,,absent,0.6914,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN6,coverage,ok,79.15,printed,79.15,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN6,far,ok,1.74,printed,1.74,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN6,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN7,plot.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,plot.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,plot.area,ok,111.41,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN7,building.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,building.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,building.footprint_area,ok,69.1,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_evidence_decision,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_evidence_decision,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN7,coverage,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN7,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_evidence_decision,PLAN8,plot.width,ok,13.71,printed,11.2818,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,WRONG,False,2.4282,17.711,True
+pdf_evidence_decision,PLAN8,plot.depth,ok,13.71,printed,16.5029,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,WRONG,False,2.7929,20.371,True
+pdf_evidence_decision,PLAN8,plot.area,ok,183.69,printed,183.69,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN8,building.width,ok,10.95,unverified,9.5462,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,building.depth,ok,10.7,unverified,11.9944,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,building.footprint_area,ok,115.42,printed,115.42,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN8,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,setbacks.front,ok,1.65,unverified,0.0,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,setbacks.rear,ok,1.36,unverified,1.7357,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,setbacks.left,ok,1.66,unverified,4.5085,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,setbacks.right,ok,1.1,unverified,0.0,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,coverage,ok,,absent,62.83,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,far,ok,,absent,1.64,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN8,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN9,plot.width,ok,10.65,printed,10.65,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN9,plot.depth,ok,15.25,printed,15.2083,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0417,0.273,True
+pdf_evidence_decision,PLAN9,plot.area,ok,147.99,printed,147.99,MEDIUM,False,legacy_fallback:plot.area = printed Area Statement 'Site Area',CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN9,building.width,ok,7.14,printed,7.14,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN9,building.depth,ok,12.11,printed,12.1017,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0083,0.069,True
+pdf_evidence_decision,PLAN9,building.footprint_area,ok,94.42,printed,94.42,MEDIUM,False,legacy_fallback:building.footprint_area = printed Area Statement 'ground floor',CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_evidence_decision,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_evidence_decision,PLAN9,setbacks.front,ok,1.5,printed,1.5047,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.0047,0.313,False
+pdf_evidence_decision,PLAN9,setbacks.rear,ok,1.5,printed,1.3779,LOW,False,evidence_decision:CV_ONLY_UNVERIFIED,CORRECT,False,0.1221,8.14,False
+pdf_evidence_decision,PLAN9,setbacks.left,ok,1.0,printed,1.0,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN9,setbacks.right,ok,1.0,printed,1.0,HIGH,False,evidence_decision:CV_ONLY_DOCUMENT_VERIFIED,CORRECT,False,0.0,0.0,True
+pdf_evidence_decision,PLAN9,coverage,ok,63.8,derived,63.8016082167714,MEDIUM,False,derived:coverage_field(evidence_decision),CORRECT,False,0.0016,0.003,True
+pdf_evidence_decision,PLAN9,far,ok,,absent,0.638016082167714,LOW,False,derived:far_field(evidence_decision),N/A_NO_TRUTH,False,,,
+pdf_evidence_decision,PLAN9,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+dxf_hybrid,PLAN1,plot.width,ok,12.19,printed,12.74,LOW,False,FINAL:CV_ONLY,CORRECT,False,0.55,4.512,False
+dxf_hybrid,PLAN1,plot.depth,ok,9.14,printed,7.7344,LOW,False,FINAL:CV_ONLY,WRONG,False,1.4056,15.379,False
+dxf_hybrid,PLAN1,plot.area,ok,111.4166,derived,98.5363,LOW,False,FINAL:CV_ONLY,WRONG,False,12.8803,11.56,False
+dxf_hybrid,PLAN1,building.width,ok,11.72,printed,10.1683,LOW,False,FINAL:CV_ONLY,WRONG,False,1.5517,13.24,False
+dxf_hybrid,PLAN1,building.depth,ok,8.22,printed,6.395,LOW,False,FINAL:CV_ONLY,WRONG,False,1.825,22.202,False
+dxf_hybrid,PLAN1,building.footprint_area,ok,96.34,printed,65.0263,LOW,False,FINAL:CV_ONLY,WRONG,False,31.3137,32.503,False
+dxf_hybrid,PLAN1,building.floor_count,ok,4,printed,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN1,setbacks.front,ok,0.47,printed,0.0,LOW,False,FINAL:CV_ONLY,WRONG,False,0.47,100.0,False
+dxf_hybrid,PLAN1,setbacks.rear,ok,0.0,inspected,1.3394,LOW,False,FINAL:CV_ONLY,WRONG,False,1.3394,,False
+dxf_hybrid,PLAN1,setbacks.left,ok,0.46,printed,2.5717,LOW,False,FINAL:CV_ONLY,WRONG,False,2.1117,459.065,False
+dxf_hybrid,PLAN1,setbacks.right,ok,0.46,printed,0.0,LOW,False,FINAL:CV_ONLY,WRONG,False,0.46,100.0,False
+dxf_hybrid,PLAN1,coverage,ok,86.47,derived,65.99222824481943,LOW,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,20.4778,23.682,False
+dxf_hybrid,PLAN1,far,ok,3.459,derived,0.6599222824481943,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),WRONG,False,2.7991,80.922,False
+dxf_hybrid,PLAN1,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN2,plot.width,ok,12.19,printed,11.0442,LOW,False,FINAL:CV_ONLY,WRONG,False,1.1458,9.4,False
+dxf_hybrid,PLAN2,plot.depth,ok,18.28,printed,15.5969,LOW,False,FINAL:CV_ONLY,WRONG,False,2.6831,14.678,False
+dxf_hybrid,PLAN2,plot.area,ok,222.83,printed,172.2544,LOW,False,FINAL:CV_ONLY,WRONG,False,50.5756,22.697,False
+dxf_hybrid,PLAN2,building.width,ok,10.59,printed,10.1672,LOW,False,FINAL:CV_ONLY,CORRECT,False,0.4228,3.992,False
+dxf_hybrid,PLAN2,building.depth,ok,16.48,printed,14.4858,LOW,False,FINAL:CV_ONLY,WRONG,False,1.9942,12.101,False
+dxf_hybrid,PLAN2,building.footprint_area,ok,174.52,printed,122.4094,LOW,False,FINAL:CV_ONLY,WRONG,False,52.1106,29.859,False
+dxf_hybrid,PLAN2,building.floor_count,ok,4.0,inspected,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN2,road.width,ok,9.2,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN2,setbacks.front,ok,1.0,printed,0.2065,LOW,False,FINAL:CV_ONLY,WRONG,False,0.7935,79.35,False
+dxf_hybrid,PLAN2,setbacks.rear,ok,0.8,printed,0.4072,LOW,False,FINAL:CV_ONLY,WRONG,False,0.3928,49.1,False
+dxf_hybrid,PLAN2,setbacks.left,ok,0.8,printed,0.4427,LOW,False,FINAL:CV_ONLY,WRONG,False,0.3573,44.663,False
+dxf_hybrid,PLAN2,setbacks.right,ok,0.8,printed,0.5967,LOW,False,FINAL:CV_ONLY,WRONG,False,0.2033,25.413,False
+dxf_hybrid,PLAN2,coverage,ok,78.32,printed,71.06314845948782,LOW,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,7.2569,9.266,False
+dxf_hybrid,PLAN2,far,ok,1.73,printed,0.7106314845948782,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),WRONG,False,1.0194,58.923,False
+dxf_hybrid,PLAN2,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN4,plot.width,ok,18.288,printed,4.111,LOW,False,FINAL:CV_ONLY,WRONG,False,14.177,77.521,False
+dxf_hybrid,PLAN4,plot.depth,ok,16.6116,printed,7.5448,LOW,False,FINAL:CV_ONLY,WRONG,False,9.0668,54.581,False
+dxf_hybrid,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+dxf_hybrid,PLAN4,building.width,ok,16.459,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,building.depth,ok,11.2776,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,building.footprint_area,ok,185.62,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,building.floor_count,ok,5.0,inspected,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+dxf_hybrid,PLAN4,setbacks.front,ok,0.9144,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,setbacks.rear,ok,0.9144,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,setbacks.left,ok,2.667,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,setbacks.right,ok,2.667,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,coverage,ok,61.1,derived,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN4,far,ok,0.611,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN5,plot.width,ok,17.59,printed,4.7367,LOW,False,FINAL:CV_ONLY,WRONG,False,12.8533,73.072,False
+dxf_hybrid,PLAN5,plot.depth,ok,9.14,printed,3.5017,LOW,False,FINAL:CV_ONLY,WRONG,False,5.6383,61.688,False
+dxf_hybrid,PLAN5,plot.area,ok,160.77,printed,16.5864,LOW,False,FINAL:CV_ONLY,WRONG,False,144.1836,89.683,False
+dxf_hybrid,PLAN5,building.width,ok,13.09,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,building.depth,ok,7.14,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,building.footprint_area,ok,93.46,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,road.width,ok,10.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,setbacks.front,ok,3.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,setbacks.rear,ok,1.5,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,setbacks.left,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,setbacks.right,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,coverage,ok,58.13,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN5,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN5,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN6,plot.width,ok,10.0,inspected,16.9594,LOW,False,FINAL:CV_ONLY,WRONG,False,6.9594,69.594,False
+dxf_hybrid,PLAN6,plot.depth,ok,13.1,printed,4.6021,LOW,False,FINAL:CV_ONLY,WRONG,False,8.4979,64.869,False
+dxf_hybrid,PLAN6,plot.area,ok,131.0,printed,78.0489,LOW,False,FINAL:CV_ONLY,WRONG,False,52.9511,40.421,False
+dxf_hybrid,PLAN6,building.width,ok,9.3,unverified,3.66,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN6,building.depth,ok,9.15,unverified,3.6017,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN6,building.footprint_area,ok,85.09,printed,13.1822,LOW,False,FINAL:CV_ONLY,WRONG,False,71.9078,84.508,False
+dxf_hybrid,PLAN6,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN6,road.width,ok,7.3,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN6,setbacks.front,ok,0.9,unverified,0.3728,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN6,setbacks.rear,ok,0.7,unverified,8.465,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN6,setbacks.left,ok,0.7,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN6,setbacks.right,ok,,absent,0.6109,LOW,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN6,coverage,ok,79.15,printed,16.889667887696046,LOW,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,62.2603,78.661,False
+dxf_hybrid,PLAN6,far,ok,1.74,printed,0.16889667887696047,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),WRONG,False,1.5711,90.293,False
+dxf_hybrid,PLAN6,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN7,plot.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,plot.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,plot.area,ok,111.41,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN7,building.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,building.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,building.footprint_area,ok,69.1,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+dxf_hybrid,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN7,coverage,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN7,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN8,plot.width,ok,13.71,printed,7.1111,LOW,False,FINAL:CV_ONLY,WRONG,False,6.5989,48.132,False
+dxf_hybrid,PLAN8,plot.depth,ok,13.71,printed,11.8892,LOW,False,FINAL:CV_ONLY,WRONG,False,1.8208,13.281,False
+dxf_hybrid,PLAN8,plot.area,ok,183.69,printed,84.5458,LOW,False,FINAL:CV_ONLY,WRONG,False,99.1442,53.974,False
+dxf_hybrid,PLAN8,building.width,ok,10.95,unverified,4.3083,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,building.depth,ok,10.7,unverified,4.1933,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,building.footprint_area,ok,115.42,printed,17.8837,LOW,False,FINAL:CV_ONLY,WRONG,False,97.5363,84.506,False
+dxf_hybrid,PLAN8,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,setbacks.front,ok,1.65,unverified,1.1645,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,setbacks.rear,ok,1.36,unverified,6.3874,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,setbacks.left,ok,1.66,unverified,0.2448,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,setbacks.right,ok,1.1,unverified,2.421,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_hybrid,PLAN8,coverage,ok,,absent,62.83,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN8,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN9,plot.width,ok,10.65,printed,6.5907,LOW,False,FINAL:CV_ONLY,WRONG,False,4.0593,38.115,False
+dxf_hybrid,PLAN9,plot.depth,ok,15.25,printed,15.5107,LOW,False,FINAL:CV_ONLY,CORRECT,False,0.2607,1.71,False
+dxf_hybrid,PLAN9,plot.area,ok,147.99,printed,81.9487,LOW,False,FINAL:CV_ONLY,WRONG,False,66.0413,44.626,False
+dxf_hybrid,PLAN9,building.width,ok,7.14,printed,6.3756,LOW,False,FINAL:CV_ONLY,WRONG,False,0.7644,10.706,False
+dxf_hybrid,PLAN9,building.depth,ok,12.11,printed,4.9403,LOW,False,FINAL:CV_ONLY,WRONG,False,7.1697,59.205,False
+dxf_hybrid,PLAN9,building.footprint_area,ok,94.42,printed,31.4976,LOW,False,FINAL:CV_ONLY,WRONG,False,62.9224,66.641,False
+dxf_hybrid,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+dxf_hybrid,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_hybrid,PLAN9,setbacks.front,ok,1.5,printed,3.7999,LOW,False,FINAL:CV_ONLY,WRONG,False,2.2999,153.327,False
+dxf_hybrid,PLAN9,setbacks.rear,ok,1.5,printed,5.7596,LOW,False,FINAL:CV_ONLY,WRONG,False,4.2596,283.973,False
+dxf_hybrid,PLAN9,setbacks.left,ok,1.0,printed,0.239,LOW,False,FINAL:CV_ONLY,WRONG,False,0.761,76.1,False
+dxf_hybrid,PLAN9,setbacks.right,ok,1.0,printed,0.0,LOW,False,FINAL:CV_ONLY,WRONG,False,1.0,100.0,False
+dxf_hybrid,PLAN9,coverage,ok,63.8,derived,38.43575309919498,LOW,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,25.3642,39.756,False
+dxf_hybrid,PLAN9,far,ok,,absent,0.3843575309919498,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+dxf_hybrid,PLAN9,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN1,plot.width,ok,12.19,printed,12.74,LOW,False,FINAL:CV_ONLY,CORRECT,False,0.55,4.512,False
+dxf_evidence_decision,PLAN1,plot.depth,ok,9.14,printed,7.7344,LOW,False,FINAL:CV_ONLY,WRONG,False,1.4056,15.379,False
+dxf_evidence_decision,PLAN1,plot.area,ok,111.4166,derived,98.5363,LOW,False,FINAL:CV_ONLY,WRONG,False,12.8803,11.56,False
+dxf_evidence_decision,PLAN1,building.width,ok,11.72,printed,10.1683,LOW,False,FINAL:CV_ONLY,WRONG,False,1.5517,13.24,False
+dxf_evidence_decision,PLAN1,building.depth,ok,8.22,printed,6.395,LOW,False,FINAL:CV_ONLY,WRONG,False,1.825,22.202,False
+dxf_evidence_decision,PLAN1,building.footprint_area,ok,96.34,printed,65.0263,LOW,False,FINAL:CV_ONLY,WRONG,False,31.3137,32.503,False
+dxf_evidence_decision,PLAN1,building.floor_count,ok,4,printed,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN1,setbacks.front,ok,0.47,printed,0.0,LOW,False,FINAL:CV_ONLY,WRONG,False,0.47,100.0,False
+dxf_evidence_decision,PLAN1,setbacks.rear,ok,0.0,inspected,1.3394,LOW,False,FINAL:CV_ONLY,WRONG,False,1.3394,,False
+dxf_evidence_decision,PLAN1,setbacks.left,ok,0.46,printed,2.5717,LOW,False,FINAL:CV_ONLY,WRONG,False,2.1117,459.065,False
+dxf_evidence_decision,PLAN1,setbacks.right,ok,0.46,printed,0.0,LOW,False,FINAL:CV_ONLY,WRONG,False,0.46,100.0,False
+dxf_evidence_decision,PLAN1,coverage,ok,86.47,derived,65.99222824481943,LOW,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,20.4778,23.682,False
+dxf_evidence_decision,PLAN1,far,ok,3.459,derived,0.6599222824481943,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),WRONG,False,2.7991,80.922,False
+dxf_evidence_decision,PLAN1,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN2,plot.width,ok,12.19,printed,11.0442,LOW,False,FINAL:CV_ONLY,WRONG,False,1.1458,9.4,False
+dxf_evidence_decision,PLAN2,plot.depth,ok,18.28,printed,15.5969,LOW,False,FINAL:CV_ONLY,WRONG,False,2.6831,14.678,False
+dxf_evidence_decision,PLAN2,plot.area,ok,222.83,printed,172.2544,LOW,False,FINAL:CV_ONLY,WRONG,False,50.5756,22.697,False
+dxf_evidence_decision,PLAN2,building.width,ok,10.59,printed,10.1672,LOW,False,FINAL:CV_ONLY,CORRECT,False,0.4228,3.992,False
+dxf_evidence_decision,PLAN2,building.depth,ok,16.48,printed,14.4858,LOW,False,FINAL:CV_ONLY,WRONG,False,1.9942,12.101,False
+dxf_evidence_decision,PLAN2,building.footprint_area,ok,174.52,printed,122.4094,LOW,False,FINAL:CV_ONLY,WRONG,False,52.1106,29.859,False
+dxf_evidence_decision,PLAN2,building.floor_count,ok,4.0,inspected,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN2,road.width,ok,9.2,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN2,setbacks.front,ok,1.0,printed,0.2065,LOW,False,FINAL:CV_ONLY,WRONG,False,0.7935,79.35,False
+dxf_evidence_decision,PLAN2,setbacks.rear,ok,0.8,printed,0.4072,LOW,False,FINAL:CV_ONLY,WRONG,False,0.3928,49.1,False
+dxf_evidence_decision,PLAN2,setbacks.left,ok,0.8,printed,0.4427,LOW,False,FINAL:CV_ONLY,WRONG,False,0.3573,44.663,False
+dxf_evidence_decision,PLAN2,setbacks.right,ok,0.8,printed,0.5967,LOW,False,FINAL:CV_ONLY,WRONG,False,0.2033,25.413,False
+dxf_evidence_decision,PLAN2,coverage,ok,78.32,printed,71.06314845948782,LOW,False,coverage = building.footprint_area / plot.area * 100,WRONG,False,7.2569,9.266,False
+dxf_evidence_decision,PLAN2,far,ok,1.73,printed,0.7106314845948782,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),WRONG,False,1.0194,58.923,False
+dxf_evidence_decision,PLAN2,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN4,plot.width,ok,18.288,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,plot.depth,ok,16.6116,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+dxf_evidence_decision,PLAN4,building.width,ok,16.459,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,building.depth,ok,11.2776,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,building.footprint_area,ok,185.62,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,building.floor_count,ok,5.0,inspected,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+dxf_evidence_decision,PLAN4,setbacks.front,ok,0.9144,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,setbacks.rear,ok,0.9144,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,setbacks.left,ok,2.667,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,setbacks.right,ok,2.667,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,coverage,ok,61.1,derived,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN4,far,ok,0.611,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN5,plot.width,ok,17.59,printed,4.7367,LOW,False,FINAL:CV_ONLY,WRONG,False,12.8533,73.072,False
+dxf_evidence_decision,PLAN5,plot.depth,ok,9.14,printed,3.5017,LOW,False,FINAL:CV_ONLY,WRONG,False,5.6383,61.688,False
+dxf_evidence_decision,PLAN5,plot.area,ok,160.77,printed,16.5864,LOW,False,FINAL:CV_ONLY,WRONG,False,144.1836,89.683,False
+dxf_evidence_decision,PLAN5,building.width,ok,13.09,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,building.depth,ok,7.14,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,building.footprint_area,ok,93.46,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,road.width,ok,10.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,setbacks.front,ok,3.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,setbacks.rear,ok,1.5,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,setbacks.left,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,setbacks.right,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,coverage,ok,58.13,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN5,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN5,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,plot.width,ok,10.0,inspected,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,plot.depth,ok,13.1,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,plot.area,ok,131.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,building.width,ok,9.3,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN6,building.depth,ok,9.15,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN6,building.footprint_area,ok,85.09,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,road.width,ok,7.3,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,setbacks.front,ok,0.9,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN6,setbacks.rear,ok,0.7,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN6,setbacks.left,ok,0.7,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN6,setbacks.right,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN6,coverage,ok,79.15,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,far,ok,1.74,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN6,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN7,plot.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,plot.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,plot.area,ok,111.41,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN7,building.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,building.depth,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,building.footprint_area,ok,69.1,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN7,coverage,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN7,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN8,plot.width,ok,13.71,printed,7.1111,LOW,False,FINAL:CV_ONLY,WRONG,False,6.5989,48.132,False
+dxf_evidence_decision,PLAN8,plot.depth,ok,13.71,printed,11.8892,LOW,False,FINAL:CV_ONLY,WRONG,False,1.8208,13.281,False
+dxf_evidence_decision,PLAN8,plot.area,ok,183.69,printed,84.5458,LOW,False,FINAL:CV_ONLY,WRONG,False,99.1442,53.974,False
+dxf_evidence_decision,PLAN8,building.width,ok,10.95,unverified,4.3083,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,building.depth,ok,10.7,unverified,4.1933,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,building.footprint_area,ok,115.42,printed,17.8837,LOW,False,FINAL:CV_ONLY,WRONG,False,97.5363,84.506,False
+dxf_evidence_decision,PLAN8,building.floor_count,ok,3.0,printed,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,setbacks.front,ok,1.65,unverified,1.1645,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,setbacks.rear,ok,1.36,unverified,6.3874,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,setbacks.left,ok,1.66,unverified,0.2448,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,setbacks.right,ok,1.1,unverified,2.421,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,coverage,ok,,absent,62.83,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN8,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN9,plot.width,ok,10.65,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,plot.depth,ok,15.25,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,plot.area,ok,147.99,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,building.width,ok,7.14,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,building.depth,ok,12.11,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,building.footprint_area,ok,94.42,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+dxf_evidence_decision,PLAN9,setbacks.front,ok,1.5,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,setbacks.rear,ok,1.5,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,setbacks.left,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,setbacks.right,ok,1.0,printed,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,coverage,ok,63.8,derived,,MISSING,False,,MISSING,False,,,False
+dxf_evidence_decision,PLAN9,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+dxf_evidence_decision,PLAN9,building_use,ok,residential,printed,,,False,,MISSING,False,,,False
+pdf_dxf_reconciled,PLAN1,plot.width,ok,12.19,printed,12.19,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN1,plot.depth,ok,9.14,printed,9.14,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN1,plot.area,ok,111.4166,derived,111.4166,HIGH,True,plot.area = width x depth (final agreed dimensions),CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN1,building.width,ok,11.72,printed,11.6973,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0227,0.194,False
+pdf_dxf_reconciled,PLAN1,building.depth,ok,8.22,printed,8.2015,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0185,0.225,False
+pdf_dxf_reconciled,PLAN1,building.footprint_area,ok,96.34,printed,96.34,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN1,building.floor_count,ok,4,printed,4,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_dxf_reconciled,PLAN1,setbacks.front,ok,0.47,printed,0.47,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN1,setbacks.rear,ok,0.0,inspected,0.0,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,,False
+pdf_dxf_reconciled,PLAN1,setbacks.left,ok,0.46,printed,0.46,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN1,setbacks.right,ok,0.46,printed,0.46,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN1,coverage,ok,86.47,derived,86.46826415453353,HIGH,True,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0017,0.002,False
+pdf_dxf_reconciled,PLAN1,far,ok,3.459,derived,3.458730566181341,MEDIUM,True,far = gross_built_up_area / plot.area (diagnostic gross FAR),CORRECT,False,0.0003,0.008,False
+pdf_dxf_reconciled,PLAN1,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_dxf_reconciled,PLAN2,plot.width,ok,12.19,printed,12.192,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.002,0.016,False
+pdf_dxf_reconciled,PLAN2,plot.depth,ok,18.28,printed,18.288,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.008,0.044,False
+pdf_dxf_reconciled,PLAN2,plot.area,ok,222.83,printed,222.83,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,building.width,ok,10.59,printed,10.5904,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0004,0.004,True
+pdf_dxf_reconciled,PLAN2,building.depth,ok,16.48,printed,16.4747,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0053,0.032,False
+pdf_dxf_reconciled,PLAN2,building.footprint_area,ok,174.52,printed,174.52,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,building.floor_count,ok,4.0,inspected,4,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN2,road.width,ok,9.2,printed,9.2,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN2,setbacks.front,ok,1.0,printed,1.0,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,setbacks.rear,ok,0.8,printed,0.8,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,setbacks.left,ok,0.8,printed,0.8,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,setbacks.right,ok,0.8,printed,0.8,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,coverage,ok,78.32,printed,78.32,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,far,ok,1.73,printed,1.73,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN2,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN4,plot.width,ok,18.288,printed,18.288,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN4,plot.depth,ok,16.6116,printed,16.6116,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN4,building.width,ok,16.459,printed,16.4592,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0002,0.001,True
+pdf_dxf_reconciled,PLAN4,building.depth,ok,11.2776,printed,11.2776,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN4,building.footprint_area,ok,185.62,printed,185.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN4,building.floor_count,ok,5.0,inspected,5,LOW,False,named floor levels,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN4,setbacks.front,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN4,setbacks.rear,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN4,setbacks.left,ok,2.667,printed,2.6637,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_dxf_reconciled,PLAN4,setbacks.right,ok,2.667,printed,2.6703,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_dxf_reconciled,PLAN4,coverage,ok,61.1,derived,61.101418743210765,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0014,0.002,True
+pdf_dxf_reconciled,PLAN4,far,ok,0.611,unverified,3.0550709371605382,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN5,plot.width,ok,17.59,printed,17.5895,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0005,0.003,False
+pdf_dxf_reconciled,PLAN5,plot.depth,ok,9.14,printed,9.2075,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0675,0.739,False
+pdf_dxf_reconciled,PLAN5,plot.area,ok,160.77,printed,160.77,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN5,building.width,ok,13.09,printed,13.0895,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0005,0.004,True
+pdf_dxf_reconciled,PLAN5,building.depth,ok,7.14,printed,7.1374,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0026,0.036,True
+pdf_dxf_reconciled,PLAN5,building.footprint_area,ok,93.46,printed,93.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN5,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN5,road.width,ok,10.0,printed,10.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN5,setbacks.front,ok,3.0,printed,3.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN5,setbacks.rear,ok,1.5,printed,1.5,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN5,setbacks.left,ok,1.0,printed,1.0724,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0724,7.24,True
+pdf_dxf_reconciled,PLAN5,setbacks.right,ok,1.0,printed,0.9977,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0023,0.23,True
+pdf_dxf_reconciled,PLAN5,coverage,ok,58.13,printed,58.13273620700379,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0027,0.005,True
+pdf_dxf_reconciled,PLAN5,far,ok,,absent,1.7439820862101136,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN5,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_dxf_reconciled,PLAN6,plot.width,ok,10.0,inspected,9.9977,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0023,0.023,False
+pdf_dxf_reconciled,PLAN6,plot.depth,ok,13.1,printed,13.1022,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0022,0.017,False
+pdf_dxf_reconciled,PLAN6,plot.area,ok,131.0,printed,131.0,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN6,building.width,ok,9.3,unverified,9.3063,HIGH,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN6,building.depth,ok,9.15,unverified,9.1581,HIGH,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN6,building.footprint_area,ok,85.09,printed,85.09,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN6,building.floor_count,ok,3.0,inspected,3,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN6,setbacks.front,ok,0.9,unverified,3.2456,HIGH,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN6,setbacks.rear,ok,0.7,unverified,0.6985,HIGH,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN6,setbacks.left,ok,0.7,unverified,0.0,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN6,setbacks.right,ok,,absent,0.6914,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN6,coverage,ok,79.15,printed,79.15,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN6,far,ok,1.74,printed,1.74,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN6,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN7,plot.width,ok,,must_abstain,19.368499999999997,LOW,False,plot.width: agreed across 2 source(s),FALSE_POSITIVE,False,,,False
+pdf_dxf_reconciled,PLAN7,plot.depth,ok,,must_abstain,4.40355,LOW,False,plot.depth: outlier_detected across 6 source(s),FALSE_POSITIVE,False,,,False
+pdf_dxf_reconciled,PLAN7,plot.area,ok,111.41,unverified,85.2902,LOW,False,plot.area = width x depth (final agreed dimensions),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN7,building.width,ok,,must_abstain,5.8217,LOW,False,building.width: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_dxf_reconciled,PLAN7,building.depth,ok,,must_abstain,13.8265,LOW,False,building.depth: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_dxf_reconciled,PLAN7,building.footprint_area,ok,69.1,unverified,80.4937,LOW,False,building.footprint_area = width x depth (final agreed dimensions),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN7,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_dxf_reconciled,PLAN7,road.width,ok,9.14,printed,,MISSING,False,,MISSING,False,,,False
+pdf_dxf_reconciled,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_dxf_reconciled,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_dxf_reconciled,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_dxf_reconciled,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_dxf_reconciled,PLAN7,coverage,ok,,absent,94.37625893713464,LOW,False,coverage = building.footprint_area / plot.area * 100,N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN7,far,ok,,absent,0.9437625893713464,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_dxf_reconciled,PLAN8,plot.width,ok,13.71,printed,11.2818,LOW,True,FINAL:CV_ONLY,WRONG,False,2.4282,17.711,False
+pdf_dxf_reconciled,PLAN8,plot.depth,ok,13.71,printed,16.5029,LOW,True,FINAL:CV_ONLY,WRONG,False,2.7929,20.371,False
+pdf_dxf_reconciled,PLAN8,plot.area,ok,183.69,printed,183.69,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN8,building.width,ok,10.95,unverified,9.5462,LOW,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,building.depth,ok,10.7,unverified,11.9944,LOW,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,building.footprint_area,ok,115.42,printed,115.42,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN8,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_dxf_reconciled,PLAN8,road.width,ok,7.6,unverified,,MISSING,False,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,setbacks.front,ok,1.65,unverified,0.0,LOW,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,setbacks.rear,ok,1.36,unverified,1.7357,LOW,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,setbacks.left,ok,1.66,unverified,4.5085,LOW,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,setbacks.right,ok,1.1,unverified,0.0,LOW,True,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,coverage,ok,,absent,62.83,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN8,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN9,plot.width,ok,10.65,printed,10.65,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN9,plot.depth,ok,15.25,printed,15.2083,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0417,0.273,True
+pdf_dxf_reconciled,PLAN9,plot.area,ok,147.99,printed,147.99,MEDIUM,True,plot.area = printed Area Statement 'Site Area',CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN9,building.width,ok,7.14,printed,7.14,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN9,building.depth,ok,12.11,printed,12.1017,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0083,0.069,False
+pdf_dxf_reconciled,PLAN9,building.footprint_area,ok,94.42,printed,94.42,MEDIUM,True,building.footprint_area = printed Area Statement 'ground floor',CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN9,building.floor_count,ok,3.0,inspected,,,False,,MISSING,False,,,False
+pdf_dxf_reconciled,PLAN9,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_dxf_reconciled,PLAN9,setbacks.front,ok,1.5,printed,1.5047,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0047,0.313,False
+pdf_dxf_reconciled,PLAN9,setbacks.rear,ok,1.5,printed,1.3779,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.1221,8.14,False
+pdf_dxf_reconciled,PLAN9,setbacks.left,ok,1.0,printed,1.0,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN9,setbacks.right,ok,1.0,printed,1.0,HIGH,True,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,False
+pdf_dxf_reconciled,PLAN9,coverage,ok,63.8,derived,63.8016082167714,MEDIUM,True,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0016,0.003,False
+pdf_dxf_reconciled,PLAN9,far,ok,,absent,0.638016082167714,LOW,True,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_dxf_reconciled,PLAN9,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_hybrid_vlm_api,PLAN1,plot.width,ok,12.19,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,plot.depth,ok,9.14,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN1,plot.area,ok,111.4166,derived,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,building.width,ok,11.72,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,building.depth,ok,8.22,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,building.footprint_area,ok,96.34,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN1,building.floor_count,ok,4,printed,4,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN1,road.width,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid_vlm_api,PLAN1,setbacks.front,ok,0.47,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,setbacks.rear,ok,0.0,inspected,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,setbacks.left,ok,0.46,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,setbacks.right,ok,0.46,printed,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,coverage,ok,86.47,derived,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,far,ok,3.459,derived,,MISSING,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN1,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_hybrid_vlm_api,PLAN2,plot.width,ok,12.19,printed,12.191,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.001,0.008,True
+pdf_hybrid_vlm_api,PLAN2,plot.depth,ok,18.28,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.008,0.044,True
+pdf_hybrid_vlm_api,PLAN2,plot.area,ok,222.83,printed,222.83,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,building.width,ok,10.59,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN2,building.depth,ok,16.48,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN2,building.footprint_area,ok,174.52,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN2,building.floor_count,ok,4.0,inspected,4,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,road.width,ok,9.2,printed,9.2,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,setbacks.front,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,setbacks.rear,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,setbacks.left,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,setbacks.right,ok,0.8,printed,0.8,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,coverage,ok,78.32,printed,78.32,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,far,ok,1.73,printed,1.73,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN2,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN4,plot.width,ok,18.288,printed,18.288,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,plot.depth,ok,16.6116,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN4,plot.area,ok,303.79,printed,303.79,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,building.width,ok,16.459,printed,16.4592,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0002,0.001,True
+pdf_hybrid_vlm_api,PLAN4,building.depth,ok,11.2776,printed,11.2776,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,building.footprint_area,ok,185.62,printed,185.62,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,building.floor_count,ok,5.0,inspected,5,LOW,False,named floor levels,CORRECT,False,0.0,0.0,False
+pdf_hybrid_vlm_api,PLAN4,road.width,ok,7.62,printed,7.62,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,setbacks.front,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,setbacks.rear,ok,0.9144,printed,0.9144,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN4,setbacks.left,ok,2.667,printed,2.6637,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_hybrid_vlm_api,PLAN4,setbacks.right,ok,2.667,printed,2.6703,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0033,0.124,True
+pdf_hybrid_vlm_api,PLAN4,coverage,ok,61.1,derived,61.101418743210765,HIGH,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0014,0.002,True
+pdf_hybrid_vlm_api,PLAN4,far,ok,0.611,unverified,3.0550709371605382,LOW,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN4,building_use,ok,,absent,,,False,,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN5,plot.width,ok,17.59,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN5,plot.depth,ok,9.14,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN5,plot.area,ok,160.77,printed,160.77,MEDIUM,False,plot.area = printed Area Statement 'Site Area',CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN5,building.width,ok,13.09,printed,13.0448,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0452,0.345,True
+pdf_hybrid_vlm_api,PLAN5,building.depth,ok,7.14,printed,7.1387,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0013,0.018,True
+pdf_hybrid_vlm_api,PLAN5,building.footprint_area,ok,93.46,printed,93.46,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN5,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN5,road.width,ok,10.0,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN5,setbacks.front,ok,3.0,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN5,setbacks.rear,ok,1.5,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN5,setbacks.left,ok,1.0,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN5,setbacks.right,ok,1.0,printed,0.9989,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0011,0.11,True
+pdf_hybrid_vlm_api,PLAN5,coverage,ok,58.13,printed,58.13273620700379,MEDIUM,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0027,0.005,True
+pdf_hybrid_vlm_api,PLAN5,far,ok,,absent,1.0,LOW,False,FINAL:VISION_ONLY,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN5,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True
+pdf_hybrid_vlm_api,PLAN6,plot.width,ok,10.0,inspected,9.9989,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0011,0.011,True
+pdf_hybrid_vlm_api,PLAN6,plot.depth,ok,13.1,printed,13.1022,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0022,0.017,True
+pdf_hybrid_vlm_api,PLAN6,plot.area,ok,131.0,printed,131.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN6,building.width,ok,9.3,unverified,,CONFLICTING,True,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN6,building.depth,ok,9.15,unverified,9.1581,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN6,building.footprint_area,ok,85.09,printed,85.09,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN6,building.floor_count,ok,3.0,inspected,3,MEDIUM,False,named floor levels,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN6,road.width,ok,7.3,printed,7.3,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN6,setbacks.front,ok,0.9,unverified,3.2456,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN6,setbacks.rear,ok,0.7,unverified,0.6985,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN6,setbacks.left,ok,0.7,unverified,0.0,HIGH,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN6,setbacks.right,ok,,absent,0.6914,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN6,coverage,ok,79.15,printed,79.15,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN6,far,ok,1.74,printed,1.74,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN6,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN7,plot.width,ok,,must_abstain,19.368499999999997,LOW,False,plot.width: agreed across 2 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid_vlm_api,PLAN7,plot.depth,ok,,must_abstain,4.40355,LOW,False,plot.depth: outlier_detected across 6 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid_vlm_api,PLAN7,plot.area,ok,111.41,unverified,85.2902,LOW,False,plot.area = width x depth (final agreed dimensions),N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN7,building.width,ok,,must_abstain,9.14,HIGH,False,FINAL:VISION_ONLY,FALSE_POSITIVE,False,,,True
+pdf_hybrid_vlm_api,PLAN7,building.depth,ok,,must_abstain,13.8265,LOW,False,building.depth: uncorroborated across 1 source(s),FALSE_POSITIVE,False,,,False
+pdf_hybrid_vlm_api,PLAN7,building.footprint_area,ok,69.1,unverified,,CONFLICTING,True,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN7,building.floor_count,ok,3.0,inspected,4,MEDIUM,False,vision floor-plan region count,WRONG,False,1.0,33.333,True
+pdf_hybrid_vlm_api,PLAN7,road.width,ok,9.14,printed,9.14,HIGH,False,FINAL:VISION_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN7,setbacks.front,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid_vlm_api,PLAN7,setbacks.rear,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid_vlm_api,PLAN7,setbacks.left,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid_vlm_api,PLAN7,setbacks.right,ok,,must_abstain,,MISSING,False,,ABSTAINED_CORRECTLY,False,,,False
+pdf_hybrid_vlm_api,PLAN7,coverage,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN7,far,ok,,absent,,MISSING,False,,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN7,building_use,ok,residential,inspected,,,False,,MISSING,False,,,False
+pdf_hybrid_vlm_api,PLAN8,plot.width,ok,13.71,printed,11.2818,LOW,False,FINAL:CV_ONLY,WRONG,False,2.4282,17.711,False
+pdf_hybrid_vlm_api,PLAN8,plot.depth,ok,13.71,printed,16.5029,LOW,False,FINAL:CV_ONLY,WRONG,False,2.7929,20.371,False
+pdf_hybrid_vlm_api,PLAN8,plot.area,ok,183.69,printed,183.69,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN8,building.width,ok,10.95,unverified,9.5462,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,building.depth,ok,10.7,unverified,11.9944,LOW,False,FINAL:CV_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,building.footprint_area,ok,115.42,printed,115.42,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN8,building.floor_count,ok,3.0,printed,3,MEDIUM,False,text label,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN8,road.width,ok,7.6,unverified,7.6,HIGH,False,FINAL:VISION_ONLY,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,setbacks.front,ok,1.65,unverified,,CONFLICTING,True,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,setbacks.rear,ok,1.36,unverified,,CONFLICTING,True,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,setbacks.left,ok,1.66,unverified,,CONFLICTING,True,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,setbacks.right,ok,1.1,unverified,,CONFLICTING,True,,N/A_UNVERIFIED_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,coverage,ok,,absent,,CONFLICTING,True,,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,far,ok,,absent,1.64,HIGH,False,FINAL:CV_ONLY,N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN8,building_use,ok,,absent,residential,HIGH,False,plan text (title block / property table),N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN9,plot.width,ok,10.65,printed,10.65,HIGH,False,FINAL:CV+VISION_AGREED,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN9,plot.depth,ok,15.25,printed,,CONFLICTING,True,,ABSTAINED_CONFLICT,False,,,False
+pdf_hybrid_vlm_api,PLAN9,plot.area,ok,147.99,printed,147.99,HIGH,False,FINAL:VISION_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN9,building.width,ok,7.14,printed,7.14,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN9,building.depth,ok,12.11,printed,12.1017,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0083,0.069,True
+pdf_hybrid_vlm_api,PLAN9,building.footprint_area,ok,94.42,printed,94.42,MEDIUM,False,building.footprint_area = printed Area Statement 'ground floor',CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN9,building.floor_count,ok,3.0,inspected,1,MEDIUM,False,vision floor-plan region count,WRONG,False,2.0,66.667,True
+pdf_hybrid_vlm_api,PLAN9,road.width,ok,,must_abstain,8.92,HIGH,False,FINAL:VISION_ONLY,FALSE_POSITIVE,False,,,True
+pdf_hybrid_vlm_api,PLAN9,setbacks.front,ok,1.5,printed,1.5047,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0047,0.313,True
+pdf_hybrid_vlm_api,PLAN9,setbacks.rear,ok,1.5,printed,1.3779,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.1221,8.14,True
+pdf_hybrid_vlm_api,PLAN9,setbacks.left,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN9,setbacks.right,ok,1.0,printed,1.0,HIGH,False,FINAL:CV_ONLY,CORRECT,False,0.0,0.0,True
+pdf_hybrid_vlm_api,PLAN9,coverage,ok,63.8,derived,63.8016082167714,MEDIUM,False,coverage = building.footprint_area / plot.area * 100,CORRECT,False,0.0016,0.003,True
+pdf_hybrid_vlm_api,PLAN9,far,ok,,absent,0.638016082167714,MEDIUM,False,far = gross_built_up_area / plot.area (diagnostic gross FAR),N/A_NO_TRUTH,False,,,
+pdf_hybrid_vlm_api,PLAN9,building_use,ok,residential,printed,residential,HIGH,False,plan text (title block / property table),CORRECT,False,,,True

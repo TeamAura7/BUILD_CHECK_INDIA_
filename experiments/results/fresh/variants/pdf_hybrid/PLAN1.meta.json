@@ -1,0 +1,234 @@
+{
+ "variant": "pdf_hybrid",
+ "plan": "PLAN1",
+ "kind": "pdf",
+ "extract_seconds": 12.6,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 9,
+  "scale_points_per_metre": 51.31957446197424,
+  "scale_confidence": 0.99,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 12.19,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "12.19"
+    ],
+    "note": "Explicit site-plan width label anchored to outer plot rectangle."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 9.14,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "9.14"
+    ],
+    "note": "Explicit site-plan depth label anchored to outer plot rectangle."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 11.6973,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 600.30 pt",
+     "scale 51.320 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (96.34 sq.m) to within 0.42%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 8.2015,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 420.90 pt",
+     "scale 51.320 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (96.34 sq.m) to within 0.42%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 0.47,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     ".47"
+    ],
+    "note": "Explicit setback label spatially located in the right plot/building gap."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 0.0,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "left geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 0.46,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     ".46"
+    ],
+    "note": "Explicit setback label spatially located in the bottom plot/building gap."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 0.46,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     ".46"
+    ],
+    "note": "Explicit setback label spatially located in the top plot/building gap."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 96.34,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "PROP. PLINTH AREA IN G.F -> 96.34"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: anchor found, but the standard (tight) site-plan search window reconstructed no rectangle; recovered using a widened fallback window \u2014 the site-plan drawing is not centred on its own caption on this sheet.",
+   "page 1: scale: scale derived from 2 explicit edge dimension label(s); no printed scale note found on the sheet.",
+   "page 1: front setback taken on the right side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 12.7,
+ "reconcile_calls": [
+  {
+   "n_candidates": 2,
+   "values": [
+    3.2104,
+    0.1796
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)"
+   ],
+   "status": "CONFLICTING_EVIDENCE",
+   "value": null
+  },
+  {
+   "n_candidates": 4,
+   "values": [
+    2.1981,
+    0.1789,
+    3.2125,
+    1.9211
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (left edge)",
+    "geometry (right edge)",
+    "geometry (right edge)"
+   ],
+   "status": "MINOR_VARIANCE",
+   "value": 1.87765
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    1.1881
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 1.1881
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    1.9
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 1.9
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    8.2223
+   ],
+   "sources": [
+    "geometry (building-to-left-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 8.2223
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    9.3656
+   ],
+   "sources": [
+    "geometry (building-to-right-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 9.3656
+  }
+ ]
+}

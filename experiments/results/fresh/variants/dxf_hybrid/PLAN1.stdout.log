@@ -1,0 +1,7 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+2026-09-24 14:19:04,902 | INFO     | buildcheck.backend.cv_extraction.dxf_extractor | dxf_structural_decision ROAD: ABSTAIN (max-score region 3 still ships by default unless use_dxf_evidence_decision_engine is set) -- No hypotheses were generated for ROAD.
+2026-09-24 14:19:04,947 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:19:04,947 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.3394/LOW new=1.3394/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:19:04,947 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=2.5717/LOW new=2.5717/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:19:04,947 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.0/LOW new=0.0/HIGH (document-evidence score 7/22 -> normalized 0.318 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+dxf_hybrid PLAN1 ok 57.8s

@@ -1,0 +1,570 @@
+{
+ "plan_id": "PLAN8-pdf",
+ "source_document_id": "PLAN8",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 20.989388493865167,
+      "y": 5.468613350816225
+     },
+     {
+      "x": 20.989388493865167,
+      "y": 23.51602630784988
+     },
+     {
+      "x": 38.51762929734032,
+      "y": 23.51602630784988
+     },
+     {
+      "x": 38.51762929734032,
+      "y": 5.4735578475167825
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 20.989388493865167,
+    "min_y": 5.468613350816225,
+    "max_x": 38.51762929734032,
+    "max_y": 23.51602630784988
+   },
+   "points_per_metre": 48.53881285287456,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 11.2818,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 11.2818,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 16.5029,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 16.5029,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 183.69,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 183.69,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99) (cross-checked against final width x depth = 186.182 m2, within 1.3%)."
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 17.528240803475153,
+      "y": 20.77677513574121
+     },
+     {
+      "x": 13.142472230080946,
+      "y": 20.030156133957078
+     },
+     {
+      "x": 13.132583236679832,
+      "y": 21.54811662102813
+     },
+     {
+      "x": 10.749335827011278,
+      "y": 21.55306111772868
+     },
+     {
+      "x": 10.13621823614219,
+      "y": 28.742359320338803
+     },
+     {
+      "x": 17.646908724288522,
+      "y": 28.742359320338803
+     },
+     {
+      "x": 16.979401669713308,
+      "y": 28.72752583023713
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 10.13621823614219,
+    "min_y": 20.030156133957078,
+    "max_x": 17.646908724288522,
+    "max_y": 28.742359320338803
+   },
+   "points_per_metre": 48.53881285287456,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 9.5462,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 9.5462,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 11.9944,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 11.9944,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.40)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": 115.42,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 115.42,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": {
+   "value": 3,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Floor count parsed from 'G+2' label."
+   },
+   "source": "text label",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": 7.6,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 7.6,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Vision-only; CV did not resolve this field. (Vision confidence: 0.95)"
+   },
+   "source": "FINAL:VISION_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "CV=0.0000 and Vision=1.0000 disagree for setbacks.front; difference 1.0000 exceeds tolerance 0.0500."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "CV=0.0000 and Vision=1.0000 disagree for setbacks.front; difference 1.0000 exceeds tolerance 0.0500.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 0.0,
+      "unit": "m"
+     },
+     {
+      "magnitude": 1.0,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "independent_cv",
+     "vision"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "rear": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "CV=1.7357 and Vision=1.0000 disagree for setbacks.rear; difference 0.7357 exceeds tolerance 0.0500."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "CV=1.7357 and Vision=1.0000 disagree for setbacks.rear; difference 0.7357 exceeds tolerance 0.0500.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 1.7357,
+      "unit": "m"
+     },
+     {
+      "magnitude": 1.0,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "independent_cv",
+     "vision"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "left": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "CV=4.5085 and Vision=1.0000 disagree for setbacks.left; difference 3.5085 exceeds tolerance 0.0500."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "CV=4.5085 and Vision=1.0000 disagree for setbacks.left; difference 3.5085 exceeds tolerance 0.0500.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 4.5085,
+      "unit": "m"
+     },
+     {
+      "magnitude": 1.0,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "independent_cv",
+     "vision"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "right": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "CV=0.0000 and Vision=1.0000 disagree for setbacks.right; difference 1.0000 exceeds tolerance 0.0500."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": {
+    "description": "CV=0.0000 and Vision=1.0000 disagree for setbacks.right; difference 1.0000 exceeds tolerance 0.0500.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 0.0,
+      "unit": "m"
+     },
+     {
+      "magnitude": 1.0,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "independent_cv",
+     "vision"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "CONFLICTING",
+   "score": null,
+   "reason": "CV=62.8300 and Vision=100.0000 disagree for coverage; difference 37.1700 exceeds tolerance 1.0000."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": {
+   "description": "CV=62.8300 and Vision=100.0000 disagree for coverage; difference 37.1700 exceeds tolerance 1.0000.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 62.83,
+     "unit": "%"
+    },
+    {
+     "magnitude": 100.0,
+     "unit": "%"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  "decision_id": null
+ },
+ "far": {
+  "value": 1.64,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 1.64,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+  },
+  "source": "FINAL:CV_ONLY",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [
+  {
+   "description": "Rectangular cross-check failed: building.width + left + right setback (9.040 m) does not match plot.width (18.045 m); difference 9.005 m exceeds tolerance 0.902 m.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 9.040366666666667,
+     "unit": "m"
+    },
+    {
+     "magnitude": 18.04495,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.width+setbacks.left+setbacks.right",
+    "plot.width"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Rectangular cross-check failed: building.depth + front + rear setback (8.540 m) does not match plot.depth (17.528 m); difference 8.988 m exceeds tolerance 0.876 m.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 8.5402,
+     "unit": "m"
+    },
+    {
+     "magnitude": 17.5282,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.depth+setbacks.front+setbacks.rear",
+    "plot.depth"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "CV=0.0000 and Vision=1.0000 disagree for setbacks.front; difference 1.0000 exceeds tolerance 0.0500.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 0.0,
+     "unit": "m"
+    },
+    {
+     "magnitude": 1.0,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "CV=1.7357 and Vision=1.0000 disagree for setbacks.rear; difference 0.7357 exceeds tolerance 0.0500.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 1.7357,
+     "unit": "m"
+    },
+    {
+     "magnitude": 1.0,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "CV=4.5085 and Vision=1.0000 disagree for setbacks.left; difference 3.5085 exceeds tolerance 0.0500.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 4.5085,
+     "unit": "m"
+    },
+    {
+     "magnitude": 1.0,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "CV=0.0000 and Vision=1.0000 disagree for setbacks.right; difference 1.0000 exceeds tolerance 0.0500.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 0.0,
+     "unit": "m"
+    },
+    {
+     "magnitude": 1.0,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "CV=62.8300 and Vision=100.0000 disagree for coverage; difference 37.1700 exceeds tolerance 1.0000.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 62.83,
+     "unit": "%"
+    },
+    {
+     "magnitude": 100.0,
+     "unit": "%"
+    }
+   ],
+   "conflicting_sources": [
+    "independent_cv",
+    "vision"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 10 candidate(s) across 1 page(s). (2 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Clear winner (score 0.85) with a 0.17 margin over the runner-up. | Scale: [local region-scoped] 41 scale samples but high spread (107.1%); treat with caution. 5 sample(s) rejected as outliers (robust MAD filter). | Front-side: Front edge resolved from ROAD candidate. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 7, rejected: 5. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": {
+  "value": 9.9,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 9.9,
+   "unit": "m"
+  },
+  "confidence": {
+   "level": "MEDIUM",
+   "score": null,
+   "reason": "Derived building height (no explicit overall height annotation found): 3 floor(s) x 3.000 m floor-to-floor height + 0.900 m parapet height. All components read directly from the plan's own vision-extracted dimensions/floor count -- no generic/assumed floor height was used."
+  },
+  "source": "derived: floor_count x floor_to_floor_height (+ plinth/parapet if present)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": {
+  "value": "residential",
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Building-use label printed on the plan: 'PLAN SHOWING THE PROPOSED RESIDENTIAL BUILDING'."
+  },
+  "source": "plan text (title block / property table)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ }
+}

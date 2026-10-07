@@ -1,0 +1,279 @@
+{
+ "variant": "pdf_evidence_decision",
+ "plan": "PLAN4",
+ "kind": "pdf",
+ "extract_seconds": 4.2,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 11,
+  "scale_points_per_metre": 15.091863517060368,
+  "scale_confidence": 0.99,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 18.288,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "60'-0\""
+    ],
+    "note": "Explicit site-plan width label anchored to outer plot rectangle."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 16.6116,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "54'-6\""
+    ],
+    "note": "Explicit site-plan depth label anchored to outer plot rectangle."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 16.4592,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 248.40 pt",
+     "scale 15.092 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (185.62 sq.m) to within 0.00%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 11.2776,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 170.20 pt",
+     "scale 15.092 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (185.62 sq.m) to within 0.00%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 0.9144,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "left geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 0.9144,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "right geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 2.6637,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "top geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 2.6703,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "bottom geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "road.width",
+    "value": null,
+    "value_m": 7.62,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "25 FEET ROAD"
+    ],
+    "note": "Explicit road-width label; not inferred from the road rectangle."
+   },
+   {
+    "field": "plot.area",
+    "value": 303.79,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "SITE AREA              303.79    3270"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 185.62,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "G.F AREA               185.62    1998"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: scale: scale derived from 2 explicit edge dimension label(s); no printed scale note found on the sheet.",
+   "page 1: front setback taken on the left side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 4.2,
+ "reconcile_calls": [
+  {
+   "n_candidates": 2,
+   "values": [
+    84.2382,
+    84.2382
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)"
+   ],
+   "status": "AGREED",
+   "value": 84.2382
+  },
+  {
+   "n_candidates": 3,
+   "values": [
+    65.6634,
+    65.6634,
+    11.2776
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)",
+    "dimension label ('37'-0\"')"
+   ],
+   "status": "MINOR_VARIANCE",
+   "value": 47.5348
+  },
+  {
+   "n_candidates": 5,
+   "values": [
+    28.0794,
+    0.9144,
+    16.4592,
+    0.9144,
+    18.288
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)",
+    "dimension label ('3'-0\"')",
+    "dimension label ('54'-0\"')",
+    "dimension label ('3'-0\"')",
+    "dimension label ('60'-0\"')"
+   ],
+   "status": "MINOR_VARIANCE",
+   "value": 12.93108
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    23.2548,
+    16.6116
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)",
+    "dimension label ('54'-6\"')"
+   ],
+   "status": "CONFLICTING_EVIDENCE",
+   "value": null
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    3.7311,
+    7.62
+   ],
+   "sources": [
+    "geometry (road candidate short-side width; explicitly labeled road candidate)",
+    "dimension label ('25 FEET ROAD')"
+   ],
+   "status": "CONFLICTING_EVIDENCE",
+   "value": null
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    15.0682
+   ],
+   "sources": [
+    "geometry (building-to-front-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 15.0682
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    27.3404
+   ],
+   "sources": [
+    "geometry (building-to-rear-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 27.3404
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    3.9978
+   ],
+   "sources": [
+    "geometry (building-to-left-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 3.9978
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    52.1668
+   ],
+   "sources": [
+    "geometry (building-to-right-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 52.1668
+  }
+ ]
+}

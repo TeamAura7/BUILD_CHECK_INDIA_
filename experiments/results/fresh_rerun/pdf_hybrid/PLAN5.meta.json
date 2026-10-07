@@ -1,0 +1,261 @@
+{
+ "variant": "pdf_hybrid",
+ "plan": "PLAN5",
+ "kind": "pdf",
+ "extract_seconds": 183.3,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 11,
+  "scale_points_per_metre": 14.173228346456696,
+  "scale_confidence": 0.95,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 17.5895,
+    "unit": null,
+    "confidence": 0.92,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "outer rectangle width 249.30 pt",
+     "printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it"
+    ],
+    "note": "Plot width measured from the site-plan boundary rectangle at the drawing's resolved scale; no printed edge label was present."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 9.2075,
+    "unit": null,
+    "confidence": 0.92,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "outer rectangle height 130.50 pt",
+     "printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it"
+    ],
+    "note": "Plot depth measured from the site-plan boundary rectangle at the drawing's resolved scale; no printed edge label was present."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 13.0895,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 185.52 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (93.46 sq.m) to within 0.04%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 7.1374,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 101.16 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (93.46 sq.m) to within 0.04%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 3.0,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "left geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 1.5,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "right geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 1.0724,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "top geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 0.9977,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "bottom geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "road.width",
+    "value": null,
+    "value_m": 10.0,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "BELOW 10m WIDE ROAD"
+    ],
+    "note": "Explicit road-width label; not inferred from the road rectangle."
+   },
+   {
+    "field": "plot.area",
+    "value": 160.77,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "3 5eR340 on 00X00 SITE AREA : 160.77 Sq.m"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 93.46,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "GROUND COVERAGE AREA 93.46"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: scale: printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it.",
+   "page 1: front setback taken on the left side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 183.3,
+ "reconcile_calls": [
+  {
+   "n_candidates": 2,
+   "values": [
+    5.0719,
+    5.0749
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)"
+   ],
+   "status": "AGREED",
+   "value": 5.0734
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    4.7022,
+    4.7022
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)"
+   ],
+   "status": "AGREED",
+   "value": 4.7022
+  },
+  {
+   "n_candidates": 5,
+   "values": [
+    2.7492,
+    1.0,
+    1.0,
+    3.0749,
+    3.0749
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)",
+    "dimension label ('1No.')",
+    "dimension label ('1No.')",
+    "dimension label ('#,56,')",
+    "dimension label ('3rd')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 2.9663333333333335
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    3.9389
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 3.9389
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    10.0,
+    10.0
+   ],
+   "sources": [
+    "dimension label ('10m WIDE ROAD |')",
+    "dimension label ('10m WIDE ROAD')"
+   ],
+   "status": "AGREED",
+   "value": 10.0
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  }
+ ]
+}

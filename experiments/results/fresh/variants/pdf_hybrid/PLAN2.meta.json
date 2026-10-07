@@ -1,0 +1,395 @@
+{
+ "variant": "pdf_hybrid",
+ "plan": "PLAN2",
+ "kind": "pdf",
+ "extract_seconds": 8.8,
+ "normalize_seconds": 0.1,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 16,
+  "scale_points_per_metre": 14.173228346456696,
+  "scale_confidence": 0.99,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 12.192,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "12.19(40'0\")"
+    ],
+    "note": "Explicit site-plan width label anchored to outer plot rectangle."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 18.288,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "(60'0\")"
+    ],
+    "note": "Explicit site-plan depth label anchored to outer plot rectangle."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 10.5904,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 150.10 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (174.52 sq.m) to within 0.03%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 16.4747,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 233.50 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (174.52 sq.m) to within 0.03%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 1.0,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "1.00"
+    ],
+    "note": "Explicit setback label spatially located in the bottom plot/building gap."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 0.8,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "0.80"
+    ],
+    "note": "Explicit setback label spatially located in the top plot/building gap."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 0.8,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "0.80"
+    ],
+    "note": "Explicit setback label spatially located in the left plot/building gap."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 0.8,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "0.80"
+    ],
+    "note": "Explicit setback label spatially located in the right plot/building gap."
+   },
+   {
+    "field": "road.width",
+    "value": null,
+    "value_m": 9.2,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "9.20m WIDE R O A D"
+    ],
+    "note": "Explicit road-width label; not inferred from the road rectangle."
+   },
+   {
+    "field": "plot.area",
+    "value": 222.83,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "AREA OF PLOT (Minimum) -> 222.83"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "plot.net_area",
+    "value": 222.83,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "NET AREA OF PLOT -> 222.83"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 174.52,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (78.32 %) -> 174.52"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "coverage",
+    "value": 78.32,
+    "value_m": null,
+    "unit": "%",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (78.32 %)"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far.area",
+    "value": 386.55,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed FAR Area -> 386.55"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far",
+    "value": 1.73,
+    "value_m": null,
+    "unit": "ratio",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Achieved Net FAR Area ( 1.73 )"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.gross_built_up_area",
+    "value": 579.9,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed BuiltUp Area -> 579.90"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: scale: printed drawing scale 1:200 (14.1732 pt/m) corroborated by edge-label-derived scale (14.1637 pt/m, 0.07% apart).",
+   "page 1: front setback taken on the bottom side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 8.9,
+ "reconcile_calls": [
+  {
+   "n_candidates": 3,
+   "values": [
+    57.8269,
+    57.81,
+    57.6702
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)",
+    "dimension label (' 25.')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 57.81845
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    51.0497,
+    51.0496
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)"
+   ],
+   "status": "AGREED",
+   "value": 51.04965
+  },
+  {
+   "n_candidates": 6,
+   "values": [
+    33.0052,
+    18.2901,
+    18.288,
+    21.2848,
+    21.2848,
+    13.2368
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)",
+    "dimension label ('18.28')",
+    "dimension label ('(60'0\")')",
+    "dimension label ('W1')",
+    "dimension label ('2.61')",
+    "dimension label ('3.54')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 18.4769
+  },
+  {
+   "n_candidates": 40,
+   "values": [
+    22.9071,
+    19.7811,
+    28.5322,
+    28.5322,
+    28.5322,
+    28.5322,
+    28.5322,
+    28.5322,
+    28.5322,
+    28.5322,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    26.0077,
+    30.396,
+    30.396,
+    30.396,
+    30.396,
+    30.396,
+    30.396,
+    30.396,
+    30.396,
+    30.396,
+    10.293,
+    10.293,
+    10.5979,
+    12.7497,
+    12.192
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)",
+    "dimension label ('1')",
+    "dimension label ('0.00')",
+    "dimension label ('0.00')",
+    "dimension label ('1')",
+    "dimension label ('0')",
+    "dimension label ('418.23')",
+    "dimension label ('374.05')",
+    "dimension label ('21')",
+    "dimension label ('2')",
+    "dimension label ('W3')",
+    "dimension label ('0.90')",
+    "dimension label ('1.20')",
+    "dimension label ('05')",
+    "dimension label ('3.00')",
+    "dimension label ('1.20')",
+    "dimension label ('02')",
+    "dimension label ('3.30')",
+    "dimension label ('1.20')",
+    "dimension label ('01')",
+    "dimension label ('4.54')",
+    "dimension label ('2.10')",
+    "dimension label ('01')",
+    "dimension label ('1.06')",
+    "dimension label ('2.10')",
+    "dimension label ('02')",
+    "dimension label ('579.90')",
+    "dimension label ('64.15')",
+    "dimension label ('7.11')",
+    "dimension label ('4.74')",
+    "dimension label ('30.38')",
+    "dimension label ('86.97')",
+    "dimension label ('386.55')",
+    "dimension label ('386.55')",
+    "dimension label ('02')",
+    "dimension label ('55.00')",
+    "dimension label ('86.97')",
+    "dimension label ('0.80')",
+    "dimension label ('1.00')",
+    "dimension label ('12.19(40'0\")')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 27.44665714285714
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  }
+ ]
+}

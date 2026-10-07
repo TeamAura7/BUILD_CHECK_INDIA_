@@ -79,7 +79,7 @@ class SiteGraphNode:
     polygon: Polygon
     layer: Optional[str] = None
     # Optional confirmatory text found on/near this polygon (e.g. "ROAD",
-    # "PLOT NO. 289") -- used only as a tie-breaker/confidence signal in
+    # "PLOT NO. XX") -- used only as a tie-breaker/confidence signal in
     # role queries below, never as the primary basis for a role.
     nearby_text: list[str] = field(default_factory=list)
     role: NodeRole = NodeRole.UNKNOWN

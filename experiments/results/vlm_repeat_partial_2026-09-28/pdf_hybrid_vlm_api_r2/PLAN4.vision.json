@@ -1,0 +1,281 @@
+{
+ "pages": [
+  {
+   "page_number": 1,
+   "units": "m",
+   "scale": "1:100",
+   "regions": [
+    {
+     "id": "region_1",
+     "type": "SITE_PLAN",
+     "bbox": [
+      500.0,
+      150.0,
+      750.0,
+      450.0
+     ],
+     "confidence": 0.95,
+     "label": "SITE PLAN",
+     "evidence": "SITE PLAN"
+    },
+    {
+     "id": "region_2",
+     "type": "GROUND_FLOOR_PLAN",
+     "bbox": [
+      50.0,
+      480.0,
+      450.0,
+      650.0
+     ],
+     "confidence": 0.95,
+     "label": "GROUND FLOOR PLAN",
+     "evidence": "GROUND FLOOR PLAN"
+    },
+    {
+     "id": "region_3",
+     "type": "FIRST_FLOOR_PLAN",
+     "bbox": [
+      450.0,
+      480.0,
+      850.0,
+      650.0
+     ],
+     "confidence": 0.95,
+     "label": "1ST, 2ND & 3RD FLOOR PLAN",
+     "evidence": "1ST, 2ND & 3RD FLOOR PLAN"
+    },
+    {
+     "id": "region_4",
+     "type": "SECOND_FLOOR_PLAN",
+     "bbox": [
+      450.0,
+      480.0,
+      850.0,
+      650.0
+     ],
+     "confidence": 0.95,
+     "label": "1ST, 2ND & 3RD FLOOR PLAN",
+     "evidence": "1ST, 2ND & 3RD FLOOR PLAN"
+    },
+    {
+     "id": "region_5",
+     "type": "THIRD_FLOOR_PLAN",
+     "bbox": [
+      450.0,
+      480.0,
+      850.0,
+      650.0
+     ],
+     "confidence": 0.95,
+     "label": "1ST, 2ND & 3RD FLOOR PLAN",
+     "evidence": "1ST, 2ND & 3RD FLOOR PLAN"
+    },
+    {
+     "id": "region_6",
+     "type": "FOURTH_FLOOR_PLAN",
+     "bbox": [
+      50.0,
+      680.0,
+      450.0,
+      850.0
+     ],
+     "confidence": 0.95,
+     "label": "FOURTH FLOOR PLAN",
+     "evidence": "FOURTH FLOOR PLAN"
+    },
+    {
+     "id": "region_7",
+     "type": "ELEVATION",
+     "bbox": [
+      50.0,
+      150.0,
+      250.0,
+      400.0
+     ],
+     "confidence": 0.95,
+     "label": "ELEVATION",
+     "evidence": "ELEVATION"
+    },
+    {
+     "id": "region_8",
+     "type": "SECTION",
+     "bbox": [
+      250.0,
+      150.0,
+      450.0,
+      400.0
+     ],
+     "confidence": 0.95,
+     "label": "SECTION ON AA",
+     "evidence": "SECTION ON AA"
+    },
+    {
+     "id": "region_9",
+     "type": "AREA_STATEMENT",
+     "bbox": [
+      750.0,
+      150.0,
+      950.0,
+      450.0
+     ],
+     "confidence": 0.95,
+     "label": "AREA DETAIL",
+     "evidence": "AREA DETAIL"
+    },
+    {
+     "id": "region_10",
+     "type": "SERVICE_DETAIL",
+     "bbox": [
+      50.0,
+      450.0,
+      250.0,
+      480.0
+     ],
+     "confidence": 0.9,
+     "label": "RAIN WATER HARVESTING",
+     "evidence": "RAIN WATER HARVESTING"
+    },
+    {
+     "id": "region_11",
+     "type": "SERVICE_DETAIL",
+     "bbox": [
+      450.0,
+      650.0,
+      850.0,
+      850.0
+     ],
+     "confidence": 0.9,
+     "label": "SEPTIC TANK AND...",
+     "evidence": "SEPTIC TANK AND..."
+    },
+    {
+     "id": "height_focus",
+     "type": "ELEVATION",
+     "bbox": [
+      8.438348959195526e-15,
+      87.5,
+      300.0,
+      462.50000000000006
+     ],
+     "confidence": 0.95,
+     "label": "ELEVATION",
+     "evidence": "Vertical dimension lines visible on the right side of the elevation drawing."
+    }
+   ],
+   "dimensions": [
+    {
+     "value": 20.0,
+     "unit": "m",
+     "type": "PLOT_DEPTH",
+     "region_id": "region_1",
+     "bbox": [
+      520.0,
+      180.0,
+      530.0,
+      400.0
+     ],
+     "evidence": "20.00",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 0.15,
+     "unit": "m",
+     "type": "PLINTH_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      234.0,
+      368.75,
+      245.99999999999997,
+      387.50000000000006
+     ],
+     "evidence": "0.15",
+     "confidence": 0.95,
+     "grounded": null
+    },
+    {
+     "value": 3.05,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      234.0,
+      200.0,
+      245.99999999999997,
+      368.75
+     ],
+     "evidence": "3.05",
+     "confidence": 0.95,
+     "grounded": null
+    },
+    {
+     "value": 0.6,
+     "unit": "m",
+     "type": "PARAPET_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      234.0,
+      162.5,
+      245.99999999999997,
+      181.25000000000003
+     ],
+     "evidence": "0.60",
+     "confidence": 0.95,
+     "grounded": null
+    }
+   ],
+   "areas": [
+    {
+     "value": 303.79,
+     "unit": "m2",
+     "type": "PLOT_AREA",
+     "region_id": "region_9",
+     "evidence": "303.79",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 185.62,
+     "unit": "m2",
+     "type": "BUILDING_FOOTPRINT_AREA",
+     "region_id": "region_9",
+     "evidence": "185.62",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 185.62,
+     "unit": "m2",
+     "type": "TOTAL_BUILT_UP_AREA",
+     "region_id": "region_9",
+     "evidence": "185.62",
+     "confidence": 0.95,
+     "grounded": true
+    }
+   ],
+   "warnings": [
+    "Dropped ungrounded dimension PLOT_WIDTH=15.24: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=13.72: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_DEPTH=18.29: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension FRONT_SETBACK=0.76: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension REAR_SETBACK=0.76: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension LEFT_SETBACK=0.76: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension RIGHT_SETBACK=0.76: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=13.72: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_DEPTH=18.29: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=13.72: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_DEPTH=18.29: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_WIDTH=13.72: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_DEPTH=18.29: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "[ELEVATION_FOCUS] Vision's ELEVATION bbox agrees with the caption-anchored location (IoU=0.31)."
+   ],
+   "raw_response": "{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": \"1:100\",\n  \"regions\": [\n    {\n      \"id\": \"region_1\",\n      \"type\": \"SITE_PLAN\",\n      \"bbox\": [\n        500,\n        150,\n        750,\n        450\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SITE PLAN\",\n      \"evidence\": \"SITE PLAN\"\n    },\n    {\n      \"id\": \"region_2\",\n      \"type\": \"GROUND_FLOOR_PLAN\",\n      \"bbox\": [\n        50,\n        480,\n        450,\n        650\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"GROUND FLOOR PLAN\",\n      \"evidence\": \"GROUND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_3\",\n      \"type\": \"FIRST_FLOOR_PLAN\",\n      \"bbox\": [\n        450,\n        480,\n        850,\n        650\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"1ST, 2ND & 3RD FLOOR PLAN\",\n      \"evidence\": \"1ST, 2ND & 3RD FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_4\",\n      \"type\": \"SECOND_FLOOR_PLAN\",\n      \"bbox\": [\n        450,\n        480,\n        850,\n        650\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"1ST, 2ND & 3RD FLOOR PLAN\",\n      \"evidence\": \"1ST, 2ND & 3RD FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_5\",\n      \"type\": \"THIRD_FLOOR_PLAN\",\n      \"bbox\": [\n        450,\n        480,\n        850,\n        650\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"1ST, 2ND & 3RD FLOOR PLAN\",\n      \"evidence\": \"1ST, 2ND & 3RD FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_6\",\n      \"type\": \"FOURTH_FLOOR_PLAN\",\n      \"bbox\": [\n        50,\n        680,\n        450,\n        850\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"FOURTH FLOOR PLAN\",\n      \"evidence\": \"FOURTH FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_7\",\n      \"type\": \"ELEVATION\",\n      \"bbox\": [\n        50,\n        150,\n        250,\n        400\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"ELEVATION\",\n      \"evidence\": \"ELEVATION\"\n    },\n    {\n      \"id\": \"region_8\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        250,\n        150,\n        450,\n        400\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION ON AA\",\n      \"evidence\": \"SECTION ON AA\"\n    },\n    {\n      \"id\": \"region_9\",\n      \"type\": \"AREA_STATEMENT\",\n      \"bbox\": [\n        750,\n        150,\n        950,\n        450\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"AREA DETAIL\",\n      \"evidence\": \"AREA DETAIL\"\n    },\n    {\n      \"id\": \"region_10\",\n      \"type\": \"SERVICE_DETAIL\",\n      \"bbox\": [\n        50,\n        450,\n        250,\n        480\n      ],\n      \"confidence\": 0.9,\n      \"label\": \"RAIN WATER HARVESTING\",\n      \"evidence\": \"RAIN WATER HARVESTING\"\n    },\n    {\n      \"id\": \"region_11\",\n      \"type\": \"SERVICE_DETAIL\",\n      \"bbox\": [\n        450,\n        650,\n        850,\n        850\n      ],\n      \"confidence\": 0.9,\n      \"label\": \"SEPTIC TANK AND...\",\n      \"evidence\": \"SEPTIC TANK AND...\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 15.24,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        550,\n        180,\n        700,\n        190\n      ],\n      \"evidence\": \"15.24\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 20.0,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        520,\n        180,\n        530,\n        400\n      ],\n      \"evidence\": \"20.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.72,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        550,\n        190,\n        700,\n        200\n      ],\n      \"evidence\": \"13.72\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 18.29,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        530,\n        190,\n        540,\n        400\n      ],\n      \"evidence\": \"18.29\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.76,\n      \"unit\": \"m\",\n      \"type\": \"FRONT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        540,\n        180,\n        550,\n        190\n      ],\n      \"evidence\": \"0.76\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.76,\n      \"unit\": \"m\",\n      \"type\": \"REAR_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        690,\n        180,\n        700,\n        190\n      ],\n      \"evidence\": \"0.76\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.76,\n      \"unit\": \"m\",\n      \"type\": \"LEFT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        520,\n        190,\n        530,\n        200\n      ],\n      \"evidence\": \"0.76\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.76,\n      \"unit\": \"m\",\n      \"type\": \"RIGHT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        700,\n        190,\n        710,\n        200\n      ],\n      \"evidence\": \"0.76\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.72,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        100,\n        480,\n        400,\n        490\n      ],\n      \"evidence\": \"13.72\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 18.29,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        50,\n        480,\n        60,\n        650\n      ],\n      \"evidence\": \"18.29\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.72,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        500,\n        480,\n        800,\n        490\n      ],\n      \"evidence\": \"13.72\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 18.29,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        450,\n        480,\n        460,\n        650\n      ],\n      \"evidence\": \"18.29\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.72,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        100,\n        680,\n        400,\n        690\n      ],\n      \"evidence\": \"13.72\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 18.29,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        50,\n        680,\n        60,\n        850\n      ],\n      \"evidence\": \"18.29\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"areas\": [\n    {\n      \"value\": 303.79,\n      \"unit\": \"m2\",\n      \"type\": \"PLOT_AREA\",\n      \"region_id\": \"region_9\",\n      \"evidence\": \"303.79\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 185.62,\n      \"unit\": \"m2\",\n      \"type\": \"BUILDING_FOOTPRINT_AREA\",\n      \"region_id\": \"region_9\",\n      \"evidence\": \"185.62\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 185.62,\n      \"unit\": \"m2\",\n      \"type\": \"TOTAL_BUILT_UP_AREA\",\n      \"region_id\": \"region_9\",\n      \"evidence\": \"185.62\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"warnings\": []\n}\n\n[ELEVATION_FOCUS_PASS]\n{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": null,\n  \"regions\": [\n    {\n      \"id\": \"height_focus\",\n      \"type\": \"ELEVATION\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"ELEVATION\",\n      \"evidence\": \"Vertical dimension lines visible on the right side of the elevation drawing.\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 0.15,\n      \"unit\": \"m\",\n      \"type\": \"PLINTH_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        780,\n        750,\n        820,\n        800\n      ],\n      \"evidence\": \"0.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.05,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        780,\n        300,\n        820,\n        750\n      ],\n      \"evidence\": \"3.05\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.60,\n      \"unit\": \"m\",\n      \"type\": \"PARAPET_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        780,\n        200,\n        820,\n        250\n      ],\n      \"evidence\": \"0.60\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"areas\": [],\n  \"warnings\": []\n}",
+   "page_width_pts": 1684.08,
+   "page_height_pts": 1191.24,
+   "metadata": {}
+  }
+ ],
+ "model_name": "qwen/qwen3.8-27b",
+ "enabled": true,
+ "warnings": []
+}

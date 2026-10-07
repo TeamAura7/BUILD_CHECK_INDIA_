@@ -1,0 +1,242 @@
+{
+ "plan_id": "PLAN2-dxf",
+ "source_document_id": "PLAN2",
+ "plot": {
+  "geometry": null,
+  "width": {
+   "value": 11.0442,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 11.0442,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 15.5969,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 15.5969,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 172.2544,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 172.2544,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": null,
+  "width": {
+   "value": 10.1672,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 10.1672,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 14.4858,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 14.4858,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": 122.4094,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 122.4094,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": null
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No non-conflicting independent evidence for road.width."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": 0.2065,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.2065,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.50)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": 0.4072,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.4072,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.50)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": 0.4427,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.4427,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.50)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": 0.5967,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.5967,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.50)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": 71.06314845948782,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 71.06314845948782,
+   "unit": "%"
+  },
+  "confidence": {
+   "level": "LOW",
+   "score": null,
+   "reason": "coverage = footprint_area(122.409) / plot_area(172.254) * 100"
+  },
+  "source": "coverage = building.footprint_area / plot.area * 100",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": 0.7106314845948782,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 0.7106314845948782,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "LOW",
+   "score": null,
+   "reason": "Diagnostic gross FAR = gross_built_up_area(122.409, footprint area, floor count NOT resolved so a single storey is assumed) / plot_area(172.254). Treat as a lower bound. NOT a regulatory/sanctioned FAR."
+  },
+  "source": "far = gross_built_up_area / plot.area (diagnostic gross FAR)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [],
+ "overall_confidence_note": "Legacy global plot resolver had no winner; final values came from independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

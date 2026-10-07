@@ -1,0 +1,42 @@
+{
+ "variant": "pdf_hybrid_vlm_api_r2",
+ "plan": "PLAN9",
+ "kind": "pdf",
+ "vision_backend": "api",
+ "vision_model": "qwen/qwen3.8-27b",
+ "vision_render_dpi": 200.0,
+ "decontamination": {
+  "ARCHITECTURAL_PLAN_PROMPT:9.14": 2,
+  "ARCHITECTURAL_PLAN_PROMPT:8.22": 1,
+  "ARCHITECTURAL_PLAN_PROMPT:222.83": 1,
+  "SITE_PLAN_FOCUS_PROMPT:9.14": 0,
+  "SITE_PLAN_FOCUS_PROMPT:8.22": 0,
+  "SITE_PLAN_FOCUS_PROMPT:222.83": 1,
+  "AREA_STATEMENT_FOCUS_PROMPT:9.14": 0,
+  "AREA_STATEMENT_FOCUS_PROMPT:8.22": 0,
+  "AREA_STATEMENT_FOCUS_PROMPT:222.83": 0,
+  "HEIGHT_FOCUS_PROMPT:9.14": 0,
+  "HEIGHT_FOCUS_PROMPT:8.22": 0,
+  "HEIGHT_FOCUS_PROMPT:222.83": 0,
+  "DXF_VISION_FALLBACK_PROMPT:9.14": 0,
+  "DXF_VISION_FALLBACK_PROMPT:8.22": 0,
+  "DXF_VISION_FALLBACK_PROMPT:222.83": 0
+ },
+ "warnings": [
+  "page 1: vision analysis failed: Vision API HTTP 429 from https://api.groq.com/openai/v1: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_[REDACTED]` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196221, Requested 4051. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+ ],
+ "vision_failed": false,
+ "dropped_ungrounded": 0,
+ "vision_page_failures": 1,
+ "grounding": {
+  "pages": 0,
+  "dimensions": 0,
+  "areas": 0,
+  "grounded_true": 0,
+  "grounded_false": 0,
+  "grounded_none": 0
+ },
+ "vlm_valid": false,
+ "status": "ok",
+ "total_seconds": 143.1
+}

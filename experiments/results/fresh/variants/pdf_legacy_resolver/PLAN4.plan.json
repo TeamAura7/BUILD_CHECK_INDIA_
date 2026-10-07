@@ -1,0 +1,506 @@
+{
+ "plan_id": "PLAN4-pdf",
+ "source_document_id": "PLAN4",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 3.4415777538838777,
+      "y": 12.383247058367223
+     },
+     {
+      "x": 87.67982202885469,
+      "y": 12.367164919330383
+     },
+     {
+      "x": 87.69590416789153,
+      "y": 78.03053860675035
+     },
+     {
+      "x": 3.4576598929207183,
+      "y": 78.0466207457872
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 3.4415777538838777,
+    "min_y": 12.367164919330383,
+    "max_x": 87.69590416789153,
+    "max_y": 78.0466207457872
+   },
+   "points_per_metre": 14.923387955433924,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 84.2382,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 84.2382,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "geometry (front edge) and geometry (rear edge) agree within tolerance (0.000 <= 4.212)."
+   },
+   "source": "plot.width: agreed across 2 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "front plot boundary edge length, scaled to metres."
+    },
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "rear plot boundary edge length, scaled to metres."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 47.5348,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 47.5348,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "3 sources (['geometry (left edge)', 'geometry (right edge)', 'dimension label (\\'37\\'-0\"\\')']) reconciled, spread=54.386."
+   },
+   "source": "plot.depth: minor_variance across 3 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "left plot boundary edge length, scaled to metres."
+    },
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "right plot boundary edge length, scaled to metres."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 4004.246,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 4004.246,
+    "unit": "sq_m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Rectangular plot: plot.area = width * depth (84.238 x 47.535). Geometry-derived polygon area is 5531.368 (relative diff 27.6%)."
+   },
+   "source": "plot.area (width x depth)",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 55.61203678939462,
+      "y": 27.45221133588682
+     },
+     {
+      "x": 55.62811892843146,
+      "y": 50.69090224412142
+     },
+     {
+      "x": 83.69145154771823,
+      "y": 50.69090224412142
+     },
+     {
+      "x": 83.67536940868139,
+      "y": 27.43612919684998
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 55.61203678939462,
+    "min_y": 27.43612919684998,
+    "max_x": 83.69145154771823,
+    "max_y": 50.69090224412142
+   },
+   "points_per_metre": 14.923387955433924,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 12.93108,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 12.9311,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "5 sources (['geometry (building bounding box, frontage-aligned side)', 'dimension label (\\'3\\'-0\"\\')', 'dimension label (\\'54\\'-0\"\\')', 'dimension label (\\'3\\'-0\"\\')', 'dimension label (\\'60\\'-0\"\\')']) reconciled, spread=27.165."
+   },
+   "source": "building.width: minor_variance across 5 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Building footprint extent aligned with the plot frontage axis."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "geometry (building bounding box, depth-aligned side) reports 23.255 m but dimension label ('54'-6\"') reports 16.612 m — a difference of 6.643 m, beyond tolerance (0.997 m). Not silently resolved."
+   },
+   "source": "building.depth: conflicting evidence",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Building footprint extent aligned with the plot depth axis."
+    }
+   ],
+   "conflict": {
+    "description": "geometry (building bounding box, depth-aligned side) reports 23.255 m but dimension label ('54'-6\"') reports 16.612 m — a difference of 6.643 m, beyond tolerance (0.997 m). Not silently resolved.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 23.2548,
+      "unit": "m"
+     },
+     {
+      "magnitude": 16.6116,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "geometry (building bounding box, depth-aligned side)",
+     "dimension label ('54'-6\"')"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": 2018.3019,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 2018.3019,
+    "unit": "sq_m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Sum of 6 validated building block(s)' footprint polygon area(s), scaled to square metres."
+   },
+   "source": "building.footprint_area (sum of validated building block polygons)",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": {
+   "value": 5,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "5 floor level(s) named on the sheet (ground through level 4; stilt/terrace not counted), agreed by: floor-plan captions."
+   },
+   "source": "named floor levels",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": null,
+   "bounding_box": {
+    "min_x": 56.68954010486294,
+    "min_y": 29.639382244897135,
+    "max_x": 60.42059636140995,
+    "max_y": 50.321013046274075
+   },
+   "points_per_metre": 14.923387955433924,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "CONFLICTING",
+    "score": null,
+    "reason": "geometry (road candidate short-side width; explicitly labeled road candidate) reports 3.731 m but dimension label ('25 FEET ROAD') reports 7.620 m — a difference of 3.889 m, beyond tolerance (0.284 m). Not silently resolved."
+   },
+   "source": "road.width: conflicting evidence",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Road candidate with an explicit numeric road label."
+    }
+   ],
+   "conflict": {
+    "description": "geometry (road candidate short-side width; explicitly labeled road candidate) reports 3.731 m but dimension label ('25 FEET ROAD') reports 7.620 m — a difference of 3.889 m, beyond tolerance (0.284 m). Not silently resolved.",
+    "conflicting_raw_values": [
+     {
+      "magnitude": 3.7311,
+      "unit": "m"
+     },
+     {
+      "magnitude": 7.62,
+      "unit": "m"
+     }
+    ],
+    "conflicting_sources": [
+     "geometry (road candidate short-side width; explicitly labeled road candidate)",
+     "dimension label ('25 FEET ROAD')"
+    ],
+    "conflicting_candidate_ids": [],
+    "rejection_reasons": []
+   },
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": 15.0682,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 15.0682,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Single source of evidence (geometry (building-to-front-boundary distance)); nothing to cross-check against."
+   },
+   "source": "setbacks.front: uncorroborated across 1 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Metric-space distance from building footprint to the front plot edge."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": 27.3404,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 27.3404,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Single source of evidence (geometry (building-to-rear-boundary distance)); nothing to cross-check against."
+   },
+   "source": "setbacks.rear: uncorroborated across 1 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Metric-space distance from building footprint to the rear plot edge."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": 3.9978,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 3.9978,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Single source of evidence (geometry (building-to-left-boundary distance)); nothing to cross-check against."
+   },
+   "source": "setbacks.left: uncorroborated across 1 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Metric-space distance from building footprint to the left plot edge."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": 52.1668,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 52.1668,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "Single source of evidence (geometry (building-to-right-boundary distance)); nothing to cross-check against."
+   },
+   "source": "setbacks.right: uncorroborated across 1 source(s)",
+   "evidence": [
+    {
+     "source_type": "VECTOR_GEOMETRY",
+     "page": null,
+     "line": null,
+     "bounding_box": null,
+     "description": "Metric-space distance from building footprint to the right plot edge."
+    }
+   ],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": 50.40404360771041,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 50.40404360771041,
+   "unit": "%"
+  },
+  "confidence": {
+   "level": "MEDIUM",
+   "score": null,
+   "reason": "coverage = footprint_area(2018.302) / plot_area(4004.246) * 100"
+  },
+  "source": "coverage = building.footprint_area / plot.area * 100",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": 2.5202021803855206,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 2.5202021803855206,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "LOW",
+   "score": null,
+   "reason": "Diagnostic gross FAR = gross_built_up_area(10091.510, footprint x 5 floors) / plot_area(4004.246). NOT a regulatory/sanctioned FAR — that comparison belongs to the RuleEngine. (confidence capped: the floor count is itself LOW)"
+  },
+  "source": "far = gross_built_up_area / plot.area (diagnostic gross FAR)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [
+  {
+   "description": "geometry (building bounding box, depth-aligned side) reports 23.255 m but dimension label ('54'-6\"') reports 16.612 m — a difference of 6.643 m, beyond tolerance (0.997 m). Not silently resolved.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 23.2548,
+     "unit": "m"
+    },
+    {
+     "magnitude": 16.6116,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "geometry (building bounding box, depth-aligned side)",
+    "dimension label ('54'-6\"')"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "geometry (road candidate short-side width; explicitly labeled road candidate) reports 3.731 m but dimension label ('25 FEET ROAD') reports 7.620 m — a difference of 3.889 m, beyond tolerance (0.284 m). Not silently resolved.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 3.7311,
+     "unit": "m"
+    },
+    {
+     "magnitude": 7.62,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "geometry (road candidate short-side width; explicitly labeled road candidate)",
+    "dimension label ('25 FEET ROAD')"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Rectangular cross-check failed: building.width + left + right setback (69.096 m) does not match plot.width (84.238 m); difference 15.143 m exceeds tolerance 4.212 m.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 69.09568,
+     "unit": "m"
+    },
+    {
+     "magnitude": 84.2382,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.width+setbacks.left+setbacks.right",
+    "plot.width"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 9 candidate(s) across 1 page(s). (1 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Clear winner (score 0.70) with a 0.19 margin over the runner-up. | Scale: [local region-scoped] 18 scale samples but high spread (62.6%); treat with caution. 7 sample(s) rejected as outliers (robust MAD filter). | Front-side: Front edge resolved from ROAD candidate. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 6, rejected: 4. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

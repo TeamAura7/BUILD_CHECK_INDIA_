@@ -1,0 +1,263 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN1.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN1
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (6416 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (1143 chars), parsing JSON...
+2026-09-28 03:40:25,543 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=None/CONFLICTING new=9.14/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:40:25,543 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=6.1722/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-28 03:40:25,544 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=None/CONFLICTING new=96.34/HIGH (document-evidence score 14/22 -> normalized 0.636 -> HIGH (AGREED_DOCUMENT_VERIFIED))
+2026-09-28 03:40:25,544 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+pdf_hybrid_vlm_api PLAN1 ok vlm_valid=True 95.0s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN2.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN2
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (6578 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (851 chars), parsing JSON...
+2026-09-28 03:41:57,893 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=None/CONFLICTING new=10.5904/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:41:57,893 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=None/CONFLICTING new=16.4747/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:41:57,893 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=None/CONFLICTING new=174.52/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+pdf_hybrid_vlm_api PLAN2 ok vlm_valid=True 91.8s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN4.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN4
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (5771 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (840 chars), parsing JSON...
+2026-09-28 03:44:44,621 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=None/CONFLICTING new=16.6116/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:44:44,621 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=0.9144/HIGH new=0.9144/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:44:44,621 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.9144/HIGH new=0.9144/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:44:44,621 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=2.6637/HIGH new=2.6637/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:44:44,621 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=2.6703/HIGH new=2.6703/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+pdf_hybrid_vlm_api PLAN4 ok vlm_valid=True 166.2s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN5.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN5
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (10654 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (849 chars), parsing JSON...
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=None/CONFLICTING new=17.5895/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=None/CONFLICTING new=9.2075/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=160.77/MEDIUM new=160.77/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for road.width: old=None/CONFLICTING new=10.0/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.9989/HIGH new=0.9989/MEDIUM (document-evidence score 9/22 -> normalized 0.409 -> MEDIUM (AGREED_UNVERIFIED))
+2026-09-28 03:47:54,281 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=58.13273620700379/MEDIUM new=58.13273620700379/HIGH (No direct coverage evidence from independent_cv/vision; derived via areas.coverage_field from this engine's own resolved building.footprint_area/plot.area.)
+pdf_hybrid_vlm_api PLAN5 ok vlm_valid=True 189.2s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN6.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN6
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (5588 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (851 chars), parsing JSON...
+2026-09-28 03:49:41,035 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=None/CONFLICTING new=9.3063/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:49:41,035 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.2456/HIGH new=3.2456/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:49:41,035 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.6985/HIGH new=0.6985/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:49:41,035 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:49:41,035 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.6914/HIGH new=0.6914/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+pdf_hybrid_vlm_api PLAN6 ok vlm_valid=True 106.1s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN7.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN7
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (7215 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (610 chars), parsing JSON...
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=19.368499999999997/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=4.40355/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=85.2902/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=9.14/HIGH new=9.14/LOW (document-evidence score 1/22 -> normalized 0.045 -> LOW (VISION_ONLY_UNVERIFIED))
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=13.8265/LOW new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.footprint_area: old=None/CONFLICTING new=None/MISSING (neither CV nor Vision produced a candidate for this field)
+2026-09-28 03:51:05,943 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for road.width: old=9.14/HIGH new=9.14/LOW (document-evidence score 1/22 -> normalized 0.045 -> LOW (VISION_ONLY_UNVERIFIED))
+pdf_hybrid_vlm_api PLAN7 ok vlm_valid=True 84.4s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+Rendering 'PLAN8.pdf' at 200.0 DPI...
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN8
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (8213 chars), parsing JSON...
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (1135 chars), parsing JSON...
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+2026-09-28 03:52:31,495 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=11.2818/LOW new=11.2818/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-28 03:52:31,495 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=16.5029/LOW new=16.5029/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-28 03:52:31,495 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=9.5462/LOW new=9.5462/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=11.9944/LOW new=11.9944/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for road.width: old=7.6/HIGH new=7.6/LOW (document-evidence score 1/22 -> normalized 0.045 -> LOW (VISION_ONLY_UNVERIFIED))
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=None/CONFLICTING new=None/MISSING (disagreement present but neither candidate is well-evidenced enough to decide)
+2026-09-28 03:52:31,496 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=None/CONFLICTING new=62.83/HIGH (document-evidence score 13/22 -> normalized 0.591 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+pdf_hybrid_vlm_api PLAN8 ok vlm_valid=True 85.0s
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Rendering 'PLAN9.pdf' at 200.0 DPI...
+Rendered 1 page(s) to ./data/uploads/vision_rendered/PLAN9
+Analyzing page 1/1...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (3359 chars), parsing JSON...
+  [page 1] generating response (this is the slow step on CPU)...
+  [page 1] response received (1091 chars), parsing JSON...
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=None/CONFLICTING new=15.2083/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CONFLICT_RESOLVED_BY_DOCUMENT_EVIDENCE))
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.area: old=147.99/HIGH new=147.99/LOW (document-evidence score 1/22 -> normalized 0.045 -> LOW (VISION_ONLY_UNVERIFIED))
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for road.width: old=8.92/HIGH new=8.92/LOW (document-evidence score 1/22 -> normalized 0.045 -> LOW (VISION_ONLY_UNVERIFIED))
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=1.5047/HIGH new=1.5047/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=1.3779/HIGH new=1.3779/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for coverage: old=63.8016082167714/MEDIUM new=63.8016082167714/LOW (No direct coverage evidence from independent_cv/vision; derived via areas.coverage_field from this engine's own resolved building.footprint_area/plot.area.)
+2026-09-28 03:54:42,078 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for far: old=0.638016082167714/MEDIUM new=0.638016082167714/LOW (No direct FAR evidence from independent_cv/vision; derived via areas.far_field from this engine's own resolved building.footprint_area/plot.area (+ legacy floor_count).)
+pdf_hybrid_vlm_api PLAN9 ok vlm_valid=True 130.1s
+{
+ "variant": "pdf_hybrid_vlm_api",
+ "backend": "api",
+ "runs": 8,
+ "vlm_valid_runs": 8,
+ "invalid": {},
+ "dropped_ungrounded_total": 0,
+ "grounding": {
+  "PLAN1": {
+   "pages": 1,
+   "dimensions": 18,
+   "areas": 2,
+   "grounded_true": 17,
+   "grounded_false": 0,
+   "grounded_none": 3
+  },
+  "PLAN2": {
+   "pages": 1,
+   "dimensions": 10,
+   "areas": 2,
+   "grounded_true": 10,
+   "grounded_false": 0,
+   "grounded_none": 2
+  },
+  "PLAN4": {
+   "pages": 1,
+   "dimensions": 3,
+   "areas": 3,
+   "grounded_true": 4,
+   "grounded_false": 0,
+   "grounded_none": 2
+  },
+  "PLAN5": {
+   "pages": 1,
+   "dimensions": 34,
+   "areas": 5,
+   "grounded_true": 0,
+   "grounded_false": 37,
+   "grounded_none": 2
+  },
+  "PLAN6": {
+   "pages": 1,
+   "dimensions": 5,
+   "areas": 1,
+   "grounded_true": 4,
+   "grounded_false": 0,
+   "grounded_none": 2
+  },
+  "PLAN7": {
+   "pages": 1,
+   "dimensions": 16,
+   "areas": 0,
+   "grounded_true": 15,
+   "grounded_false": 0,
+   "grounded_none": 1
+  },
+  "PLAN8": {
+   "pages": 1,
+   "dimensions": 9,
+   "areas": 1,
+   "grounded_true": 7,
+   "grounded_false": 0,
+   "grounded_none": 3
+  },
+  "PLAN9": {
+   "pages": 1,
+   "dimensions": 11,
+   "areas": 2,
+   "grounded_true": 10,
+   "grounded_false": 0,
+   "grounded_none": 3
+  }
+ },
+ "seconds": {
+  "PLAN1": 95.0,
+  "PLAN2": 91.8,
+  "PLAN4": 166.2,
+  "PLAN5": 189.2,
+  "PLAN6": 106.1,
+  "PLAN7": 84.4,
+  "PLAN8": 85.0,
+  "PLAN9": 130.1
+ }
+}
+{'variant': 'pdf_native_only', 'truth_valued': 84, 'answered': 53, 'correct': 51, 'wrong': 2, 'missing': 31, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 0, 'abstained_correctly': 10, 'accuracy': 0.962, 'completeness': 0.631, 'correct_over_truth_valued': 0.607, 'mae_m_length_fields': 0.14, 'n_mae': 39, 'mape_pct_all_numeric': 0.917, 'median_ape_pct': 0.0, 'n_mape': 52, 'confident_answers': 51, 'confident_wrong': 0, 'confident_wrong_rate': 0.0, 'wrong_flagged_or_low': 2, 'wrong_caught_rate': 1.0, 'false_positive_rate_on_must_abstain': 0.0, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 4.737, 'max_seconds': 13.8}
+{'variant': 'pdf_native_ocr', 'truth_valued': 84, 'answered': 65, 'correct': 63, 'wrong': 2, 'missing': 19, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 0, 'abstained_correctly': 10, 'accuracy': 0.969, 'completeness': 0.774, 'correct_over_truth_valued': 0.75, 'mae_m_length_fields': 0.117, 'n_mae': 48, 'mape_pct_all_numeric': 0.875, 'median_ape_pct': 0.0, 'n_mape': 64, 'confident_answers': 63, 'confident_wrong': 0, 'confident_wrong_rate': 0.0, 'wrong_flagged_or_low': 2, 'wrong_caught_rate': 1.0, 'false_positive_rate_on_must_abstain': 0.0, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 15.737, 'max_seconds': 102.6}
+{'variant': 'pdf_hybrid', 'truth_valued': 84, 'answered': 80, 'correct': 78, 'wrong': 2, 'missing': 4, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 4, 'abstained_correctly': 6, 'accuracy': 0.975, 'completeness': 0.952, 'correct_over_truth_valued': 0.929, 'mae_m_length_fields': 0.117, 'n_mae': 48, 'mape_pct_all_numeric': 0.737, 'median_ape_pct': 0.0, 'n_mape': 76, 'confident_answers': 77, 'confident_wrong': 0, 'confident_wrong_rate': 0.0, 'wrong_flagged_or_low': 2, 'wrong_caught_rate': 1.0, 'false_positive_rate_on_must_abstain': 0.4, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 20.637, 'max_seconds': 105.9}
+{'variant': 'pdf_legacy_resolver', 'truth_valued': 84, 'answered': 50, 'correct': 15, 'wrong': 35, 'missing': 31, 'abstained_conflict': 3, 'must_abstain_fields': 10, 'false_positive': 4, 'abstained_correctly': 6, 'accuracy': 0.3, 'completeness': 0.595, 'correct_over_truth_valued': 0.179, 'mae_m_length_fields': 14.157, 'n_mae': 26, 'mape_pct_all_numeric': 267.505, 'median_ape_pct': 71.157, 'n_mape': 47, 'confident_answers': 49, 'confident_wrong': 35, 'confident_wrong_rate': 0.714, 'wrong_flagged_or_low': 0, 'wrong_caught_rate': 0.0, 'false_positive_rate_on_must_abstain': 0.4, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 20.575, 'max_seconds': 105.4}
+{'variant': 'pdf_evidence_decision', 'truth_valued': 84, 'answered': 80, 'correct': 78, 'wrong': 2, 'missing': 4, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 0, 'abstained_correctly': 10, 'accuracy': 0.975, 'completeness': 0.952, 'correct_over_truth_valued': 0.929, 'mae_m_length_fields': 0.117, 'n_mae': 48, 'mape_pct_all_numeric': 0.737, 'median_ape_pct': 0.0, 'n_mape': 76, 'confident_answers': 68, 'confident_wrong': 2, 'confident_wrong_rate': 0.029, 'wrong_flagged_or_low': 0, 'wrong_caught_rate': 0.0, 'false_positive_rate_on_must_abstain': 0.0, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 21.075, 'max_seconds': 108.2}
+{'variant': 'dxf_hybrid', 'truth_valued': 84, 'answered': 52, 'correct': 5, 'wrong': 47, 'missing': 32, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 0, 'abstained_correctly': 10, 'accuracy': 0.096, 'completeness': 0.619, 'correct_over_truth_valued': 0.06, 'mae_m_length_fields': 3.148, 'n_mae': 33, 'mape_pct_all_numeric': 60.421, 'median_ape_pct': 48.132, 'n_mape': 51, 'confident_answers': 2, 'confident_wrong': 0, 'confident_wrong_rate': 0.0, 'wrong_flagged_or_low': 47, 'wrong_caught_rate': 1.0, 'false_positive_rate_on_must_abstain': 0.0, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 46.725, 'max_seconds': 86.8}
+{'variant': 'dxf_evidence_decision', 'truth_valued': 84, 'answered': 33, 'correct': 4, 'wrong': 29, 'missing': 51, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 0, 'abstained_correctly': 10, 'accuracy': 0.121, 'completeness': 0.393, 'correct_over_truth_valued': 0.048, 'mae_m_length_fields': 2.125, 'n_mae': 21, 'mape_pct_all_numeric': 51.464, 'median_ape_pct': 29.859, 'n_mape': 32, 'confident_answers': 2, 'confident_wrong': 0, 'confident_wrong_rate': 0.0, 'wrong_flagged_or_low': 29, 'wrong_caught_rate': 1.0, 'false_positive_rate_on_must_abstain': 0.0, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 47.762, 'max_seconds': 86.5}
+{'variant': 'pdf_dxf_reconciled', 'truth_valued': 84, 'answered': 80, 'correct': 78, 'wrong': 2, 'missing': 4, 'abstained_conflict': 0, 'must_abstain_fields': 10, 'false_positive': 4, 'abstained_correctly': 6, 'accuracy': 0.975, 'completeness': 0.952, 'correct_over_truth_valued': 0.929, 'mae_m_length_fields': 0.117, 'n_mae': 48, 'mape_pct_all_numeric': 0.737, 'median_ape_pct': 0.0, 'n_mape': 76, 'confident_answers': 32, 'confident_wrong': 0, 'confident_wrong_rate': 0.0, 'wrong_flagged_or_low': 2, 'wrong_caught_rate': 1.0, 'false_positive_rate_on_must_abstain': 0.4, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': None, 'max_seconds': None}
+{'variant': 'pdf_hybrid_vlm_api', 'truth_valued': 84, 'answered': 60, 'correct': 56, 'wrong': 4, 'missing': 11, 'abstained_conflict': 13, 'must_abstain_fields': 10, 'false_positive': 5, 'abstained_correctly': 5, 'accuracy': 0.933, 'completeness': 0.714, 'correct_over_truth_valued': 0.667, 'mae_m_length_fields': 0.175, 'n_mae': 31, 'mape_pct_all_numeric': 2.587, 'median_ape_pct': 0.0, 'n_mape': 57, 'confident_answers': 59, 'confident_wrong': 4, 'confident_wrong_rate': 0.068, 'wrong_flagged_or_low': 2, 'wrong_caught_rate': 0.5, 'false_positive_rate_on_must_abstain': 0.5, 'axis_swapped': 0, 'runs_ok': 8, 'runs_failed_or_timeout': 0, 'internal_timeouts': 0, 'mean_seconds': 118.475, 'max_seconds': 189.2}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'dxf_evidence_decision', 'gt_decidable': 32, 'correct': 0, 'false_pass': 0, 'false_fail': 0, 'review': 6, 'insufficient_data': 16, 'conflict': 0, 'applicability_flip': 10, 'decision_accuracy_over_gt_decidable': 0.0, 'decision_accuracy_when_decided': None, 'abstention_rate': 0.6875, 'gt_undecidable': 141, 'spurious_applicability': 103}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'dxf_evidence_decision__ungated', 'gt_decidable': 32, 'correct': 3, 'false_pass': 3, 'false_fail': 0, 'review': 0, 'insufficient_data': 16, 'conflict': 0, 'applicability_flip': 10, 'decision_accuracy_over_gt_decidable': 0.09375, 'decision_accuracy_when_decided': 0.5, 'abstention_rate': 0.5, 'gt_undecidable': 141, 'spurious_applicability': 103}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'dxf_hybrid', 'gt_decidable': 32, 'correct': 0, 'false_pass': 0, 'false_fail': 0, 'review': 11, 'insufficient_data': 5, 'conflict': 0, 'applicability_flip': 16, 'decision_accuracy_over_gt_decidable': 0.0, 'decision_accuracy_when_decided': None, 'abstention_rate': 0.5, 'gt_undecidable': 141, 'spurious_applicability': 41}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'dxf_hybrid__ungated', 'gt_decidable': 32, 'correct': 5, 'false_pass': 6, 'false_fail': 0, 'review': 0, 'insufficient_data': 5, 'conflict': 0, 'applicability_flip': 16, 'decision_accuracy_over_gt_decidable': 0.15625, 'decision_accuracy_when_decided': 0.45454545454545453, 'abstention_rate': 0.15625, 'gt_undecidable': 141, 'spurious_applicability': 41}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_dxf_reconciled', 'gt_decidable': 32, 'correct': 31, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.96875, 'decision_accuracy_when_decided': 0.96875, 'abstention_rate': 0.0, 'gt_undecidable': 141, 'spurious_applicability': 8}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_dxf_reconciled__flag_as_conflict', 'gt_decidable': 32, 'correct': 2, 'false_pass': 0, 'false_fail': 0, 'review': 0, 'insufficient_data': 24, 'conflict': 6, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.0625, 'decision_accuracy_when_decided': 1.0, 'abstention_rate': 0.9375, 'gt_undecidable': 141, 'spurious_applicability': 162}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_evidence_decision', 'gt_decidable': 32, 'correct': 21, 'false_pass': 0, 'false_fail': 0, 'review': 11, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.65625, 'decision_accuracy_when_decided': 1.0, 'abstention_rate': 0.34375, 'gt_undecidable': 141, 'spurious_applicability': 8}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_evidence_decision__ungated', 'gt_decidable': 32, 'correct': 31, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.96875, 'decision_accuracy_when_decided': 0.96875, 'abstention_rate': 0.0, 'gt_undecidable': 141, 'spurious_applicability': 8}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_hybrid', 'gt_decidable': 32, 'correct': 31, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.96875, 'decision_accuracy_when_decided': 0.96875, 'abstention_rate': 0.0, 'gt_undecidable': 141, 'spurious_applicability': 8}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_hybrid__ungated', 'gt_decidable': 32, 'correct': 31, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.96875, 'decision_accuracy_when_decided': 0.96875, 'abstention_rate': 0.0, 'gt_undecidable': 141, 'spurious_applicability': 8}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_hybrid_vlm_api', 'gt_decidable': 32, 'correct': 17, 'false_pass': 0, 'false_fail': 0, 'review': 0, 'insufficient_data': 14, 'conflict': 1, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.53125, 'decision_accuracy_when_decided': 1.0, 'abstention_rate': 0.46875, 'gt_undecidable': 141, 'spurious_applicability': 64}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_legacy_resolver', 'gt_decidable': 32, 'correct': 2, 'false_pass': 2, 'false_fail': 0, 'review': 0, 'insufficient_data': 8, 'conflict': 1, 'applicability_flip': 19, 'decision_accuracy_over_gt_decidable': 0.0625, 'decision_accuracy_when_decided': 0.5, 'abstention_rate': 0.28125, 'gt_undecidable': 141, 'spurious_applicability': 78}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_native_ocr', 'gt_decidable': 32, 'correct': 25, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 6, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.78125, 'decision_accuracy_when_decided': 0.9615384615384616, 'abstention_rate': 0.1875, 'gt_undecidable': 141, 'spurious_applicability': 39}
+{'unit': 'rule', 'development_area': 'A', 'variant': 'pdf_native_only', 'gt_decidable': 32, 'correct': 20, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 11, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.625, 'decision_accuracy_when_decided': 0.9523809523809523, 'abstention_rate': 0.34375, 'gt_undecidable': 141, 'spurious_applicability': 65}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'dxf_evidence_decision', 'gt_decidable': 31, 'correct': 0, 'false_pass': 0, 'false_fail': 0, 'review': 10, 'insufficient_data': 19, 'conflict': 0, 'applicability_flip': 2, 'decision_accuracy_over_gt_decidable': 0.0, 'decision_accuracy_when_decided': None, 'abstention_rate': 0.9354838709677419, 'gt_undecidable': 20, 'spurious_applicability': 21}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'dxf_evidence_decision__ungated', 'gt_decidable': 31, 'correct': 8, 'false_pass': 4, 'false_fail': 0, 'review': 0, 'insufficient_data': 17, 'conflict': 0, 'applicability_flip': 2, 'decision_accuracy_over_gt_decidable': 0.25806451612903225, 'decision_accuracy_when_decided': 0.6666666666666666, 'abstention_rate': 0.5483870967741935, 'gt_undecidable': 20, 'spurious_applicability': 21}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'dxf_hybrid', 'gt_decidable': 31, 'correct': 0, 'false_pass': 0, 'false_fail': 0, 'review': 16, 'insufficient_data': 12, 'conflict': 0, 'applicability_flip': 3, 'decision_accuracy_over_gt_decidable': 0.0, 'decision_accuracy_when_decided': None, 'abstention_rate': 0.9032258064516129, 'gt_undecidable': 20, 'spurious_applicability': 21}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'dxf_hybrid__ungated', 'gt_decidable': 31, 'correct': 12, 'false_pass': 6, 'false_fail': 0, 'review': 0, 'insufficient_data': 10, 'conflict': 0, 'applicability_flip': 3, 'decision_accuracy_over_gt_decidable': 0.3870967741935484, 'decision_accuracy_when_decided': 0.6666666666666666, 'abstention_rate': 0.3225806451612903, 'gt_undecidable': 20, 'spurious_applicability': 21}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_dxf_reconciled', 'gt_decidable': 31, 'correct': 30, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.967741935483871, 'decision_accuracy_when_decided': 0.967741935483871, 'abstention_rate': 0.0, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_dxf_reconciled__flag_as_conflict', 'gt_decidable': 31, 'correct': 2, 'false_pass': 0, 'false_fail': 0, 'review': 0, 'insufficient_data': 23, 'conflict': 6, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.06451612903225806, 'decision_accuracy_when_decided': 1.0, 'abstention_rate': 0.9354838709677419, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_evidence_decision', 'gt_decidable': 31, 'correct': 21, 'false_pass': 0, 'false_fail': 0, 'review': 8, 'insufficient_data': 2, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.6774193548387096, 'decision_accuracy_when_decided': 1.0, 'abstention_rate': 0.3225806451612903, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_evidence_decision__ungated', 'gt_decidable': 31, 'correct': 30, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.967741935483871, 'decision_accuracy_when_decided': 0.967741935483871, 'abstention_rate': 0.0, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_hybrid', 'gt_decidable': 31, 'correct': 30, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.967741935483871, 'decision_accuracy_when_decided': 0.967741935483871, 'abstention_rate': 0.0, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_hybrid__ungated', 'gt_decidable': 31, 'correct': 30, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 0, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.967741935483871, 'decision_accuracy_when_decided': 0.967741935483871, 'abstention_rate': 0.0, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_hybrid_vlm_api', 'gt_decidable': 31, 'correct': 18, 'false_pass': 0, 'false_fail': 0, 'review': 0, 'insufficient_data': 12, 'conflict': 1, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.5806451612903226, 'decision_accuracy_when_decided': 1.0, 'abstention_rate': 0.41935483870967744, 'gt_undecidable': 20, 'spurious_applicability': 0}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_legacy_resolver', 'gt_decidable': 31, 'correct': 4, 'false_pass': 7, 'false_fail': 0, 'review': 0, 'insufficient_data': 15, 'conflict': 1, 'applicability_flip': 4, 'decision_accuracy_over_gt_decidable': 0.12903225806451613, 'decision_accuracy_when_decided': 0.36363636363636365, 'abstention_rate': 0.5161290322580645, 'gt_undecidable': 20, 'spurious_applicability': 6}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_native_ocr', 'gt_decidable': 31, 'correct': 24, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 6, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.7741935483870968, 'decision_accuracy_when_decided': 0.96, 'abstention_rate': 0.1935483870967742, 'gt_undecidable': 20, 'spurious_applicability': 21}
+{'unit': 'requirement', 'development_area': 'A', 'variant': 'pdf_native_only', 'gt_decidable': 31, 'correct': 20, 'false_pass': 0, 'false_fail': 1, 'review': 0, 'insufficient_data': 10, 'conflict': 0, 'applicability_flip': 0, 'decision_accuracy_over_gt_decidable': 0.6451612903225806, 'decision_accuracy_when_decided': 0.9523809523809523, 'abstention_rate': 0.3225806451612903, 'gt_undecidable': 20, 'spurious_applicability': 21}
+
+Done. Send back the folder: ./experiments/results/fresh/variants/pdf_hybrid_vlm_api  plus experiments/results/fresh/*.csv

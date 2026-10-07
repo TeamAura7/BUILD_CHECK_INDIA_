@@ -1,0 +1,707 @@
+{
+ "pages": [
+  {
+   "page_number": 1,
+   "units": "m",
+   "scale": "1:100",
+   "regions": [
+    {
+     "id": "region_1",
+     "type": "SITE_PLAN",
+     "bbox": [
+      480.0,
+      820.0,
+      720.0,
+      980.0
+     ],
+     "confidence": 0.95,
+     "label": "SITE PLAN SCALE 1:200",
+     "evidence": "SITE PLAN SCALE 1:200"
+    },
+    {
+     "id": "region_2",
+     "type": "GROUND_FLOOR_PLAN",
+     "bbox": [
+      100.0,
+      520.0,
+      720.0,
+      780.0
+     ],
+     "confidence": 0.95,
+     "label": "GROUND FLOOR PLAN",
+     "evidence": "GROUND FLOOR PLAN"
+    },
+    {
+     "id": "region_3",
+     "type": "FIRST_FLOOR_PLAN",
+     "bbox": [
+      100.0,
+      780.0,
+      720.0,
+      920.0
+     ],
+     "confidence": 0.95,
+     "label": "FIRST FLOOR PLAN",
+     "evidence": "FIRST FLOOR PLAN"
+    },
+    {
+     "id": "region_4",
+     "type": "SECOND_FLOOR_PLAN",
+     "bbox": [
+      100.0,
+      920.0,
+      720.0,
+      1000.0
+     ],
+     "confidence": 0.95,
+     "label": "SECOND FLOOR PLAN",
+     "evidence": "SECOND FLOOR PLAN"
+    },
+    {
+     "id": "region_5",
+     "type": "THIRD_FLOOR_PLAN",
+     "bbox": [
+      100.0,
+      1000.0,
+      720.0,
+      1100.0
+     ],
+     "confidence": 0.95,
+     "label": "TERRACE FLOOR PLAN",
+     "evidence": "TERRACE FLOOR PLAN"
+    },
+    {
+     "id": "region_6",
+     "type": "SECTION",
+     "bbox": [
+      100.0,
+      300.0,
+      720.0,
+      520.0
+     ],
+     "confidence": 0.95,
+     "label": "SECTION A-A",
+     "evidence": "SECTION A-A"
+    },
+    {
+     "id": "region_7",
+     "type": "ELEVATION",
+     "bbox": [
+      100.0,
+      100.0,
+      720.0,
+      300.0
+     ],
+     "confidence": 0.95,
+     "label": "ELEVATION",
+     "evidence": "ELEVATION"
+    },
+    {
+     "id": "region_8",
+     "type": "AREA_STATEMENT",
+     "bbox": [
+      100.0,
+      1000.0,
+      400.0,
+      1100.0
+     ],
+     "confidence": 0.95,
+     "label": "BUILT UP AREA STATEMENT",
+     "evidence": "BUILT UP AREA STATEMENT"
+    },
+    {
+     "id": "height_focus",
+     "type": "SECTION",
+     "bbox": [
+      0.0,
+      50.00000000000002,
+      874.9999999999998,
+      349.99999999999994
+     ],
+     "confidence": 0.95,
+     "label": "SECTION A-A'",
+     "evidence": "SECTION A-A'"
+    }
+   ],
+   "dimensions": [
+    {
+     "value": 17.09,
+     "unit": "m",
+     "type": "PLOT_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      550.0,
+      820.0,
+      650.0,
+      840.0
+     ],
+     "evidence": "17.09",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 11.14,
+     "unit": "m",
+     "type": "PLOT_DEPTH",
+     "region_id": "region_1",
+     "bbox": [
+      650.0,
+      840.0,
+      680.0,
+      950.0
+     ],
+     "evidence": "11.14",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 13.0,
+     "unit": "m",
+     "type": "BUILDING_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      550.0,
+      850.0,
+      650.0,
+      870.0
+     ],
+     "evidence": "13.00",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 7.14,
+     "unit": "m",
+     "type": "BUILDING_DEPTH",
+     "region_id": "region_1",
+     "bbox": [
+      650.0,
+      870.0,
+      680.0,
+      950.0
+     ],
+     "evidence": "7.14",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "ROAD_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      500.0,
+      850.0,
+      550.0,
+      950.0
+     ],
+     "evidence": "3.00",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 1.5,
+     "unit": "m",
+     "type": "FRONT_SETBACK",
+     "region_id": "region_1",
+     "bbox": [
+      650.0,
+      840.0,
+      680.0,
+      860.0
+     ],
+     "evidence": "1.5",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 1.0,
+     "unit": "m",
+     "type": "LEFT_SETBACK",
+     "region_id": "region_1",
+     "bbox": [
+      550.0,
+      850.0,
+      580.0,
+      870.0
+     ],
+     "evidence": "1.0; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to RIGHT_SETBACK=1.0 in unrelated region GROUND_FLOOR_PLAN (region_2) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.11875,
+     "grounded": false
+    },
+    {
+     "value": 1.0,
+     "unit": "m",
+     "type": "RIGHT_SETBACK",
+     "region_id": "region_1",
+     "bbox": [
+      620.0,
+      850.0,
+      650.0,
+      870.0
+     ],
+     "evidence": "1.0; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to LEFT_SETBACK=1.0 in unrelated region GROUND_FLOOR_PLAN (region_2) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.11875,
+     "grounded": false
+    },
+    {
+     "value": 4.0,
+     "unit": "m",
+     "type": "REAR_SETBACK",
+     "region_id": "region_1",
+     "bbox": [
+      650.0,
+      950.0,
+      680.0,
+      970.0
+     ],
+     "evidence": "4.0",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 17.59,
+     "unit": "m",
+     "type": "PLOT_WIDTH",
+     "region_id": "region_2",
+     "bbox": [
+      300.0,
+      520.0,
+      500.0,
+      540.0
+     ],
+     "evidence": "17.59",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 9.14,
+     "unit": "m",
+     "type": "PLOT_DEPTH",
+     "region_id": "region_2",
+     "bbox": [
+      650.0,
+      540.0,
+      680.0,
+      750.0
+     ],
+     "evidence": "9.14",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 13.09,
+     "unit": "m",
+     "type": "BUILDING_WIDTH",
+     "region_id": "region_2",
+     "bbox": [
+      300.0,
+      540.0,
+      500.0,
+      560.0
+     ],
+     "evidence": "13.09",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 7.14,
+     "unit": "m",
+     "type": "BUILDING_DEPTH",
+     "region_id": "region_2",
+     "bbox": [
+      650.0,
+      560.0,
+      680.0,
+      750.0
+     ],
+     "evidence": "7.14",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "ROAD_WIDTH",
+     "region_id": "region_2",
+     "bbox": [
+      100.0,
+      650.0,
+      150.0,
+      670.0
+     ],
+     "evidence": "3.00",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 1.5,
+     "unit": "m",
+     "type": "FRONT_SETBACK",
+     "region_id": "region_2",
+     "bbox": [
+      650.0,
+      540.0,
+      680.0,
+      560.0
+     ],
+     "evidence": "1.50",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 1.0,
+     "unit": "m",
+     "type": "LEFT_SETBACK",
+     "region_id": "region_2",
+     "bbox": [
+      300.0,
+      540.0,
+      330.0,
+      560.0
+     ],
+     "evidence": "1.00; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to LEFT_SETBACK=1.0 in unrelated region GROUND_FLOOR_PLAN (region_2) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.11875,
+     "grounded": false
+    },
+    {
+     "value": 1.0,
+     "unit": "m",
+     "type": "RIGHT_SETBACK",
+     "region_id": "region_2",
+     "bbox": [
+      500.0,
+      540.0,
+      530.0,
+      560.0
+     ],
+     "evidence": "1.00; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to RIGHT_SETBACK=1.0 in unrelated region GROUND_FLOOR_PLAN (region_2) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.11875,
+     "grounded": false
+    },
+    {
+     "value": 2.0,
+     "unit": "m",
+     "type": "REAR_SETBACK",
+     "region_id": "region_2",
+     "bbox": [
+      650.0,
+      750.0,
+      680.0,
+      770.0
+     ],
+     "evidence": "2.00",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 6.59,
+     "unit": "m",
+     "type": "BUILDING_WIDTH",
+     "region_id": "region_3",
+     "bbox": [
+      300.0,
+      780.0,
+      500.0,
+      800.0
+     ],
+     "evidence": "6.59",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 7.14,
+     "unit": "m",
+     "type": "BUILDING_DEPTH",
+     "region_id": "region_3",
+     "bbox": [
+      650.0,
+      800.0,
+      680.0,
+      900.0
+     ],
+     "evidence": "7.14",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 6.59,
+     "unit": "m",
+     "type": "BUILDING_WIDTH",
+     "region_id": "region_4",
+     "bbox": [
+      300.0,
+      920.0,
+      500.0,
+      940.0
+     ],
+     "evidence": "6.59",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 7.14,
+     "unit": "m",
+     "type": "BUILDING_DEPTH",
+     "region_id": "region_4",
+     "bbox": [
+      650.0,
+      940.0,
+      680.0,
+      1000.0
+     ],
+     "evidence": "7.14",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_6",
+     "bbox": [
+      300.0,
+      300.0,
+      400.0,
+      320.0
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_6",
+     "bbox": [
+      400.0,
+      300.0,
+      500.0,
+      320.0
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_6",
+     "bbox": [
+      500.0,
+      300.0,
+      600.0,
+      320.0
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 1.0,
+     "unit": "m",
+     "type": "PARAPET_HEIGHT",
+     "region_id": "region_6",
+     "bbox": [
+      600.0,
+      300.0,
+      650.0,
+      320.0
+     ],
+     "evidence": "1.00; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.059375,
+     "grounded": false
+    },
+    {
+     "value": 0.15,
+     "unit": "m",
+     "type": "PLINTH_HEIGHT",
+     "region_id": "region_6",
+     "bbox": [
+      100.0,
+      300.0,
+      150.0,
+      320.0
+     ],
+     "evidence": "0.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 9.9,
+     "unit": "m",
+     "type": "BUILDING_HEIGHT",
+     "region_id": "region_6",
+     "bbox": [
+      300.0,
+      300.0,
+      500.0,
+      320.0
+     ],
+     "evidence": "9.90",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 0.45,
+     "unit": "m",
+     "type": "OTHER_DIMENSION",
+     "region_id": "region_7",
+     "bbox": [
+      100.0,
+      100.0,
+      150.0,
+      120.0
+     ],
+     "evidence": "0.45",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_7",
+     "bbox": [
+      300.0,
+      100.0,
+      400.0,
+      120.0
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_7",
+     "bbox": [
+      400.0,
+      100.0,
+      500.0,
+      120.0
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_7",
+     "bbox": [
+      500.0,
+      100.0,
+      600.0,
+      120.0
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 3.15,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      262.49999999999994,
+      139.99999999999997,
+      350.0,
+      169.99999999999997
+     ],
+     "evidence": "3.15",
+     "confidence": 0.95,
+     "grounded": null
+    },
+    {
+     "value": 1.0,
+     "unit": "m",
+     "type": "PARAPET_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      743.7499999999999,
+      139.99999999999997,
+      831.2499999999998,
+      169.99999999999997
+     ],
+     "evidence": "1.00; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] LEFT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.; [CROSS-REGION DUPLICATE] RIGHT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+     "confidence": 0.05625,
+     "grounded": null
+    }
+   ],
+   "areas": [
+    {
+     "value": 189.0,
+     "unit": "m2",
+     "type": "PLOT_AREA",
+     "region_id": "region_8",
+     "evidence": "189.0",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 107.7,
+     "unit": "m2",
+     "type": "TOTAL_BUILT_UP_AREA",
+     "region_id": "region_8",
+     "evidence": "107.7",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 56.9,
+     "unit": "m2",
+     "type": "BUILT_UP_AREA",
+     "region_id": "region_8",
+     "evidence": "56.9",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 48.8,
+     "unit": "m2",
+     "type": "BUILT_UP_AREA",
+     "region_id": "region_8",
+     "evidence": "48.8",
+     "confidence": 0.95,
+     "grounded": false
+    },
+    {
+     "value": 1.0,
+     "unit": "ratio",
+     "type": "FAR_RATIO",
+     "region_id": "region_8",
+     "evidence": "1.0",
+     "confidence": 0.95,
+     "grounded": false
+    }
+   ],
+   "warnings": [
+    "[ELEVATION_FOCUS] Vision's ELEVATION bbox agrees with the caption-anchored location (IoU=0.17).",
+    "[CROSS_REGION_CONSISTENCY] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to RIGHT_SETBACK=1.0 in unrelated region GROUND_FLOOR_PLAN (region_2) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] LEFT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to LEFT_SETBACK=1.0 in unrelated region GROUND_FLOOR_PLAN (region_2) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] RIGHT_SETBACK=1.0 in region SITE_PLAN (region_1) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] LEFT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] LEFT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] RIGHT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (region_6) -- likely cross-region pattern completion rather than an independent per-region read.",
+    "[CROSS_REGION_CONSISTENCY] RIGHT_SETBACK=1.0 in region GROUND_FLOOR_PLAN (region_2) is byte-identical to PARAPET_HEIGHT=1.0 in unrelated region SECTION (height_focus) -- likely cross-region pattern completion rather than an independent per-region read."
+   ],
+   "raw_response": "{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": \"1:100\",\n  \"regions\": [\n    {\n      \"id\": \"region_1\",\n      \"type\": \"SITE_PLAN\",\n      \"bbox\": [\n        480,\n        820,\n        720,\n        980\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SITE PLAN SCALE 1:200\",\n      \"evidence\": \"SITE PLAN SCALE 1:200\"\n    },\n    {\n      \"id\": \"region_2\",\n      \"type\": \"GROUND_FLOOR_PLAN\",\n      \"bbox\": [\n        100,\n        520,\n        720,\n        780\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"GROUND FLOOR PLAN\",\n      \"evidence\": \"GROUND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_3\",\n      \"type\": \"FIRST_FLOOR_PLAN\",\n      \"bbox\": [\n        100,\n        780,\n        720,\n        920\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"FIRST FLOOR PLAN\",\n      \"evidence\": \"FIRST FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_4\",\n      \"type\": \"SECOND_FLOOR_PLAN\",\n      \"bbox\": [\n        100,\n        920,\n        720,\n        1000\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECOND FLOOR PLAN\",\n      \"evidence\": \"SECOND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_5\",\n      \"type\": \"THIRD_FLOOR_PLAN\",\n      \"bbox\": [\n        100,\n        1000,\n        720,\n        1100\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"TERRACE FLOOR PLAN\",\n      \"evidence\": \"TERRACE FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_6\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        100,\n        300,\n        720,\n        520\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION A-A\",\n      \"evidence\": \"SECTION A-A\"\n    },\n    {\n      \"id\": \"region_7\",\n      \"type\": \"ELEVATION\",\n      \"bbox\": [\n        100,\n        100,\n        720,\n        300\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"ELEVATION\",\n      \"evidence\": \"ELEVATION\"\n    },\n    {\n      \"id\": \"region_8\",\n      \"type\": \"AREA_STATEMENT\",\n      \"bbox\": [\n        100,\n        1000,\n        400,\n        1100\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"BUILT UP AREA STATEMENT\",\n      \"evidence\": \"BUILT UP AREA STATEMENT\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 17.09,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        550,\n        820,\n        650,\n        840\n      ],\n      \"evidence\": \"17.09\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 11.14,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        650,\n        840,\n        680,\n        950\n      ],\n      \"evidence\": \"11.14\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.00,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        550,\n        850,\n        650,\n        870\n      ],\n      \"evidence\": \"13.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 7.14,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        650,\n        870,\n        680,\n        950\n      ],\n      \"evidence\": \"7.14\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.00,\n      \"unit\": \"m\",\n      \"type\": \"ROAD_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        500,\n        850,\n        550,\n        950\n      ],\n      \"evidence\": \"3.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.5,\n      \"unit\": \"m\",\n      \"type\": \"FRONT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        650,\n        840,\n        680,\n        860\n      ],\n      \"evidence\": \"1.5\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.0,\n      \"unit\": \"m\",\n      \"type\": \"LEFT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        550,\n        850,\n        580,\n        870\n      ],\n      \"evidence\": \"1.0\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.0,\n      \"unit\": \"m\",\n      \"type\": \"RIGHT_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        620,\n        850,\n        650,\n        870\n      ],\n      \"evidence\": \"1.0\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 4.0,\n      \"unit\": \"m\",\n      \"type\": \"REAR_SETBACK\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        650,\n        950,\n        680,\n        970\n      ],\n      \"evidence\": \"4.0\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 17.59,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_WIDTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        300,\n        520,\n        500,\n        540\n      ],\n      \"evidence\": \"17.59\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 9.14,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_DEPTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        650,\n        540,\n        680,\n        750\n      ],\n      \"evidence\": \"9.14\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 13.09,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        300,\n        540,\n        500,\n        560\n      ],\n      \"evidence\": \"13.09\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 7.14,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        650,\n        560,\n        680,\n        750\n      ],\n      \"evidence\": \"7.14\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.00,\n      \"unit\": \"m\",\n      \"type\": \"ROAD_WIDTH\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        100,\n        650,\n        150,\n        670\n      ],\n      \"evidence\": \"3.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.50,\n      \"unit\": \"m\",\n      \"type\": \"FRONT_SETBACK\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        650,\n        540,\n        680,\n        560\n      ],\n      \"evidence\": \"1.50\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.00,\n      \"unit\": \"m\",\n      \"type\": \"LEFT_SETBACK\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        300,\n        540,\n        330,\n        560\n      ],\n      \"evidence\": \"1.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.00,\n      \"unit\": \"m\",\n      \"type\": \"RIGHT_SETBACK\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        500,\n        540,\n        530,\n        560\n      ],\n      \"evidence\": \"1.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 2.00,\n      \"unit\": \"m\",\n      \"type\": \"REAR_SETBACK\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        650,\n        750,\n        680,\n        770\n      ],\n      \"evidence\": \"2.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 6.59,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        300,\n        780,\n        500,\n        800\n      ],\n      \"evidence\": \"6.59\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 7.14,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        650,\n        800,\n        680,\n        900\n      ],\n      \"evidence\": \"7.14\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 6.59,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_4\",\n      \"bbox\": [\n        300,\n        920,\n        500,\n        940\n      ],\n      \"evidence\": \"6.59\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 7.14,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_4\",\n      \"bbox\": [\n        650,\n        940,\n        680,\n        1000\n      ],\n      \"evidence\": \"7.14\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        300,\n        300,\n        400,\n        320\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        400,\n        300,\n        500,\n        320\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        500,\n        300,\n        600,\n        320\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.00,\n      \"unit\": \"m\",\n      \"type\": \"PARAPET_HEIGHT\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        600,\n        300,\n        650,\n        320\n      ],\n      \"evidence\": \"1.00\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.15,\n      \"unit\": \"m\",\n      \"type\": \"PLINTH_HEIGHT\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        100,\n        300,\n        150,\n        320\n      ],\n      \"evidence\": \"0.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 9.90,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_HEIGHT\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        300,\n        300,\n        500,\n        320\n      ],\n      \"evidence\": \"9.90\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 0.45,\n      \"unit\": \"m\",\n      \"type\": \"OTHER_DIMENSION\",\n      \"region_id\": \"region_7\",\n      \"bbox\": [\n        100,\n        100,\n        150,\n        120\n      ],\n      \"evidence\": \"0.45\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_7\",\n      \"bbox\": [\n        300,\n        100,\n        400,\n        120\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_7\",\n      \"bbox\": [\n        400,\n        100,\n        500,\n        120\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_7\",\n      \"bbox\": [\n        500,\n        100,\n        600,\n        120\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"areas\": [\n    {\n      \"value\": 189.0,\n      \"unit\": \"m2\",\n      \"type\": \"PLOT_AREA\",\n      \"region_id\": \"region_8\",\n      \"evidence\": \"189.0\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 107.7,\n      \"unit\": \"m2\",\n      \"type\": \"TOTAL_BUILT_UP_AREA\",\n      \"region_id\": \"region_8\",\n      \"evidence\": \"107.7\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 56.9,\n      \"unit\": \"m2\",\n      \"type\": \"BUILT_UP_AREA\",\n      \"region_id\": \"region_8\",\n      \"evidence\": \"56.9\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 48.8,\n      \"unit\": \"m2\",\n      \"type\": \"BUILT_UP_AREA\",\n      \"region_id\": \"region_8\",\n      \"evidence\": \"48.8\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.0,\n      \"unit\": \"ratio\",\n      \"type\": \"FAR_RATIO\",\n      \"region_id\": \"region_8\",\n      \"evidence\": \"1.0\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"warnings\": []\n}\n\n[ELEVATION_FOCUS_PASS]\n{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": null,\n  \"regions\": [\n    {\n      \"id\": \"height_focus\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION A-A'\",\n      \"evidence\": \"SECTION A-A'\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 3.15,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        300,\n        300,\n        400,\n        400\n      ],\n      \"evidence\": \"3.15\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 1.0,\n      \"unit\": \"m\",\n      \"type\": \"PARAPET_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        850,\n        300,\n        950,\n        400\n      ],\n      \"evidence\": \"1.00\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"areas\": [],\n  \"warnings\": []\n}",
+   "page_width_pts": 1191.24,
+   "page_height_pts": 1684.08,
+   "metadata": {}
+  }
+ ],
+ "model_name": "qwen/qwen3.8-27b",
+ "enabled": true,
+ "warnings": []
+}

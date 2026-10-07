@@ -1,0 +1,478 @@
+{
+ "plan_id": "PLAN4-pdf",
+ "source_document_id": "PLAN4",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 3.4415777538838777,
+      "y": 12.383247058367223
+     },
+     {
+      "x": 87.67982202885469,
+      "y": 12.367164919330383
+     },
+     {
+      "x": 87.69590416789153,
+      "y": 78.03053860675035
+     },
+     {
+      "x": 3.4576598929207183,
+      "y": 78.0466207457872
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 3.4415777538838777,
+    "min_y": 12.367164919330383,
+    "max_x": 87.69590416789153,
+    "max_y": 78.0466207457872
+   },
+   "points_per_metre": 14.923387955433924,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 18.288,
+   "raw_value": {
+    "magnitude": 18.288,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5909090909090909,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "60'-0\"",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-plot.width-2502f161"
+  },
+  "depth": {
+   "value": 16.6116,
+   "raw_value": {
+    "magnitude": 16.6116,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5909090909090909,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "54'-6\"",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-plot.depth-9605a27f"
+  },
+  "area": {
+   "value": 303.79,
+   "raw_value": {
+    "magnitude": 303.79,
+    "unit": "m2"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5909090909090909,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "SITE AREA              303.79    3270",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-plot.area-ec026bef"
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 55.61203678939462,
+      "y": 27.45221133588682
+     },
+     {
+      "x": 55.62811892843146,
+      "y": 50.69090224412142
+     },
+     {
+      "x": 83.69145154771823,
+      "y": 50.69090224412142
+     },
+     {
+      "x": 83.67536940868139,
+      "y": 27.43612919684998
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 55.61203678939462,
+    "min_y": 27.43612919684998,
+    "max_x": 83.69145154771823,
+    "max_y": 50.69090224412142
+   },
+   "points_per_metre": 14.923387955433924,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 16.4592,
+   "raw_value": {
+    "magnitude": 16.4592,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "inner rectangle width 248.40 pt",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-building.width-b31b2a1a"
+  },
+  "depth": {
+   "value": 11.2776,
+   "raw_value": {
+    "magnitude": 11.2776,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "inner rectangle height 170.20 pt",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-building.depth-3ecbf4ec"
+  },
+  "footprint_area": {
+   "value": 185.62,
+   "raw_value": {
+    "magnitude": 185.62,
+    "unit": "m2"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5909090909090909,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "G.F AREA               185.62    1998",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-building.footprint_area-cc0c9a04"
+  },
+  "floor_count": {
+   "value": 5,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "5 floor level(s) named on the sheet (ground through level 4; stilt/terrace not counted), agreed by: floor-plan captions."
+   },
+   "source": "named floor levels",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": null,
+   "bounding_box": {
+    "min_x": 56.68954010486294,
+    "min_y": 29.639382244897135,
+    "max_x": 60.42059636140995,
+    "max_y": 50.321013046274075
+   },
+   "points_per_metre": 14.923387955433924,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 7.62,
+   "raw_value": {
+    "magnitude": 7.62,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "HIGH",
+    "score": 0.5909090909090909,
+    "reason": "CV_ONLY_DOCUMENT_VERIFIED: Only CV produced a candidate; the document independently confirms it."
+   },
+   "source": "evidence_decision:CV_ONLY_DOCUMENT_VERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "25 FEET ROAD",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-road.width-d56865bc"
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": 0.9144,
+   "raw_value": {
+    "magnitude": 0.9144,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "LOW",
+    "score": 0.36363636363636365,
+    "reason": "CV_ONLY_UNVERIFIED: Only CV produced a candidate and the document could not independently confirm it (Vision did not fail this field's existence -- it simply did not emit a value; status is NOT_FOUND_BY_VISION for that side)."
+   },
+   "source": "evidence_decision:CV_ONLY_UNVERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "left geometric gap",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-setbacks.front-e4f238a3"
+  },
+  "rear": {
+   "value": 0.9144,
+   "raw_value": {
+    "magnitude": 0.9144,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "LOW",
+    "score": 0.36363636363636365,
+    "reason": "CV_ONLY_UNVERIFIED: Only CV produced a candidate and the document could not independently confirm it (Vision did not fail this field's existence -- it simply did not emit a value; status is NOT_FOUND_BY_VISION for that side)."
+   },
+   "source": "evidence_decision:CV_ONLY_UNVERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "right geometric gap",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-setbacks.rear-c20190b4"
+  },
+  "left": {
+   "value": 2.6637,
+   "raw_value": {
+    "magnitude": 2.6637,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "LOW",
+    "score": 0.36363636363636365,
+    "reason": "CV_ONLY_UNVERIFIED: Only CV produced a candidate and the document could not independently confirm it (Vision did not fail this field's existence -- it simply did not emit a value; status is NOT_FOUND_BY_VISION for that side)."
+   },
+   "source": "evidence_decision:CV_ONLY_UNVERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "top geometric gap",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-setbacks.left-a7221079"
+  },
+  "right": {
+   "value": 2.6703,
+   "raw_value": {
+    "magnitude": 2.6703,
+    "unit": "m"
+   },
+   "normalized_value": null,
+   "confidence": {
+    "level": "LOW",
+    "score": 0.36363636363636365,
+    "reason": "CV_ONLY_UNVERIFIED: Only CV produced a candidate and the document could not independently confirm it (Vision did not fail this field's existence -- it simply did not emit a value; status is NOT_FOUND_BY_VISION for that side)."
+   },
+   "source": "evidence_decision:CV_ONLY_UNVERIFIED",
+   "evidence": [
+    {
+     "source_type": "TEXT",
+     "raw_text": "bottom geometric gap",
+     "page": null,
+     "bounding_box": null,
+     "ocr_confidence": null
+    }
+   ],
+   "conflict": null,
+   "decision_id": "decision-setbacks.right-35926921"
+  }
+ },
+ "coverage": {
+  "value": 61.101418743210765,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 61.101418743210765,
+   "unit": "%"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "coverage = footprint_area(185.620) / plot_area(303.790) * 100"
+  },
+  "source": "derived:coverage_field(evidence_decision)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": "decision-coverage-derived-a29dfbe3"
+ },
+ "far": {
+  "value": 3.0550709371605382,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 3.0550709371605382,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "LOW",
+   "score": null,
+   "reason": "Diagnostic gross FAR = gross_built_up_area(928.100, footprint x 5 floors) / plot_area(303.790). NOT a regulatory/sanctioned FAR — that comparison belongs to the RuleEngine. (confidence capped: the floor count is itself LOW)"
+  },
+  "source": "derived:far_field(evidence_decision)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": "decision-far-derived-74c508d1"
+ },
+ "conflicts": [
+  {
+   "description": "geometry (building bounding box, depth-aligned side) reports 23.255 m but dimension label ('54'-6\"') reports 16.612 m — a difference of 6.643 m, beyond tolerance (0.997 m). Not silently resolved.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 23.2548,
+     "unit": "m"
+    },
+    {
+     "magnitude": 16.6116,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "geometry (building bounding box, depth-aligned side)",
+    "dimension label ('54'-6\"')"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "geometry (road candidate short-side width; explicitly labeled road candidate) reports 3.731 m but dimension label ('25 FEET ROAD') reports 7.620 m — a difference of 3.889 m, beyond tolerance (0.284 m). Not silently resolved.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 3.7311,
+     "unit": "m"
+    },
+    {
+     "magnitude": 7.62,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "geometry (road candidate short-side width; explicitly labeled road candidate)",
+    "dimension label ('25 FEET ROAD')"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Rectangular cross-check failed: building.width + left + right setback (69.096 m) does not match plot.width (84.238 m); difference 15.143 m exceeds tolerance 4.212 m.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 69.09568,
+     "unit": "m"
+    },
+    {
+     "magnitude": 84.2382,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.width+setbacks.left+setbacks.right",
+    "plot.width"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 9 candidate(s) across 1 page(s). (1 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Clear winner (score 0.70) with a 0.19 margin over the runner-up. | Scale: [local region-scoped] 18 scale samples but high spread (62.6%); treat with caution. 7 sample(s) rejected as outliers (robust MAD filter). | Front-side: Front edge resolved from ROAD candidate. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 6, rejected: 4. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

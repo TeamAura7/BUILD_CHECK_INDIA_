@@ -1,0 +1,28 @@
+{
+ "variant": "pdf_native_only",
+ "plan": "PLAN5",
+ "kind": "pdf",
+ "extract_seconds": 13.8,
+ "normalize_seconds": 0.0,
+ "warnings": [
+  "page 0: no native text and OCR produced no results",
+  "page 0: extraction incomplete \u2014 no vector text and no usable OCR text"
+ ],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 0,
+  "scale_points_per_metre": null,
+  "scale_confidence": null,
+  "site_plan_page": null,
+  "measurements": [],
+  "warnings": [
+   "page 1: no 'SITE PLAN' anchor text found; cannot locate the site-plan sub-region at all.",
+   "page 1 (raster fallback): no 'SITE PLAN' anchor text found; cannot locate the site-plan sub-region at all.",
+   "No site-plan geometry with sufficient independent CV/native-text evidence was resolved."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 13.8,
+ "reconcile_calls": []
+}

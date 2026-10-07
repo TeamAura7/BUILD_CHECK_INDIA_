@@ -1,0 +1,14 @@
+captured: 2026-09-24T14:40:08+00:00
+git commit: 699fb743114c887f1f86aa98b18510148beb79ea
+git status (tracked changes): 0 modified tracked files
+Python 3.11.15
+tesseract 5.3.4
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+cv2 5.0.0 | pymupdf 1.28.2 | ezdxf 1.4.4 | shapely 2.1.2 | numpy 2.4.6 | pydantic 2.13.5 | pytesseract 0.3.13
+note: opencv-python 4.13 and opencv-contrib-python 4.13 were also preinstalled; the imported cv2 is 5.0.0 (lock pins opencv-python-headless 5.0.0.93)
+note: torch/transformers/sentence-transformers/faiss NOT installed (Vision and RAG not exercised)
+Linux 6.18.44-fc-v40 x86_64
+2
+               total        used        free      shared  buff/cache   available
+Mem:               7           2           3           0           2           5
+env: no .env file; all Settings at defaults (VISION_ENABLED=false, USE_EVIDENCE_DECISION_ENGINE=false, USE_DXF_EVIDENCE_DECISION_ENGINE=false, EXTRACTION_TIMEOUT_SECONDS=180)

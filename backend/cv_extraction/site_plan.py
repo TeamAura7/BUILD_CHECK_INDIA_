@@ -1229,7 +1229,7 @@ _MAX_PLOT_SIDE_M = 200.0
 # An explicit edge label is only believed when it agrees with the same edge
 # measured off the geometry at the resolved scale. This is what prevents a
 # nearby non-dimension number from being adopted as a plot dimension: on a
-# real sheet a rotated "SITE NO-09" caption sits exactly where a depth label
+# real sheet a rotated "SITE NO-XX" caption sits exactly where a depth label
 # would, and was read as plot.depth = 9.0 m on a plot 13.10 m deep.
 _EDGE_LABEL_AGREEMENT_TOLERANCE = 0.06
 
@@ -1670,7 +1670,7 @@ def _extract_site_plan_rectangles(
         # An edge label only counts in favour of this rectangle when it
         # agrees with that same edge measured at this scale. Without the
         # agreement check any nearby number scored as confirmation, which is
-        # how a rotated "SITE NO-09" caption printed alongside the plot was
+        # how a rotated "SITE NO-XX" caption printed alongside the plot was
         # credited as a 9.0 m depth dimension.
         width_label_ok = bool(wd) and (
             _label_agrees_with_geometry(wd[0], candidate.width, scale_pts_per_m)

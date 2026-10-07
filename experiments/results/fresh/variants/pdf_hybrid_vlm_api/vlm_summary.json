@@ -1,0 +1,84 @@
+{
+ "variant": "pdf_hybrid_vlm_api",
+ "backend": "api",
+ "runs": 8,
+ "vlm_valid_runs": 8,
+ "invalid": {},
+ "dropped_ungrounded_total": 0,
+ "grounding": {
+  "PLAN1": {
+   "pages": 1,
+   "dimensions": 18,
+   "areas": 2,
+   "grounded_true": 17,
+   "grounded_false": 0,
+   "grounded_none": 3
+  },
+  "PLAN2": {
+   "pages": 1,
+   "dimensions": 10,
+   "areas": 2,
+   "grounded_true": 10,
+   "grounded_false": 0,
+   "grounded_none": 2
+  },
+  "PLAN4": {
+   "pages": 1,
+   "dimensions": 3,
+   "areas": 3,
+   "grounded_true": 4,
+   "grounded_false": 0,
+   "grounded_none": 2
+  },
+  "PLAN5": {
+   "pages": 1,
+   "dimensions": 34,
+   "areas": 5,
+   "grounded_true": 0,
+   "grounded_false": 37,
+   "grounded_none": 2
+  },
+  "PLAN6": {
+   "pages": 1,
+   "dimensions": 5,
+   "areas": 1,
+   "grounded_true": 4,
+   "grounded_false": 0,
+   "grounded_none": 2
+  },
+  "PLAN7": {
+   "pages": 1,
+   "dimensions": 16,
+   "areas": 0,
+   "grounded_true": 15,
+   "grounded_false": 0,
+   "grounded_none": 1
+  },
+  "PLAN8": {
+   "pages": 1,
+   "dimensions": 9,
+   "areas": 1,
+   "grounded_true": 7,
+   "grounded_false": 0,
+   "grounded_none": 3
+  },
+  "PLAN9": {
+   "pages": 1,
+   "dimensions": 11,
+   "areas": 2,
+   "grounded_true": 10,
+   "grounded_false": 0,
+   "grounded_none": 3
+  }
+ },
+ "seconds": {
+  "PLAN1": 95.0,
+  "PLAN2": 91.8,
+  "PLAN4": 166.2,
+  "PLAN5": 189.2,
+  "PLAN6": 106.1,
+  "PLAN7": 84.4,
+  "PLAN8": 85.0,
+  "PLAN9": 130.1
+ }
+}

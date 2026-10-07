@@ -1,0 +1,6 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+2026-09-24 14:10:10,892 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.front: old=3.2456/HIGH new=3.2456/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:10:10,892 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.rear: old=0.6985/HIGH new=0.6985/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:10:10,892 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.left: old=0.0/HIGH new=0.0/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+2026-09-24 14:10:10,892 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for setbacks.right: old=0.6914/HIGH new=0.6914/LOW (document-evidence score 8/22 -> normalized 0.364 -> LOW (CV_ONLY_UNVERIFIED))
+pdf_native_only PLAN6 ok 8.1s

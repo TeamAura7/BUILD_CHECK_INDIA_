@@ -1,0 +1,10 @@
+{
+ "variant": "vlm_only_low",
+ "replay_variant": "vlm_only_low",
+ "plan": "PLAN1",
+ "kind": "pdf",
+ "warnings": [],
+ "timed_out_internally": false,
+ "status": "ok",
+ "total_seconds": 26.5
+}

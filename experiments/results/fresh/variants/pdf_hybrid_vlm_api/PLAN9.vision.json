@@ -1,0 +1,273 @@
+{
+ "pages": [
+  {
+   "page_number": 1,
+   "units": "m",
+   "scale": "1:50",
+   "regions": [
+    {
+     "id": "region_1",
+     "type": "SITE_PLAN",
+     "bbox": [
+      470.0,
+      400.0,
+      620.0,
+      850.0
+     ],
+     "confidence": 0.95,
+     "label": "SITE PLAN",
+     "evidence": "SITE PLAN"
+    },
+    {
+     "id": "region_2",
+     "type": "GROUND_FLOOR_PLAN",
+     "bbox": [
+      260.0,
+      400.0,
+      460.0,
+      850.0
+     ],
+     "confidence": 0.95,
+     "label": "GROUND FLOOR PLAN",
+     "evidence": "GROUND FLOOR PLAN"
+    },
+    {
+     "id": "region_3",
+     "type": "SECTION",
+     "bbox": [
+      60.0,
+      400.0,
+      250.0,
+      850.0
+     ],
+     "confidence": 0.95,
+     "label": "SECTION @ AA",
+     "evidence": "SECTION @ AA"
+    },
+    {
+     "id": "region_4",
+     "type": "TITLE_BLOCK",
+     "bbox": [
+      630.0,
+      400.0,
+      980.0,
+      850.0
+     ],
+     "confidence": 0.95,
+     "label": "TITLE BLOCK",
+     "evidence": "TITLE"
+    },
+    {
+     "id": "height_focus",
+     "type": "SECTION",
+     "bbox": [
+      85.19092649218919,
+      536.909939212916,
+      274.1639703149706,
+      736.67435055532
+     ],
+     "confidence": 0.95,
+     "label": "SECTION @ AA",
+     "evidence": "SECTION @ AA"
+    }
+   ],
+   "dimensions": [
+    {
+     "value": 10.65,
+     "unit": "m",
+     "type": "PLOT_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      490.0,
+      410.0,
+      600.0,
+      430.0
+     ],
+     "evidence": "10.65M",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 15.0,
+     "unit": "m",
+     "type": "PLOT_DEPTH",
+     "region_id": "region_1",
+     "bbox": [
+      590.0,
+      450.0,
+      610.0,
+      750.0
+     ],
+     "evidence": "15.00M",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 8.92,
+     "unit": "m",
+     "type": "ROAD_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      490.0,
+      800.0,
+      600.0,
+      820.0
+     ],
+     "evidence": "8.92M",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_3",
+     "bbox": [
+      100.0,
+      450.0,
+      120.0,
+      550.0
+     ],
+     "evidence": "3.30M",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_3",
+     "bbox": [
+      100.0,
+      550.0,
+      120.0,
+      650.0
+     ],
+     "evidence": "3.30M",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_3",
+     "bbox": [
+      100.0,
+      650.0,
+      120.0,
+      750.0
+     ],
+     "evidence": "3.30M",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_3",
+     "bbox": [
+      100.0,
+      750.0,
+      120.0,
+      820.0
+     ],
+     "evidence": "2.40M",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 0.45,
+     "unit": "m",
+     "type": "PLINTH_HEIGHT",
+     "region_id": "region_3",
+     "bbox": [
+      100.0,
+      820.0,
+      120.0,
+      840.0
+     ],
+     "evidence": "0.45M",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 0.45,
+     "unit": "m",
+     "type": "PLINTH_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      85.19092649218919,
+      682.6839691114269,
+      139.1832247272696,
+      709.6791598333734
+     ],
+     "evidence": "0.45M",
+     "confidence": 0.95,
+     "grounded": null
+    },
+    {
+     "value": 3.05,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      85.19092649218919,
+      628.6935876675341,
+      139.1832247272696,
+      682.6839691114269
+     ],
+     "evidence": "3.05M",
+     "confidence": 0.95,
+     "grounded": null
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "STILT_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      85.19092649218919,
+      574.703206223641,
+      139.1832247272696,
+      628.6935876675341
+     ],
+     "evidence": "2.40M",
+     "confidence": 0.95,
+     "grounded": null
+    }
+   ],
+   "areas": [
+    {
+     "value": 147.99,
+     "unit": "sqm",
+     "type": "PLOT_AREA",
+     "region_id": "region_4",
+     "evidence": "Site Area : 147.99 Sqmts.",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 323.73,
+     "unit": "sqm",
+     "type": "TOTAL_BUILT_UP_AREA",
+     "region_id": "region_4",
+     "evidence": "TOTAL 323.73 Sqmts.",
+     "confidence": 0.95,
+     "grounded": true
+    }
+   ],
+   "warnings": [
+    "[ELEVATION_FOCUS] No Vision ELEVATION region bbox available; using the caption-anchored location."
+   ],
+   "raw_response": "{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": \"1:50\",\n  \"regions\": [\n    {\n      \"id\": \"region_1\",\n      \"type\": \"SITE_PLAN\",\n      \"bbox\": [\n        470,\n        400,\n        620,\n        850\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SITE PLAN\",\n      \"evidence\": \"SITE PLAN\"\n    },\n    {\n      \"id\": \"region_2\",\n      \"type\": \"GROUND_FLOOR_PLAN\",\n      \"bbox\": [\n        260,\n        400,\n        460,\n        850\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"GROUND FLOOR PLAN\",\n      \"evidence\": \"GROUND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_3\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        60,\n        400,\n        250,\n        850\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION @ AA\",\n      \"evidence\": \"SECTION @ AA\"\n    },\n    {\n      \"id\": \"region_4\",\n      \"type\": \"TITLE_BLOCK\",\n      \"bbox\": [\n        630,\n        400,\n        980,\n        850\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"TITLE BLOCK\",\n      \"evidence\": \"TITLE\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 10.65,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        490,\n        410,\n        600,\n        430\n      ],\n      \"evidence\": \"10.65M\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 15.0,\n      \"unit\": \"m\",\n      \"type\": \"PLOT_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        590,\n        450,\n        610,\n        750\n      ],\n      \"evidence\": \"15.00M\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 8.92,\n      \"unit\": \"m\",\n      \"type\": \"ROAD_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        490,\n        800,\n        600,\n        820\n      ],\n      \"evidence\": \"8.92M\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        100,\n        450,\n        120,\n        550\n      ],\n      \"evidence\": \"3.30M\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        100,\n        550,\n        120,\n        650\n      ],\n      \"evidence\": \"3.30M\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        100,\n        650,\n        120,\n        750\n      ],\n      \"evidence\": \"3.30M\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        100,\n        750,\n        120,\n        820\n      ],\n      \"evidence\": \"2.40M\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 0.45,\n      \"unit\": \"m\",\n      \"type\": \"PLINTH_HEIGHT\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        100,\n        820,\n        120,\n        840\n      ],\n      \"evidence\": \"0.45M\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"areas\": [\n    {\n      \"value\": 147.99,\n      \"unit\": \"sqm\",\n      \"type\": \"PLOT_AREA\",\n      \"region_id\": \"region_4\",\n      \"evidence\": \"Site Area : 147.99 Sqmts.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 323.73,\n      \"unit\": \"sqm\",\n      \"type\": \"TOTAL_BUILT_UP_AREA\",\n      \"region_id\": \"region_4\",\n      \"evidence\": \"TOTAL 323.73 Sqmts.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"warnings\": []\n}\n\n[ELEVATION_FOCUS_PASS]\n{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": null,\n  \"regions\": [\n    {\n      \"id\": \"height_focus\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        0,\n        180,\n        350,\n        550\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION @ AA\",\n      \"evidence\": \"SECTION @ AA\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 0.45,\n      \"unit\": \"m\",\n      \"type\": \"PLINTH_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        0,\n        450,\n        100,\n        500\n      ],\n      \"evidence\": \"0.45M\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 3.05,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        0,\n        350,\n        100,\n        450\n      ],\n      \"evidence\": \"3.05M\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"STILT_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        0,\n        250,\n        100,\n        350\n      ],\n      \"evidence\": \"2.40M\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"areas\": [],\n  \"warnings\": []\n}",
+   "page_width_pts": 2384.28,
+   "page_height_pts": 1684.08,
+   "metadata": {}
+  }
+ ],
+ "model_name": "qwen/qwen3.8-27b",
+ "enabled": true,
+ "warnings": []
+}

@@ -1,0 +1,27 @@
+{
+ "variant": "dxf_evidence_decision",
+ "plan": "PLAN7",
+ "kind": "dxf",
+ "extract_seconds": 0.3,
+ "normalize_seconds": 0.0,
+ "warnings": [
+  "Unit resolution: No $INSUNITS header and no closed polygon to calibrate against; defaulting to 1 drawing unit = 1 metre. VERIFY MANUALLY.",
+  "Unit confidence is LOW (0.20) -- every length/area measurement below derived from DXF coordinates has its confidence capped accordingly.",
+  "No closed polygon geometry (LWPOLYLINE/POLYLINE) found in this DXF -- plot/building geometry cannot be derived.",
+  "Could not identify a plot-boundary polygon: no layer name matched PLOT/BOUNDARY/SITE and no closed polygon was found at all.",
+  "Could not identify a building-footprint polygon nested within the plot boundary (no BUILDING/BLDG/WALL layer match, no plausible nested closed polygon, and either Vision is disabled or the render-fallback found nothing plausible either)."
+ ],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 0,
+  "scale_points_per_metre": null,
+  "scale_confidence": null,
+  "site_plan_page": 0,
+  "measurements": [],
+  "warnings": []
+ },
+ "status": "ok",
+ "total_seconds": 0.3,
+ "reconcile_calls": []
+}

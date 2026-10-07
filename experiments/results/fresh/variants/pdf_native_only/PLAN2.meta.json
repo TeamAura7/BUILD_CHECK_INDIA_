@@ -1,0 +1,221 @@
+{
+ "variant": "pdf_native_only",
+ "plan": "PLAN2",
+ "kind": "pdf",
+ "extract_seconds": 2.8,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 16,
+  "scale_points_per_metre": 14.173228346456696,
+  "scale_confidence": 0.99,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 12.192,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "12.19(40'0\")"
+    ],
+    "note": "Explicit site-plan width label anchored to outer plot rectangle."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 18.288,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "(60'0\")"
+    ],
+    "note": "Explicit site-plan depth label anchored to outer plot rectangle."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 10.5904,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 150.10 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (174.52 sq.m) to within 0.03%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 16.4747,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 233.50 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (174.52 sq.m) to within 0.03%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 1.0,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "1.00"
+    ],
+    "note": "Explicit setback label spatially located in the bottom plot/building gap."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 0.8,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "0.80"
+    ],
+    "note": "Explicit setback label spatially located in the top plot/building gap."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 0.8,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "0.80"
+    ],
+    "note": "Explicit setback label spatially located in the left plot/building gap."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 0.8,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "0.80"
+    ],
+    "note": "Explicit setback label spatially located in the right plot/building gap."
+   },
+   {
+    "field": "road.width",
+    "value": null,
+    "value_m": 9.2,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "9.20m WIDE R O A D"
+    ],
+    "note": "Explicit road-width label; not inferred from the road rectangle."
+   },
+   {
+    "field": "plot.area",
+    "value": 222.83,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "AREA OF PLOT (Minimum) -> 222.83"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "plot.net_area",
+    "value": 222.83,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "NET AREA OF PLOT -> 222.83"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 174.52,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (78.32 %) -> 174.52"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "coverage",
+    "value": 78.32,
+    "value_m": null,
+    "unit": "%",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (78.32 %)"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far.area",
+    "value": 386.55,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed FAR Area -> 386.55"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far",
+    "value": 1.73,
+    "value_m": null,
+    "unit": "ratio",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Achieved Net FAR Area ( 1.73 )"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.gross_built_up_area",
+    "value": 579.9,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed BuiltUp Area -> 579.90"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: scale: printed drawing scale 1:200 (14.1732 pt/m) corroborated by edge-label-derived scale (14.1637 pt/m, 0.07% apart).",
+   "page 1: front setback taken on the bottom side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 2.8,
+ "reconcile_calls": []
+}

@@ -45,7 +45,7 @@ _NUMERIC_UNIT_RE = re.compile(
 #     mag=1234567890.0  'PID No. (As per Khata Extract): 1234567890'
 #     mag=2015.0        'Permissible F.A.R. as per zoning regulation 2015 ( 1.75 )'
 #     mag=46.0          '46.Due to non-compliance of safety precautionary measures...'
-#     mag=187.0         'Ward: Ward 187'
+#     mag=999.0         'Ward: Ward 999'
 #     mag=1.0           'ISO_A1_(841.00_x_594.00_MM)'
 #
 # The resulting scale estimate resolved plot.width to 40.64 m on a plot whose

@@ -1,0 +1,317 @@
+{
+ "variant": "pdf_legacy_resolver",
+ "plan": "PLAN6",
+ "kind": "pdf",
+ "extract_seconds": 14.0,
+ "normalize_seconds": 0.1,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 16,
+  "scale_points_per_metre": 14.173228346456696,
+  "scale_confidence": 0.95,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 9.9977,
+    "unit": null,
+    "confidence": 0.92,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "outer rectangle width 141.70 pt",
+     "printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it"
+    ],
+    "note": "Plot width measured from the site-plan boundary rectangle at the drawing's resolved scale; no printed edge label was present."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 13.1022,
+    "unit": null,
+    "confidence": 0.92,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "outer rectangle height 185.70 pt",
+     "printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it"
+    ],
+    "note": "Plot depth measured from the site-plan boundary rectangle at the drawing's resolved scale; no printed edge label was present."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 9.3063,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 131.90 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (85.09 sq.m) to within 0.16%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 9.1581,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 129.80 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (85.09 sq.m) to within 0.16%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 3.2456,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "bottom geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 0.6985,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "top geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 0.0,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "left geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 0.6914,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "right geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence."
+   },
+   {
+    "field": "road.width",
+    "value": null,
+    "value_m": 7.3,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "7.30m Wide Road"
+    ],
+    "note": "Explicit road-width label; not inferred from the road rectangle."
+   },
+   {
+    "field": "plot.area",
+    "value": 131.0,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "AREA OF PLOT (Minimum) -> 131.00"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "plot.net_area",
+    "value": 107.5,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "NET AREA OF PLOT -> 107.50"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 85.09,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (79.15 %) -> 85.09"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "coverage",
+    "value": 79.15,
+    "value_m": null,
+    "unit": "%",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (79.15 %)"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far.area",
+    "value": 187.05,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed FAR Area -> 187.05"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far",
+    "value": 1.74,
+    "value_m": null,
+    "unit": "ratio",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Achieved Net FAR Area ( 1.74 )"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.gross_built_up_area",
+    "value": 355.59,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed BuiltUp Area -> 355.59"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: scale: printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it.",
+   "page 1: front setback taken on the bottom side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 14.0,
+ "reconcile_calls": [
+  {
+   "n_candidates": 3,
+   "values": [
+    6.8683,
+    6.8683,
+    6.8588
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)",
+    "dimension label ('1.20x1.20')"
+   ],
+   "status": "AGREED",
+   "value": 6.865133333333333
+  },
+  {
+   "n_candidates": 3,
+   "values": [
+    6.9826,
+    6.9826,
+    4.9434
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)",
+    "dimension label ('2.40x4.60')"
+   ],
+   "status": "MINOR_VARIANCE",
+   "value": 6.302866666666667
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    4.4435
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 4.4435
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    9.6804
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 9.6804
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    7.3,
+    7.3
+   ],
+   "sources": [
+    "dimension label ('7.30m Wide Road')",
+    "dimension label ('7.30m Wide Road')"
+   ],
+   "status": "AGREED",
+   "value": 7.3
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  }
+ ]
+}

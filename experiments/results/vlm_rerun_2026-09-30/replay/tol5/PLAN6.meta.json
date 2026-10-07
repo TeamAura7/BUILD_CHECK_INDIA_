@@ -1,0 +1,10 @@
+{
+ "variant": "tol5",
+ "replay_variant": "tol5",
+ "plan": "PLAN6",
+ "kind": "pdf",
+ "warnings": [],
+ "timed_out_internally": false,
+ "status": "ok",
+ "total_seconds": 22.0
+}

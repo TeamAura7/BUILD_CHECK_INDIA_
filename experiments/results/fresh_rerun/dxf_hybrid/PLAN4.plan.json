@@ -1,0 +1,275 @@
+{
+ "plan_id": "PLAN4-dxf",
+ "source_document_id": "PLAN4",
+ "plot": {
+  "geometry": null,
+  "width": {
+   "value": 4.111,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 4.111,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 7.5448,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 7.5448,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "LOW",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.60)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 303.79,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 303.79,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.90)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": null
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": 7.62,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 7.62,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.97)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Withdrawn: 4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [],
+ "overall_confidence_note": "Legacy global plot resolver had no winner; final values came from independent CV + Vision agreement layer. Physical-bounds gate withdrew: building.depth; building.footprint_area; building.width; coverage; far; setbacks.front; setbacks.left; setbacks.rear; setbacks.right.",
+ "floor_areas": {},
+ "metadata": {
+  "physical_bounds": [
+   {
+    "field": "building.width",
+    "value": 4.111,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "building.depth",
+    "value": 7.5448,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 31.0168,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "setbacks.front",
+    "value": 0.0,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "setbacks.rear",
+    "value": 0.0,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "setbacks.left",
+    "value": 0.0,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "setbacks.right",
+    "value": 0.0,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "coverage",
+    "value": 10.209947661213338,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   },
+   {
+    "field": "far",
+    "value": 0.10209947661213338,
+    "was": "LOW",
+    "reason": "4 of 4 setbacks are under 0.3 m (a wall thickness): the building outline coincides with the plot boundary, not a building set back inside it"
+   }
+  ]
+ },
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

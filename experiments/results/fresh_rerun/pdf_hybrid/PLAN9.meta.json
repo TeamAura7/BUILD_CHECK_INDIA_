@@ -1,0 +1,220 @@
+{
+ "variant": "pdf_hybrid",
+ "plan": "PLAN9",
+ "kind": "pdf",
+ "extract_seconds": 11.6,
+ "normalize_seconds": 0.0,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 8,
+  "scale_points_per_metre": 21.08795404411782,
+  "scale_confidence": 0.95,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 10.65,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "top edge 10.65 m, printed label 10.65"
+    ],
+    "note": "Plot width: the longer of the two opposite sides of a plot bounded by slanted edges (top 10.65 m, bottom 8.92 m)."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 15.2083,
+    "unit": null,
+    "confidence": 0.92,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "left edge 15.21 m"
+    ],
+    "note": "Plot depth: the longer of the two opposite sides of a plot bounded by slanted edges (left 15.21 m, right 15.00 m)."
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 7.14,
+    "unit": null,
+    "confidence": 0.97,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "building rectangle 7.14 x 12.10 m"
+    ],
+    "note": "Building width from the rectangle inside the quadrilateral plot; printed label used when it agrees."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 12.1017,
+    "unit": null,
+    "confidence": 0.9,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "building rectangle 7.14 x 12.10 m"
+    ],
+    "note": "Building depth from the rectangle inside the quadrilateral plot; printed label used when it agrees."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 1.5047,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "bottom minimum perpendicular gap"
+    ],
+    "note": "Minimum perpendicular distance from the building to the bottom (possibly slanted) plot edge; no printed callout agreed."
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 1.3779,
+    "unit": null,
+    "confidence": 0.88,
+    "source": "DERIVED",
+    "evidence": [
+     "top minimum perpendicular gap"
+    ],
+    "note": "Minimum perpendicular distance from the building to the top (possibly slanted) plot edge; no printed callout agreed."
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 1.0,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "printed callout 1.0"
+    ],
+    "note": "Printed setback callout that agrees with the minimum perpendicular distance from the building to the left plot edge (0.96 m)."
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 1.0,
+    "unit": null,
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "printed callout 1.0"
+    ],
+    "note": "Printed setback callout that agrees with the minimum perpendicular distance from the building to the right plot edge (0.99 m)."
+   }
+  ],
+  "warnings": [
+   "page 1: the site plan's boundary contains heavy, slanted edges, so the axis-aligned rectangle model does not apply; the plot was modelled as a quadrilateral.",
+   "page 1: quadrilateral validated: 3 of 4 edges' printed labels agree on one scale (21.09 pt/m); sides top/right/bottom/left = 10.65 / 14.97 / 8.91 / 15.21 m.",
+   "page 1: building rectangle 7.14 x 12.10 m (printed labels: 7.14 x none).",
+   "page 1: irregular plot: opposite sides differ (top 10.65 m vs bottom 8.92 m); plot.width reports the longer.",
+   "page 1: front setback taken on the bottom side of the plot (no road label found; assumed bottom)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 11.6,
+ "reconcile_calls": [
+  {
+   "n_candidates": 2,
+   "values": [
+    1.9034,
+    1.9034
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)"
+   ],
+   "status": "AGREED",
+   "value": 1.9034
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    2.4585,
+    2.4585
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)"
+   ],
+   "status": "AGREED",
+   "value": 2.4585
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    1.736
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 1.736
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    1.7785
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 1.7785
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    0.443
+   ],
+   "sources": [
+    "geometry (building-to-front-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 0.443
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    0.2383
+   ],
+   "sources": [
+    "geometry (building-to-rear-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 0.2383
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    0.005
+   ],
+   "sources": [
+    "geometry (building-to-left-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 0.005
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  }
+ ]
+}

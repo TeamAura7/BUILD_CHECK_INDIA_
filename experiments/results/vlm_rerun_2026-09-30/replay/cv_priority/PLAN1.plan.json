@@ -1,0 +1,393 @@
+{
+ "plan_id": "PLAN1-pdf",
+ "source_document_id": "PLAN1",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 0.9089438848911893,
+      "y": 1.10800575539459
+     },
+     {
+      "x": 0.9405410071933163,
+      "y": 4.320379856110844
+     },
+     {
+      "x": 0.7688633093517592,
+      "y": 4.373041726614389
+     },
+     {
+      "x": 2.9669697841697333,
+      "y": 4.37409496402446
+     },
+     {
+      "x": 2.796345323738247,
+      "y": 4.320379856110844
+     },
+     {
+      "x": 2.8300489208605164,
+      "y": 1.1101122302147317
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 0.7688633093517592,
+    "min_y": 1.10800575539459,
+    "max_x": 2.9669697841697333,
+    "max_y": 4.37409496402446
+   },
+   "points_per_metre": 227.86885245924128,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 12.19,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 12.19,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Independent CV and Vision agree within 0.122 m."
+   },
+   "source": "FINAL:CV+VISION_AGREED",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 9.14,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 9.14,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99) [replay:cv_priority] VLM value 11.7200 disagreed and was not used."
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "area": {
+   "value": 111.4166,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 111.4166,
+    "unit": "sq_m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "plot.area = width x depth using the final, independently-agreed 12.1900 x 9.1400."
+   },
+   "source": "plot.area = width x depth (final agreed dimensions)",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 11.114814388478239,
+      "y": 5.477887769778767
+     },
+     {
+      "x": 13.013801438836078,
+      "y": 5.476834532368695
+     },
+     {
+      "x": 13.014854676246147,
+      "y": 6.663833093518603
+     },
+     {
+      "x": 11.11692086329838,
+      "y": 6.664886330928674
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 11.114814388478239,
+    "min_y": 5.476834532368695,
+    "max_x": 13.014854676246147,
+    "max_y": 6.664886330928674
+   },
+   "points_per_metre": 227.86885245924128,
+   "rotation_degrees": 270.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": 11.7087,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 11.7087,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Independent CV and Vision agree within 0.117 m."
+   },
+   "source": "FINAL:CV+VISION_AGREED",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "depth": {
+   "value": 8.2108,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 8.2108,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Independent CV and Vision agree within 0.082 m."
+   },
+   "source": "FINAL:CV+VISION_AGREED",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "footprint_area": {
+   "value": 96.34,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 96.34,
+    "unit": "m2"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "Independent CV and Vision agree within 0.963 m2. (cross-checked against final width x depth = 96.138 m2, within 0.2%)."
+   },
+   "source": "FINAL:CV+VISION_AGREED",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "floor_count": {
+   "value": 4,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MEDIUM",
+    "score": null,
+    "reason": "4 floor level(s) named on the sheet (ground through level 3; stilt/terrace not counted), agreed by: area-table rows, floor-plan captions, title/notes enumeration."
+   },
+   "source": "named floor levels",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "No explicitly dimensioned road width found."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": 0.47,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.47,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "rear": {
+   "value": 0.0,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.0,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.88)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "left": {
+   "value": 0.46,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.46,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  },
+  "right": {
+   "value": 0.46,
+   "raw_value": null,
+   "normalized_value": {
+    "magnitude": 0.46,
+    "unit": "m"
+   },
+   "confidence": {
+    "level": "HIGH",
+    "score": null,
+    "reason": "CV-only; Vision did not emit this field. (CV confidence: 0.99)"
+   },
+   "source": "FINAL:CV_ONLY",
+   "evidence": [],
+   "conflict": null,
+   "decision_id": null
+  }
+ },
+ "coverage": {
+  "value": 86.46826415453353,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 86.46826415453353,
+   "unit": "%"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "coverage = footprint_area(96.340) / plot_area(111.417) * 100"
+  },
+  "source": "coverage = building.footprint_area / plot.area * 100",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "far": {
+  "value": 3.458730566181341,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 3.458730566181341,
+   "unit": "ratio"
+  },
+  "confidence": {
+   "level": "MEDIUM",
+   "score": null,
+   "reason": "Diagnostic gross FAR = gross_built_up_area(385.360, footprint x 4 floors) / plot_area(111.417). NOT a regulatory/sanctioned FAR — that comparison belongs to the RuleEngine."
+  },
+  "source": "far = gross_built_up_area / plot.area (diagnostic gross FAR)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "conflicts": [
+  {
+   "description": "Computed building.footprint_area (96.340 m²) exceeds the resolved plot.area (6.172 m²), which is physically impossible. This most likely means the selected building candidate does not actually belong to the same drawing region as the selected plot candidate.",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 96.34,
+     "unit": "sq_m"
+    },
+    {
+     "magnitude": 6.1722,
+     "unit": "sq_m"
+    }
+   ],
+   "conflicting_sources": [
+    "building.footprint_area (computed)",
+    "plot.area"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  },
+  {
+   "description": "Impossible geometry: building.depth (8.220 m) >= plot.depth (1.878 m).",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 1.87765,
+     "unit": "m"
+    },
+    {
+     "magnitude": 8.22,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "plot.depth",
+    "building.depth"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 9 candidate(s) across 1 page(s). (2 sheet-spanning container candidate(s) excluded -- each nested most of the others on its page.) Winner only narrowly (0.04) beats the runner-up (0.69); ambiguous. | Scale: [local region-scoped] 73 scale samples but high spread (219.5%); treat with caution. 14 sample(s) rejected as outliers (robust MAD filter). | Front-side: Front edge resolved from ROAD candidate. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 1, rejected: 10. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": {
+  "value": 14.25,
+  "raw_value": null,
+  "normalized_value": {
+   "magnitude": 14.25,
+   "unit": "m"
+  },
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Vision height dimension evidence (explicit building_height)."
+  },
+  "source": "vision semantic height",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ },
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": {
+  "value": "residential",
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "HIGH",
+   "score": null,
+   "reason": "Building-use label printed on the plan: 'PLAN  SHOWING  THE  PROPOSED  CONSTRUCTION  OF  GROUND FLOOR , FIRST FLOOR , SECOND FLOOR AND THIRD FLOOR  RCC  ROOF  RESIDENTIAL  BUILDING , IN S.NO : 26 / 2A ,'."
+  },
+  "source": "plan text (title block / property table)",
+  "evidence": [],
+  "conflict": null,
+  "decision_id": null
+ }
+}

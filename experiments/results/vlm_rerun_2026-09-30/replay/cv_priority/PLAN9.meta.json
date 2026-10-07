@@ -1,0 +1,10 @@
+{
+ "variant": "cv_priority",
+ "replay_variant": "cv_priority",
+ "plan": "PLAN9",
+ "kind": "pdf",
+ "warnings": [],
+ "timed_out_internally": false,
+ "status": "ok",
+ "total_seconds": 11.5
+}

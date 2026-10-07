@@ -1,0 +1,383 @@
+{
+ "variant": "pdf_hybrid",
+ "plan": "PLAN8",
+ "kind": "pdf",
+ "extract_seconds": 19.7,
+ "normalize_seconds": 0.1,
+ "warnings": [],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 17,
+  "scale_points_per_metre": 14.173228346456696,
+  "scale_confidence": 0.95,
+  "site_plan_page": 1,
+  "measurements": [
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 11.2818,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "outer rectangle width 159.90 pt",
+     "printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it"
+    ],
+    "note": "Plot width measured from the site-plan boundary rectangle at the drawing's resolved scale; no printed edge label was present. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 16.5029,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "outer rectangle height 233.90 pt",
+     "printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it"
+    ],
+    "note": "Plot depth measured from the site-plan boundary rectangle at the drawing's resolved scale; no printed edge label was present. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 9.5462,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle width 135.30 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (115.42 sq.m) to within 0.80%"
+    ],
+    "note": "Building width derived from the nested building footprint geometry and site-plan scale; no Vision input. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 11.9944,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "inner rectangle height 170.00 pt",
+     "scale 14.173 pt/m",
+     "footprint rectangle reproduces the sheet's stated coverage area (115.42 sq.m) to within 0.80%"
+    ],
+    "note": "Building depth derived from the nested building footprint geometry and site-plan scale; no Vision input. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 0.0,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "DERIVED",
+    "evidence": [
+     "right geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 1.7357,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "DERIVED",
+    "evidence": [
+     "left geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 4.5085,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "DERIVED",
+    "evidence": [
+     "bottom geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 0.0,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "DERIVED",
+    "evidence": [
+     "top geometric gap"
+    ],
+    "note": "No explicit label was associated; setback derived from nested rectangles. Marked lower confidence. [confidence capped: the plot boundary has a slanted edge the rectangle model cannot represent, and no quadrilateral could be validated]"
+   },
+   {
+    "field": "plot.area",
+    "value": 183.69,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "AREA OF PLOT (Minimum) -> 183.69"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "plot.net_area",
+    "value": 183.69,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "NET AREA OF PLOT -> 183.69"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 115.42,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (62.83 %) -> 115.42"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "coverage",
+    "value": 62.83,
+    "value_m": null,
+    "unit": "%",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed Coverage Area (62.83 %)"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "coverage",
+    "value": 70.0,
+    "value_m": null,
+    "unit": "%",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Permissible Coverage area (70.00 %)"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "coverage",
+    "value": 7.16,
+    "value_m": null,
+    "unit": "%",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Balance coverage area left ( 7.16 % )"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far.area",
+    "value": 300.55,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed FAR Area -> 300.55"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "far",
+    "value": 1.64,
+    "value_m": null,
+    "unit": "ratio",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Achieved Net FAR Area ( 1.64 )"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   },
+   {
+    "field": "building.gross_built_up_area",
+    "value": 482.39,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.99,
+    "source": "NATIVE_TEXT",
+    "evidence": [
+     "Proposed BuiltUp Area -> 482.39"
+    ],
+    "note": "Explicit labelled area/coverage/FAR value from the PDF native text layer; no Vision input."
+   }
+  ],
+  "warnings": [
+   "page 1: scale: printed drawing scale 1:200 (14.1732 pt/m); no edge dimension label available to corroborate it.",
+   "page 1: front setback taken on the right side of the plot (road label position)."
+  ]
+ },
+ "status": "ok",
+ "total_seconds": 19.8,
+ "reconcile_calls": [
+  {
+   "n_candidates": 3,
+   "values": [
+    18.0425,
+    18.0474,
+    18.0041
+   ],
+   "sources": [
+    "geometry (front edge)",
+    "geometry (rear edge)",
+    "dimension label (' 25.')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 18.04495
+  },
+  {
+   "n_candidates": 2,
+   "values": [
+    17.5282,
+    17.5282
+   ],
+   "sources": [
+    "geometry (left edge)",
+    "geometry (right edge)"
+   ],
+   "status": "AGREED",
+   "value": 17.5282
+  },
+  {
+   "n_candidates": 6,
+   "values": [
+    8.7122,
+    1.1,
+    1.36,
+    13.1,
+    11.4,
+    6.57
+   ],
+   "sources": [
+    "geometry (building bounding box, frontage-aligned side)",
+    "dimension label ('1.10m')",
+    "dimension label ('1.36m')",
+    "dimension label ('13.10m')",
+    "dimension label ('11.4m')",
+    "dimension label ('6.57m')"
+   ],
+   "status": "MINOR_VARIANCE",
+   "value": 7.040366666666666
+  },
+  {
+   "n_candidates": 23,
+   "values": [
+    7.5107,
+    5.7727,
+    7.5898,
+    3.01,
+    3.0038,
+    8.6751,
+    8.6751,
+    8.6751,
+    8.6751,
+    8.6751,
+    8.6751,
+    8.6751,
+    8.6751,
+    8.6751,
+    1.0,
+    3.7121,
+    1.1,
+    1.65,
+    13.71,
+    1.3,
+    2.7,
+    4.8456,
+    6.3932
+   ],
+   "sources": [
+    "geometry (building bounding box, depth-aligned side)",
+    "dimension label ('1')",
+    "dimension label ('50.49')",
+    "dimension label ('55.00')",
+    "dimension label ('105.49')",
+    "dimension label ('1')",
+    "dimension label ('482.39')",
+    "dimension label ('65.11')",
+    "dimension label ('9.00')",
+    "dimension label ('2.25')",
+    "dimension label ('105.49')",
+    "dimension label ('300.54')",
+    "dimension label ('300.54')",
+    "dimension label ('04')",
+    "dimension label ('1.0m DIA')",
+    "dimension label ('SITE NO-XX')",
+    "dimension label ('1.10m')",
+    "dimension label ('1.65m')",
+    "dimension label ('13.71m')",
+    "dimension label ('1.3m')",
+    "dimension label ('2.7m')",
+    "dimension label ('  500 Lts.')",
+    "dimension label ('2.40 x 4.62')"
+   ],
+   "status": "OUTLIER_DETECTED",
+   "value": 6.5402000000000005
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    3.4611
+   ],
+   "sources": [
+    "geometry (building-to-rear-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 3.4611
+  },
+  {
+   "n_candidates": 1,
+   "values": [
+    3.6416
+   ],
+   "sources": [
+    "geometry (building-to-left-boundary distance)"
+   ],
+   "status": "UNCORROBORATED",
+   "value": 3.6416
+  },
+  {
+   "n_candidates": 0,
+   "values": [],
+   "sources": [],
+   "status": "MISSING",
+   "value": null
+  }
+ ]
+}

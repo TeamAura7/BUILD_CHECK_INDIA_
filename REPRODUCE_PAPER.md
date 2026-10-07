@@ -8,6 +8,16 @@ This repository is the evaluated code snapshot (internal commit `699fb74`), publ
 
 No program logic in `backend/` was changed. For publication, a real property ID, a permit number and a planning-district name copied from the drawings were replaced with made-up values in three backend comments and two test files.
 
+## Sheet names in the paper
+
+The manuscript anonymises the plans as sheets S1–S8. Result files and CSV `plan` columns use the corpus IDs (there is no PLAN3):
+
+| Paper | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 |
+|---|---|---|---|---|---|---|---|---|
+| Files | PLAN1 | PLAN2 | PLAN4 | PLAN5 | PLAN6 | PLAN7 | PLAN8 | PLAN9 |
+
+Site and plot numbers copied from the drawings into free-text explanations in the saved outputs have been replaced with `XX`; they were never used to identify results.
+
 ## What is where
 
 | Manuscript item | Evidence |

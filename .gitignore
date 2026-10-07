@@ -181,6 +181,12 @@ GROUND_TRUTH*.xlsx
 eval_evidence/
 gnn/
 data/stress/
-results/
+/results/
 IJCM_submission/
 *.vision_rendered*
+
+# Paper evidence: keep the experiment results and logs (override the generic rules above)
+!experiments/results/
+!experiments/results/**
+!experiments/logs/
+!experiments/**/*.log

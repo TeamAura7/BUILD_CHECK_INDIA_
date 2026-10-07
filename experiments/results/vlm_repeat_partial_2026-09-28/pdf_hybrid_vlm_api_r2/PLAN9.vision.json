@@ -1,0 +1,8 @@
+{
+ "pages": [],
+ "model_name": "qwen/qwen3.8-27b",
+ "enabled": true,
+ "warnings": [
+  "page 1: vision analysis failed: Vision API HTTP 429 from https://api.groq.com/openai/v1: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_[REDACTED]` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196221, Requested 4051. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+ ]
+}

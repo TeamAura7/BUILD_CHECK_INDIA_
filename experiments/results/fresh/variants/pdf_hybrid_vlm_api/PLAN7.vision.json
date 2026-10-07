@@ -1,0 +1,363 @@
+{
+ "pages": [
+  {
+   "page_number": 1,
+   "units": "m",
+   "scale": null,
+   "regions": [
+    {
+     "id": "region_1",
+     "type": "GROUND_FLOOR_PLAN",
+     "bbox": [
+      60.0,
+      100.0,
+      350.0,
+      450.0
+     ],
+     "confidence": 0.95,
+     "label": "GROUND FLOOR PLAN",
+     "evidence": "GROUND FLOOR PLAN"
+    },
+    {
+     "id": "region_2",
+     "type": "FIRST_FLOOR_PLAN",
+     "bbox": [
+      360.0,
+      100.0,
+      600.0,
+      450.0
+     ],
+     "confidence": 0.95,
+     "label": "FIRST FLOOR PLAN",
+     "evidence": "FIRST FLOOR PLAN"
+    },
+    {
+     "id": "region_3",
+     "type": "SECOND_FLOOR_PLAN",
+     "bbox": [
+      610.0,
+      100.0,
+      850.0,
+      450.0
+     ],
+     "confidence": 0.95,
+     "label": "SECOND FLOOR PLAN",
+     "evidence": "SECOND FLOOR PLAN"
+    },
+    {
+     "id": "region_4",
+     "type": "ELEVATION",
+     "bbox": [
+      100.0,
+      500.0,
+      350.0,
+      800.0
+     ],
+     "confidence": 0.95,
+     "label": "FRONT ELEVATION",
+     "evidence": "FRONT ELEVATION"
+    },
+    {
+     "id": "region_5",
+     "type": "SECTION",
+     "bbox": [
+      360.0,
+      500.0,
+      600.0,
+      800.0
+     ],
+     "confidence": 0.95,
+     "label": "SECTION ON A' - A'",
+     "evidence": "SECTION ON A' - A'"
+    },
+    {
+     "id": "region_6",
+     "type": "OTHER_FLOOR_PLAN",
+     "bbox": [
+      610.0,
+      500.0,
+      850.0,
+      800.0
+     ],
+     "confidence": 0.95,
+     "label": "TERRACE FLOOR PLAN",
+     "evidence": "TERRACE FLOOR PLAN"
+    },
+    {
+     "id": "height_focus",
+     "type": "ELEVATION",
+     "bbox": [
+      37.50000000000001,
+      425.0,
+      412.5,
+      875.0
+     ],
+     "confidence": 0.95,
+     "label": "ELEVATION",
+     "evidence": "GROUND FLOOR PLAN"
+    }
+   ],
+   "dimensions": [
+    {
+     "value": 9.14,
+     "unit": "m",
+     "type": "ROAD_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      100.0,
+      420.0,
+      300.0,
+      440.0
+     ],
+     "evidence": "9.14M WIDE ROAD",
+     "confidence": 0.95,
+     "grounded": true
+    },
+    {
+     "value": 9.14,
+     "unit": "m",
+     "type": "BUILDING_WIDTH",
+     "region_id": "region_1",
+     "bbox": [
+      100.0,
+      110.0,
+      300.0,
+      130.0
+     ],
+     "evidence": "9.14",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_1",
+     "bbox": [
+      180.0,
+      200.0,
+      250.0,
+      220.0
+     ],
+     "evidence": "2.40X2.25",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_1",
+     "bbox": [
+      250.0,
+      300.0,
+      320.0,
+      320.0
+     ],
+     "evidence": "2.40X2.45",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 4.29,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_2",
+     "bbox": [
+      400.0,
+      300.0,
+      480.0,
+      320.0
+     ],
+     "evidence": "4.29X2.40",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 4.29,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_2",
+     "bbox": [
+      480.0,
+      300.0,
+      560.0,
+      320.0
+     ],
+     "evidence": "4.29X3.20",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_3",
+     "bbox": [
+      650.0,
+      200.0,
+      730.0,
+      220.0
+     ],
+     "evidence": "2.40X2.25",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 4.29,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_3",
+     "bbox": [
+      650.0,
+      300.0,
+      730.0,
+      320.0
+     ],
+     "evidence": "4.29X2.40",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 4.29,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_3",
+     "bbox": [
+      730.0,
+      300.0,
+      810.0,
+      320.0
+     ],
+     "evidence": "4.29X3.20",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_3",
+     "bbox": [
+      810.0,
+      200.0,
+      890.0,
+      220.0
+     ],
+     "evidence": "2.40X2.25",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 2.4,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_3",
+     "bbox": [
+      810.0,
+      300.0,
+      890.0,
+      320.0
+     ],
+     "evidence": "2.40X2.45",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_5",
+     "bbox": [
+      450.0,
+      550.0,
+      470.0,
+      600.0
+     ],
+     "evidence": "3.00",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_5",
+     "bbox": [
+      450.0,
+      600.0,
+      470.0,
+      650.0
+     ],
+     "evidence": "3.00",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 3.0,
+     "unit": "m",
+     "type": "FLOOR_HEIGHT",
+     "region_id": "region_5",
+     "bbox": [
+      450.0,
+      650.0,
+      470.0,
+      700.0
+     ],
+     "evidence": "3.00",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 6.0,
+     "unit": "m",
+     "type": "ROOM_DIMENSION",
+     "region_id": "region_6",
+     "bbox": [
+      810.0,
+      550.0,
+      830.0,
+      750.0
+     ],
+     "evidence": "6.00",
+     "confidence": 0.9,
+     "grounded": true
+    },
+    {
+     "value": 9.45,
+     "unit": "m",
+     "type": "BUILDING_HEIGHT",
+     "region_id": "height_focus",
+     "bbox": [
+      330.00000000000006,
+      605.0,
+      367.50000000000006,
+      852.4999999999999
+     ],
+     "evidence": "9.45",
+     "confidence": 0.9,
+     "grounded": null
+    }
+   ],
+   "areas": [],
+   "warnings": [
+    "Dropped ungrounded dimension BUILDING_DEPTH=12.19: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension ROOM_DIMENSION=3.14: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension ROOM_DIMENSION=4.4: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension ROOM_DIMENSION=2.45: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension ROOM_DIMENSION=2.9: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension BUILDING_HEIGHT=9.45: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension PARAPET_HEIGHT=2.2: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "Dropped ungrounded dimension ROOM_DIMENSION=2.7: no matching text found anywhere in the PDF's native text layer (likely hallucinated).",
+    "[ELEVATION_FOCUS] Vision's ELEVATION bbox agrees with the caption-anchored location (IoU=0.32)."
+   ],
+   "raw_response": "{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": null,\n  \"regions\": [\n    {\n      \"id\": \"region_1\",\n      \"type\": \"GROUND_FLOOR_PLAN\",\n      \"bbox\": [\n        60,\n        100,\n        350,\n        450\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"GROUND FLOOR PLAN\",\n      \"evidence\": \"GROUND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_2\",\n      \"type\": \"FIRST_FLOOR_PLAN\",\n      \"bbox\": [\n        360,\n        100,\n        600,\n        450\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"FIRST FLOOR PLAN\",\n      \"evidence\": \"FIRST FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_3\",\n      \"type\": \"SECOND_FLOOR_PLAN\",\n      \"bbox\": [\n        610,\n        100,\n        850,\n        450\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECOND FLOOR PLAN\",\n      \"evidence\": \"SECOND FLOOR PLAN\"\n    },\n    {\n      \"id\": \"region_4\",\n      \"type\": \"ELEVATION\",\n      \"bbox\": [\n        100,\n        500,\n        350,\n        800\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"FRONT ELEVATION\",\n      \"evidence\": \"FRONT ELEVATION\"\n    },\n    {\n      \"id\": \"region_5\",\n      \"type\": \"SECTION\",\n      \"bbox\": [\n        360,\n        500,\n        600,\n        800\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"SECTION ON A' - A'\",\n      \"evidence\": \"SECTION ON A' - A'\"\n    },\n    {\n      \"id\": \"region_6\",\n      \"type\": \"OTHER_FLOOR_PLAN\",\n      \"bbox\": [\n        610,\n        500,\n        850,\n        800\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"TERRACE FLOOR PLAN\",\n      \"evidence\": \"TERRACE FLOOR PLAN\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 9.14,\n      \"unit\": \"m\",\n      \"type\": \"ROAD_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        100,\n        420,\n        300,\n        440\n      ],\n      \"evidence\": \"9.14M WIDE ROAD\",\n      \"confidence\": 0.95\n    },\n    {\n      \"value\": 9.14,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_WIDTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        100,\n        110,\n        300,\n        130\n      ],\n      \"evidence\": \"9.14\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 12.19,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_DEPTH\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        70,\n        200,\n        90,\n        350\n      ],\n      \"evidence\": \"12.19\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 3.14,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        110,\n        200,\n        180,\n        220\n      ],\n      \"evidence\": \"3.14X3.78\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        180,\n        200,\n        250,\n        220\n      ],\n      \"evidence\": \"2.40X2.25\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 4.4,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        180,\n        300,\n        250,\n        320\n      ],\n      \"evidence\": \"4.40X3.90\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_1\",\n      \"bbox\": [\n        250,\n        300,\n        320,\n        320\n      ],\n      \"evidence\": \"2.40X2.45\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.45,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        400,\n        200,\n        480,\n        220\n      ],\n      \"evidence\": \"2.45X3.54\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.9,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        480,\n        200,\n        560,\n        220\n      ],\n      \"evidence\": \"2.90X3.54\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 4.29,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        400,\n        300,\n        480,\n        320\n      ],\n      \"evidence\": \"4.29X2.40\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 4.29,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_2\",\n      \"bbox\": [\n        480,\n        300,\n        560,\n        320\n      ],\n      \"evidence\": \"4.29X3.20\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        650,\n        200,\n        730,\n        220\n      ],\n      \"evidence\": \"2.40X2.25\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 4.29,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        650,\n        300,\n        730,\n        320\n      ],\n      \"evidence\": \"4.29X2.40\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 4.29,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        730,\n        300,\n        810,\n        320\n      ],\n      \"evidence\": \"4.29X3.20\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        810,\n        200,\n        890,\n        220\n      ],\n      \"evidence\": \"2.40X2.25\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.4,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_3\",\n      \"bbox\": [\n        810,\n        300,\n        890,\n        320\n      ],\n      \"evidence\": \"2.40X2.45\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 9.45,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_HEIGHT\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        360,\n        550,\n        380,\n        750\n      ],\n      \"evidence\": \"9.45\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        450,\n        550,\n        470,\n        600\n      ],\n      \"evidence\": \"3.00\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        450,\n        600,\n        470,\n        650\n      ],\n      \"evidence\": \"3.00\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 3.0,\n      \"unit\": \"m\",\n      \"type\": \"FLOOR_HEIGHT\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        450,\n        650,\n        470,\n        700\n      ],\n      \"evidence\": \"3.00\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.2,\n      \"unit\": \"m\",\n      \"type\": \"PARAPET_HEIGHT\",\n      \"region_id\": \"region_5\",\n      \"bbox\": [\n        450,\n        500,\n        470,\n        520\n      ],\n      \"evidence\": \"2.20\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 6.0,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        810,\n        550,\n        830,\n        750\n      ],\n      \"evidence\": \"6.00\",\n      \"confidence\": 0.9\n    },\n    {\n      \"value\": 2.7,\n      \"unit\": \"m\",\n      \"type\": \"ROOM_DIMENSION\",\n      \"region_id\": \"region_6\",\n      \"bbox\": [\n        730,\n        750,\n        810,\n        770\n      ],\n      \"evidence\": \"2.70\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"areas\": [],\n  \"warnings\": []\n}\n\n[ELEVATION_FOCUS_PASS]\n{\n  \"page_number\": 1,\n  \"units\": \"m\",\n  \"scale\": null,\n  \"regions\": [\n    {\n      \"id\": \"height_focus\",\n      \"type\": \"ELEVATION\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"confidence\": 0.95,\n      \"label\": \"ELEVATION\",\n      \"evidence\": \"GROUND FLOOR PLAN\"\n    }\n  ],\n  \"dimensions\": [\n    {\n      \"value\": 9.45,\n      \"unit\": \"m\",\n      \"type\": \"BUILDING_HEIGHT\",\n      \"region_id\": \"height_focus\",\n      \"bbox\": [\n        780,\n        400,\n        880,\n        950\n      ],\n      \"evidence\": \"9.45\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"areas\": [],\n  \"warnings\": []\n}",
+   "page_width_pts": 612.0,
+   "page_height_pts": 530.64,
+   "metadata": {}
+  }
+ ],
+ "model_name": "qwen/qwen3.8-27b",
+ "enabled": true,
+ "warnings": []
+}

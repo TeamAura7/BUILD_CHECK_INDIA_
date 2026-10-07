@@ -1,0 +1,10 @@
+{
+ "variant": "grounded_only",
+ "replay_variant": "grounded_only",
+ "plan": "PLAN5",
+ "kind": "pdf",
+ "warnings": [],
+ "timed_out_internally": false,
+ "status": "ok",
+ "total_seconds": 179.5
+}

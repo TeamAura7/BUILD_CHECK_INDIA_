@@ -1,0 +1,192 @@
+{
+ "variant": "dxf_evidence_decision",
+ "plan": "PLAN5",
+ "kind": "dxf",
+ "extract_seconds": 86.5,
+ "normalize_seconds": 0.0,
+ "warnings": [
+  "Unit resolution: $INSUNITS (None) missing or produced an implausible area; sanity-checked against candidate scales -- treating drawing units as metres (native) gives a plausible plot area (347.8 m2).",
+  "Unit confidence is LOW (0.60) -- every length/area measurement below derived from DXF coordinates has its confidence capped accordingly.",
+  "Sheet-border/frame rejection: 1 closed polygon(s) span multiple independently-clustered drawing regions on this sheet and were excluded from plot/building candidacy (relational evidence: a shape covering most of the sheet AND materially overlapping more than one distinct region is a page frame or title-block border, not one drawing's own boundary).",
+  "[region 0] No single closed polygon was plot-sized (985 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 6698 fragment/line-work point(s).",
+  "[region 0] Building footprint had no closed polygon in the DXF data; Reconstructed from 5713 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 45 closed loop(s) found via cycle detection; score=0.500).",
+  "Rejected a candidate building-footprint polygon (0.00 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (114.03 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 0] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 5713 wall/line-work segment(s) instead.",
+  "[region 1] No single closed polygon was plot-sized (746 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 6669 fragment/line-work point(s).",
+  "[region 1] Building footprint had no closed polygon in the DXF data; Reconstructed from 5923 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 199 closed loop(s) found via cycle detection; score=0.497).",
+  "Rejected a candidate building-footprint polygon (0.03 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (106.33 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 1] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 5923 wall/line-work segment(s) instead.",
+  "Rejected a candidate building-footprint polygon (0.03 m2, layer 'RECONSTRUCTED_ENVELOPE') as implausibly small relative to the plot (106.33 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 2] No single closed polygon was plot-sized (826 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 2134 fragment/line-work point(s).",
+  "[region 2] Building footprint had no closed polygon in the DXF data; Reconstructed from 1308 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 18 closed loop(s) found via cycle detection; score=0.499).",
+  "Rejected a candidate building-footprint polygon (0.12 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (38.83 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 2] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 1308 wall/line-work segment(s) instead.",
+  "[region 3] No single closed polygon was plot-sized (454 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 1242 fragment/line-work point(s).",
+  "[region 3] Building resolved by direct geometric containment within the reconstructed plot envelope (the graph-based nesting check does not apply to a synthetic envelope, which is not itself a role-inference graph node).",
+  "[region 4] Excluded from plot/building candidacy: this region's own bounding box covers 100% of the whole sheet's extent AND substantially overlaps another independently-clustered region elsewhere on it -- consistent with sheet-spanning content (a dashed border traced around the page, a repeated background pattern) rather than one specific drawing.",
+  "[region 6] No single closed polygon was plot-sized (192 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 947 fragment/line-work point(s).",
+  "[region 6] Building footprint had no closed polygon in the DXF data; Reconstructed from 755 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 5 closed loop(s) found via cycle detection; score=0.484).",
+  "Rejected a candidate building-footprint polygon (0.00 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (31.41 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 6] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 755 wall/line-work segment(s) instead.",
+  "[region 7] No single closed polygon was plot-sized (367 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 732 fragment/line-work point(s).",
+  "[region 7] Building footprint had no closed polygon in the DXF data; Reconstructed from 365 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 10 closed loop(s) found via cycle detection; score=0.455).",
+  "Rejected a candidate building-footprint polygon (0.00 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (22.31 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 7] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 365 wall/line-work segment(s) instead.",
+  "[region 8] No single closed polygon was plot-sized (205 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 612 fragment/line-work point(s).",
+  "[region 8] Building footprint had no closed polygon in the DXF data; Reconstructed from 407 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 6 closed loop(s) found via cycle detection; score=0.450).",
+  "Rejected a candidate building-footprint polygon (0.00 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (19.82 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 8] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 407 wall/line-work segment(s) instead.",
+  "[region 9] No single closed polygon was plot-sized (482 closed fragment(s) present, all individually small -- consistent with a dashed/dash-dot boundary rendered as many tiny quads); reconstructed the plot boundary as the minimum-area bounding envelope of 529 fragment/line-work point(s).",
+  "[region 9] Building footprint had no closed polygon in the DXF data; Reconstructed from 47 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 2 closed loop(s) found via cycle detection; score=0.462).",
+  "Rejected a candidate building-footprint polygon (0.04 m2, layer 'RECONSTRUCTED_FROM_LINEWORK') as implausibly small relative to the plot (11.60 m2) -- likely a stray fragment rather than the actual building outline, which may not exist as a single closed polygon in this DXF at all. Treated as unresolved.",
+  "[region 9] No closed wall outline could be traced from the building's own line-work (a real door/window gap in a wall centerline trace is larger than the endpoint-snapping tolerance used for closed-loop reconstruction); approximated the building footprint as the minimum-area bounding envelope of 47 wall/line-work segment(s) instead.",
+  "[region 10] Building footprint had no closed polygon in the DXF data; Reconstructed from 109 fragmented open line-work segment(s) on non-annotation layers (endpoints snapped at 0.05 drawing-unit tolerance, collinear runs merged, best of 9 closed loop(s) found via cycle detection; score=0.419).",
+  "Sheet-wide vectorized-text recovery found nothing at 1400px; escalated to 5000px (measured 0.9s for the first attempt, 156s of budget remained) and recovered 118 item(s).",
+  "[region 3] Drawing-type caption(s) recognized: 'SITE PLAN' -- applying a +20 structural-score bonus (this region is very likely the actual site plan, not a section/floor-plan/elevation/schedule that happens to reconstruct into a larger or more complex-looking envelope). Its own pre-caption score (-4.97) was below the usability bar (2.0) that would normally be required to trust this region's geometry at all (most often because its reconstructed plot area is implausible at its current scale) -- if this region ends up winning, its shipped measurement confidence will be capped accordingly until that is resolved.",
+  "Region-merge testing stopped early: its 24s time budget was used before growth could finish exploring this round. Merges already found are still used; growth simply stops here, same as if no further improvement were possible.",
+  "[merged region 13] Regions 0 (score 4.23) and 2 (score 3.08) pooled and re-resolved together score higher (4.25) than either alone -- kept as an additional candidate, consistent with one real boundary having been split across regions by density-based clustering.",
+  "[region 0] Recovered vectorized-text evidence confirms: plot.depth~=7.140 (printed '7.14')",
+  "[region 1] Recovered vectorized-text evidence confirms: plot.width~=16.000 (printed '16/2'); plot.depth~=13.004 (printed '13.004'); plot.area~=103.000 (printed ',103/1')",
+  "[region 2] Recovered vectorized-text evidence confirms: plot.width~=7.140 (printed '7.14'); plot.depth~=7.140 (printed '7.14'); building.width~=7.140 (printed '7.14'); building.depth~=7.140 (printed '7.14')",
+  "[region 3] Recovered vectorized-text evidence confirms: plot.area~=17.590 (printed '17.59')",
+  "[region 5] Recovered vectorized-text evidence confirms: plot.area~=6.000 (printed '6'); building.depth~=2.900 (printed '2.90')",
+  "[region 7] Recovered vectorized-text evidence confirms: building.width~=7.146 (printed '7.146.560')",
+  "[region 8] Recovered vectorized-text evidence confirms: plot.depth~=4.000 (printed '4'); building.depth~=4.000 (printed '4')",
+  "[region 13] Recovered vectorized-text evidence confirms: plot.depth~=8.540 (printed '8.54Z2.89'); building.depth~=8.000 (printed '8')",
+  "Resolved plot/building from region 3 of 13 detected sheet regions (region-resolution score=15.03); this is scoped to one spatially distinct drawing on the sheet, rather than the whole-sheet geometry (see sheet-border/frame rejection above)."
+ ],
+ "timed_out_internally": false,
+ "independent_cv": {
+  "status": "OK",
+  "n_measurements": 10,
+  "scale_points_per_metre": null,
+  "scale_confidence": null,
+  "site_plan_page": 0,
+  "measurements": [
+   {
+    "field": "plot.area",
+    "value": 16.5864,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY_RECONSTRUCTED",
+    "evidence": [
+     "Minimum-area bounding envelope fitted to fragment/line-work points on layer 'RECONSTRUCTED_ENVELOPE' (no single closed polygon was plot-sized, and too few fragm"
+    ],
+    "note": "Plot boundary reconstructed as the minimum-area oriented bounding rectangle of a scattered field of small closed fragments/line-work (e.g. a dashed/dash-dot property boundary) -- not read directly as one closed DXF polygon. This region was only selected because it carries a recognized drawing-type c"
+   },
+   {
+    "field": "plot.width",
+    "value": null,
+    "value_m": 4.7367,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY_RECONSTRUCTED",
+    "evidence": [
+     "Minimum-area oriented bounding rectangle width of the plot polygon (layer 'RECONSTRUCTED_ENVELOPE')."
+    ],
+    "note": "Plot width measured from the polygon's own orientation, not an axis-aligned bounding box -- correct regardless of the sheet's rotation."
+   },
+   {
+    "field": "plot.depth",
+    "value": null,
+    "value_m": 3.5017,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY_RECONSTRUCTED",
+    "evidence": [
+     "Minimum-area oriented bounding rectangle depth of the plot polygon (layer 'RECONSTRUCTED_ENVELOPE')."
+    ],
+    "note": "Plot depth measured from the polygon's own orientation, not an axis-aligned bounding box -- correct regardless of the sheet's rotation."
+   },
+   {
+    "field": "building.footprint_area",
+    "value": 3.6203,
+    "value_m": null,
+    "unit": "m2",
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "Shoelace area of the building-footprint polygon (layer '0')."
+    ],
+    "note": "Building footprint area computed from DXF vector geometry. This region was only selected because it carries a recognized drawing-type caption (e.g. 'SITE PLAN') confirming it is the right DRAWING -- its own structural resolution score was below this pipeline's normal usability bar (most often becaus"
+   },
+   {
+    "field": "building.width",
+    "value": null,
+    "value_m": 2.5767,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "Minimum-area oriented bounding rectangle width of the building polygon (layer '0')."
+    ],
+    "note": "Building width measured from the polygon's own orientation, not an axis-aligned bounding box -- correct regardless of the sheet's rotation."
+   },
+   {
+    "field": "building.depth",
+    "value": null,
+    "value_m": 1.405,
+    "unit": null,
+    "confidence": 0.4,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "Minimum-area oriented bounding rectangle depth of the building polygon (layer '0')."
+    ],
+    "note": "Building depth measured from the polygon's own orientation, not an axis-aligned bounding box -- correct regardless of the sheet's rotation."
+   },
+   {
+    "field": "setbacks.front",
+    "value": null,
+    "value_m": 0.715,
+    "unit": null,
+    "confidence": 0.5,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "front edge <-> building footprint gap"
+    ],
+    "note": "Perpendicular gap between the building footprint and the front plot edge, measured directly from DXF vector geometry. Front side resolved via: No FRONT label, ROAD candidate, STREET/ACCESS/MAIN-ENTRY/GATE text was found on this page. Front edge defaulted deterministically to the polygon's first boun"
+   },
+   {
+    "field": "setbacks.rear",
+    "value": null,
+    "value_m": 1.445,
+    "unit": null,
+    "confidence": 0.5,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "rear edge <-> building footprint gap"
+    ],
+    "note": "Perpendicular gap between the building footprint and the rear plot edge, measured directly from DXF vector geometry. Front side resolved via: No FRONT label, ROAD candidate, STREET/ACCESS/MAIN-ENTRY/GATE text was found on this page. Front edge defaulted deterministically to the polygon's first bound"
+   },
+   {
+    "field": "setbacks.left",
+    "value": null,
+    "value_m": 0.605,
+    "unit": null,
+    "confidence": 0.5,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "left edge <-> building footprint gap"
+    ],
+    "note": "Perpendicular gap between the building footprint and the left plot edge, measured directly from DXF vector geometry. Front side resolved via: No FRONT label, ROAD candidate, STREET/ACCESS/MAIN-ENTRY/GATE text was found on this page. Front edge defaulted deterministically to the polygon's first bound"
+   },
+   {
+    "field": "setbacks.right",
+    "value": null,
+    "value_m": 1.4916,
+    "unit": null,
+    "confidence": 0.5,
+    "source": "VECTOR_GEOMETRY",
+    "evidence": [
+     "right edge <-> building footprint gap"
+    ],
+    "note": "Perpendicular gap between the building footprint and the right plot edge, measured directly from DXF vector geometry. Front side resolved via: No FRONT label, ROAD candidate, STREET/ACCESS/MAIN-ENTRY/GATE text was found on this page. Front edge defaulted deterministically to the polygon's first boun"
+   }
+  ],
+  "warnings": []
+ },
+ "status": "ok",
+ "total_seconds": 86.5,
+ "reconcile_calls": []
+}

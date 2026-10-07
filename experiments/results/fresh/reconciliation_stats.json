@@ -1,0 +1,204 @@
+{
+ "pdf_hybrid": {
+  "FINAL:CV_ONLY": {
+   "CORRECT": 61,
+   "WRONG": 2
+  },
+  "LEGACY_AGREED": {
+   "FALSE_POSITIVE": 1
+  },
+  "LEGACY_OUTLIER_DETECTED": {
+   "FALSE_POSITIVE": 1
+  },
+  "LEGACY_UNCORROBORATED": {
+   "FALSE_POSITIVE": 2
+  },
+  "NO_VALUE": {
+   "ABSTAINED_CORRECTLY": 6,
+   "MISSING": 4
+  },
+  "OTHER(building.footprint_area)": {
+   "CORRECT": 1
+  },
+  "OTHER(coverage)": {
+   "CORRECT": 4
+  },
+  "OTHER(far)": {
+   "CORRECT": 1
+  },
+  "OTHER(named floor levels)": {
+   "CORRECT": 3
+  },
+  "OTHER(plan text (title block / property table))": {
+   "CORRECT": 3
+  },
+  "OTHER(plot.area)": {
+   "CORRECT": 2
+  },
+  "OTHER(text label)": {
+   "CORRECT": 3
+  }
+ },
+ "pdf_legacy_resolver": {
+  "CONFLICT_WITHHELD": {
+   "ABSTAINED_CONFLICT": 3
+  },
+  "LEGACY_AGREED": {
+   "WRONG": 7,
+   "CORRECT": 2,
+   "FALSE_POSITIVE": 1
+  },
+  "LEGACY_MINOR_VARIANCE": {
+   "WRONG": 2
+  },
+  "LEGACY_OUTLIER_DETECTED": {
+   "WRONG": 5,
+   "FALSE_POSITIVE": 1
+  },
+  "LEGACY_UNCORROBORATED": {
+   "WRONG": 10,
+   "FALSE_POSITIVE": 2
+  },
+  "NO_VALUE": {
+   "MISSING": 31,
+   "ABSTAINED_CORRECTLY": 6
+  },
+  "OTHER(building.footprint_area (sum of validate)": {
+   "WRONG": 1
+  },
+  "OTHER(building.footprint_area)": {
+   "WRONG": 3,
+   "CORRECT": 1
+  },
+  "OTHER(coverage)": {
+   "WRONG": 3,
+   "CORRECT": 1
+  },
+  "OTHER(far)": {
+   "WRONG": 1
+  },
+  "OTHER(named floor levels)": {
+   "CORRECT": 3
+  },
+  "OTHER(plan text (title block / property table))": {
+   "CORRECT": 3
+  },
+  "OTHER(plot.area (width x depth))": {
+   "WRONG": 3
+  },
+  "OTHER(plot.area)": {
+   "CORRECT": 2
+  },
+  "OTHER(text label)": {
+   "CORRECT": 3
+  }
+ },
+ "pdf_evidence_decision": {
+  "EVDEC_CV_ONLY": {
+   "CORRECT": 50,
+   "WRONG": 2
+  },
+  "EVDEC_CV_ONLY_UNVERIFIED": {
+   "CORRECT": 11
+  },
+  "EVDEC_LEGACY_FALLBACK": {
+   "CORRECT": 3
+  },
+  "NO_VALUE": {
+   "ABSTAINED_CORRECTLY": 10,
+   "MISSING": 4
+  },
+  "OTHER(derived:coverage_field(evidence_decision)": {
+   "CORRECT": 4
+  },
+  "OTHER(derived:far_field(evidence_decision))": {
+   "CORRECT": 1
+  },
+  "OTHER(named floor levels)": {
+   "CORRECT": 3
+  },
+  "OTHER(plan text (title block / property table))": {
+   "CORRECT": 3
+  },
+  "OTHER(text label)": {
+   "CORRECT": 3
+  }
+ },
+ "dxf_hybrid": {
+  "FINAL:CV_ONLY": {
+   "CORRECT": 5,
+   "WRONG": 40
+  },
+  "NO_VALUE": {
+   "MISSING": 32,
+   "ABSTAINED_CORRECTLY": 10
+  },
+  "OTHER(coverage)": {
+   "WRONG": 4
+  },
+  "OTHER(far)": {
+   "WRONG": 3
+  }
+ },
+ "dxf_evidence_decision": {
+  "FINAL:CV_ONLY": {
+   "CORRECT": 4,
+   "WRONG": 25
+  },
+  "NO_VALUE": {
+   "MISSING": 51,
+   "ABSTAINED_CORRECTLY": 10
+  },
+  "OTHER(coverage)": {
+   "WRONG": 2
+  },
+  "OTHER(far)": {
+   "WRONG": 2
+  }
+ },
+ "legacy_reconcile_calls_pdf_hybrid": {
+  "status": {
+   "CONFLICTING_EVIDENCE": 3,
+   "MINOR_VARIANCE": 5,
+   "UNCORROBORATED": 20,
+   "MISSING": 26,
+   "OUTLIER_DETECTED": 7,
+   "AGREED": 11
+  },
+  "n_candidates(4=4+)": {
+   "2": 13,
+   "4": 8,
+   "1": 20,
+   "0": 26,
+   "3": 5
+  }
+ },
+ "pdf_dxf_reconciliation": {
+  "status_counts": {
+   "AGREED": 8,
+   "CONFLICT": 58,
+   "PDF_ONLY": 36,
+   "BOTH_MISSING": 10
+  },
+  "scored": {
+   "AGREED": {
+    "agreed_correct": 5,
+    "no_truth": 3
+   },
+   "CONFLICT": {
+    "resolved_correctly(PDF right)": 45,
+    "no_truth": 11,
+    "both_wrong": 2
+   },
+   "PDF_ONLY": {
+    "pdf_correct": 25,
+    "no_truth": 11
+   },
+   "BOTH_MISSING": {
+    "no_truth": 7,
+    "both_missing": 3
+   }
+  },
+  "note": "COMPARED_FIELDS = 14 per plan x 8 plans = 112 comparisons"
+ }
+}

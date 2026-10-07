@@ -1,0 +1,288 @@
+{
+ "plan_id": "PLAN7-pdf",
+ "source_document_id": "PLAN7",
+ "plot": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 73.73044993899704,
+      "y": 41.678047071842194
+     },
+     {
+      "x": 58.845433127624815,
+      "y": 41.84343614752411
+     },
+     {
+      "x": 59.17621127898864,
+      "y": 61.12780237203522
+     },
+     {
+      "x": 73.73044993899704,
+      "y": 61.12780237203522
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 58.845433127624815,
+    "min_y": 41.678047071842194,
+    "max_x": 73.73044993899704,
+    "max_y": 61.12780237203522
+   },
+   "points_per_metre": 7.255618274981561,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-plot.width-e1c8a032"
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-plot.depth-6fdde151"
+  },
+  "area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-plot.area-ac4992d4"
+  }
+ },
+ "building": {
+  "geometry": {
+   "coordinate_space": "METRIC_PLAN",
+   "polygon": {
+    "points": [
+     {
+      "x": 24.080649419286605,
+      "y": 46.044318669844714
+     },
+     {
+      "x": 24.14680504955937,
+      "y": 51.83293631871168
+     },
+     {
+      "x": 10.584900843642462,
+      "y": 51.86601413384807
+     },
+     {
+      "x": 10.3202783225514,
+      "y": 46.20970774552662
+     }
+    ]
+   },
+   "bounding_box": {
+    "min_x": 10.3202783225514,
+    "min_y": 46.044318669844714,
+    "max_x": 24.14680504955937,
+    "max_y": 51.86601413384807
+   },
+   "points_per_metre": 7.255618274981561,
+   "rotation_degrees": 0.0,
+   "source_page": 0
+  },
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-building.width-a2076546"
+  },
+  "depth": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-building.depth-6708a11e"
+  },
+  "footprint_area": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-building.footprint_area-44a4c114"
+  },
+  "floor_count": null
+ },
+ "road": {
+  "geometry": null,
+  "width": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-road.width-46cdd6c6"
+  }
+ },
+ "setbacks": {
+  "front": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-setbacks.front-be4fa11d"
+  },
+  "rear": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-setbacks.rear-da91714b"
+  },
+  "left": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-setbacks.left-dd1629f3"
+  },
+  "right": {
+   "value": null,
+   "raw_value": null,
+   "normalized_value": null,
+   "confidence": {
+    "level": "MISSING",
+    "score": null,
+    "reason": "Neither CV nor Vision produced a candidate for this field."
+   },
+   "source": null,
+   "evidence": [],
+   "conflict": null,
+   "decision_id": "decision-setbacks.right-11cab1bf"
+  }
+ },
+ "coverage": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Neither CV nor Vision produced a candidate for this field."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": "decision-coverage-06499e5b"
+ },
+ "far": {
+  "value": null,
+  "raw_value": null,
+  "normalized_value": null,
+  "confidence": {
+   "level": "MISSING",
+   "score": null,
+   "reason": "Neither CV nor Vision produced a candidate for this field."
+  },
+  "source": null,
+  "evidence": [],
+  "conflict": null,
+  "decision_id": "decision-far-71233987"
+ },
+ "conflicts": [
+  {
+   "description": "Impossible geometry: building.depth (13.826 m) >= plot.depth (4.404 m).",
+   "conflicting_raw_values": [
+    {
+     "magnitude": 4.40355,
+     "unit": "m"
+    },
+    {
+     "magnitude": 13.8265,
+     "unit": "m"
+    }
+   ],
+   "conflicting_sources": [
+    "plot.depth",
+    "building.depth"
+   ],
+   "conflicting_candidate_ids": [],
+   "rejection_reasons": []
+  }
+ ],
+ "overall_confidence_note": "Plot: Selected from 3 candidate(s) across 1 page(s). the winning candidate scored 0.59, below the 0.65 usability floor -- low absolute plot-likeness, regardless of its margin over any runner-up. | Scale: [no local samples found; fell back to whole-document scale samples] Only a single scale sample available. | Front-side: Front edge resolved from FRONT label. Rear = farthest plot edge from the front edge. Left/right assigned as if standing at the front edge facing into the plot (arriving from the road). | Building blocks kept: 2, rejected: 1. | Distinct labeled areas in source text (kept separate from footprint_area): none found. | Resolved from page 0. | Final scalar values passed through independent CV + Vision agreement layer.",
+ "floor_areas": {},
+ "metadata": {},
+ "building_height_estimated": null,
+ "building_height_excluding_stilt": null,
+ "development_area": null,
+ "building_use": null
+}

@@ -197,7 +197,7 @@ def test_plan2_building_footprint_reproduces_its_stated_coverage_area():
 def test_plan6_resolves_plot_dimensions_with_no_printed_edge_labels():
     """
     PLAN6's site plan carries NO printed plot-dimension label -- the only
-    text near the drawing is "SITE NO-07/08/09", "7.30m Wide Road" and
+    text near the drawing is "SITE NO-XX", "7.30m Wide Road" and
     "Scale 1:200". Every geometric field came back null because the resolver
     required an edge label to establish scale. They are recoverable from the
     printed scale alone.
@@ -269,7 +269,7 @@ def test_prose_and_identifiers_are_not_dimension_candidates():
         "3.Car Parking reserved in the plan should not be converted",
         "PID No. (As per Khata Extract): 1234567890",
         "Permissible F.A.R. as per zoning regulation 2015 ( 1.75 )",
-        "Ward: Ward 187",
+        "Ward: Ward 999",
         "ISO_A1_(841.00_x_594.00_MM)",
         "Planning District: 999-Sampletown",
         "Project No: ABC/XYZ/0001/25-26",

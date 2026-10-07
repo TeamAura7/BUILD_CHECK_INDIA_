@@ -1,0 +1,16 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+MuPDF error: syntax error: unknown keyword: 'DSUnkown'
+
+2026-09-24 14:10:17,412 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.width: old=11.2818/LOW new=11.2818/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:10:17,412 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for plot.depth: old=16.5029/LOW new=16.5029/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:10:17,412 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.width: old=9.5462/LOW new=9.5462/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+2026-09-24 14:10:17,412 | INFO     | buildcheck.backend.spatial_reasoning.evidence_decision_bridge | evidence_decision Phase 8 comparison for building.depth: old=11.9944/LOW new=11.9944/HIGH (document-evidence score 11/22 -> normalized 0.500 -> HIGH (CV_ONLY_DOCUMENT_VERIFIED))
+pdf_native_only PLAN8 ok 5.5s
